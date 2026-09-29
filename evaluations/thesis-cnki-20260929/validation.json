@@ -1,0 +1,99 @@
+{
+  "schema_version": "aigc-release-validation/1.0",
+  "status": "passed",
+  "created_at": "2026-09-29T02:37:18.075842+00:00",
+  "software_version": "0.3.0",
+  "profile_sha256": "1e406c36f335ff64f353600dea729947a87b4bb147e6ce5ea22f7a4132945f6e",
+  "dataset_sha256": "648f0ee699f5118026f0f3fb83fb6971369415f3b38214c702a3f3ed6781d4f1",
+  "fit_reproduction": "profile and evaluation are byte-for-byte identical",
+  "json_encoding": "UTF-8 with LF",
+  "pytest": {
+    "passed": 39,
+    "warnings": 1,
+    "command": ".venv/Scripts/python.exe -m pytest -q --tb=short --basetemp=reports/fusion-20260929/pytest-final-v1 -o cache_dir=reports/fusion-20260929/pytest-cache-v1",
+    "output_sha256": "f98493fb759ba9b26d3c40bc81856b9deabf760c823754fe7deff4bdcfaaf307"
+  },
+  "pip_check": "passed",
+  "http": {
+    "status": "passed",
+    "health": {
+      "status": "ok",
+      "service": "local-aigc-detectors",
+      "version": "0.3.0",
+      "offline": true,
+      "device": "cuda",
+      "process_id": 36156,
+      "installed_models": [
+        "mpu-zh-v3",
+        "mpu-zh-v3-short",
+        "mpu-zh-v2",
+        "hc3-zh",
+        "ensemjudge-bert",
+        "ensemjudge-roberta",
+        "anx-bert-zh",
+        "paperpass-v3",
+        "cmj-zh",
+        "bibbbu-xlm-roberta"
+      ]
+    },
+    "characters": 61655,
+    "model_count": 10,
+    "segments": 163,
+    "live_summary": {
+      "strong_signal": {
+        "segments": 4,
+        "characters": 1504
+      },
+      "possible_signal": {
+        "segments": 1,
+        "characters": 264
+      },
+      "other": {
+        "segments": 158,
+        "characters": 59887
+      }
+    },
+    "max_raw_score_difference": 0,
+    "max_ensemble_score_difference": 0,
+    "all_labels_match_cached_recombination": true,
+    "invalid_options": [
+      {
+        "options": {
+          "models": [
+            "hc3-zh"
+          ]
+        },
+        "http_status": 422
+      },
+      {
+        "options": {
+          "segment_chars": 500
+        },
+        "http_status": 422
+      },
+      {
+        "options": {
+          "policy": "unknown"
+        },
+        "http_status": 422
+      }
+    ],
+    "explicit_legacy_single_model": "passed",
+    "elapsed_seconds": 17.967
+  },
+  "html": {
+    "status": "passed",
+    "engine": "local Microsoft Edge headless via Playwright",
+    "segments": 163,
+    "combined_strong": 4,
+    "combined_possible": 1,
+    "raw_model_switch": true,
+    "contribution_table": true,
+    "next_flag_navigation": true,
+    "desktop_overflow": false,
+    "mobile_overflow": false,
+    "page_errors": []
+  },
+  "cli_recombine": "passed; labels, policy and raw scores identical",
+  "limits": "Engineering validation only. The three reference documents and hyperparameter selection are not an independent accuracy test."
+}

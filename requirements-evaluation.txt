@@ -1,0 +1,2 @@
+# Optional local PDF reference import; not needed by the inference API.
+pymupdf==1.26.7

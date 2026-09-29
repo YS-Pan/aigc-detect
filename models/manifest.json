@@ -1,0 +1,1081 @@
+{
+  "models": {
+    "mpu-zh-v3": {
+      "repo_id": "yuchuantian/AIGC_detector_zhv3",
+      "name": "MPU Chinese v3",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/spaces/yuchuantian/AIGC_text_detector/blob/191c982/app.py",
+      "revision": "47695ff451b32c225dd938f4f478f7fdc6aa6bb0",
+      "downloaded_at": "2026-09-28T13:58:05.179370+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "4bcf87ecfbbb8e07a01b21415a970c8b53a5283bf6872b657040d3f45c9241f7",
+          "bytes": 31,
+          "cached": false
+        },
+        "config.json": {
+          "sha256": "74dfcf54a25f4847f97e285f60c03d3ceaccba87484c41ab4144e6acc4d7ecf4",
+          "bytes": 980,
+          "cached": false
+        },
+        "pytorch_model.bin": {
+          "sha256": "83b065f6302b98d296cdcad6e8f944013faa3cdc89de3d72aca5ecc8e0eaaded",
+          "bytes": 409147757,
+          "cached": false
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125,
+          "cached": false
+        },
+        "tokenizer_config.json": {
+          "sha256": "988cf0a4f56217ba915002e24de6d4621188f16942e5768d4eaf6564b166e1f0",
+          "bytes": 455,
+          "cached": false
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false
+        }
+      },
+      "installed": true
+    },
+    "mpu-zh-v3-short": {
+      "repo_id": "yuchuantian/AIGC_detector_zhv3short",
+      "name": "MPU Chinese v3 Short",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/spaces/yuchuantian/AIGC_text_detector/blob/191c982/app.py",
+      "revision": "7bf6e1d6496353a88365f1dcdb3a6ace35f46b39",
+      "downloaded_at": "2026-09-28T14:02:07.386618+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "4bcf87ecfbbb8e07a01b21415a970c8b53a5283bf6872b657040d3f45c9241f7",
+          "bytes": 31,
+          "cached": false
+        },
+        "config.json": {
+          "sha256": "74dfcf54a25f4847f97e285f60c03d3ceaccba87484c41ab4144e6acc4d7ecf4",
+          "bytes": 980,
+          "cached": false
+        },
+        "pytorch_model.bin": {
+          "sha256": "f64faae413291a78be2cb36dd9889a916a6202a03b6f6f904d5579089b31f2a8",
+          "bytes": 409147757,
+          "cached": false
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125,
+          "cached": false
+        },
+        "tokenizer_config.json": {
+          "sha256": "988cf0a4f56217ba915002e24de6d4621188f16942e5768d4eaf6564b166e1f0",
+          "bytes": 455,
+          "cached": false
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false
+        }
+      },
+      "installed": true
+    },
+    "mpu-zh-v2": {
+      "repo_id": "yuchuantian/AIGC_detector_zhv2",
+      "name": "MPU Chinese v2",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/spaces/yuchuantian/AIGC_text_detector/blob/191c982/app.py",
+      "revision": "547d42d7ed6423edce77296b4b06d375ae1a7e0f",
+      "downloaded_at": "2026-09-28T14:06:01.158870+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "7d5a1109ab88e73c6ce1a52aafaa988a4ab26ab0ba4f961b92688ae923b94dc8",
+          "bytes": 1003,
+          "cached": false
+        },
+        "config.json": {
+          "sha256": "74dfcf54a25f4847f97e285f60c03d3ceaccba87484c41ab4144e6acc4d7ecf4",
+          "bytes": 980,
+          "cached": false
+        },
+        "pytorch_model.bin": {
+          "sha256": "9daa1bc4c126dc950d07e4eaca7d636638e6fd0be28aae3dc2ab8073ac2b31b2",
+          "bytes": 409147757,
+          "cached": false
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125,
+          "cached": false
+        },
+        "tokenizer_config.json": {
+          "sha256": "988cf0a4f56217ba915002e24de6d4621188f16942e5768d4eaf6564b166e1f0",
+          "bytes": 455,
+          "cached": false
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false
+        }
+      },
+      "installed": true
+    },
+    "hc3-zh": {
+      "repo_id": "Hello-SimpleAI/chatgpt-detector-roberta-chinese",
+      "name": "HC3 Chinese RoBERTa",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/Hello-SimpleAI/chatgpt-detector-roberta-chinese/blob/2f0f5f2af59af169a3f236c14ffad0fa7d6f072b/config.json",
+      "revision": "2f0f5f2af59af169a3f236c14ffad0fa7d6f072b",
+      "downloaded_at": "2026-09-28T14:07:19.933078+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "03d6cb726fd016f1e7f57f7d5a6911733e10640073187ae96b39dbab42ab39f0",
+          "bytes": 1403,
+          "cached": false
+        },
+        "config.json": {
+          "sha256": "6d73738f62d9c75c5c01b0325770e70935c749d8688da44cfed3c6e21d5c7ea6",
+          "bytes": 1064,
+          "cached": false
+        },
+        "pytorch_model.bin": {
+          "sha256": "cc8297fa2d19c4f5b43bbaa43ab15149e84670f064912a5ba04103c310ff5bf6",
+          "bytes": 409144941,
+          "cached": false
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125,
+          "cached": false
+        },
+        "tokenizer.json": {
+          "sha256": "93295ddede9ff05639600ddbb1d87a542bf0e72c9e1c8f0bf639e8142eaa0d50",
+          "bytes": 439222,
+          "cached": false
+        },
+        "tokenizer_config.json": {
+          "sha256": "25321d39724a51836dd747f2663bec450dc1d56de3ad582aa033a3754d044663",
+          "bytes": 352,
+          "cached": false
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false
+        }
+      },
+      "installed": true
+    },
+    "ensemjudge-bert": {
+      "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+      "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+      "subfolder": "chinese-bert-sft_03-28_20-17_908",
+      "name": "EnsemJudge Chinese BERT",
+      "loader": "bert_mlp",
+      "tokenizer_repo_id": "hfl/chinese-bert-wwm-ext",
+      "tokenizer_revision": "2a995a880017c60e4683869e817130d8af548486",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://github.com/NLP2CT/NLPCC-2025-Task1#data-format",
+      "downloaded_at": "2026-09-29T00:54:36.776518+00:00",
+      "files": {
+        "config.json": {
+          "sha256": "3e7e94231691d88ed19345d9534261655daa7c7dd2f65a00f8cf83f76a4ff0b6",
+          "bytes": 992,
+          "cached": false,
+          "source": {
+            "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+            "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+            "path": "chinese-bert-sft_03-28_20-17_908/config.json"
+          }
+        },
+        "model.safetensors": {
+          "sha256": "fe3e197a0ed9eb25d6a0e6c12bfab16dc582115c3f7a0540c17f5cb9e058ea80",
+          "bytes": 410278536,
+          "cached": false,
+          "source": {
+            "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+            "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+            "path": "chinese-bert-sft_03-28_20-17_908/model.safetensors"
+          }
+        },
+        "tokenizer-source-README.md": {
+          "sha256": "8fe72a1f4fe789244c66a65b0498d253003ad7a149503e5c86d83975b16bea6f",
+          "bytes": 1995,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "README.md"
+          }
+        },
+        "added_tokens.json": {
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "added_tokens.json"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+          "bytes": 112,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "special_tokens_map.json"
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "53ff61207898738bbdc000f38abebef01041c8d23b6270c11855fc692d0a3ad6",
+          "bytes": 268961,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "tokenizer.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "61785aeaba176fba6d6489f27dccfd2ddee6aee2af0e590451cab7d8b57e0874",
+          "bytes": 19,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "tokenizer_config.json"
+          }
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-bert-wwm-ext",
+            "revision": "2a995a880017c60e4683869e817130d8af548486",
+            "path": "vocab.txt"
+          }
+        }
+      },
+      "installed": true
+    },
+    "ensemjudge-roberta": {
+      "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+      "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+      "subfolder": "chinese-roberta-sft_03-21_16-39_938",
+      "name": "EnsemJudge Chinese RoBERTa Large",
+      "loader": "bert_mlp",
+      "tokenizer_repo_id": "hfl/chinese-roberta-wwm-ext-large",
+      "tokenizer_revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://github.com/NLP2CT/NLPCC-2025-Task1#data-format",
+      "downloaded_at": "2026-09-29T00:55:56.821108+00:00",
+      "files": {
+        "config.json": {
+          "sha256": "2eaa2d732dc437ee11e7037ac4608cb364f786b84dcbf74dd0d282a9610819c4",
+          "bytes": 1040,
+          "cached": false,
+          "source": {
+            "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+            "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+            "path": "chinese-roberta-sft_03-21_16-39_938/config.json"
+          }
+        },
+        "model.safetensors": {
+          "sha256": "c56f36eaa295bc90906084c39ea849b89c96edb708a70a0be2ae774222015ef3",
+          "bytes": 1304240192,
+          "cached": false,
+          "source": {
+            "repo_id": "johnsonwangzs/mgtd-sys-model-weights",
+            "revision": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+            "path": "chinese-roberta-sft_03-21_16-39_938/model.safetensors"
+          }
+        },
+        "tokenizer-source-README.md": {
+          "sha256": "37e3c3d8d583fa43b699166ecc69944f1c0508290d47dc54bb640425b5900531",
+          "bytes": 2068,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "README.md"
+          }
+        },
+        "added_tokens.json": {
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "added_tokens.json"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+          "bytes": 112,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "special_tokens_map.json"
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "53ff61207898738bbdc000f38abebef01041c8d23b6270c11855fc692d0a3ad6",
+          "bytes": 268961,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "tokenizer.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "61785aeaba176fba6d6489f27dccfd2ddee6aee2af0e590451cab7d8b57e0874",
+          "bytes": 19,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "tokenizer_config.json"
+          }
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false,
+          "source": {
+            "repo_id": "hfl/chinese-roberta-wwm-ext-large",
+            "revision": "a25cc9e05974bd9687e528edd516f2cfdb3f5db9",
+            "path": "vocab.txt"
+          }
+        }
+      },
+      "installed": true
+    },
+    "anx-bert-zh": {
+      "repo_id": "AnxForever/chinese-ai-detector-bert",
+      "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+      "name": "AnxForever Chinese BERT v11c",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/AnxForever/chinese-ai-detector-bert/blob/346d23cbb1418790dc3d389faf54de665736516c/config.json",
+      "downloaded_at": "2026-09-29T00:59:35.837905+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "f879b10f2310beaf93bfb2bf75c3caa8b871e7a8bd827900d9d2ec6a1a43dbcf",
+          "bytes": 9515,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "README.md"
+          }
+        },
+        "config.json": {
+          "sha256": "5339317e1ef7eb7a7d0b12919e6f51ecafcd9095964e0a22a3149fb6b0c3d15b",
+          "bytes": 975,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "config.json"
+          }
+        },
+        "model.safetensors": {
+          "sha256": "89c512a30b6850ffaac744a16e9a8146ef4ea0ddea9b30be5714b66ccbb5912d",
+          "bytes": 409100240,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "model.safetensors"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+          "bytes": 695,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "special_tokens_map.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "470cff6e0353b08e2a6e9b4f61729ecdc47ccb3ced335fa5520e9ce334572d59",
+          "bytes": 1273,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "tokenizer_config.json"
+          }
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false,
+          "source": {
+            "repo_id": "AnxForever/chinese-ai-detector-bert",
+            "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+            "path": "vocab.txt"
+          }
+        }
+      },
+      "installed": true
+    },
+    "paperpass-v3": {
+      "repo_id": "yibo365/paperpass-v3",
+      "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+      "name": "yibo365 Paperpass v3 (community)",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/yibo365/paperpass-v3/blob/f042809a41e96208c25e69dbedf7a5c312a590c2/README.md",
+      "downloaded_at": "2026-09-29T01:00:52.780591+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "17bb2dc15935bdddd5b2c2279b4f3e91eeb8721efa69cfd6de0b0486d2773f95",
+          "bytes": 2545,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "README.md"
+          }
+        },
+        "config.json": {
+          "sha256": "81b21be931a695953a44f9da5d9a54fdffb581293aafdef2894e9a95cd11b587",
+          "bytes": 854,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "config.json"
+          }
+        },
+        "model.safetensors": {
+          "sha256": "07183daa1a120a6c6bc4a95ba648943757402c6be37315808dedfa9388dd89de",
+          "bytes": 1302144896,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "model.safetensors"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+          "bytes": 695,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "special_tokens_map.json"
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "2ce0b285a2411367d5c1be776dcbc1f2249cdabcc49a8b17712d00872e9ba989",
+          "bytes": 439389,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "tokenizer.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "bc3788b020afe8d772684fc7a5f64cbb562f1b816d2585858558d3df8b95bbf7",
+          "bytes": 1249,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "tokenizer_config.json"
+          }
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false,
+          "source": {
+            "repo_id": "yibo365/paperpass-v3",
+            "revision": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+            "path": "vocab.txt"
+          }
+        }
+      },
+      "installed": true
+    },
+    "cmj-zh": {
+      "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+      "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+      "name": "CMJ Chinese AIGC detector",
+      "ai_label_index": 1,
+      "language": "zh",
+      "label_source": "https://huggingface.co/mokawa3018/cmj-chinese-aigc-text-detector/blob/ade5833a8eae59444f6a3bb85b72417ca02da07f/config.json",
+      "downloaded_at": "2026-09-29T01:04:29.904146+00:00",
+      "files": {
+        "LICENSE": {
+          "sha256": "78417379a9098c6ca2ad94d4acb9584863496e10d76251c0cda71d74fa386a45",
+          "bytes": 11341,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "LICENSE"
+          }
+        },
+        "README.md": {
+          "sha256": "3e4854462510a2c475661a2840db14e9268f2e5776e8afe833726879fd5a3167",
+          "bytes": 4743,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "README.md"
+          }
+        },
+        "config.json": {
+          "sha256": "cfbec3124a010f3876ad0020ea517d12e981b8aa8085dc49d13372cd01865747",
+          "bytes": 1103,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "config.json"
+          }
+        },
+        "pytorch_model.bin": {
+          "sha256": "68219877f22588ce20e9aede6b1f51654b7b283db91c36f25078e7028c13c11e",
+          "bytes": 409148190,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "pytorch_model.bin"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "special_tokens_map.json"
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "2ce0b285a2411367d5c1be776dcbc1f2249cdabcc49a8b17712d00872e9ba989",
+          "bytes": 439389,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "tokenizer.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "ea99b20e4a422b6191c466107bbc1826c0e96c2f6909aeb33bcb6800ac299949",
+          "bytes": 340,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "tokenizer_config.json"
+          }
+        },
+        "vocab.txt": {
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "bytes": 109540,
+          "cached": false,
+          "source": {
+            "repo_id": "mokawa3018/cmj-chinese-aigc-text-detector",
+            "revision": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+            "path": "vocab.txt"
+          }
+        }
+      },
+      "installed": true
+    },
+    "bibbbu-xlm-roberta": {
+      "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+      "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+      "name": "bibbbu Multilingual XLM-RoBERTa Base",
+      "ai_label_index": 1,
+      "language": "zh,en,vi",
+      "label_source": "https://github.com/vutuongvy101/multilingual-ai-human-text-detection/tree/1fbb02a7d77e454d4c3a21e8bcc262bd03db3190",
+      "downloaded_at": "2026-09-29T01:05:51.384866+00:00",
+      "files": {
+        "README.md": {
+          "sha256": "af5d71161224ceea566bf5c17626075cbe8288a64226e579494df0852a454317",
+          "bytes": 5587,
+          "cached": false,
+          "source": {
+            "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+            "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+            "path": "README.md"
+          }
+        },
+        "config.json": {
+          "sha256": "cb25be04134e1f17fcec8fc6149f884cc6e0d875ae35d4ebab95bf25db5738be",
+          "bytes": 812,
+          "cached": false,
+          "source": {
+            "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+            "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+            "path": "config.json"
+          }
+        },
+        "model.safetensors": {
+          "sha256": "281f9718be8a5ad0cf11317d07d6833d7c42d57926adb810ab7920578263520e",
+          "bytes": 1112205008,
+          "cached": false,
+          "source": {
+            "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+            "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+            "path": "model.safetensors"
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "1d237c4974cfea16dffbc5035028fea5b47ad8b653af90c908b7a35bdc8b0d90",
+          "bytes": 17098184,
+          "cached": false,
+          "source": {
+            "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+            "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+            "path": "tokenizer.json"
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "5d84c938d902dbd684af806ccc920e4c99812d897b0f271eebf856361a4337f6",
+          "bytes": 343,
+          "cached": false,
+          "source": {
+            "repo_id": "bibbbu/multilingual-ai-human-detector_xlm-roberta-base",
+            "revision": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+            "path": "tokenizer_config.json"
+          }
+        }
+      },
+      "installed": true
+    }
+  },
+  "network_events": [
+    {
+      "host": "huggingface.co",
+      "route": "direct",
+      "result": "failed",
+      "reason": "URLError"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "direct",
+      "result": "failed",
+      "reason": "URLError"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    }
+  ]
+}

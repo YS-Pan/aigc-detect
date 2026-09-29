@@ -1,0 +1,282 @@
+[
+  {
+    "reg": 0.1,
+    "human_control_weight": 1,
+    "failure": "No threshold exceeds the CNKI prose baseline under the specified human-control cap"
+  },
+  {
+    "reg": 0.1,
+    "human_control_weight": 2,
+    "high": 0.17996815995263105,
+    "possible": 0.17996815995263105,
+    "tiers_separable": false,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1504,
+        "possible_characters": 0,
+        "strong_percent": 2.4393804233233314,
+        "possible_percent": 0.0,
+        "any_flag_percent": 2.4393804233233314,
+        "cnki_strong_overlap_characters": 986.0,
+        "cnki_strong_recall": 0.8420153714773698,
+        "cnki_strong_precision": 0.6555851063829787
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 0.1,
+    "human_control_weight": 4,
+    "high": 0.12596147672136496,
+    "possible": 0.09359753657248934,
+    "tiers_separable": true,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1504,
+        "possible_characters": 264,
+        "strong_percent": 2.4393804233233314,
+        "possible_percent": 0.4281891168599465,
+        "any_flag_percent": 2.8675695401832777,
+        "cnki_strong_overlap_characters": 986.0,
+        "cnki_strong_recall": 0.8420153714773698,
+        "cnki_strong_precision": 0.6555851063829787
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 0.1,
+    "human_control_weight": 8,
+    "high": 0.06499470670766964,
+    "possible": 0.04799456809186127,
+    "tiers_separable": true,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1504,
+        "possible_characters": 264,
+        "strong_percent": 2.4393804233233314,
+        "possible_percent": 0.4281891168599465,
+        "any_flag_percent": 2.8675695401832777,
+        "cnki_strong_overlap_characters": 986.0,
+        "cnki_strong_recall": 0.8420153714773698,
+        "cnki_strong_precision": 0.6555851063829787
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 1,
+    "human_control_weight": 1,
+    "high": 0.10387656365516162,
+    "possible": 0.10387656365516162,
+    "tiers_separable": false,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1504,
+        "possible_characters": 0,
+        "strong_percent": 2.4393804233233314,
+        "possible_percent": 0.0,
+        "any_flag_percent": 2.4393804233233314,
+        "cnki_strong_overlap_characters": 986.0,
+        "cnki_strong_recall": 0.8420153714773698,
+        "cnki_strong_precision": 0.6555851063829787
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 1,
+    "human_control_weight": 2,
+    "high": 0.06227340772293545,
+    "possible": 0.05792043733351672,
+    "tiers_separable": true,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1513,
+        "possible_characters": 371,
+        "strong_percent": 2.4539777795799207,
+        "possible_percent": 0.6017354634660611,
+        "any_flag_percent": 3.0557132430459815,
+        "cnki_strong_overlap_characters": 615.0,
+        "cnki_strong_recall": 0.5251921434671221,
+        "cnki_strong_precision": 0.4064771976206213
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 1,
+    "human_control_weight": 4,
+    "high": 0.027205054235644413,
+    "possible": 0.027205054235644413,
+    "tiers_separable": false,
+    "rates": {
+      "thesis": {
+        "characters": 61655,
+        "segments": 163,
+        "strong_characters": 1487,
+        "possible_characters": 0,
+        "strong_percent": 2.411807639283108,
+        "possible_percent": 0.0,
+        "any_flag_percent": 2.411807639283108,
+        "cnki_strong_overlap_characters": 745.0,
+        "cnki_strong_recall": 0.6362083689154568,
+        "cnki_strong_precision": 0.5010087424344317
+      },
+      "wang-zhan": {
+        "characters": 84183,
+        "segments": 229,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      },
+      "zhu-yilong": {
+        "characters": 76203,
+        "segments": 208,
+        "strong_characters": 0,
+        "possible_characters": 0,
+        "strong_percent": 0.0,
+        "possible_percent": 0.0,
+        "any_flag_percent": 0.0,
+        "cnki_strong_overlap_characters": 0.0,
+        "cnki_strong_recall": null,
+        "cnki_strong_precision": null
+      }
+    }
+  },
+  {
+    "reg": 1,
+    "human_control_weight": 8,
+    "failure": "No threshold exceeds the CNKI prose baseline under the specified human-control cap"
+  }
+]

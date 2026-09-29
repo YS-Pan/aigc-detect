@@ -1,0 +1,3766 @@
+{
+  "schema_version": "aigc-fusion-evaluation/1.0",
+  "dataset_sha256": "648f0ee699f5118026f0f3fb83fb6971369415f3b38214c702a3f3ed6781d4f1",
+  "reference_fit": {
+    "thesis": {
+      "characters": 61655,
+      "segments": 163,
+      "strong_characters": 1504,
+      "possible_characters": 264,
+      "strong_percent": 2.4393804233233314,
+      "possible_percent": 0.4281891168599465,
+      "any_flag_percent": 2.8675695401832777,
+      "cnki_strong_overlap_characters": 986.0,
+      "cnki_strong_recall": 0.8420153714773698,
+      "cnki_strong_precision": 0.6555851063829787
+    },
+    "wang-zhan": {
+      "characters": 84183,
+      "segments": 229,
+      "strong_characters": 0,
+      "possible_characters": 0,
+      "strong_percent": 0.0,
+      "possible_percent": 0.0,
+      "any_flag_percent": 0.0,
+      "cnki_strong_overlap_characters": 0.0,
+      "cnki_strong_recall": null,
+      "cnki_strong_precision": null
+    },
+    "zhu-yilong": {
+      "characters": 76203,
+      "segments": 208,
+      "strong_characters": 0,
+      "possible_characters": 0,
+      "strong_percent": 0.0,
+      "possible_percent": 0.0,
+      "any_flag_percent": 0.0,
+      "cnki_strong_overlap_characters": 0.0,
+      "cnki_strong_recall": null,
+      "cnki_strong_precision": null
+    }
+  },
+  "strong_threshold_selection": {
+    "baseline_percent": 1.8992782418295353,
+    "requested_extra_percentage_points": 0.4,
+    "target_percent": 2.299278241829535,
+    "achieved_percent": 2.4393804233233314,
+    "human_control_limit_percent": 0,
+    "human_control_percentages": {
+      "wang-zhan": 0.0,
+      "zhu-yilong": 0.0
+    },
+    "selection": "Closest character-weighted thesis rate above the CNKI prose baseline under the human-control cap; midpoint threshold.",
+    "is_reference_fit_evidence": true,
+    "is_independent_validation": false
+  },
+  "possible_threshold_selection": {
+    "baseline_percent": 1.8992782418295353,
+    "requested_extra_percentage_points": 1.1,
+    "target_percent": 2.9992782418295354,
+    "achieved_percent": 2.867569540183278,
+    "human_control_limit_percent": 0,
+    "human_control_percentages": {
+      "wang-zhan": 0.0,
+      "zhu-yilong": 0.0
+    },
+    "selection": "Closest character-weighted thesis rate above the CNKI prose baseline under the human-control cap; midpoint threshold.",
+    "is_reference_fit_evidence": true,
+    "is_independent_validation": false
+  },
+  "blocked_transfer_checks": [
+    {
+      "kind": "human_document",
+      "held_out": "wang-zhan",
+      "status": "evaluated",
+      "training_records": 371,
+      "test_records": 229,
+      "threshold_from_training_only": 0.14905929482541164,
+      "results": {
+        "wang-zhan": {
+          "characters": 84183,
+          "segments": 229,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_overlap_characters": 0.0,
+          "cnki_strong_recall": null,
+          "cnki_strong_precision": null
+        }
+      },
+      "warning": "Limited transfer diagnostic: standardization, coefficients and threshold exclude the held-out group, but hyperparameters were selected on these three references. Not an untouched test set."
+    },
+    {
+      "kind": "human_document",
+      "held_out": "zhu-yilong",
+      "status": "evaluated",
+      "training_records": 392,
+      "test_records": 208,
+      "threshold_from_training_only": 0.15870969323916645,
+      "results": {
+        "zhu-yilong": {
+          "characters": 76203,
+          "segments": 208,
+          "strong_characters": 376,
+          "possible_characters": 0,
+          "strong_percent": 0.4934188942692545,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.4934188942692545,
+          "cnki_strong_overlap_characters": 0.0,
+          "cnki_strong_recall": null,
+          "cnki_strong_precision": null
+        }
+      },
+      "warning": "Limited transfer diagnostic: standardization, coefficients and threshold exclude the held-out group, but hyperparameters were selected on these three references. Not an untouched test set."
+    },
+    {
+      "kind": "cnki_chapter",
+      "held_out": "01-introduction",
+      "status": "evaluated",
+      "training_records": 566,
+      "test_records": 34,
+      "threshold_from_training_only": 0.0682715255378284,
+      "results": {
+        "thesis": {
+          "characters": 12801,
+          "segments": 34,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_overlap_characters": 0.0,
+          "cnki_strong_recall": 0.0,
+          "cnki_strong_precision": null
+        }
+      },
+      "warning": "Limited transfer diagnostic: standardization, coefficients and threshold exclude the held-out group, but hyperparameters were selected on these three references. Not an untouched test set."
+    },
+    {
+      "kind": "cnki_chapter",
+      "held_out": "06-conclusion",
+      "status": "evaluated",
+      "training_records": 591,
+      "test_records": 9,
+      "threshold_from_training_only": 0.07325322240567037,
+      "results": {
+        "thesis": {
+          "characters": 3252,
+          "segments": 9,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_overlap_characters": 0.0,
+          "cnki_strong_recall": 0.0,
+          "cnki_strong_precision": null
+        }
+      },
+      "warning": "Limited transfer diagnostic: standardization, coefficients and threshold exclude the held-out group, but hyperparameters were selected on these three references. Not an untouched test set."
+    }
+  ],
+  "score_records": [
+    {
+      "document": "thesis",
+      "id": "s000001",
+      "ensemble_score": 0.004307510492303269,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000002",
+      "ensemble_score": 0.00702376141835432,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000003",
+      "ensemble_score": 0.0024514711567486147,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000004",
+      "ensemble_score": 0.00936438215217476,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000005",
+      "ensemble_score": 0.15548412705644177,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000006",
+      "ensemble_score": 0.6595276138687957,
+      "cnki_strong_fraction": 1.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000007",
+      "ensemble_score": 0.16494963482915978,
+      "cnki_strong_fraction": 0.6070528967254408
+    },
+    {
+      "document": "thesis",
+      "id": "s000008",
+      "ensemble_score": 0.00029234647545459174,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000009",
+      "ensemble_score": 8.10603280637574e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000010",
+      "ensemble_score": 7.138985377347545e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000011",
+      "ensemble_score": 0.00016352753133094922,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000012",
+      "ensemble_score": 0.009892208560426836,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000013",
+      "ensemble_score": 0.0030267710769917165,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000014",
+      "ensemble_score": 3.7730950764998794e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000015",
+      "ensemble_score": 1.6128993492639616e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000016",
+      "ensemble_score": 2.7391965019394128e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000017",
+      "ensemble_score": 6.289032544385286e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000018",
+      "ensemble_score": 2.150153643033396e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000019",
+      "ensemble_score": 0.003901670803535209,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000020",
+      "ensemble_score": 7.222924284106387e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000021",
+      "ensemble_score": 0.0026287927024478516,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000022",
+      "ensemble_score": 4.042445233792643e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000023",
+      "ensemble_score": 0.0021277518229400757,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000024",
+      "ensemble_score": 0.000510877924673878,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000025",
+      "ensemble_score": 7.074403070969337e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000026",
+      "ensemble_score": 0.00424281384603675,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000027",
+      "ensemble_score": 0.00039002606625922594,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000028",
+      "ensemble_score": 0.00044690229036024897,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000029",
+      "ensemble_score": 0.01585333470534313,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000030",
+      "ensemble_score": 0.03846565810860671,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000031",
+      "ensemble_score": 0.018321896155460177,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000032",
+      "ensemble_score": 0.0057503359529797885,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000033",
+      "ensemble_score": 0.0007018532830109093,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000034",
+      "ensemble_score": 0.0007036060436451206,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000035",
+      "ensemble_score": 0.002812203100074112,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000036",
+      "ensemble_score": 0.0006127405256680329,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000037",
+      "ensemble_score": 0.0007349752856098102,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000038",
+      "ensemble_score": 0.0030332860286711645,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000039",
+      "ensemble_score": 0.028861988200060758,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000040",
+      "ensemble_score": 0.001334967635504224,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000041",
+      "ensemble_score": 0.00022274249702267936,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000042",
+      "ensemble_score": 2.6701411903273213e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000043",
+      "ensemble_score": 0.00013596313478493556,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000044",
+      "ensemble_score": 0.0018058313780410945,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000045",
+      "ensemble_score": 1.1294813571032965e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000046",
+      "ensemble_score": 3.146788959154569e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000047",
+      "ensemble_score": 2.0569166840015343e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000048",
+      "ensemble_score": 2.828604877531412e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000049",
+      "ensemble_score": 0.0004497902210644107,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000050",
+      "ensemble_score": 0.00254010862700522,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000051",
+      "ensemble_score": 0.00016504648685992097,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000052",
+      "ensemble_score": 0.0003286155396103793,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000053",
+      "ensemble_score": 5.932381036729849e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000054",
+      "ensemble_score": 1.2130767326353084e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000055",
+      "ensemble_score": 0.0004740170895068428,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000056",
+      "ensemble_score": 2.7020069499561035e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000057",
+      "ensemble_score": 0.004969415170845728,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000058",
+      "ensemble_score": 0.011342699681859327,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000059",
+      "ensemble_score": 7.167412299130901e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000060",
+      "ensemble_score": 0.003658641246569164,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000061",
+      "ensemble_score": 6.927927011423569e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000062",
+      "ensemble_score": 0.00026521934753293117,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000063",
+      "ensemble_score": 1.1094155442666636e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000064",
+      "ensemble_score": 0.020786658989500592,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000065",
+      "ensemble_score": 0.0007099383480530495,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000066",
+      "ensemble_score": 0.001013458704814802,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000067",
+      "ensemble_score": 0.00014662479142963858,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000068",
+      "ensemble_score": 0.0006305174762926555,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000069",
+      "ensemble_score": 0.0028727968930032863,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000070",
+      "ensemble_score": 0.0003578311700633454,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000071",
+      "ensemble_score": 0.0006183321572720149,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000072",
+      "ensemble_score": 5.4311950608768604e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000073",
+      "ensemble_score": 0.00011798763133716463,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000074",
+      "ensemble_score": 0.0011427633865568599,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000075",
+      "ensemble_score": 0.00011417912128734733,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000076",
+      "ensemble_score": 0.00046253943038798516,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000077",
+      "ensemble_score": 3.0139069328577575e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000078",
+      "ensemble_score": 6.540344146984467e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000079",
+      "ensemble_score": 0.00029856841592420456,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000080",
+      "ensemble_score": 2.217003485644129e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000081",
+      "ensemble_score": 0.00026727351346767116,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000082",
+      "ensemble_score": 0.0004656972922744935,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000083",
+      "ensemble_score": 9.16331285826053e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000084",
+      "ensemble_score": 0.0008651840042394681,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000085",
+      "ensemble_score": 0.00019806253334426026,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000086",
+      "ensemble_score": 0.0003633352176634922,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000087",
+      "ensemble_score": 8.211845117366673e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000088",
+      "ensemble_score": 1.962359052902882e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000089",
+      "ensemble_score": 3.842386965639508e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000090",
+      "ensemble_score": 0.004128922240265237,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000091",
+      "ensemble_score": 0.03343037958897307,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000092",
+      "ensemble_score": 7.34629530560581e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000093",
+      "ensemble_score": 0.00670708733092258,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000094",
+      "ensemble_score": 0.003436420003370451,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000095",
+      "ensemble_score": 0.004969156329830027,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000096",
+      "ensemble_score": 6.163292296382041e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000097",
+      "ensemble_score": 0.020500675483524335,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000098",
+      "ensemble_score": 0.00040250726899049457,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000099",
+      "ensemble_score": 0.01132571448067888,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000100",
+      "ensemble_score": 0.020666947162875583,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000101",
+      "ensemble_score": 0.006534900716002509,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000102",
+      "ensemble_score": 0.010049348219984724,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000103",
+      "ensemble_score": 0.0004984256267052219,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000104",
+      "ensemble_score": 6.302299141372627e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000105",
+      "ensemble_score": 0.00011567176917090214,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000106",
+      "ensemble_score": 0.0019657876342432106,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000107",
+      "ensemble_score": 0.00580613013736695,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000108",
+      "ensemble_score": 0.0018962324422219128,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000109",
+      "ensemble_score": 7.2125122928187184e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000110",
+      "ensemble_score": 1.4491564955409318e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000111",
+      "ensemble_score": 4.289474350632309e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000112",
+      "ensemble_score": 1.5477541121867124e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000113",
+      "ensemble_score": 0.008854934022087263,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000114",
+      "ensemble_score": 0.00045995386510102633,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000115",
+      "ensemble_score": 0.0016081363045131985,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000116",
+      "ensemble_score": 0.014198720101393562,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000117",
+      "ensemble_score": 0.013836983935273906,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000118",
+      "ensemble_score": 0.035582974554561025,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000119",
+      "ensemble_score": 6.57953077009146e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000120",
+      "ensemble_score": 0.00019734692390016906,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000121",
+      "ensemble_score": 0.005922146977960072,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000122",
+      "ensemble_score": 0.0029297727525459507,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000123",
+      "ensemble_score": 0.0007619945397427244,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000124",
+      "ensemble_score": 0.0029073882028961304,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000125",
+      "ensemble_score": 0.04572266674120643,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000126",
+      "ensemble_score": 0.000196038968013967,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000127",
+      "ensemble_score": 0.00019404402176397318,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000128",
+      "ensemble_score": 0.0003235992722365119,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000129",
+      "ensemble_score": 1.0873846878336347e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000130",
+      "ensemble_score": 0.010655031514070181,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000131",
+      "ensemble_score": 4.5057427255138407e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000132",
+      "ensemble_score": 2.620789076127818e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000133",
+      "ensemble_score": 4.564324014810376e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000134",
+      "ensemble_score": 3.6191964294019985e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000135",
+      "ensemble_score": 0.0002471289346287008,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000136",
+      "ensemble_score": 2.0739766032221297e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000137",
+      "ensemble_score": 0.002591915077644094,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000138",
+      "ensemble_score": 0.0021871920037210037,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000139",
+      "ensemble_score": 0.0019461120013647914,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000140",
+      "ensemble_score": 0.002160164965710652,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000141",
+      "ensemble_score": 0.002590936379008788,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000142",
+      "ensemble_score": 0.00802838846677643,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000143",
+      "ensemble_score": 0.001902304510611009,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000144",
+      "ensemble_score": 0.004936956626002443,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000145",
+      "ensemble_score": 0.0022790340664247907,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000146",
+      "ensemble_score": 0.011711379636513149,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000147",
+      "ensemble_score": 0.0007214723739536708,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000148",
+      "ensemble_score": 0.0009162607234034041,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000149",
+      "ensemble_score": 0.0016785800692206345,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000150",
+      "ensemble_score": 0.0017837908299797249,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000151",
+      "ensemble_score": 0.007678385809965594,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000152",
+      "ensemble_score": 0.00039975590727611314,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000153",
+      "ensemble_score": 0.0014735608942302463,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000154",
+      "ensemble_score": 0.006685333426737282,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000155",
+      "ensemble_score": 0.014466662720638498,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000156",
+      "ensemble_score": 0.00031399340565777586,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000157",
+      "ensemble_score": 0.0003453719772944915,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000158",
+      "ensemble_score": 0.0008126441151039858,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000159",
+      "ensemble_score": 6.154540516100527e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000160",
+      "ensemble_score": 0.006625219152612375,
+      "cnki_strong_fraction": 0.32894736842105265
+    },
+    {
+      "document": "thesis",
+      "id": "s000161",
+      "ensemble_score": 0.17508286195802958,
+      "cnki_strong_fraction": 1.0
+    },
+    {
+      "document": "thesis",
+      "id": "s000162",
+      "ensemble_score": 5.9537749124695256e-05,
+      "cnki_strong_fraction": 0.15463917525773196
+    },
+    {
+      "document": "thesis",
+      "id": "s000163",
+      "ensemble_score": 0.09643882638628813,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000001",
+      "ensemble_score": 0.0023697432302228617,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000002",
+      "ensemble_score": 0.0006884281072504993,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000003",
+      "ensemble_score": 3.967766394940331e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000004",
+      "ensemble_score": 0.00013709934788264552,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000005",
+      "ensemble_score": 7.563542501290797e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000006",
+      "ensemble_score": 7.465415747970852e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000007",
+      "ensemble_score": 0.00010120635199597911,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000008",
+      "ensemble_score": 8.795828229779927e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000009",
+      "ensemble_score": 0.000396866567395687,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000010",
+      "ensemble_score": 3.266519224454265e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000011",
+      "ensemble_score": 8.273593034376653e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000012",
+      "ensemble_score": 3.826702474846004e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000013",
+      "ensemble_score": 1.4690378066518536e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000014",
+      "ensemble_score": 0.0002589586237751209,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000015",
+      "ensemble_score": 3.2927667517434257e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000016",
+      "ensemble_score": 3.183369865866917e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000017",
+      "ensemble_score": 5.4521612274978285e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000018",
+      "ensemble_score": 2.697622609491057e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000019",
+      "ensemble_score": 4.309511532843022e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000020",
+      "ensemble_score": 0.0021844922727239182,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000021",
+      "ensemble_score": 1.479263345491395e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000022",
+      "ensemble_score": 0.0002915094771285885,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000023",
+      "ensemble_score": 6.229192342430617e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000024",
+      "ensemble_score": 8.023192703129018e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000025",
+      "ensemble_score": 0.0005091095551391617,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000026",
+      "ensemble_score": 1.1243767097429704e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000027",
+      "ensemble_score": 1.4406396309496101e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000028",
+      "ensemble_score": 9.191260425808475e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000029",
+      "ensemble_score": 1.4067787561267723e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000030",
+      "ensemble_score": 8.727021613398091e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000031",
+      "ensemble_score": 5.714346515998858e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000032",
+      "ensemble_score": 1.417689485471177e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000033",
+      "ensemble_score": 0.00011460205945216556,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000034",
+      "ensemble_score": 0.00038223185471465313,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000035",
+      "ensemble_score": 7.383101201727938e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000036",
+      "ensemble_score": 5.936051340778753e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000037",
+      "ensemble_score": 8.593233438943945e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000038",
+      "ensemble_score": 3.0378535631131638e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000039",
+      "ensemble_score": 0.000336947425852536,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000040",
+      "ensemble_score": 3.391524859709252e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000041",
+      "ensemble_score": 0.0001874784883715626,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000042",
+      "ensemble_score": 0.0001307511332427224,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000043",
+      "ensemble_score": 0.0006165066459908446,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000044",
+      "ensemble_score": 0.003374477166954017,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000045",
+      "ensemble_score": 2.474821283632759e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000046",
+      "ensemble_score": 1.0574493524374348e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000047",
+      "ensemble_score": 0.0002613911250367404,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000048",
+      "ensemble_score": 4.623758915021773e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000049",
+      "ensemble_score": 3.4935257739236505e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000050",
+      "ensemble_score": 3.064560236552145e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000051",
+      "ensemble_score": 1.54166107412219e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000052",
+      "ensemble_score": 7.071995439503213e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000053",
+      "ensemble_score": 9.50812065899838e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000054",
+      "ensemble_score": 0.0010130405660612094,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000055",
+      "ensemble_score": 1.718452887602382e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000056",
+      "ensemble_score": 1.2825536018507636e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000057",
+      "ensemble_score": 5.842051689629112e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000058",
+      "ensemble_score": 1.743161975768664e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000059",
+      "ensemble_score": 1.3214795375815214e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000060",
+      "ensemble_score": 2.6309947811574515e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000061",
+      "ensemble_score": 7.266373500952007e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000062",
+      "ensemble_score": 1.4605514632385095e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000063",
+      "ensemble_score": 1.6436746844422582e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000064",
+      "ensemble_score": 1.3670096644570998e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000065",
+      "ensemble_score": 2.1036468715717135e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000066",
+      "ensemble_score": 0.000299075622636722,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000067",
+      "ensemble_score": 5.37641720116469e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000068",
+      "ensemble_score": 0.0001401041619985249,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000069",
+      "ensemble_score": 9.195957625572585e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000070",
+      "ensemble_score": 9.248977243135204e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000071",
+      "ensemble_score": 2.135613645686705e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000072",
+      "ensemble_score": 1.2896773864063416e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000073",
+      "ensemble_score": 4.938225310420428e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000074",
+      "ensemble_score": 5.4007355201029607e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000075",
+      "ensemble_score": 1.2069510568641043e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000076",
+      "ensemble_score": 3.4466231558745375e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000077",
+      "ensemble_score": 0.018768782735755753,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000078",
+      "ensemble_score": 0.0033400343838869426,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000079",
+      "ensemble_score": 2.972166025542243e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000080",
+      "ensemble_score": 2.3320971885229718e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000081",
+      "ensemble_score": 0.0004895807384028789,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000082",
+      "ensemble_score": 2.3244062823919898e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000083",
+      "ensemble_score": 6.832667097483031e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000084",
+      "ensemble_score": 3.046056412222916e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000085",
+      "ensemble_score": 0.00012454060225140396,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000086",
+      "ensemble_score": 1.0645847384672286e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000087",
+      "ensemble_score": 8.749751896088968e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000088",
+      "ensemble_score": 0.0003916516939425004,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000089",
+      "ensemble_score": 2.222330317095945e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000090",
+      "ensemble_score": 1.154356590916532e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000091",
+      "ensemble_score": 6.966993198055007e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000092",
+      "ensemble_score": 2.2182809551571213e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000093",
+      "ensemble_score": 1.1114200429528537e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000094",
+      "ensemble_score": 0.00016308006562418883,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000095",
+      "ensemble_score": 0.0019172497283021807,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000096",
+      "ensemble_score": 2.611597238859112e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000097",
+      "ensemble_score": 4.488378203757689e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000098",
+      "ensemble_score": 1.8895935029918034e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000099",
+      "ensemble_score": 0.0001041977111856984,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000100",
+      "ensemble_score": 1.108876734146519e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000101",
+      "ensemble_score": 1.5730663791051486e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000102",
+      "ensemble_score": 3.3676081836598005e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000103",
+      "ensemble_score": 1.727893808551821e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000104",
+      "ensemble_score": 0.0008074741069499071,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000105",
+      "ensemble_score": 1.328949374277657e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000106",
+      "ensemble_score": 5.4258687651935165e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000107",
+      "ensemble_score": 5.997755913506393e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000108",
+      "ensemble_score": 2.7585863917876376e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000109",
+      "ensemble_score": 5.298825873022996e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000110",
+      "ensemble_score": 5.1126436944954654e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000111",
+      "ensemble_score": 3.79782040271671e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000112",
+      "ensemble_score": 1.3652711184065184e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000113",
+      "ensemble_score": 0.0001449879353359206,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000114",
+      "ensemble_score": 1.006218793877885e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000115",
+      "ensemble_score": 0.0002002343332757374,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000116",
+      "ensemble_score": 2.5538212665174816e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000117",
+      "ensemble_score": 0.0006853398408248542,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000118",
+      "ensemble_score": 0.00017573275786906802,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000119",
+      "ensemble_score": 0.0011258336415669611,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000120",
+      "ensemble_score": 0.0011326177226301229,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000121",
+      "ensemble_score": 5.702015903710354e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000122",
+      "ensemble_score": 0.0005249990024330153,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000123",
+      "ensemble_score": 9.523266927837777e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000124",
+      "ensemble_score": 3.841389070744366e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000125",
+      "ensemble_score": 0.00017884796916333549,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000126",
+      "ensemble_score": 6.414099922258628e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000127",
+      "ensemble_score": 0.0016634411804933892,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000128",
+      "ensemble_score": 4.755742924302111e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000129",
+      "ensemble_score": 0.0017730610479792623,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000130",
+      "ensemble_score": 2.3297104795063465e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000131",
+      "ensemble_score": 0.0007850775714727698,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000132",
+      "ensemble_score": 1.5176010528505497e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000133",
+      "ensemble_score": 3.7770627322520664e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000134",
+      "ensemble_score": 1.2013434608822805e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000135",
+      "ensemble_score": 1.1754840568763543e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000136",
+      "ensemble_score": 1.288782972657943e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000137",
+      "ensemble_score": 0.00022142337217978425,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000138",
+      "ensemble_score": 0.0003517240885589853,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000139",
+      "ensemble_score": 2.7747496581946543e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000140",
+      "ensemble_score": 7.349369089702983e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000141",
+      "ensemble_score": 1.5194207431585794e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000142",
+      "ensemble_score": 0.00016126905936257618,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000143",
+      "ensemble_score": 3.141405513583635e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000144",
+      "ensemble_score": 2.151641824203423e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000145",
+      "ensemble_score": 0.003378523998056091,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000146",
+      "ensemble_score": 2.755403119693741e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000147",
+      "ensemble_score": 9.144311718245816e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000148",
+      "ensemble_score": 6.005768845011836e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000149",
+      "ensemble_score": 1.553438278702766e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000150",
+      "ensemble_score": 1.636102285573442e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000151",
+      "ensemble_score": 0.00031475599124251695,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000152",
+      "ensemble_score": 4.207191698465015e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000153",
+      "ensemble_score": 9.359142035846292e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000154",
+      "ensemble_score": 2.7503509563039454e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000155",
+      "ensemble_score": 0.00029021333928539925,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000156",
+      "ensemble_score": 2.3985532029342287e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000157",
+      "ensemble_score": 1.2462024489982446e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000158",
+      "ensemble_score": 3.1276420556811794e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000159",
+      "ensemble_score": 1.5868348035060835e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000160",
+      "ensemble_score": 8.734797687162002e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000161",
+      "ensemble_score": 1.745876859185937e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000162",
+      "ensemble_score": 1.1994951223442808e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000163",
+      "ensemble_score": 8.263389438402165e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000164",
+      "ensemble_score": 3.267202728503354e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000165",
+      "ensemble_score": 6.418399350081686e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000166",
+      "ensemble_score": 0.0006258087745409505,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000167",
+      "ensemble_score": 0.000226422980289648,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000168",
+      "ensemble_score": 1.0974148615259405e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000169",
+      "ensemble_score": 5.1318672117770936e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000170",
+      "ensemble_score": 0.0009218036020224898,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000171",
+      "ensemble_score": 0.029173734850171433,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000172",
+      "ensemble_score": 0.0012173664148358502,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000173",
+      "ensemble_score": 1.521867415319312e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000174",
+      "ensemble_score": 3.4737990094531853e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000175",
+      "ensemble_score": 3.191645049402066e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000176",
+      "ensemble_score": 7.832297166109047e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000177",
+      "ensemble_score": 8.250587413825914e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000178",
+      "ensemble_score": 4.986822870172859e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000179",
+      "ensemble_score": 1.1215789259354662e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000180",
+      "ensemble_score": 4.787480984764299e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000181",
+      "ensemble_score": 2.811578786759392e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000182",
+      "ensemble_score": 2.464129236158448e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000183",
+      "ensemble_score": 0.0004974751637843067,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000184",
+      "ensemble_score": 3.6815269594800645e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000185",
+      "ensemble_score": 1.9244049886899723e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000186",
+      "ensemble_score": 1.6978645123489108e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000187",
+      "ensemble_score": 2.1943341054827673e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000188",
+      "ensemble_score": 3.1520531518437e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000189",
+      "ensemble_score": 0.0001234751140428114,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000190",
+      "ensemble_score": 7.3359436723395505e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000191",
+      "ensemble_score": 7.485480935832898e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000192",
+      "ensemble_score": 8.481063397164146e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000193",
+      "ensemble_score": 1.019603425749667e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000194",
+      "ensemble_score": 0.0004978154139294367,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000195",
+      "ensemble_score": 2.96287573558158e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000196",
+      "ensemble_score": 6.553235450892425e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000197",
+      "ensemble_score": 4.479080624731191e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000198",
+      "ensemble_score": 9.836425379299764e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000199",
+      "ensemble_score": 4.469633636711813e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000200",
+      "ensemble_score": 3.942466335911973e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000201",
+      "ensemble_score": 3.089121562444461e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000202",
+      "ensemble_score": 1.3210931570642397e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000203",
+      "ensemble_score": 3.290098156760917e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000204",
+      "ensemble_score": 0.00018258063827512509,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000205",
+      "ensemble_score": 1.2712041368854435e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000206",
+      "ensemble_score": 0.001357175908497859,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000207",
+      "ensemble_score": 2.9355414142605334e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000208",
+      "ensemble_score": 1.1488683184080899e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000209",
+      "ensemble_score": 0.0001347450099261745,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000210",
+      "ensemble_score": 8.33156239967314e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000211",
+      "ensemble_score": 5.026643481475116e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000212",
+      "ensemble_score": 2.4200066448948254e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000213",
+      "ensemble_score": 0.0008316637770244618,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000214",
+      "ensemble_score": 0.0001358650542773047,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000215",
+      "ensemble_score": 1.279163083998115e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000216",
+      "ensemble_score": 9.256364112751988e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000217",
+      "ensemble_score": 0.0005903637588920096,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000218",
+      "ensemble_score": 4.3302225748399556e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000219",
+      "ensemble_score": 4.5312601142385215e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000220",
+      "ensemble_score": 3.1323211645535764e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000221",
+      "ensemble_score": 1.8885471550248992e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000222",
+      "ensemble_score": 3.4029278805272128e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000223",
+      "ensemble_score": 0.015363713843075352,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000224",
+      "ensemble_score": 7.004376475080605e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000225",
+      "ensemble_score": 0.00013120359095491083,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000226",
+      "ensemble_score": 0.0009998097131472426,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000227",
+      "ensemble_score": 7.182221062509235e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000228",
+      "ensemble_score": 2.9883606399391602e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "wang-zhan",
+      "id": "s000229",
+      "ensemble_score": 9.38692272273129e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000001",
+      "ensemble_score": 2.5353632073150793e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000002",
+      "ensemble_score": 0.0008264959520961193,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000003",
+      "ensemble_score": 4.8837831156117395e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000004",
+      "ensemble_score": 8.178085749981607e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000005",
+      "ensemble_score": 2.0832257339925617e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000006",
+      "ensemble_score": 4.1021528209383804e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000007",
+      "ensemble_score": 3.025037314271652e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000008",
+      "ensemble_score": 7.546134968622606e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000009",
+      "ensemble_score": 0.0023946912564667077,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000010",
+      "ensemble_score": 2.8677149989089786e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000011",
+      "ensemble_score": 0.00019405908365498635,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000012",
+      "ensemble_score": 0.0017994544419297764,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000013",
+      "ensemble_score": 9.02277835857052e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000014",
+      "ensemble_score": 0.0009700028654337677,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000015",
+      "ensemble_score": 3.079011368537961e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000016",
+      "ensemble_score": 0.00023136268322848053,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000017",
+      "ensemble_score": 2.0257561309037166e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000018",
+      "ensemble_score": 0.0004017195565640321,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000019",
+      "ensemble_score": 0.0035677246741199994,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000020",
+      "ensemble_score": 0.0005096490296725161,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000021",
+      "ensemble_score": 0.012275918051811533,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000022",
+      "ensemble_score": 0.00026413802617721304,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000023",
+      "ensemble_score": 2.419275670722913e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000024",
+      "ensemble_score": 0.000424291718451602,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000025",
+      "ensemble_score": 8.78630817072045e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000026",
+      "ensemble_score": 0.00021208889505777885,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000027",
+      "ensemble_score": 1.2138751916389757e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000028",
+      "ensemble_score": 0.00037039598451539855,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000029",
+      "ensemble_score": 0.0017833891911863452,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000030",
+      "ensemble_score": 0.00016331136752354637,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000031",
+      "ensemble_score": 7.304931833303582e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000032",
+      "ensemble_score": 0.00012520851500510022,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000033",
+      "ensemble_score": 7.383897168470013e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000034",
+      "ensemble_score": 4.120807606873551e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000035",
+      "ensemble_score": 0.0005792789861469178,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000036",
+      "ensemble_score": 0.0002451641454701256,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000037",
+      "ensemble_score": 1.7569661926729158e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000038",
+      "ensemble_score": 3.4482448427838346e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000039",
+      "ensemble_score": 1.2077056345948542e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000040",
+      "ensemble_score": 2.5754274854816296e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000041",
+      "ensemble_score": 8.093286257334663e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000042",
+      "ensemble_score": 5.329906258274957e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000043",
+      "ensemble_score": 3.5112060097750885e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000044",
+      "ensemble_score": 9.163658135423973e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000045",
+      "ensemble_score": 3.5025651898788725e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000046",
+      "ensemble_score": 6.933069760992563e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000047",
+      "ensemble_score": 0.00016180117116868192,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000048",
+      "ensemble_score": 0.002507745146259418,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000049",
+      "ensemble_score": 1.7902703488469273e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000050",
+      "ensemble_score": 6.699571384057147e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000051",
+      "ensemble_score": 7.504497611659495e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000052",
+      "ensemble_score": 0.0026609477621002665,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000053",
+      "ensemble_score": 5.652880326112851e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000054",
+      "ensemble_score": 6.063514454029002e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000055",
+      "ensemble_score": 1.4708462163074138e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000056",
+      "ensemble_score": 6.914765860877659e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000057",
+      "ensemble_score": 3.513677554520672e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000058",
+      "ensemble_score": 2.2196428236660738e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000059",
+      "ensemble_score": 6.442994674341532e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000060",
+      "ensemble_score": 0.004950559640823427,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000061",
+      "ensemble_score": 0.00013000961097804303,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000062",
+      "ensemble_score": 0.00017273354927880216,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000063",
+      "ensemble_score": 0.0013388789249242125,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000064",
+      "ensemble_score": 4.458153780427316e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000065",
+      "ensemble_score": 0.00012536689425468142,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000066",
+      "ensemble_score": 2.885864627862413e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000067",
+      "ensemble_score": 8.832704990220804e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000068",
+      "ensemble_score": 2.8474406810797203e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000069",
+      "ensemble_score": 1.4527678897553836e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000070",
+      "ensemble_score": 0.0005867984473140001,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000071",
+      "ensemble_score": 7.163251602561687e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000072",
+      "ensemble_score": 3.103256804499015e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000073",
+      "ensemble_score": 2.798746073361499e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000074",
+      "ensemble_score": 5.077895303864182e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000075",
+      "ensemble_score": 7.732884350456178e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000076",
+      "ensemble_score": 0.000134555088124329,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000077",
+      "ensemble_score": 0.0014472508742372735,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000078",
+      "ensemble_score": 0.0005697113099195759,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000079",
+      "ensemble_score": 0.00029913563844072966,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000080",
+      "ensemble_score": 0.003457225322720597,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000081",
+      "ensemble_score": 9.793895432904078e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000082",
+      "ensemble_score": 5.699424363440033e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000083",
+      "ensemble_score": 2.4853656927379987e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000084",
+      "ensemble_score": 0.0006336582482241325,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000085",
+      "ensemble_score": 1.19442251286632e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000086",
+      "ensemble_score": 2.6333060349204545e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000087",
+      "ensemble_score": 0.00031307715336530064,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000088",
+      "ensemble_score": 0.00012839195898836788,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000089",
+      "ensemble_score": 6.239250294675909e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000090",
+      "ensemble_score": 2.4346067524097798e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000091",
+      "ensemble_score": 1.226547836388732e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000092",
+      "ensemble_score": 5.936864561227513e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000093",
+      "ensemble_score": 2.0942768048941417e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000094",
+      "ensemble_score": 6.249030622310287e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000095",
+      "ensemble_score": 0.00014894008066054987,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000096",
+      "ensemble_score": 1.8696843869974097e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000097",
+      "ensemble_score": 0.0006878092826958876,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000098",
+      "ensemble_score": 3.6124105008215405e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000099",
+      "ensemble_score": 2.752877147428815e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000100",
+      "ensemble_score": 2.77645938455063e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000101",
+      "ensemble_score": 5.3076353383102495e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000102",
+      "ensemble_score": 7.438657963552197e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000103",
+      "ensemble_score": 2.3415759238182014e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000104",
+      "ensemble_score": 0.000211427607279862,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000105",
+      "ensemble_score": 4.948230227745742e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000106",
+      "ensemble_score": 2.639559468724589e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000107",
+      "ensemble_score": 1.4793927696450112e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000108",
+      "ensemble_score": 6.098429070343415e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000109",
+      "ensemble_score": 3.945054211972943e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000110",
+      "ensemble_score": 0.0016108921887931342,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000111",
+      "ensemble_score": 7.45704365131058e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000112",
+      "ensemble_score": 7.013226865092424e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000113",
+      "ensemble_score": 4.26693490849557e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000114",
+      "ensemble_score": 0.00013276692304725453,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000115",
+      "ensemble_score": 7.426303883433891e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000116",
+      "ensemble_score": 2.3156448611740715e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000117",
+      "ensemble_score": 2.559951943260051e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000118",
+      "ensemble_score": 4.269667519599649e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000119",
+      "ensemble_score": 4.1310411493768445e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000120",
+      "ensemble_score": 0.0005569840761597713,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000121",
+      "ensemble_score": 1.266513621561489e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000122",
+      "ensemble_score": 1.4679016214215293e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000123",
+      "ensemble_score": 0.0002739577088600417,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000124",
+      "ensemble_score": 6.03747780889954e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000125",
+      "ensemble_score": 3.6353809235592e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000126",
+      "ensemble_score": 2.632319332101531e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000127",
+      "ensemble_score": 1.465844290238171e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000128",
+      "ensemble_score": 2.1832154930585912e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000129",
+      "ensemble_score": 0.0001561487265591125,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000130",
+      "ensemble_score": 1.609644581409085e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000131",
+      "ensemble_score": 4.442450699517662e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000132",
+      "ensemble_score": 0.0002131576610233076,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000133",
+      "ensemble_score": 2.468323827599325e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000134",
+      "ensemble_score": 2.439603205090084e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000135",
+      "ensemble_score": 4.380477331526458e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000136",
+      "ensemble_score": 5.667342470078474e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000137",
+      "ensemble_score": 1.872670872204491e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000138",
+      "ensemble_score": 3.9526012139755805e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000139",
+      "ensemble_score": 8.018742217743384e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000140",
+      "ensemble_score": 8.521375436526694e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000141",
+      "ensemble_score": 2.565166097522315e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000142",
+      "ensemble_score": 3.613104117769173e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000143",
+      "ensemble_score": 3.14668155214211e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000144",
+      "ensemble_score": 6.654637380864193e-08,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000145",
+      "ensemble_score": 1.1060845264664486e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000146",
+      "ensemble_score": 2.1509443909075985e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000147",
+      "ensemble_score": 1.8033969471938003e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000148",
+      "ensemble_score": 1.8883571290560325e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000149",
+      "ensemble_score": 0.00019423601574351213,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000150",
+      "ensemble_score": 2.988784461295999e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000151",
+      "ensemble_score": 0.00035508701497412087,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000152",
+      "ensemble_score": 2.5356700980424804e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000153",
+      "ensemble_score": 2.174074089242948e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000154",
+      "ensemble_score": 3.1974850837491886e-09,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000155",
+      "ensemble_score": 6.949242048178979e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000156",
+      "ensemble_score": 8.972548158547045e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000157",
+      "ensemble_score": 2.2220945522247853e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000158",
+      "ensemble_score": 2.9596765119172023e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000159",
+      "ensemble_score": 5.566606839674599e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000160",
+      "ensemble_score": 1.6808686125559677e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000161",
+      "ensemble_score": 3.274989576119658e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000162",
+      "ensemble_score": 0.00012505987943304782,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000163",
+      "ensemble_score": 3.107301368814237e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000164",
+      "ensemble_score": 7.35555942744145e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000165",
+      "ensemble_score": 4.0515037035361107e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000166",
+      "ensemble_score": 1.2081767178586387e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000167",
+      "ensemble_score": 3.67212007913676e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000168",
+      "ensemble_score": 1.2558429062807672e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000169",
+      "ensemble_score": 1.7156265804133612e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000170",
+      "ensemble_score": 1.3426940504717417e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000171",
+      "ensemble_score": 5.778466878265842e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000172",
+      "ensemble_score": 0.0001628017035453475,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000173",
+      "ensemble_score": 0.051626354904619455,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000174",
+      "ensemble_score": 0.0017420916854344376,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000175",
+      "ensemble_score": 1.5816233154652732e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000176",
+      "ensemble_score": 4.218091963397513e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000177",
+      "ensemble_score": 7.794186768004847e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000178",
+      "ensemble_score": 2.4757870866962708e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000179",
+      "ensemble_score": 2.919580500175564e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000180",
+      "ensemble_score": 0.0016066467803036474,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000181",
+      "ensemble_score": 1.433144098650887e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000182",
+      "ensemble_score": 0.004470512033203253,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000183",
+      "ensemble_score": 7.127942109621027e-07,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000184",
+      "ensemble_score": 5.0010149339129344e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000185",
+      "ensemble_score": 3.78539408360262e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000186",
+      "ensemble_score": 0.0013122841024257388,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000187",
+      "ensemble_score": 6.535755491459755e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000188",
+      "ensemble_score": 1.0403636484864398e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000189",
+      "ensemble_score": 3.159480307534295e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000190",
+      "ensemble_score": 1.0941281775907988e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000191",
+      "ensemble_score": 0.00014871030488609345,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000192",
+      "ensemble_score": 1.1597442358636869e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000193",
+      "ensemble_score": 5.6444889537952385e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000194",
+      "ensemble_score": 0.00014520956713226873,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000195",
+      "ensemble_score": 4.094396634903797e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000196",
+      "ensemble_score": 1.2083059199125615e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000197",
+      "ensemble_score": 6.932358450196036e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000198",
+      "ensemble_score": 9.893574742025109e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000199",
+      "ensemble_score": 0.0018265548247695066,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000200",
+      "ensemble_score": 0.00015467389341517948,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000201",
+      "ensemble_score": 0.000873652997229084,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000202",
+      "ensemble_score": 6.971383287484346e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000203",
+      "ensemble_score": 3.734595909425289e-06,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000204",
+      "ensemble_score": 0.00012221020109083684,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000205",
+      "ensemble_score": 1.5281499156029798e-05,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000206",
+      "ensemble_score": 0.008891536563633553,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000207",
+      "ensemble_score": 0.09075624675869054,
+      "cnki_strong_fraction": 0.0
+    },
+    {
+      "document": "zhu-yilong",
+      "id": "s000208",
+      "ensemble_score": 4.2794631297636214e-05,
+      "cnki_strong_fraction": 0.0
+    }
+  ]
+}

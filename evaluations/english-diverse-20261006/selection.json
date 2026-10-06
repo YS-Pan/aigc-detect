@@ -1,0 +1,2740 @@
+{
+  "at_utc": "2026-10-06T05:11:34.408028+00:00",
+  "entries": [
+    {
+      "configuration": {
+        "id": "v2-human-calibration",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "cutoff": -2.215455746064517,
+        "human_control_maximum": -2.315455746064517,
+        "human_control_unique_windows": 496,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "development": {
+        "documents": 24,
+        "papers": 4,
+        "windows": 258,
+        "pure_human_windows": 184,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 4,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 74,
+        "flagged_generated_windows": 0,
+        "narrative_units": 87,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 4,
+        "hit_sections": 0,
+        "generated_characters": 44440,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.694295876965674,
+          -4.748506624674044,
+          -8.49521971333148,
+          -3.2016643624657983,
+          -2.6689877275340694
+        ],
+        "scale": [
+          3.026400768837205,
+          1.7435020371616998,
+          0.5109830487060394,
+          7.3146268635652145,
+          1.8742851851725018
+        ],
+        "intercept": -3.112439407021995,
+        "coefficients": [
+          -0.03367726297355724,
+          -0.4417073337448075,
+          -0.06895497200507109,
+          0.08602528389760511,
+          -0.18146416826293896
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 797,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 147.35551942111655,
+          "final_gradient_inf_norm": 4.817513158061813e-08,
+          "parameter_l2_norm": 0.4912472989468551,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 147.60233019463064,
+              "gradient_inf_norm_before_step": 19.562074284519653,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 147.35692030916167,
+              "gradient_inf_norm_before_step": 3.206880094264256,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 147.35551948217054,
+              "gradient_inf_norm_before_step": 0.18773119253728923,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 147.35551942111655,
+              "gradient_inf_norm_before_step": 0.0011135397252271988,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 147.35551942111655,
+              "gradient_inf_norm": 4.817513158061813e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.891527100331608,
+        "human_control_maximum": -1.9915271003316082,
+        "human_control_unique_windows": 496,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "development": {
+        "documents": 24,
+        "papers": 4,
+        "windows": 258,
+        "pure_human_windows": 184,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 4,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 74,
+        "flagged_generated_windows": 0,
+        "narrative_units": 87,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 4,
+        "hit_sections": 0,
+        "generated_characters": 44440,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    }
+  ],
+  "selected_id": "v2-human-calibration",
+  "leave_author_group_out_fixed_refit": [
+    {
+      "held": [
+        "P01",
+        "P02"
+      ],
+      "training": [
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.66263594639564,
+          -4.696269969431418,
+          -8.500174987292963,
+          -3.2511464074660488,
+          -2.6660064805720807
+        ],
+        "scale": [
+          3.059825692755749,
+          1.7339632810985164,
+          0.5,
+          7.3270859689795955,
+          1.907125715713159
+        ],
+        "intercept": -3.098159109411633,
+        "coefficients": [
+          -0.027556670157250333,
+          -0.4139747175720296,
+          -0.06469259656969495,
+          0.08877576817977616,
+          -0.16770517688203543
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 622,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 115.23030068227683,
+          "final_gradient_inf_norm": 1.0722309885222372e-08,
+          "parameter_l2_norm": 0.4607881642130911,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 115.38281941750222,
+              "gradient_inf_norm_before_step": 15.31531614475804,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 115.23092631362731,
+              "gradient_inf_norm_before_step": 2.274486705386048,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 115.23030069620346,
+              "gradient_inf_norm_before_step": 0.1160682735533654,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 115.23030068227683,
+              "gradient_inf_norm_before_step": 0.0004886268586082059,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 115.23030068227683,
+              "gradient_inf_norm": 1.0722309885222372e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.93030592446827,
+        "human_control_maximum": -2.03030592446827,
+        "human_control_unique_windows": 365,
+        "calibration_papers": [
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 12,
+        "papers": 2,
+        "windows": 288,
+        "pure_human_windows": 244,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 2,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 44,
+        "flagged_generated_windows": 0,
+        "narrative_units": 45,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 2,
+        "hit_sections": 0,
+        "generated_characters": 32893,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P03"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.857717857440869,
+          -4.731440662000328,
+          -8.540425028882426,
+          -3.4099598648639193,
+          -2.732574625431772
+        ],
+        "scale": [
+          2.7936439565471662,
+          1.7303542281159012,
+          0.5,
+          7.277020013387772,
+          1.903540086671108
+        ],
+        "intercept": -3.097357842978549,
+        "coefficients": [
+          -0.01768912385838475,
+          -0.42490446411926297,
+          -0.05729214409874417,
+          0.0954699677655604,
+          -0.16154629986696525
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 737,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 136.69447758094654,
+          "final_gradient_inf_norm": 1.3316802771612402e-08,
+          "parameter_l2_norm": 0.4683490367798904,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 136.87046167325713,
+              "gradient_inf_norm_before_step": 17.570572637929835,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 136.69518459112774,
+              "gradient_inf_norm_before_step": 2.6904725619109326,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 136.69447759605416,
+              "gradient_inf_norm_before_step": 0.13549962139731522,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 136.69447758094654,
+              "gradient_inf_norm_before_step": 0.0005576760464287364,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 136.69447758094654,
+              "gradient_inf_norm": 1.3316802771612402e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9336944160540348,
+        "human_control_maximum": -2.033694416054035,
+        "human_control_unique_windows": 456,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 144,
+        "pure_human_windows": 124,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 20,
+        "flagged_generated_windows": 0,
+        "narrative_units": 26,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 15925,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P04"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.658236326727311,
+          -4.758780206586888,
+          -8.505588724629101,
+          -3.416373927203698,
+          -2.6714064341689125
+        ],
+        "scale": [
+          3.0188146939601905,
+          1.7720282574751574,
+          0.5110865095187629,
+          7.141798952367144,
+          1.9302066372802686
+        ],
+        "intercept": -3.106047723509257,
+        "coefficients": [
+          -0.04809642845930388,
+          -0.4193997349563541,
+          -0.044329390813712004,
+          0.057915343289110854,
+          -0.18353234244682384
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 761,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 140.9835853681661,
+          "final_gradient_inf_norm": 3.6330741366750016e-08,
+          "parameter_l2_norm": 0.46606094742450754,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 141.20070864649395,
+              "gradient_inf_norm_before_step": 18.253761999340327,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 140.98476228789173,
+              "gradient_inf_norm_before_step": 2.879133344913471,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 140.98358541445256,
+              "gradient_inf_norm_before_step": 0.16454913719553074,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 140.9835853681661,
+              "gradient_inf_norm_before_step": 0.0009300716068074031,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 140.9835853681661,
+              "gradient_inf_norm": 3.6330741366750016e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9699239630565706,
+        "human_control_maximum": -2.0699239630565707,
+        "human_control_unique_windows": 480,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 48,
+        "pure_human_windows": 28,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 20,
+        "flagged_generated_windows": 0,
+        "narrative_units": 19,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 12899,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P05"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.635450789374066,
+          -4.690845465684284,
+          -8.491888861518124,
+          -3.395242126309689,
+          -2.6528789588070043
+        ],
+        "scale": [
+          3.090834752763714,
+          1.7590714379846981,
+          0.5231695205811312,
+          7.26801903424553,
+          1.8621783196418116
+        ],
+        "intercept": -3.1041598179043812,
+        "coefficients": [
+          -0.043043457213468826,
+          -0.41904493239174795,
+          -0.071397732074717,
+          0.07874674384291871,
+          -0.18372444298336824
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 750,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 138.9703870062614,
+          "final_gradient_inf_norm": 3.223439245175498e-08,
+          "parameter_l2_norm": 0.47170409297876204,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 139.1808543279057,
+              "gradient_inf_norm_before_step": 17.80814386533578,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 138.9715082624774,
+              "gradient_inf_norm_before_step": 2.7931236141961837,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 138.97038704787047,
+              "gradient_inf_norm_before_step": 0.15830364204596606,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 138.9703870062614,
+              "gradient_inf_norm_before_step": 0.0008750141358064494,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 138.9703870062614,
+              "gradient_inf_norm": 3.223439245175498e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9336111152745437,
+        "human_control_maximum": -2.0336111152745437,
+        "human_control_unique_windows": 468,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 79,
+        "pure_human_windows": 60,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 19,
+        "flagged_generated_windows": 0,
+        "narrative_units": 14,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 16649,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P06"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.643929660897326,
+          -4.779426388286781,
+          -8.48648311286858,
+          -3.1127414487256453,
+          -2.656840893534204
+        ],
+        "scale": [
+          3.083693124736475,
+          1.7339182550149772,
+          0.5248930616624204,
+          7.357555110390938,
+          1.9179291353692114
+        ],
+        "intercept": -3.105046967430043,
+        "coefficients": [
+          -0.05059940003732921,
+          -0.41844647694919523,
+          -0.07091393749857103,
+          0.07415661378248296,
+          -0.17091762672247257
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 746,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 138.20122101830313,
+          "final_gradient_inf_norm": 2.854007427231402e-08,
+          "parameter_l2_norm": 0.46626020458431694,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 138.40815345626356,
+              "gradient_inf_norm_before_step": 17.923087524964693,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 138.2022758004994,
+              "gradient_inf_norm_before_step": 2.8225067955543324,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 138.20122105484575,
+              "gradient_inf_norm_before_step": 0.1573230498968241,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 138.20122101830313,
+              "gradient_inf_norm_before_step": 0.0008322306377122178,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 138.20122101830313,
+              "gradient_inf_norm": 2.854007427231402e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.950357341040752,
+        "human_control_maximum": -2.050357341040752,
+        "human_control_unique_windows": 468,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 76,
+        "pure_human_windows": 53,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 23,
+        "flagged_generated_windows": 0,
+        "narrative_units": 30,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 21018,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P07"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.648411380210018,
+          -4.7050862663317226,
+          -8.478372131469316,
+          -3.267162199495172,
+          -2.7184556113037632
+        ],
+        "scale": [
+          3.1167154891685698,
+          1.7624075338851708,
+          0.5247656524901804,
+          7.347660556876427,
+          1.8641781929175405
+        ],
+        "intercept": -3.131229856019147,
+        "coefficients": [
+          -0.05975435140868814,
+          -0.4701805722327331,
+          -0.06020405855959989,
+          0.06208114431181846,
+          -0.18844200612470027
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 785,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 6,
+          "final_objective": 144.42437095953395,
+          "final_gradient_inf_norm": 5.10702591327572e-15,
+          "parameter_l2_norm": 0.5173290440674942,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 144.74544257107814,
+              "gradient_inf_norm_before_step": 20.77510082211588,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 144.42681891678788,
+              "gradient_inf_norm_before_step": 3.5645187836563745,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 144.42437115002176,
+              "gradient_inf_norm_before_step": 0.2386716354098389,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 144.42437095953395,
+              "gradient_inf_norm_before_step": 0.001917287492817072,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 144.42437095953395,
+              "gradient_inf_norm_before_step": 1.4886153960180452e-07,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 5,
+              "objective": 144.42437095953395,
+              "gradient_inf_norm": 5.10702591327572e-15,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.8711856111531788,
+        "human_control_maximum": -1.971185611153179,
+        "human_control_unique_windows": 492,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 24,
+        "pure_human_windows": 16,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 8,
+        "flagged_generated_windows": 0,
+        "narrative_units": 5,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 2847,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P08"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.743338469952174,
+          -4.77750798377272,
+          -8.478288144782983,
+          -2.981201585335296,
+          -2.6182520880088687
+        ],
+        "scale": [
+          3.0190518411637894,
+          1.7310304275915271,
+          0.5246209335582347,
+          7.370605740352015,
+          1.894990461591687
+        ],
+        "intercept": -3.0984053676633625,
+        "coefficients": [
+          -0.012929421924814761,
+          -0.4118008806576544,
+          -0.08488083737957294,
+          0.08824215258210735,
+          -0.16378580044146893
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 748,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 138.79874382078788,
+          "final_gradient_inf_norm": 1.985117506454183e-08,
+          "parameter_l2_norm": 0.45996125677557204,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 138.9825220247645,
+              "gradient_inf_norm_before_step": 17.540667046795154,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 138.79959860023143,
+              "gradient_inf_norm_before_step": 2.6959217806695595,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 138.79874384603312,
+              "gradient_inf_norm_before_step": 0.1414128428987854,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 138.79874382078788,
+              "gradient_inf_norm_before_step": 0.0006800867323321921,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 138.79874382078788,
+              "gradient_inf_norm": 1.985117506454183e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9591790351837832,
+        "human_control_maximum": -2.0591790351837833,
+        "human_control_unique_windows": 472,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 90,
+        "pure_human_windows": 65,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 25,
+        "flagged_generated_windows": 0,
+        "narrative_units": 24,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 20514,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P09"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.76094281007025,
+          -4.68721537430979,
+          -8.47613523932092,
+          -2.8154309034340685,
+          -2.64061381246991
+        ],
+        "scale": [
+          3.070437916865816,
+          1.784143055374459,
+          0.523703728692903,
+          7.4155094690967935,
+          1.9205979835093612
+        ],
+        "intercept": -3.1268813483341047,
+        "coefficients": [
+          -0.039761118200160143,
+          -0.46045442041273893,
+          -0.0745890960727874,
+          0.07210595884240645,
+          -0.2004752753555715
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 789,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 6,
+          "final_objective": 145.26804712164153,
+          "final_gradient_inf_norm": 1.5414269151717026e-14,
+          "parameter_l2_norm": 0.514346535305322,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 145.56582145069996,
+              "gradient_inf_norm_before_step": 20.504829785386256,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 145.2700881536562,
+              "gradient_inf_norm_before_step": 3.5639951630194093,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 145.26804725636978,
+              "gradient_inf_norm_before_step": 0.22465651335298403,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 145.26804712164153,
+              "gradient_inf_norm_before_step": 0.001607764714214254,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 145.26804712164153,
+              "gradient_inf_norm_before_step": 1.090602678166519e-07,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 5,
+              "objective": 145.26804712164153,
+              "gradient_inf_norm": 1.5414269151717026e-14,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.8709132111369393,
+        "human_control_maximum": -1.9709132111369394,
+        "human_control_unique_windows": 493,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 12,
+        "pure_human_windows": 7,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 5,
+        "flagged_generated_windows": 0,
+        "narrative_units": 6,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 1930,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P10"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.639988837740814,
+          -4.726223804622218,
+          -8.518288914574713,
+          -3.3276916698820864,
+          -2.667776520576287
+        ],
+        "scale": [
+          3.079655026623814,
+          1.7034878473047685,
+          0.5,
+          7.273691577047485,
+          1.9022442186512845
+        ],
+        "intercept": -3.109001388308052,
+        "coefficients": [
+          -0.03901695915242768,
+          -0.44074849221098894,
+          -0.0637030117214851,
+          0.06325020900966499,
+          -0.16187449533987652
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 737,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 136.3020258797979,
+          "final_gradient_inf_norm": 3.03276049491573e-08,
+          "parameter_l2_norm": 0.47962857647502205,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 136.51473784543683,
+              "gradient_inf_norm_before_step": 18.518399248443924,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 136.30310732105124,
+              "gradient_inf_norm_before_step": 2.937884413978343,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 136.3020259185287,
+              "gradient_inf_norm_before_step": 0.16301809393034372,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 136.3020258797979,
+              "gradient_inf_norm_before_step": 0.0008590013001700973,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 136.3020258797979,
+              "gradient_inf_norm": 3.03276049491573e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9288440830167217,
+        "human_control_maximum": -2.028844083016722,
+        "human_control_unique_windows": 459,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 132,
+        "pure_human_windows": 109,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 23,
+        "flagged_generated_windows": 0,
+        "narrative_units": 25,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 17677,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P13"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.768239347887848,
+          -4.752523461057621,
+          -8.48051531463229,
+          -2.761449081467023,
+          -2.6503979008356064
+        ],
+        "scale": [
+          2.919934663455425,
+          1.7497237236862526,
+          0.5256056219423341,
+          7.346720027960475,
+          1.885183434021818
+        ],
+        "intercept": -3.1114324264618607,
+        "coefficients": [
+          -0.031923451743604045,
+          -0.44611351492101836,
+          -0.07971643551579945,
+          0.08966356000169826,
+          -0.1660224659540378
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 751,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 138.81938014599956,
+          "final_gradient_inf_norm": 4.0967400648984806e-08,
+          "parameter_l2_norm": 0.49192895650835017,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 139.04980964989846,
+              "gradient_inf_norm_before_step": 18.68289470096372,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 138.8206531773296,
+              "gradient_inf_norm_before_step": 2.9913137154152336,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 138.8193801980556,
+              "gradient_inf_norm_before_step": 0.17454351437189572,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 138.81938014599956,
+              "gradient_inf_norm_before_step": 0.0010082222379906433,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 138.81938014599956,
+              "gradient_inf_norm": 4.0967400648984806e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9074188370864769,
+        "human_control_maximum": -2.007418837086477,
+        "human_control_unique_windows": 467,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P17",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 5,
+        "papers": 1,
+        "windows": 68,
+        "pure_human_windows": 51,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 17,
+        "flagged_generated_windows": 0,
+        "narrative_units": 12,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 0,
+        "hit_sections": 0,
+        "generated_characters": 12332,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P17"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.632294631622786,
+          -4.7180820532059515,
+          -8.483444874771319,
+          -3.188889684952002,
+          -2.604978417372498
+        ],
+        "scale": [
+          3.0497196291841684,
+          1.7431641604322778,
+          0.5264189440510242,
+          7.330585850362104,
+          1.9092501004162736
+        ],
+        "intercept": -3.1219387243947723,
+        "coefficients": [
+          -0.04952178263033655,
+          -0.45106507861176676,
+          -0.08567931470083269,
+          0.10981206624219028,
+          -0.18675222576971237
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 744,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 137.093132287486,
+          "final_gradient_inf_norm": 7.001984634151433e-08,
+          "parameter_l2_norm": 0.5100864052176364,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 137.35790412127625,
+              "gradient_inf_norm_before_step": 19.0281964781667,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 137.09480124152614,
+              "gradient_inf_norm_before_step": 3.225868051376311,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 137.09313237689466,
+              "gradient_inf_norm_before_step": 0.19967454380324126,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 137.093132287486,
+              "gradient_inf_norm_before_step": 0.0013177879343340129,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 137.093132287486,
+              "gradient_inf_norm": 7.001984634151433e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.8216347452785666,
+        "human_control_maximum": -1.9216347452785667,
+        "human_control_unique_windows": 462,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P20",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 102,
+        "pure_human_windows": 83,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 19,
+        "flagged_generated_windows": 0,
+        "narrative_units": 19,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 13639,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P20"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.662748411016059,
+          -4.8078897135709635,
+          -8.496406623222521,
+          -3.5104712303570382,
+          -2.678265768687683
+        ],
+        "scale": [
+          3.0748859257539283,
+          1.7247262664447942,
+          0.5111135778224947,
+          7.241551811390009,
+          1.7516606632444374
+        ],
+        "intercept": -3.124699432423117,
+        "coefficients": [
+          -0.06190122462122052,
+          -0.46132353658132697,
+          -0.050393514257589214,
+          0.09736386154105832,
+          -0.19134134357313026
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 759,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 139.73618523026133,
+          "final_gradient_inf_norm": 7.186516609284133e-08,
+          "parameter_l2_norm": 0.515055244209101,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 140.0103845347997,
+              "gradient_inf_norm_before_step": 19.717046870741697,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 139.73786715975535,
+              "gradient_inf_norm_before_step": 3.3989401702291286,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 139.7361853211347,
+              "gradient_inf_norm_before_step": 0.20913131491584525,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 139.73618523026133,
+              "gradient_inf_norm_before_step": 0.0013490716020914126,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 139.73618523026133,
+              "gradient_inf_norm": 7.186516609284133e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.8133690484027545,
+        "human_control_maximum": -1.9133690484027546,
+        "human_control_unique_windows": 477,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P23",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 54,
+        "pure_human_windows": 35,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 19,
+        "flagged_generated_windows": 0,
+        "narrative_units": 18,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 10865,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P23"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P26",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.825279957117503,
+          -4.788062292029266,
+          -8.482495701012693,
+          -3.065010752145111,
+          -2.6418377859872653
+        ],
+        "scale": [
+          2.816421373579705,
+          1.7298332616514251,
+          0.5251424346661482,
+          7.341417687219615,
+          1.851830999802467
+        ],
+        "intercept": -3.0972663119782893,
+        "coefficients": [
+          0.020034293937010537,
+          -0.40327115046011225,
+          -0.07961117071896247,
+          0.08157616228141937,
+          -0.20907112439813863
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P26",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 729,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 135.23967349643834,
+          "final_gradient_inf_norm": 1.5052412587974942e-08,
+          "parameter_l2_norm": 0.46875616000207104,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 135.41517025318925,
+              "gradient_inf_norm_before_step": 16.701075432256708,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 135.2404296022452,
+              "gradient_inf_norm_before_step": 2.6120099083336186,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 135.23967351569246,
+              "gradient_inf_norm_before_step": 0.13426108756674512,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 135.23967349643834,
+              "gradient_inf_norm_before_step": 0.000597419372144795,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 135.23967349643834,
+              "gradient_inf_norm": 1.5052412587974942e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.9320871407845406,
+        "human_control_maximum": -2.0320871407845407,
+        "human_control_unique_windows": 448,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P26",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 121,
+        "pure_human_windows": 101,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 20,
+        "flagged_generated_windows": 0,
+        "narrative_units": 15,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 15849,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P26"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P28"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.616531699429775,
+          -4.78398778232822,
+          -8.487100567042194,
+          -3.2048183089632185,
+          -2.70141015768259
+        ],
+        "scale": [
+          3.0970612053621225,
+          1.7707625075175557,
+          0.5267180104580538,
+          7.3639766284176975,
+          1.7321088906443445
+        ],
+        "intercept": -3.111060806290081,
+        "coefficients": [
+          -0.03472055485411092,
+          -0.43892524196352734,
+          -0.07943226979769226,
+          0.10028777197389378,
+          -0.1773813553461888
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P28"
+        ],
+        "fit_unique_labelled_windows": 774,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 143.13288207702152,
+          "final_gradient_inf_norm": 4.0004623048797544e-08,
+          "parameter_l2_norm": 0.4916219613476094,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 143.3689123369366,
+              "gradient_inf_norm_before_step": 18.747157152642178,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 143.13416415765087,
+              "gradient_inf_norm_before_step": 3.049757865472836,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 143.13288212765622,
+              "gradient_inf_norm_before_step": 0.1787866073495935,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 143.13288207702152,
+              "gradient_inf_norm_before_step": 0.0010192487362092365,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 143.13288207702152,
+              "gradient_inf_norm": 4.0004623048797544e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.8795483134269182,
+        "human_control_maximum": -1.9795483134269183,
+        "human_control_unique_windows": 486,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P28"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 42,
+        "pure_human_windows": 29,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 13,
+        "flagged_generated_windows": 0,
+        "narrative_units": 11,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 5477,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    },
+    {
+      "held": [
+        "P28"
+      ],
+      "training": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26"
+      ],
+      "configuration": {
+        "id": "presence-linear-refit",
+        "models": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -6.658692028602659,
+          -4.824257946892481,
+          -8.522687473952058,
+          -3.3173762463869676,
+          -2.733120457572586
+        ],
+        "scale": [
+          3.0685481035791504,
+          1.7139396365081363,
+          0.5,
+          7.265595665082375,
+          1.862974591362105
+        ],
+        "intercept": -3.095837825933185,
+        "coefficients": [
+          -0.03378507969696078,
+          -0.41741949441344117,
+          -0.050744315446088616,
+          0.09036542396598653,
+          -0.16335559478158293
+        ],
+        "clip_probability": 1e-12,
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26"
+        ],
+        "fit_unique_labelled_windows": 726,
+        "optimization": {
+          "method": "damped Newton with exact Hessian and Armijo backtracking",
+          "converged": true,
+          "iterations": 5,
+          "final_objective": 134.75681983706352,
+          "final_gradient_inf_norm": 1.6057186469353724e-08,
+          "parameter_l2_norm": 0.4613094532649339,
+          "trace": [
+            {
+              "iteration": 0,
+              "objective": 134.93000776245995,
+              "gradient_inf_norm_before_step": 17.03446595825107,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 1,
+              "objective": 134.7575789927765,
+              "gradient_inf_norm_before_step": 2.553427289429909,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 2,
+              "objective": 134.7568198566823,
+              "gradient_inf_norm_before_step": 0.13238961570299085,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 3,
+              "objective": 134.75681983706352,
+              "gradient_inf_norm_before_step": 0.0005995664508178548,
+              "step_size": 1.0
+            },
+            {
+              "iteration": 4,
+              "objective": 134.75681983706352,
+              "gradient_inf_norm": 1.6057186469353724e-08,
+              "step_size": 0.0
+            }
+          ]
+        },
+        "regularization": 10.0,
+        "human_weight": 20.0,
+        "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+        "cutoff": -1.949739947972485,
+        "human_control_maximum": -2.049739947972485,
+        "human_control_unique_windows": 451,
+        "calibration_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P13",
+          "P17",
+          "P20",
+          "P23",
+          "P26"
+        ],
+        "margin": 0.1
+      },
+      "metrics": {
+        "documents": 6,
+        "papers": 1,
+        "windows": 163,
+        "pure_human_windows": 137,
+        "false_windows": 0,
+        "false_unique_hashes": 0,
+        "false_documents": 0,
+        "original_documents": 1,
+        "original_false_windows": 0,
+        "original_false_documents": 0,
+        "mixed_false_windows": 0,
+        "generated_windows": 26,
+        "flagged_generated_windows": 0,
+        "narrative_units": 26,
+        "hit_units": 0,
+        "unit_recall": 0.0,
+        "section_units": 1,
+        "hit_sections": 0,
+        "generated_characters": 18812,
+        "covered_generated_characters": 0,
+        "generated_character_coverage": 0.0,
+        "positive_window_generated_characters": 0,
+        "positive_window_human_characters": 0,
+        "positive_window_human_fraction": null,
+        "hit_ids": [],
+        "section_hit_ids": [],
+        "false_ids": [],
+        "flag_ids": []
+      }
+    }
+  ],
+  "diagnosis_sha256": "1273309f5ef6552ce24dee5e338933c52c6fbac6dfa422ff4724380f9645267f",
+  "calibration_positive_scores_used": false,
+  "acceptance_used": false,
+  "candidate_count": 2
+}

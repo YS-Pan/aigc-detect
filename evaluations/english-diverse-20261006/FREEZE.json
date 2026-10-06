@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-10-06T05:11:34.409539+00:00",
+  "files": {
+    "evaluations/english-diverse-20261006/campaign.json": "2f8a4df32223e1286232c6c8a58d3075bf43851e864c62f0c79f777f215f9f9b",
+    "evaluations/english-diverse-20261006/input-lock.json": "6fc47486512ad385bf2dc228e7d5dc115c0e840495e0edaa786b913269dff315",
+    "evaluations/english-diverse-20261006/inputs.json": "49b1b17e0590d790015e947c7f2859efad8cfb33269787c1da02c8a2289a0efe",
+    "evaluations/english-diverse-20261006/conversion-audit.json": "6cd02c72b6e0e46cad0833b312c0878b985fe77f2faa34868098aa45b6349821",
+    "evaluations/english-diverse-20261006/development-scores.json": "324cbf6de9377635ed6a0e09e0a62f81b91725de354813522e7620d284fc60a7",
+    "evaluations/english-diverse-20261006/baseline-diagnosis.json": "1273309f5ef6552ce24dee5e338933c52c6fbac6dfa422ff4724380f9645267f",
+    "evaluations/english-diverse-20261006/selection.json": "7d98d8168824f3334b808c042f1cf0efa5f4a018641631f9ba0564ac2cb5a3c6",
+    "evaluations/english-diverse-20261006/frozen-configurations.json": "3404f1a003bd967095ef1cdb041726177bd85396b1adc032d65c24d3769b9aeb",
+    "scripts/english_diverse_validation.py": "7db2afb099f3e81455e34865e878cf71970339f1417ec9fa99ed3ef7aaf5b836",
+    "scripts/english_diverse_corpus.py": "83cec6bebb302afb646ff4af3e72c9bc85c16ec9ef837e98af2d1ff8df9dc164",
+    "scripts/fit_fusion_v2.py": "ec3df135d2f377b91c77e05bf7f8a7ecca463f969bd17fd568ba8eefc69a74b4",
+    "aigc_detector/annotation.py": "fd02d908572989ba95d0d0f60746ecef421632acfdd14a3576773ae1f8214791",
+    "aigc_detector/engine.py": "4e81777ca2c5582325d7fd2b983c76ea56e7bc6e35dab5d8b8930af08b7b6f11",
+    "aigc_detector/fusion.py": "f66096fc051bed249215b0d5b2202da930004fe1fa0f5ad345f38973949835ef",
+    "aigc_detector/modeling.py": "394dd6484d7bcae24b96ccb309e7f0e102cb8ecffa3404628cb60ffbf415cb7e",
+    "aigc_detector/catalog.py": "35f1775d3d6e0f3412799f39bd3422f9ffb610d9740b7d271e24f2e209d746c0",
+    "aigc_detector/assets.py": "ea3954cf504cec8440615bc80d12346ca893550761c62b65da78166f950d9950",
+    "models/manifest.json": "3fac1bad9310bdbefd6b0b30f6b84f8777aa14b64e14952ca4651441d92c37fb",
+    "aigc_detector/profiles/english-academic-20261003-v2.json": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e"
+  },
+  "selected_id": "v2-human-calibration",
+  "acceptance_papers": [
+    "P12",
+    "P15",
+    "P16",
+    "P25",
+    "P29",
+    "P30"
+  ],
+  "no_training_base_or_head": true,
+  "default_changed": false
+}

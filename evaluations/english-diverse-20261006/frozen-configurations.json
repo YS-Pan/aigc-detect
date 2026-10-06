@@ -1,0 +1,221 @@
+{
+  "selected": {
+    "id": "v2-human-calibration",
+    "models": [
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    "cutoff": -2.215455746064517,
+    "human_control_maximum": -2.315455746064517,
+    "human_control_unique_windows": 721,
+    "calibration_papers": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P13",
+      "P14",
+      "P17",
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P26",
+      "P27",
+      "P28"
+    ],
+    "margin": 0.1
+  },
+  "candidates": {
+    "v2-human-calibration": {
+      "id": "v2-human-calibration",
+      "models": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "cutoff": -2.215455746064517,
+      "human_control_maximum": -2.315455746064517,
+      "human_control_unique_windows": 721,
+      "calibration_papers": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P13",
+        "P14",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P26",
+        "P27",
+        "P28"
+      ],
+      "margin": 0.1
+    },
+    "presence-linear-refit": {
+      "id": "presence-linear-refit",
+      "models": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "center": [
+        -6.694295876965674,
+        -4.748506624674044,
+        -8.49521971333148,
+        -3.2016643624657983,
+        -2.6689877275340694
+      ],
+      "scale": [
+        3.026400768837205,
+        1.7435020371616998,
+        0.5109830487060394,
+        7.3146268635652145,
+        1.8742851851725018
+      ],
+      "intercept": -3.112439407021995,
+      "coefficients": [
+        -0.03367726297355724,
+        -0.4417073337448075,
+        -0.06895497200507109,
+        0.08602528389760511,
+        -0.18146416826293896
+      ],
+      "clip_probability": 1e-12,
+      "fit_papers": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P13",
+        "P17",
+        "P20",
+        "P23",
+        "P26",
+        "P28"
+      ],
+      "fit_unique_labelled_windows": 797,
+      "optimization": {
+        "method": "damped Newton with exact Hessian and Armijo backtracking",
+        "converged": true,
+        "iterations": 5,
+        "final_objective": 147.35551942111655,
+        "final_gradient_inf_norm": 4.817513158061813e-08,
+        "parameter_l2_norm": 0.4912472989468551,
+        "trace": [
+          {
+            "iteration": 0,
+            "objective": 147.60233019463064,
+            "gradient_inf_norm_before_step": 19.562074284519653,
+            "step_size": 1.0
+          },
+          {
+            "iteration": 1,
+            "objective": 147.35692030916167,
+            "gradient_inf_norm_before_step": 3.206880094264256,
+            "step_size": 1.0
+          },
+          {
+            "iteration": 2,
+            "objective": 147.35551948217054,
+            "gradient_inf_norm_before_step": 0.18773119253728923,
+            "step_size": 1.0
+          },
+          {
+            "iteration": 3,
+            "objective": 147.35551942111655,
+            "gradient_inf_norm_before_step": 0.0011135397252271988,
+            "step_size": 1.0
+          },
+          {
+            "iteration": 4,
+            "objective": 147.35551942111655,
+            "gradient_inf_norm": 4.817513158061813e-08,
+            "step_size": 0.0
+          }
+        ]
+      },
+      "regularization": 10.0,
+      "human_weight": 20.0,
+      "runtime_features": "Pinned raw classifier scores only; no text, length, source or author features.",
+      "cutoff": -1.891527100331608,
+      "human_control_maximum": -1.9915271003316082,
+      "human_control_unique_windows": 721,
+      "calibration_papers": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P13",
+        "P14",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P26",
+        "P27",
+        "P28"
+      ],
+      "margin": 0.1
+    }
+  },
+  "baseline": {
+    "id": "baseline-v2",
+    "models": [
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    "cutoff": -2.3054557460645175
+  },
+  "note": "Experimental score-only parameters; not a registered deployment profile."
+}

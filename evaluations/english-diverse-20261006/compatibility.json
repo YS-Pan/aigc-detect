@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-06T05:13:47.129622+00:00",
+  "cross_cwd": "D:\\project",
+  "full_document_cli_checks": [
+    {
+      "id": "P14-original",
+      "segments": 13,
+      "max_raw_score_absolute_difference": 1.7136335372924805e-07,
+      "report_sha256": "6d20298b37a12432874d29ff0e7ae8348d3ec1a26dba06c7c31874139e76ca49",
+      "complete_sha256": "dbb6f90a7b84dce8f22c8564f056d6285eb7307852fdfdc47a5bee074868d762"
+    },
+    {
+      "id": "P14-paragraph_compress_restore-gpt-6-astra",
+      "segments": 13,
+      "max_raw_score_absolute_difference": 1.7136335372924805e-07,
+      "report_sha256": "6de8d648ecd4512753b38fb5ec25cb1eb5eda2e01accc02668681ec8eccff435",
+      "complete_sha256": "a4d28489c0e55eadecbaf02f1706864f0787fb319caca5c88a5a9b201f5d8a47"
+    }
+  ],
+  "raw_detect_default_four_models": true,
+  "annotate_default_five_models": true,
+  "cache_recombine": true,
+  "skill_sha256": "bb52ec440dccd48af12f916d787c16a91e6e723c73e87e16adac63046814eea0",
+  "contract_changed": false
+}

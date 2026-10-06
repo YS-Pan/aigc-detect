@@ -1,0 +1,2061 @@
+{
+  "scores": {
+    "004560b8385e8cc11a5ff23073da72fadfb417f3124b92164f1fc199d7708efb": {
+      "openai-base-en": 0.011796466074883938,
+      "openai-large-en": 0.02233755961060524,
+      "piratexx-en": 0.0001617119269212708,
+      "mage-en": 0.014435697346925735,
+      "radar-vicuna-en": 0.01769835129380226
+    },
+    "004a2e693aa55e45bf21f8d2f2feedf54266ea5daf85ddbd4433bce830618436": {
+      "openai-base-en": 0.011905841529369354,
+      "openai-large-en": 0.027696961537003517,
+      "piratexx-en": 0.00015549022646155208,
+      "mage-en": 0.00014647457282990217,
+      "radar-vicuna-en": 0.07904499769210815
+    },
+    "00b50cc6cf846a479d068f9236b7982262538d8a06c97c730a1b4834b163431c": {
+      "openai-base-en": 0.00017839099746197462,
+      "openai-large-en": 0.00046528561506420374,
+      "piratexx-en": 0.0001895190798677504,
+      "mage-en": 0.00011648311919998378,
+      "radar-vicuna-en": 0.013670163229107857
+    },
+    "00ce5b1eda34001925e876d3c65d5b726e4e632a80cbbd2041854968df58c797": {
+      "openai-base-en": 0.0006327125011011958,
+      "openai-large-en": 0.0006139789475128055,
+      "piratexx-en": 0.00016703571600373834,
+      "mage-en": 0.9995135068893433,
+      "radar-vicuna-en": 0.01605760119855404
+    },
+    "04415b19def26595ca4e271621f8625de2b36fb27be846bdb40893272aa526ec": {
+      "openai-base-en": 0.00018539147276896983,
+      "openai-large-en": 0.0014857066562399268,
+      "piratexx-en": 0.0001639095280552283,
+      "mage-en": 0.9994847774505615,
+      "radar-vicuna-en": 0.006321537308394909
+    },
+    "05b9a8ad42dbb8b5dbd980532e87edf3894676d3128a0fcaa4f6c83eafc14e16": {
+      "openai-base-en": 0.341118723154068,
+      "openai-large-en": 0.03427952900528908,
+      "piratexx-en": 0.0001751924428390339,
+      "mage-en": 0.012614390812814236,
+      "radar-vicuna-en": 0.07097607851028442
+    },
+    "05f1039d28a4fd5aa76567ac6aef97087d3723abd9655ad2f9146eb6d1d957f7": {
+      "openai-base-en": 0.00017822592053562403,
+      "openai-large-en": 0.001356910215690732,
+      "piratexx-en": 0.0001928197016241029,
+      "mage-en": 0.9976751208305359,
+      "radar-vicuna-en": 0.19705002009868622
+    },
+    "0618473b6ecf82a806dec30337cc60a0a7bcd681c35cdf949580bf605d26c338": {
+      "openai-base-en": 0.3677598834037781,
+      "openai-large-en": 0.26756906509399414,
+      "piratexx-en": 0.000740612915251404,
+      "mage-en": 0.0009871309157460928,
+      "radar-vicuna-en": 0.8311054110527039
+    },
+    "07496a09bb7681a73dffa7fdca8292e8f44e9d70c517b201280021bd32286b51": {
+      "openai-base-en": 0.010233483277261257,
+      "openai-large-en": 0.05671805143356323,
+      "piratexx-en": 0.0001991282479139045,
+      "mage-en": 0.00010413385462015867,
+      "radar-vicuna-en": 0.07874554395675659
+    },
+    "07d8acb2f713191f5672ccb986d12854d88881a22bfb30fd7435e5ce9bc2548c": {
+      "openai-base-en": 0.00017051682516466826,
+      "openai-large-en": 0.010079261846840382,
+      "piratexx-en": 0.00016009363753255457,
+      "mage-en": 0.9122107625007629,
+      "radar-vicuna-en": 0.06700560450553894
+    },
+    "0860f6db03ad6970492a8ccb4ef9447d9c0cb5d23a193b35d1a3e46a6accc7c6": {
+      "openai-base-en": 0.9988874793052673,
+      "openai-large-en": 0.04227932542562485,
+      "piratexx-en": 0.00024415363441221416,
+      "mage-en": 0.9959805011749268,
+      "radar-vicuna-en": 0.01608249731361866
+    },
+    "0978a4a4ec25f98fd7c858905040a5514d2cfa1aa70be8ddceb30384c3532978": {
+      "openai-base-en": 0.0002849775773938745,
+      "openai-large-en": 0.0018465161556378007,
+      "piratexx-en": 0.000213976702070795,
+      "mage-en": 9.733457409311086e-05,
+      "radar-vicuna-en": 0.033995870500802994
+    },
+    "0adb17ad1cd85ba1f9477e6f3a012a008a1c7c51751563652099ef34a3b20d5f": {
+      "openai-base-en": 0.0022702040150761604,
+      "openai-large-en": 0.16623379290103912,
+      "piratexx-en": 0.00016845845675561577,
+      "mage-en": 0.0003954650601372123,
+      "radar-vicuna-en": 0.14670537412166595
+    },
+    "0b2e04f99dc54665f7407683d1868daf8dc3ad97ad38a12855f11422e99ad882": {
+      "openai-base-en": 0.02386368066072464,
+      "openai-large-en": 0.04756760224699974,
+      "piratexx-en": 0.00016498299373779446,
+      "mage-en": 9.257354395231232e-05,
+      "radar-vicuna-en": 0.05530654266476631
+    },
+    "0bc16556b0a702a19583204b0c092add577211c1b3207b06320899ed404ed412": {
+      "openai-base-en": 0.9780510663986206,
+      "openai-large-en": 0.002967685228213668,
+      "piratexx-en": 0.00016415180289186537,
+      "mage-en": 0.0002471345942467451,
+      "radar-vicuna-en": 0.02605351060628891
+    },
+    "0c02ffd4a975790f2cf8f9b0f511c38dffe6c9704c0e0906835badf5c726a416": {
+      "openai-base-en": 0.0043128239922225475,
+      "openai-large-en": 0.003182400483638048,
+      "piratexx-en": 0.00015410102787427604,
+      "mage-en": 8.613122190581635e-05,
+      "radar-vicuna-en": 0.026443492621183395
+    },
+    "0c2585fa0d7b4278bd4b31af7a3fee58f1309c8c7b0adff0dc92f0c7ab5f7f70": {
+      "openai-base-en": 0.1822119653224945,
+      "openai-large-en": 0.004344481509178877,
+      "piratexx-en": 0.00016456788580399007,
+      "mage-en": 0.9997779726982117,
+      "radar-vicuna-en": 0.049350492656230927
+    },
+    "0e79357cae68aa56fdcb276a4f1f21a2a6a876105e7b1484ac9657bbcf9d9db7": {
+      "openai-base-en": 0.0017242726171389222,
+      "openai-large-en": 0.0008944361470639706,
+      "piratexx-en": 0.0001865104422904551,
+      "mage-en": 0.886793851852417,
+      "radar-vicuna-en": 0.04083939269185066
+    },
+    "103476e8f1813da39478c2afd43aa9cfb414bf7dbc05a4fa0211708b71b6a675": {
+      "openai-base-en": 0.0026511610485613346,
+      "openai-large-en": 0.028780803084373474,
+      "piratexx-en": 0.00019100046483799815,
+      "mage-en": 0.0013760409783571959,
+      "radar-vicuna-en": 0.03213096782565117
+    },
+    "108bed1db31e9a76663cfc8d56f295b6365ebd5dd9b34ade3f0c61599c8b10a5": {
+      "openai-base-en": 0.0013897239696234465,
+      "openai-large-en": 0.0012543114135041833,
+      "piratexx-en": 0.00015881586296018213,
+      "mage-en": 0.9999866485595703,
+      "radar-vicuna-en": 0.025323154404759407
+    },
+    "117bc9eda561205b8166c7850e7dfcfe062193be1defabbc7a6afc26a3f91d30": {
+      "openai-base-en": 0.09242497384548187,
+      "openai-large-en": 0.6492858529090881,
+      "piratexx-en": 0.0003418639535084367,
+      "mage-en": 0.0004716323164757341,
+      "radar-vicuna-en": 0.4357314109802246
+    },
+    "12f67076a35065930d91cbc80fa6236ca44ed6b5562c7f8d36f95f3f8033405c": {
+      "openai-base-en": 0.008708951063454151,
+      "openai-large-en": 0.006916619837284088,
+      "piratexx-en": 0.00016751069051679224,
+      "mage-en": 0.00012318015797063708,
+      "radar-vicuna-en": 0.03578997403383255
+    },
+    "14736f1b5449197e819022f794dca73bcbbd40ff44a8810f1278deca482ee06e": {
+      "openai-base-en": 0.005260859616100788,
+      "openai-large-en": 0.03710632398724556,
+      "piratexx-en": 0.0003064426127821207,
+      "mage-en": 0.9995658993721008,
+      "radar-vicuna-en": 0.34974730014801025
+    },
+    "15beb482cafc12b05f37b5a6a1157eaec52f5edf45fc2eb154b87d9a214e5d84": {
+      "openai-base-en": 0.00016990688163787127,
+      "openai-large-en": 0.0023618326522409916,
+      "piratexx-en": 0.00017640368605498224,
+      "mage-en": 0.010094573721289635,
+      "radar-vicuna-en": 0.08185935020446777
+    },
+    "15e8c4516ac4f532bb973cb2ad6aeb209347ff395bf29881b8d8d3a368552e3d": {
+      "openai-base-en": 0.00022153356985654682,
+      "openai-large-en": 0.0005334827583283186,
+      "piratexx-en": 0.0001717968116281554,
+      "mage-en": 4.144227932556532e-05,
+      "radar-vicuna-en": 0.014743789099156857
+    },
+    "16a9c8051f2ee3a9637e7b93596139d3f5cb14b790bd353a80af8ea7dfe63c1d": {
+      "openai-base-en": 0.00019761492148973048,
+      "openai-large-en": 0.0006744774873368442,
+      "piratexx-en": 0.00015129880921449512,
+      "mage-en": 0.00010704709711717442,
+      "radar-vicuna-en": 0.00876020360738039
+    },
+    "194b12c627da30561702e731c6c160d180c6d8058771d6350a453ec48a19dd01": {
+      "openai-base-en": 0.04813959822058678,
+      "openai-large-en": 0.014952191151678562,
+      "piratexx-en": 0.00016272446373477578,
+      "mage-en": 0.9891573190689087,
+      "radar-vicuna-en": 0.11619710177183151
+    },
+    "1b54367a2e654f80f39c5c4ba0382db1001062c9c4a9767ce9fabc4a097dbae6": {
+      "openai-base-en": 0.00017122588178608567,
+      "openai-large-en": 0.0023893723264336586,
+      "piratexx-en": 0.00019164662808179855,
+      "mage-en": 0.9536387324333191,
+      "radar-vicuna-en": 0.019038863480091095
+    },
+    "1b833a2c59bf10ed645cc21afe34f75aa59536b6ea191bbb8f349f2f93e1bc08": {
+      "openai-base-en": 0.00021602622291538864,
+      "openai-large-en": 0.0005836705677211285,
+      "piratexx-en": 0.00015825049194972962,
+      "mage-en": 3.061223469558172e-05,
+      "radar-vicuna-en": 0.01999509148299694
+    },
+    "1bcb6fe167f3ea893304f26575ab45c97ec7eea7d2a593c10547867332af5d03": {
+      "openai-base-en": 0.0003297025978099555,
+      "openai-large-en": 0.045970309525728226,
+      "piratexx-en": 0.00015032927331048995,
+      "mage-en": 0.0007973379688337445,
+      "radar-vicuna-en": 0.08393532782793045
+    },
+    "1bcf85d8384652203f8ae2d07f1498bce790fc8ecfb93e758f1aec7fa6394cdf": {
+      "openai-base-en": 0.0002713319845497608,
+      "openai-large-en": 0.0012123833876103163,
+      "piratexx-en": 0.00017262619803659618,
+      "mage-en": 5.7181212469004095e-05,
+      "radar-vicuna-en": 0.09208711981773376
+    },
+    "1c3653b968ab825b6c308c5e74ae8a4e7ca964c8f0e104611ab5a4e6d17d1314": {
+      "openai-base-en": 0.21229423582553864,
+      "openai-large-en": 0.012059930711984634,
+      "piratexx-en": 0.00016973234596662223,
+      "mage-en": 0.00011511094635352492,
+      "radar-vicuna-en": 0.06025860086083412
+    },
+    "1cddba6cfa1feab3893457d57c80e058f5905a60864556d369990e35e487e12c": {
+      "openai-base-en": 0.00023320363834500313,
+      "openai-large-en": 0.03269550949335098,
+      "piratexx-en": 0.00016815720300655812,
+      "mage-en": 0.9999672174453735,
+      "radar-vicuna-en": 0.017494823783636093
+    },
+    "1d57036e139eb4491b4e7329681bfa79a05dc1df0731f12c6722b621d58f30b5": {
+      "openai-base-en": 0.9896794557571411,
+      "openai-large-en": 0.01809086464345455,
+      "piratexx-en": 0.00026368771796114743,
+      "mage-en": 0.0076422966085374355,
+      "radar-vicuna-en": 0.3141671121120453
+    },
+    "1da69c0c9956feb1de02eea414a9ef782e6eb463870b522b3603b73f3236d194": {
+      "openai-base-en": 0.004475160501897335,
+      "openai-large-en": 0.04828744754195213,
+      "piratexx-en": 0.00019819290901068598,
+      "mage-en": 0.0001983324036700651,
+      "radar-vicuna-en": 0.1835872232913971
+    },
+    "1df453abf02a02534c1e2719911f082ad7202d9c981dca96a4c2542b1ed80156": {
+      "openai-base-en": 0.07034419476985931,
+      "openai-large-en": 0.015505482442677021,
+      "piratexx-en": 0.00017067721637431532,
+      "mage-en": 0.0019204216077923775,
+      "radar-vicuna-en": 0.020982369780540466
+    },
+    "1df66ca332fb00cb94f689c5ba67bed90cc98ad3d61deae913a4db6c71d4cb04": {
+      "openai-base-en": 0.0001944887189893052,
+      "openai-large-en": 0.018332546576857567,
+      "piratexx-en": 0.0002454850764479488,
+      "mage-en": 0.9948374629020691,
+      "radar-vicuna-en": 0.013500332832336426
+    },
+    "1e14cb25e34f3d7c863e6d1dccbd380f238b64428d458173ee3b0dfeda193594": {
+      "openai-base-en": 0.00023002788657322526,
+      "openai-large-en": 0.000643076142296195,
+      "piratexx-en": 0.0001573978370288387,
+      "mage-en": 0.00021086193737573922,
+      "radar-vicuna-en": 0.011353024281561375
+    },
+    "1ea3aea4ef57021406c3f7bfe7851f40c485d943c82441f7eb55fdaf6e8b1a31": {
+      "openai-base-en": 0.7968761324882507,
+      "openai-large-en": 0.14990144968032837,
+      "piratexx-en": 0.00021989800734445453,
+      "mage-en": 9.242606756743044e-05,
+      "radar-vicuna-en": 0.07845883816480637
+    },
+    "211fa6c85cd4799a552479eb9980f6ddc69e5ef2c89511e807734cf949094d1a": {
+      "openai-base-en": 0.9869459271430969,
+      "openai-large-en": 0.22256016731262207,
+      "piratexx-en": 0.00039033545181155205,
+      "mage-en": 0.9998369216918945,
+      "radar-vicuna-en": 0.5128390192985535
+    },
+    "21efc525fdfa25d82be397bdad9935df4b1af2d17ee5c6246d69433870ca2dd2": {
+      "openai-base-en": 0.00017591239884495735,
+      "openai-large-en": 0.002018206985667348,
+      "piratexx-en": 0.00016606951248832047,
+      "mage-en": 4.11872097174637e-05,
+      "radar-vicuna-en": 0.01127761509269476
+    },
+    "24011518cff513ac3c1c68b19ee5b1c7caf0bc270218d5e76f43bf4a50331d31": {
+      "openai-base-en": 0.00020273687550798059,
+      "openai-large-en": 0.005848712753504515,
+      "piratexx-en": 0.00023768513347022235,
+      "mage-en": 0.0007973287720233202,
+      "radar-vicuna-en": 0.06795620173215866
+    },
+    "24a527e40792b88f0d0e99c7ab055d12e2b16472511ec519a896e80c769e11ba": {
+      "openai-base-en": 0.010066928341984749,
+      "openai-large-en": 0.003126098308712244,
+      "piratexx-en": 0.00014375359751284122,
+      "mage-en": 0.0002641494502313435,
+      "radar-vicuna-en": 0.018451595678925514
+    },
+    "255150363aad69aca155aab3999bbd9669c1b553becb988b757b93224f3e7d3d": {
+      "openai-base-en": 0.0001720873115118593,
+      "openai-large-en": 0.001221948186866939,
+      "piratexx-en": 0.00016458358732052147,
+      "mage-en": 0.955156683921814,
+      "radar-vicuna-en": 0.023268884047865868
+    },
+    "25fae7477d5862a4ba3a7656c9e3986945b38c1e1125e26474f50e63ca0977fd": {
+      "openai-base-en": 0.0004185663419775665,
+      "openai-large-en": 0.004006432369351387,
+      "piratexx-en": 0.00015659841301385313,
+      "mage-en": 0.0004238964756950736,
+      "radar-vicuna-en": 0.016151510179042816
+    },
+    "267482af1a214f3e2343adf97600d17efb51f8a736a9c64adee68f547140bfe3": {
+      "openai-base-en": 0.000281642860500142,
+      "openai-large-en": 0.0009197723120450974,
+      "piratexx-en": 0.00016573256289120764,
+      "mage-en": 0.000614245655015111,
+      "radar-vicuna-en": 0.02955573983490467
+    },
+    "26ed543e1d5d57b5cd9660216af4aa4341396708c549d13e136622dffcb6e003": {
+      "openai-base-en": 0.00029016417101956904,
+      "openai-large-en": 0.002300431951880455,
+      "piratexx-en": 0.00020823760132770985,
+      "mage-en": 0.0001347863144474104,
+      "radar-vicuna-en": 0.04640723392367363
+    },
+    "26f488424805668593ac3364df2a3100c6beeb660ee4e941100ac82d23dc611d": {
+      "openai-base-en": 0.00022278609685599804,
+      "openai-large-en": 0.006263419985771179,
+      "piratexx-en": 0.000414208130678162,
+      "mage-en": 0.9997941851615906,
+      "radar-vicuna-en": 0.1406862735748291
+    },
+    "26f79544504d651ba4e3b359fa390ef409e7f569567ada2ef8086a5cca21443b": {
+      "openai-base-en": 0.03552643582224846,
+      "openai-large-en": 0.09966039657592773,
+      "piratexx-en": 0.00019044110376853496,
+      "mage-en": 0.9899966716766357,
+      "radar-vicuna-en": 0.09016811102628708
+    },
+    "28ece1577faa22f5a23c91868eb57a0d994e640892c09b0d87296ac8c89a0857": {
+      "openai-base-en": 0.000174041444552131,
+      "openai-large-en": 0.0012140949256718159,
+      "piratexx-en": 0.00019578686624299735,
+      "mage-en": 0.9999799728393555,
+      "radar-vicuna-en": 0.06032460927963257
+    },
+    "29dafc0becb37ecf3ee92d96124c657c6ca6da94ae08a271ccc33f8875f74c4e": {
+      "openai-base-en": 0.00017742475029081106,
+      "openai-large-en": 0.0007901681819930673,
+      "piratexx-en": 0.0001812026894185692,
+      "mage-en": 0.0004306317714508623,
+      "radar-vicuna-en": 0.027782538905739784
+    },
+    "2a1fd8ff222353c7e63149cf1305cbdf00578d26fa5361409008a6c6f8fd564c": {
+      "openai-base-en": 0.00016894118743948638,
+      "openai-large-en": 0.0008546342724002898,
+      "piratexx-en": 0.00022149684082251042,
+      "mage-en": 0.9997523427009583,
+      "radar-vicuna-en": 0.0165664404630661
+    },
+    "2a5d5c722c04044402e0e442ed84fb1add3377ce8bdf6248acf34aacbb81f3ad": {
+      "openai-base-en": 0.0001968350843526423,
+      "openai-large-en": 0.006035501603037119,
+      "piratexx-en": 0.0002126783801941201,
+      "mage-en": 0.004282535519450903,
+      "radar-vicuna-en": 0.14182673394680023
+    },
+    "2c006ffc9ea85141e0dd152eec23a0fac07b41f6766551843259ece0f8d460ef": {
+      "openai-base-en": 0.0007149714510887861,
+      "openai-large-en": 0.008321254514157772,
+      "piratexx-en": 0.00016803762991912663,
+      "mage-en": 6.638080958509818e-05,
+      "radar-vicuna-en": 0.12351987510919571
+    },
+    "2c13ddaac1bc6623f437fc57fd7722c5076417636142cf9d96ddceb6a618b9d3": {
+      "openai-base-en": 0.00021215765445958823,
+      "openai-large-en": 0.0009797505335882306,
+      "piratexx-en": 0.00023413894814439118,
+      "mage-en": 3.71116038877517e-05,
+      "radar-vicuna-en": 0.01991695910692215
+    },
+    "2c1d0f0ec2ddf6eb0ff380f3d0c8ffcfbbcf3c7e832dbfdae97c25984bcb1256": {
+      "openai-base-en": 0.00020303476776462048,
+      "openai-large-en": 0.011520149186253548,
+      "piratexx-en": 0.00014758184261154383,
+      "mage-en": 0.024659087881445885,
+      "radar-vicuna-en": 0.03026949055492878
+    },
+    "2d9741fa22666db8512b35efa8ef40d3bfc86c49e52706733b56db4146450178": {
+      "openai-base-en": 0.00017244966875296086,
+      "openai-large-en": 0.005899547133594751,
+      "piratexx-en": 0.00017531760386191308,
+      "mage-en": 0.0054426658898591995,
+      "radar-vicuna-en": 0.016798008233308792
+    },
+    "2e26a458d3b923ab7032924e8614a931908322a0d57dfde7e7083b3628dd84fe": {
+      "openai-base-en": 0.0001698584674159065,
+      "openai-large-en": 0.0034488015808165073,
+      "piratexx-en": 0.0001639856636757031,
+      "mage-en": 0.00034097503521479666,
+      "radar-vicuna-en": 0.04627148434519768
+    },
+    "2e8e5942005c824076dfd35ce55ef0141289950f1dd1d305123b2f8e1eff30e8": {
+      "openai-base-en": 0.0021872594952583313,
+      "openai-large-en": 0.0757172703742981,
+      "piratexx-en": 0.00041169734322465956,
+      "mage-en": 0.9999719858169556,
+      "radar-vicuna-en": 0.24937602877616882
+    },
+    "3152a8482704f4868bea787e6fe3ae676a21d9f790f84b42447af8449e1c3773": {
+      "openai-base-en": 0.0003380464331712574,
+      "openai-large-en": 0.0009774165228009224,
+      "piratexx-en": 0.00015656379400752485,
+      "mage-en": 8.767371764406562e-05,
+      "radar-vicuna-en": 0.014112558215856552
+    },
+    "315cda12f7213face2b9fb1c6a9006d64b63f2b75a0fe89a86c2821a18236e11": {
+      "openai-base-en": 0.07915817201137543,
+      "openai-large-en": 0.0389188751578331,
+      "piratexx-en": 0.00016442922060377896,
+      "mage-en": 0.002282001543790102,
+      "radar-vicuna-en": 0.09714623540639877
+    },
+    "316f7be4a1ef1a3fa03acdbcaeb3a067b29b306e2b23c6cdafcd61ba0f0b009f": {
+      "openai-base-en": 0.0028865982312709093,
+      "openai-large-en": 0.004520530812442303,
+      "piratexx-en": 0.0002890040341299027,
+      "mage-en": 0.9982360601425171,
+      "radar-vicuna-en": 0.01702595315873623
+    },
+    "3343c2aea13a1275d4eae4214ad0747fb5613345874f2299ec530ad65dd30af9": {
+      "openai-base-en": 0.00028392451349645853,
+      "openai-large-en": 0.007003241218626499,
+      "piratexx-en": 0.0001826976367738098,
+      "mage-en": 0.985366940498352,
+      "radar-vicuna-en": 0.010285159572958946
+    },
+    "3356dceef43cf509dafd5de98e1fdea6c402442bf78a0ed6dca2a396ff1ee1ac": {
+      "openai-base-en": 0.9997889399528503,
+      "openai-large-en": 0.06596407294273376,
+      "piratexx-en": 0.011586190201342106,
+      "mage-en": 0.9998699426651001,
+      "radar-vicuna-en": 0.06700155884027481
+    },
+    "35b556ef38ea79cf02e08d1c502bb361ce1b1b4a96bd3fffb1e52a393da2e5e0": {
+      "openai-base-en": 0.0001742820895742625,
+      "openai-large-en": 0.0008286064257845283,
+      "piratexx-en": 0.00018197803001385182,
+      "mage-en": 3.3352614991599694e-05,
+      "radar-vicuna-en": 0.025669585913419724
+    },
+    "36f1c47cf2bba6ad7bece52ae0e22f6b8de63525ca4b46284dfc2856f1c29f2f": {
+      "openai-base-en": 0.021897658705711365,
+      "openai-large-en": 0.04015974700450897,
+      "piratexx-en": 0.0002397476346231997,
+      "mage-en": 0.999985933303833,
+      "radar-vicuna-en": 0.042469002306461334
+    },
+    "38791fd92a85fc5e8b63bdfb803509459ef6a0ef0d5ca9e32dca51a5276594fb": {
+      "openai-base-en": 0.7293993830680847,
+      "openai-large-en": 0.009550915099680424,
+      "piratexx-en": 0.0002042253181571141,
+      "mage-en": 0.0004648969625122845,
+      "radar-vicuna-en": 0.16312715411186218
+    },
+    "38e9826d8c26494d904a341ca9f4e1da9e7628a2db06f28e3df2e286e4140d11": {
+      "openai-base-en": 0.39287903904914856,
+      "openai-large-en": 0.06489440053701401,
+      "piratexx-en": 0.00015511794481426477,
+      "mage-en": 0.9927558302879333,
+      "radar-vicuna-en": 0.02696472406387329
+    },
+    "3922003610189c63431718537587e058fab6ac1524206885094bf495ae64c2e2": {
+      "openai-base-en": 0.06966064125299454,
+      "openai-large-en": 0.006987838074564934,
+      "piratexx-en": 0.0003601458156481385,
+      "mage-en": 0.9999338388442993,
+      "radar-vicuna-en": 0.013430813327431679
+    },
+    "39fa67f8a1a2ab66414aac74dc96236623f4e812bf928fb4ecf9cd786ee362b8": {
+      "openai-base-en": 0.020917778834700584,
+      "openai-large-en": 0.005073995795100927,
+      "piratexx-en": 0.00015195693413261324,
+      "mage-en": 0.0034174348693341017,
+      "radar-vicuna-en": 0.010564755648374557
+    },
+    "3b350571ee2285b7e0b458752f902ad6b94d703ec5cea036a44ecdb09ae77ddd": {
+      "openai-base-en": 0.00033909225021488965,
+      "openai-large-en": 0.0006684907712042332,
+      "piratexx-en": 0.00016102568770293146,
+      "mage-en": 5.169399446458556e-05,
+      "radar-vicuna-en": 0.013142009265720844
+    },
+    "3ce30da147719929618b1011861dfd36d136effc45220d897171697b37a71ce7": {
+      "openai-base-en": 0.0004826258518733084,
+      "openai-large-en": 0.000808467622846365,
+      "piratexx-en": 0.00015027452900540084,
+      "mage-en": 0.00012728992442134768,
+      "radar-vicuna-en": 0.03380529582500458
+    },
+    "3f7d4e3b07c7855bfdf9e10c2364914a661004a2417bcd1dab8c3f14d37df0cb": {
+      "openai-base-en": 0.0007187520386651158,
+      "openai-large-en": 0.0013576489873230457,
+      "piratexx-en": 0.00015973500558175147,
+      "mage-en": 0.9999790191650391,
+      "radar-vicuna-en": 0.025214577093720436
+    },
+    "3ff09e03f4567d97b1afbdf0279d64d76a001ca0842801167c557cd24d103531": {
+      "openai-base-en": 0.00017621120787225664,
+      "openai-large-en": 0.00046396840480156243,
+      "piratexx-en": 0.00019083081861026585,
+      "mage-en": 3.91118555853609e-05,
+      "radar-vicuna-en": 0.02408650703728199
+    },
+    "401fd86d8ca26dd2a1d664bfa46dca3e5013dc714f06421d3714d54e3f04a2ed": {
+      "openai-base-en": 0.002220350783318281,
+      "openai-large-en": 0.03647194802761078,
+      "piratexx-en": 0.00018139836902264506,
+      "mage-en": 0.999893307685852,
+      "radar-vicuna-en": 0.006827769335359335
+    },
+    "446ed16acfd82ef74d9f41dfad2709d03fe4dc949fba692e23d78bca5fe60e9f": {
+      "openai-base-en": 0.006463487166911364,
+      "openai-large-en": 0.026271013543009758,
+      "piratexx-en": 0.00015092288958840072,
+      "mage-en": 3.350675251567736e-05,
+      "radar-vicuna-en": 0.023878714069724083
+    },
+    "454fdbda07a13f99cb6965dee8fc71cd9ead528aebd2f9b1defffbbfc7c0f81d": {
+      "openai-base-en": 0.001848992775194347,
+      "openai-large-en": 0.016803694888949394,
+      "piratexx-en": 0.0003113914863206446,
+      "mage-en": 0.9996023774147034,
+      "radar-vicuna-en": 0.32540279626846313
+    },
+    "4626c23b1958b6dd637dff83d590ac128cb81e24d582a49a324e135185c4f560": {
+      "openai-base-en": 0.000294413766823709,
+      "openai-large-en": 0.007792956195771694,
+      "piratexx-en": 0.0001750922529026866,
+      "mage-en": 9.082577162189409e-05,
+      "radar-vicuna-en": 0.023361973464488983
+    },
+    "471794708403323f06f0b4f2274f6345af6347603cbc819b5f2980b8efde2267": {
+      "openai-base-en": 0.0007925988757051528,
+      "openai-large-en": 0.0005458840169012547,
+      "piratexx-en": 0.0001985676062759012,
+      "mage-en": 0.9998403787612915,
+      "radar-vicuna-en": 0.025198616087436676
+    },
+    "47bc61b7ade141bae71e2e08d7cd40757176665dae43ca433a33b5c2b4ac540b": {
+      "openai-base-en": 0.011121588759124279,
+      "openai-large-en": 0.02580949477851391,
+      "piratexx-en": 0.00016195682110264897,
+      "mage-en": 0.9765584468841553,
+      "radar-vicuna-en": 0.006005058530718088
+    },
+    "47cdb285d8a433928b767ddc93204b35620fc59867c10d09fc7b37297aeb3692": {
+      "openai-base-en": 0.05511246249079704,
+      "openai-large-en": 0.06498879194259644,
+      "piratexx-en": 0.00029840279603376985,
+      "mage-en": 0.027086913585662842,
+      "radar-vicuna-en": 0.7483550906181335
+    },
+    "48a73ab5f5fe23c75aef0b5df7ec3cfbf875dc64be9913881898dbc2e0bdc19a": {
+      "openai-base-en": 0.00020761051564477384,
+      "openai-large-en": 0.0006419564015232027,
+      "piratexx-en": 0.0001618956885067746,
+      "mage-en": 0.9997177720069885,
+      "radar-vicuna-en": 0.02219093032181263
+    },
+    "4a2ef6b3f665bbf748d53d382562c5111229bd48db573ff2958af39ecb77313a": {
+      "openai-base-en": 0.00017259657033719122,
+      "openai-large-en": 0.0007930317078717053,
+      "piratexx-en": 0.00019271307974122465,
+      "mage-en": 0.9944209456443787,
+      "radar-vicuna-en": 0.015002426691353321
+    },
+    "4a507e5405699b2494c07c37107b00d93089552b5cc225a25e7527f5c74f74c5": {
+      "openai-base-en": 0.00024222637875936925,
+      "openai-large-en": 0.0006337433005683124,
+      "piratexx-en": 0.000249662552960217,
+      "mage-en": 0.11070610582828522,
+      "radar-vicuna-en": 0.1209627017378807
+    },
+    "4b221041d8e0e543b596cbf4e2cb0bd1b86e5229f5bf225e1466be6bc65289fd": {
+      "openai-base-en": 0.00019961032376158983,
+      "openai-large-en": 0.047115031629800797,
+      "piratexx-en": 0.00017234511324204504,
+      "mage-en": 0.0007672112551517785,
+      "radar-vicuna-en": 0.1758263111114502
+    },
+    "4e2c9be10bb7776ef211c6ca7b56783dfd01d72bab18d29dfbbd6966c65b8e26": {
+      "openai-base-en": 0.0003944188356399536,
+      "openai-large-en": 0.0034018640872091055,
+      "piratexx-en": 0.00017885921988636255,
+      "mage-en": 0.09505698829889297,
+      "radar-vicuna-en": 0.07544302940368652
+    },
+    "4e372e37f90d20891c35cf6cbe80e9c84c68d23a930ec0aeca7fddcb646842b7": {
+      "openai-base-en": 0.08197742700576782,
+      "openai-large-en": 0.042178183794021606,
+      "piratexx-en": 0.00020239308651071042,
+      "mage-en": 0.9778792262077332,
+      "radar-vicuna-en": 0.3970600366592407
+    },
+    "4f68ecea6b11892bf692a146479cc560bb9b6eee5eebe8bb3e3d0f60aaaa7043": {
+      "openai-base-en": 0.0002988794294651598,
+      "openai-large-en": 0.0004710670909844339,
+      "piratexx-en": 0.00017021418898366392,
+      "mage-en": 6.464557372964919e-05,
+      "radar-vicuna-en": 0.0038123095873743296
+    },
+    "5025ed70712a5461c50cc36ffbeb062ef48a0ebdca8f37dcd419cce2bd8a0701": {
+      "openai-base-en": 0.0002996866242028773,
+      "openai-large-en": 0.0009123551426455379,
+      "piratexx-en": 0.00019046853412874043,
+      "mage-en": 6.59570432617329e-05,
+      "radar-vicuna-en": 0.0354170985519886
+    },
+    "5204826f34faa6d5de348228e7bd84a938872e69eafed68fa7d118a77e322cbc": {
+      "openai-base-en": 0.0009587954846210778,
+      "openai-large-en": 0.004255673848092556,
+      "piratexx-en": 0.00016006737132556736,
+      "mage-en": 0.00010136165656149387,
+      "radar-vicuna-en": 0.020355360582470894
+    },
+    "53765bd17b28f060ccc1d314f021fab16d29d32c67162b4f25b872cec1bddcc7": {
+      "openai-base-en": 0.0007566509884782135,
+      "openai-large-en": 0.000853008299600333,
+      "piratexx-en": 0.00022752227960154414,
+      "mage-en": 0.050173547118902206,
+      "radar-vicuna-en": 0.023396922275424004
+    },
+    "545ba63f19791e7e6535b60c0bf6f8b67e3fd4b5b92133a358bf88528d100875": {
+      "openai-base-en": 0.0010112825548276305,
+      "openai-large-en": 0.0005360180512070656,
+      "piratexx-en": 0.00031710011535324156,
+      "mage-en": 0.00027232433785684407,
+      "radar-vicuna-en": 0.02859639935195446
+    },
+    "547e54bf9abffd8a6f4b8f4d41bdd1b339e59e984366782d4797bac967b5b535": {
+      "openai-base-en": 0.00018451694631949067,
+      "openai-large-en": 0.00045704899821430445,
+      "piratexx-en": 0.00015412246284540743,
+      "mage-en": 6.329440657282248e-05,
+      "radar-vicuna-en": 0.01187988556921482
+    },
+    "54abce570d539941656b67b24395e488a16ef95300af799f4789dcf43e5592e1": {
+      "openai-base-en": 0.00017170787032227963,
+      "openai-large-en": 0.0006077668513171375,
+      "piratexx-en": 0.00015750128659419715,
+      "mage-en": 9.359914110973477e-05,
+      "radar-vicuna-en": 0.05280764028429985
+    },
+    "54f8111da3efaf8d6f7d7b11500281a2e52cf3a48d41c1a82c2ddd3f4188bbda": {
+      "openai-base-en": 0.056388501077890396,
+      "openai-large-en": 0.12619566917419434,
+      "piratexx-en": 0.00016398487787228078,
+      "mage-en": 0.0007092870655469596,
+      "radar-vicuna-en": 0.03546057268977165
+    },
+    "5578f02ef73d29a39e7b5d11d81a4077aa707dbbbc7c776eee5fba5a893f6406": {
+      "openai-base-en": 0.00017148011829704046,
+      "openai-large-en": 0.0006193940062075853,
+      "piratexx-en": 0.00015731561870779842,
+      "mage-en": 0.9999798536300659,
+      "radar-vicuna-en": 0.025665894150733948
+    },
+    "560b1668181ac6c409eb2a2f6c3c6ded19ee7d5e05e11bd4abc4b84c657b7f9d": {
+      "openai-base-en": 0.00022311302018351853,
+      "openai-large-en": 0.0017883622786030173,
+      "piratexx-en": 0.0001663423900026828,
+      "mage-en": 0.0002599300642032176,
+      "radar-vicuna-en": 0.018185239285230637
+    },
+    "573fbe675becafe7299173138043fa2010d28bcab14f49b71c20600cfe951978": {
+      "openai-base-en": 0.0013126907870173454,
+      "openai-large-en": 0.014373403042554855,
+      "piratexx-en": 0.00015516912390012294,
+      "mage-en": 0.9852170348167419,
+      "radar-vicuna-en": 0.02853558585047722
+    },
+    "582f5d0a83516036b66c8e6184e680dac874278b6111ad92763a3decfd33d74f": {
+      "openai-base-en": 0.0010136940982192755,
+      "openai-large-en": 0.0014471670147031546,
+      "piratexx-en": 0.0007277437835000455,
+      "mage-en": 0.9730554819107056,
+      "radar-vicuna-en": 0.11795654147863388
+    },
+    "5846e0f134b6cb418d4126dae572a7a0ade8d62adfe86d7c59ae033f53a9f04d": {
+      "openai-base-en": 0.9010207653045654,
+      "openai-large-en": 0.0334283821284771,
+      "piratexx-en": 0.0002515616361051798,
+      "mage-en": 0.0007381190080195665,
+      "radar-vicuna-en": 0.7193926572799683
+    },
+    "58ea66f8c28ba493a9434236711804b3740055bf861ba8d98164c90cbf31d3de": {
+      "openai-base-en": 0.00019854695710819215,
+      "openai-large-en": 0.0008726539672352374,
+      "piratexx-en": 0.00014903915871400386,
+      "mage-en": 0.00022978830384090543,
+      "radar-vicuna-en": 0.027034299448132515
+    },
+    "59f68e338d576dd6bc23958576d73b971fe462aef6ac0e9fe45e33f87c871156": {
+      "openai-base-en": 0.061756353825330734,
+      "openai-large-en": 0.02666260488331318,
+      "piratexx-en": 0.00017171080980915576,
+      "mage-en": 0.00168523786123842,
+      "radar-vicuna-en": 0.06446877866983414
+    },
+    "5a2c4afecc94a5dededb895071e321fff2c6f95a02cd505e0eba39d9606971c0": {
+      "openai-base-en": 0.00017012169701047242,
+      "openai-large-en": 0.05218111351132393,
+      "piratexx-en": 0.00019699314725585282,
+      "mage-en": 7.112065213732421e-05,
+      "radar-vicuna-en": 0.05243174731731415
+    },
+    "5ad0d6121104da896ce705240daa1d5227643eae2aa5040101bad8207d8eec1a": {
+      "openai-base-en": 0.00022105799871496856,
+      "openai-large-en": 0.0010752042289823294,
+      "piratexx-en": 0.00014878783258609474,
+      "mage-en": 0.0007035140297375619,
+      "radar-vicuna-en": 0.07433191686868668
+    },
+    "5b6855aad6e61eae08f8733b9f8b592d8ce059960a7f36c6c7c07e6b1779642b": {
+      "openai-base-en": 0.00019878565217368305,
+      "openai-large-en": 0.0012095972197130322,
+      "piratexx-en": 0.00015945710765663534,
+      "mage-en": 0.9982011318206787,
+      "radar-vicuna-en": 0.030209658667445183
+    },
+    "5bb0fd3def7da1310c5fb30ece2af1ab6e919308847db29ec763a893bcca9fce": {
+      "openai-base-en": 0.06828892230987549,
+      "openai-large-en": 0.02364075742661953,
+      "piratexx-en": 0.00017411961744073778,
+      "mage-en": 0.9959771037101746,
+      "radar-vicuna-en": 0.03724493458867073
+    },
+    "5d6482f15a135cb907467a63a1771ac46fe08c60673830b5b21be0b0b02c694e": {
+      "openai-base-en": 0.0002452167682349682,
+      "openai-large-en": 0.0403142087161541,
+      "piratexx-en": 0.00015207723481580615,
+      "mage-en": 0.0007979449001140893,
+      "radar-vicuna-en": 0.08104795962572098
+    },
+    "5f49d3a377d541f6a8227e4ddae5d1dab6054699aa236956487dcce25786c8e3": {
+      "openai-base-en": 0.06802371889352798,
+      "openai-large-en": 0.018730686977505684,
+      "piratexx-en": 0.00020692437828984112,
+      "mage-en": 0.9997355341911316,
+      "radar-vicuna-en": 0.03642335906624794
+    },
+    "5fc5f8f88c39fc1d7f5b37ab4eeeed6dec944f24613e85747f5c251efe263930": {
+      "openai-base-en": 0.00016983076056931168,
+      "openai-large-en": 0.005016707349568605,
+      "piratexx-en": 0.00043905703932978213,
+      "mage-en": 0.9998286962509155,
+      "radar-vicuna-en": 0.017908059060573578
+    },
+    "601bc3b139b3ec58e3f64100b4eae343cd4dd11cf56175666657850ee3caea67": {
+      "openai-base-en": 0.0004508442943915725,
+      "openai-large-en": 0.04900892451405525,
+      "piratexx-en": 0.00038132170448079705,
+      "mage-en": 0.0005896894144825637,
+      "radar-vicuna-en": 0.02603968232870102
+    },
+    "606d1c3d36f16bf6724c0d11604885abfe322b0ec26db1c458a00c368d016a25": {
+      "openai-base-en": 0.014284715056419373,
+      "openai-large-en": 0.013674883171916008,
+      "piratexx-en": 0.00015922010061331093,
+      "mage-en": 0.9978765249252319,
+      "radar-vicuna-en": 0.04908347502350807
+    },
+    "629fc4e704c13501928d6cfe89b0cef55425c6b57bba74bb21a427a8ddaf1de8": {
+      "openai-base-en": 0.049454133957624435,
+      "openai-large-en": 0.020545484498143196,
+      "piratexx-en": 0.00016904849326238036,
+      "mage-en": 0.9981828331947327,
+      "radar-vicuna-en": 0.01524999737739563
+    },
+    "62d388a459e5ced7d4487cc1432f2a6e6cc08dcff355d92e300c355127c674b0": {
+      "openai-base-en": 0.000901469960808754,
+      "openai-large-en": 0.0005691219121217728,
+      "piratexx-en": 0.0001603489217814058,
+      "mage-en": 0.00877644494175911,
+      "radar-vicuna-en": 0.028461787849664688
+    },
+    "630b91150b444e0d5784eab525367662630f3ebc7bbc2e6dd593df26e94df513": {
+      "openai-base-en": 0.8245781064033508,
+      "openai-large-en": 0.027098694816231728,
+      "piratexx-en": 0.00015705810801591724,
+      "mage-en": 0.9943276047706604,
+      "radar-vicuna-en": 0.02516036294400692
+    },
+    "64098d2216e5add6d162ac72038766718dccef28c60233383007904b70b2926e": {
+      "openai-base-en": 0.9994433522224426,
+      "openai-large-en": 0.11937440931797028,
+      "piratexx-en": 0.00017578044207766652,
+      "mage-en": 4.8516623792238533e-05,
+      "radar-vicuna-en": 0.26851049065589905
+    },
+    "647e64d357bc023d0ebac6fc5e9faa2f3a3999dd40bd007234d70ec387b88914": {
+      "openai-base-en": 0.00018046041077468544,
+      "openai-large-en": 0.007294745184481144,
+      "piratexx-en": 0.00016480186604894698,
+      "mage-en": 5.6536096963100135e-05,
+      "radar-vicuna-en": 0.11065942794084549
+    },
+    "64b6fe424878232ee20dd56226f4216fcfb5090fd1322d2417ecab746376ec0f": {
+      "openai-base-en": 0.0003576096205506474,
+      "openai-large-en": 0.005082818679511547,
+      "piratexx-en": 0.0002206766075687483,
+      "mage-en": 0.0013652744237333536,
+      "radar-vicuna-en": 0.07791610807180405
+    },
+    "65313c1dc5be98ae9e57bdd87f95373aef24cef3407d3eaf85a3b4b0bb9f5330": {
+      "openai-base-en": 0.0027351360768079758,
+      "openai-large-en": 0.003419914050027728,
+      "piratexx-en": 0.0001525252591818571,
+      "mage-en": 0.9992992877960205,
+      "radar-vicuna-en": 0.019669320434331894
+    },
+    "664bbb763fcd74ae0d648315dca9d97c04e88a7b97e412b26b90b2a359d118f5": {
+      "openai-base-en": 0.00039732217555865645,
+      "openai-large-en": 0.025005413219332695,
+      "piratexx-en": 0.00016451739065814763,
+      "mage-en": 5.081907511339523e-05,
+      "radar-vicuna-en": 0.046379514038562775
+    },
+    "6836271402d25e7a01e81ebe319ef798ab509af28e870ec3ef687fe47133efd2": {
+      "openai-base-en": 0.00020535237854346633,
+      "openai-large-en": 0.0006196207250468433,
+      "piratexx-en": 0.00016802256868686527,
+      "mage-en": 0.9999494552612305,
+      "radar-vicuna-en": 0.005599177908152342
+    },
+    "696d0e294e260994c9c14b6024780d9269848b80c7f7a3cd3a1e8122018f9304": {
+      "openai-base-en": 0.0003906118799932301,
+      "openai-large-en": 0.001335142063908279,
+      "piratexx-en": 0.00016478190082125366,
+      "mage-en": 0.00139314541593194,
+      "radar-vicuna-en": 0.052380308508872986
+    },
+    "6c45f7879642664fc6d74465b8aff01f812b03285e5bd75708a42e841b72f250": {
+      "openai-base-en": 0.006100640632212162,
+      "openai-large-en": 0.03548675402998924,
+      "piratexx-en": 0.00016773173410911113,
+      "mage-en": 0.9614080190658569,
+      "radar-vicuna-en": 0.008097761310636997
+    },
+    "6c7a742822648f4aec79c2770cf452f15fd921cdb74a3b81021b6f7c2b3329b6": {
+      "openai-base-en": 0.00020072014012839645,
+      "openai-large-en": 0.003861671779304743,
+      "piratexx-en": 0.00015552462718915194,
+      "mage-en": 0.009362074546515942,
+      "radar-vicuna-en": 0.014438832178711891
+    },
+    "6c7d9070fea2c9f515269f9cf86629f39b6319356bbb6bdff71707dbf1abbd89": {
+      "openai-base-en": 0.9982898831367493,
+      "openai-large-en": 0.11165972799062729,
+      "piratexx-en": 0.0004429207183420658,
+      "mage-en": 0.999940037727356,
+      "radar-vicuna-en": 0.3689930737018585
+    },
+    "6c858ef4c6488de897c3748ce3938b690e5d5a828c9530ad2ff8e732079c6cbb": {
+      "openai-base-en": 0.00022631285537499934,
+      "openai-large-en": 0.030232343822717667,
+      "piratexx-en": 0.000335064745740965,
+      "mage-en": 0.99709153175354,
+      "radar-vicuna-en": 0.09188857674598694
+    },
+    "6e9877ca40255b512fdade696e0fccc7d98a8be5d55d4c264f343255e1d571db": {
+      "openai-base-en": 0.005263240542262793,
+      "openai-large-en": 0.0029323187191039324,
+      "piratexx-en": 0.00017987271712627262,
+      "mage-en": 0.0017643756000325084,
+      "radar-vicuna-en": 0.0386623777449131
+    },
+    "6f92a9fa9a0229be038bcdceeade7619475a1f3e63c23569c41ab57c198a0995": {
+      "openai-base-en": 0.0030850397888571024,
+      "openai-large-en": 0.004443576093763113,
+      "piratexx-en": 0.00017402402590960264,
+      "mage-en": 0.9992246627807617,
+      "radar-vicuna-en": 0.9964660406112671
+    },
+    "7077649bb65decb9a55e9f0297253d71afdc8a8ee165980678b28a7e647180bd": {
+      "openai-base-en": 0.00020971625053789467,
+      "openai-large-en": 0.002418191870674491,
+      "piratexx-en": 0.00017408707935828716,
+      "mage-en": 0.0004691665235441178,
+      "radar-vicuna-en": 0.06620046496391296
+    },
+    "71a01a23116412c58b404c2c0a9fd55c0f05788a53309dc1501739144644e15c": {
+      "openai-base-en": 0.0022511298302561045,
+      "openai-large-en": 0.004124050959944725,
+      "piratexx-en": 0.00019162378157489002,
+      "mage-en": 0.013732662424445152,
+      "radar-vicuna-en": 0.09663327038288116
+    },
+    "71affd7c7a44e9ec97071abecf8f16e1eef2682d0793bd3edf9eb50d3d6e444a": {
+      "openai-base-en": 0.002839193446561694,
+      "openai-large-en": 0.00468873605132103,
+      "piratexx-en": 0.00015799043467268348,
+      "mage-en": 4.8356894694734365e-05,
+      "radar-vicuna-en": 0.6425090432167053
+    },
+    "71b7aff729b9481610775f9d98ea514d226a02be2b60c9e1b793b9c27c3776e1": {
+      "openai-base-en": 0.00017950247274711728,
+      "openai-large-en": 0.0013920485507696867,
+      "piratexx-en": 0.00015022781735751778,
+      "mage-en": 8.582746522733942e-05,
+      "radar-vicuna-en": 0.012643593363463879
+    },
+    "73601ee3dc2fc46e04e2df2fc31379f492abfdc6dc0ca93d7319114c3c0566c4": {
+      "openai-base-en": 0.0009023920865729451,
+      "openai-large-en": 0.0008114869124256074,
+      "piratexx-en": 0.00016861865879036486,
+      "mage-en": 0.6108698844909668,
+      "radar-vicuna-en": 0.04261502996087074
+    },
+    "739acce1de699db71689d2a1a19eeb445721789a7c4235265362084edd4123ca": {
+      "openai-base-en": 0.03608659654855728,
+      "openai-large-en": 0.19715586304664612,
+      "piratexx-en": 0.0007519123610109091,
+      "mage-en": 0.0013053537113592029,
+      "radar-vicuna-en": 0.0490356869995594
+    },
+    "7465e20866ff953500a92119714f745c031b6d1829c4b785f7e013ab16e03f89": {
+      "openai-base-en": 0.001096499734558165,
+      "openai-large-en": 0.004760006908327341,
+      "piratexx-en": 0.0009061767486855388,
+      "mage-en": 0.9965397119522095,
+      "radar-vicuna-en": 0.05111611261963844
+    },
+    "762bd0bff33704bcf7c400b7cdee4cd8914828d1d3b840d42373e8e651e4726e": {
+      "openai-base-en": 0.0007540606893599033,
+      "openai-large-en": 0.003561508608981967,
+      "piratexx-en": 0.00021255573665257543,
+      "mage-en": 0.9753373265266418,
+      "radar-vicuna-en": 0.06839238852262497
+    },
+    "764745ede82a3b10368d89e340df933fb7114b1c5f6557264c0ac384126ece09": {
+      "openai-base-en": 0.0034070475958287716,
+      "openai-large-en": 0.036840539425611496,
+      "piratexx-en": 0.00016139307990670204,
+      "mage-en": 8.355345926247537e-05,
+      "radar-vicuna-en": 0.07538197934627533
+    },
+    "768a1f269609837096c5fa0b9b21744cc51468432e81c976c40b16b87cdef3da": {
+      "openai-base-en": 0.00026398932095617056,
+      "openai-large-en": 0.00046219126670621336,
+      "piratexx-en": 0.00019416316354181617,
+      "mage-en": 0.9952280521392822,
+      "radar-vicuna-en": 0.005321985110640526
+    },
+    "77be650fabcf587ed46ed6b8e6712c7d0b3f37d4078c66723680506de497132d": {
+      "openai-base-en": 0.0001735770929371938,
+      "openai-large-en": 0.002113544149324298,
+      "piratexx-en": 0.00016385280468966812,
+      "mage-en": 0.02400241605937481,
+      "radar-vicuna-en": 0.4415309727191925
+    },
+    "7851e964ce1b891a791388c08dbee2e8db5c091f70f7e00e0cd8ed84078f5ea7": {
+      "openai-base-en": 0.0053521813824772835,
+      "openai-large-en": 0.0005227940855547786,
+      "piratexx-en": 0.00018296453345101327,
+      "mage-en": 0.0001857492607086897,
+      "radar-vicuna-en": 0.005199197214096785
+    },
+    "799e1003d9cf2ea337f1bea7257f5ae78ae643ac5c1430e0e7a1fad3b532264a": {
+      "openai-base-en": 0.0016662618145346642,
+      "openai-large-en": 0.04540225863456726,
+      "piratexx-en": 0.0001828787208069116,
+      "mage-en": 0.0021259463392198086,
+      "radar-vicuna-en": 0.05644262954592705
+    },
+    "7b16a406e238e33ff50ad8b135f62116d6fdfcaedc967b0b09cc22ef9fb406d6": {
+      "openai-base-en": 0.8270438313484192,
+      "openai-large-en": 0.017559746280312538,
+      "piratexx-en": 0.00019768407219089568,
+      "mage-en": 0.0019482985371723771,
+      "radar-vicuna-en": 0.03190333768725395
+    },
+    "7b16e952dd136f1ff714672af49894709ef66fd03d32d75f9105020bb2077794": {
+      "openai-base-en": 0.0011574571253731847,
+      "openai-large-en": 0.008216490969061852,
+      "piratexx-en": 0.00016760017024353147,
+      "mage-en": 0.00013898835459258407,
+      "radar-vicuna-en": 0.025569014251232147
+    },
+    "7d0d23544aa104086571cbd4fa96790d2626c8efb77c0add062fb0b5670853a8": {
+      "openai-base-en": 0.00017033482436090708,
+      "openai-large-en": 0.019086986780166626,
+      "piratexx-en": 0.0001609179307706654,
+      "mage-en": 0.0001306046760873869,
+      "radar-vicuna-en": 0.012043267488479614
+    },
+    "7f03377ca5a3dab43735e9a42accc7f1eb44c9a5dc8b512969396c2a6c64f6cb": {
+      "openai-base-en": 0.000326047302223742,
+      "openai-large-en": 0.004534880630671978,
+      "piratexx-en": 0.00018244834791403264,
+      "mage-en": 0.00040875733247958124,
+      "radar-vicuna-en": 0.04214688017964363
+    },
+    "7f477deeea82857354f324875f7847bfdfc9ed95eb09a0746a59c3c9082d27bb": {
+      "openai-base-en": 0.050467558205127716,
+      "openai-large-en": 0.00107672275044024,
+      "piratexx-en": 0.00016341032460331917,
+      "mage-en": 0.0005013665650039911,
+      "radar-vicuna-en": 0.010225371457636356
+    },
+    "81329660b70c8af53882ce6e21095ecfeb358b59374a0daf259f33c50ea12b62": {
+      "openai-base-en": 0.0001723824389046058,
+      "openai-large-en": 0.020263295620679855,
+      "piratexx-en": 0.00019575365877244622,
+      "mage-en": 8.42891531647183e-05,
+      "radar-vicuna-en": 0.0347445085644722
+    },
+    "8225520c525a34d2e2e2641fb5780d4dd3f42e975ee7507b6f7faf7ea6b4e161": {
+      "openai-base-en": 0.00018584633653517812,
+      "openai-large-en": 0.004547934979200363,
+      "piratexx-en": 0.00023720134049654007,
+      "mage-en": 0.9968553781509399,
+      "radar-vicuna-en": 0.016053998842835426
+    },
+    "829fdc8293714e37c899d1f1fa120959d23b6c412ef0255823f559fa8261e360": {
+      "openai-base-en": 0.008227284997701645,
+      "openai-large-en": 0.5305176377296448,
+      "piratexx-en": 0.00018314832414034754,
+      "mage-en": 0.012151142582297325,
+      "radar-vicuna-en": 0.1324218064546585
+    },
+    "8308b2632b367a6a49a73ba2bd6b738cdfa1993ab84acda993ea84e8e2945922": {
+      "openai-base-en": 0.0013728897320106626,
+      "openai-large-en": 0.0019018141319975257,
+      "piratexx-en": 0.00017687934450805187,
+      "mage-en": 0.999505877494812,
+      "radar-vicuna-en": 0.09321475774049759
+    },
+    "8357801d4fba69a0b4d69679ffd8407a73a1735854303874e750052e3768df72": {
+      "openai-base-en": 0.0002819961810018867,
+      "openai-large-en": 0.008659305982291698,
+      "piratexx-en": 0.00018310153973288834,
+      "mage-en": 0.0002839348162524402,
+      "radar-vicuna-en": 0.06436394900083542
+    },
+    "83b2f4822843e1953d0c2df67f147fa795fc448af5d37e863ac66bb74dd5ae8e": {
+      "openai-base-en": 0.0001731755182845518,
+      "openai-large-en": 0.0007721511647105217,
+      "piratexx-en": 0.0001661553542362526,
+      "mage-en": 0.9948315024375916,
+      "radar-vicuna-en": 0.16807007789611816
+    },
+    "84eee8c2ce2e86eec040bb9a5e4491cf910708553e2cecfa8f9b6e373ffe3ae4": {
+      "openai-base-en": 0.0003845425380859524,
+      "openai-large-en": 0.018748808652162552,
+      "piratexx-en": 0.0002641494502313435,
+      "mage-en": 0.9999265670776367,
+      "radar-vicuna-en": 0.5448336005210876
+    },
+    "854eff62f437540fb4ac798c3c8f3c616cf89d2160bb0a89786aeddb16edb212": {
+      "openai-base-en": 0.001873065484687686,
+      "openai-large-en": 0.036942265927791595,
+      "piratexx-en": 0.00016430337564088404,
+      "mage-en": 0.0013326373882591724,
+      "radar-vicuna-en": 0.05190688744187355
+    },
+    "8559b461a553b6f596ee53cdc6c06cc82a612e51206299fd673adfbfa285b20d": {
+      "openai-base-en": 0.011772587895393372,
+      "openai-large-en": 0.17686578631401062,
+      "piratexx-en": 0.0001747453206917271,
+      "mage-en": 0.00012697714555542916,
+      "radar-vicuna-en": 0.051642339676618576
+    },
+    "8604b1c42bc6933580f260e8e5637fdeaee125925a5dec58a7c576b999663722": {
+      "openai-base-en": 0.0002702342753764242,
+      "openai-large-en": 0.0017938729142770171,
+      "piratexx-en": 0.00018075609114021063,
+      "mage-en": 0.004817705135792494,
+      "radar-vicuna-en": 0.020150600001215935
+    },
+    "867edefd3b774f07bae69c6f89a0ed12cf8f1cb07c3e318789cafc105d458544": {
+      "openai-base-en": 0.00019866248476319015,
+      "openai-large-en": 0.004095478914678097,
+      "piratexx-en": 0.0003164233348798007,
+      "mage-en": 0.00014442556130234152,
+      "radar-vicuna-en": 0.03515080362558365
+    },
+    "8701681bcd2a549ad7cf8fa46fec9baae4f569ca5d19180f59c826233b22cd84": {
+      "openai-base-en": 0.00016892120765987784,
+      "openai-large-en": 0.001793511095456779,
+      "piratexx-en": 0.0001967213611351326,
+      "mage-en": 0.9999390840530396,
+      "radar-vicuna-en": 0.022676866501569748
+    },
+    "8810b6e97d7a3ca028a2ccfb946de06d7969cba91625e79fdafdbfbc07c7a649": {
+      "openai-base-en": 0.0004253569059073925,
+      "openai-large-en": 0.0015179543988779187,
+      "piratexx-en": 0.00017144039156846702,
+      "mage-en": 0.013952613808214664,
+      "radar-vicuna-en": 0.006347252521663904
+    },
+    "88a48503cb07438ad2245cdb2374fde573e47966e4e5f378e22840c2a36d5773": {
+      "openai-base-en": 0.0001704758615233004,
+      "openai-large-en": 0.0006750330794602633,
+      "piratexx-en": 0.00016815881826914847,
+      "mage-en": 9.117565787164494e-05,
+      "radar-vicuna-en": 0.006392014212906361
+    },
+    "88da452ce7e448d6cea3a24dfb01f0d40a561dabda577d14cb3c379ff821c0c1": {
+      "openai-base-en": 0.0001718257844913751,
+      "openai-large-en": 0.000651878013741225,
+      "piratexx-en": 0.00014566577738150954,
+      "mage-en": 0.0002351465809624642,
+      "radar-vicuna-en": 0.027364062145352364
+    },
+    "8965209d631f298f716ca4f6cba57e721406430e08e64db6633b5f15e95ce54f": {
+      "openai-base-en": 0.00022376257402356714,
+      "openai-large-en": 0.000460074283182621,
+      "piratexx-en": 0.00016057644097600132,
+      "mage-en": 0.00016472331481054425,
+      "radar-vicuna-en": 0.010060581378638744
+    },
+    "89b67d6fcba232f44c9192cff5987b461778cc049ea54ea4f4109d5f17eb3aba": {
+      "openai-base-en": 0.17024467885494232,
+      "openai-large-en": 0.030105188488960266,
+      "piratexx-en": 0.00020342697098385543,
+      "mage-en": 0.9972980618476868,
+      "radar-vicuna-en": 0.2977534234523773
+    },
+    "8add457d153a93d0a0d3812d3008f0d21c0c7133ec1da42992092bc50c37b712": {
+      "openai-base-en": 0.00018530274974182248,
+      "openai-large-en": 0.0005259198369458318,
+      "piratexx-en": 0.00017485134594608098,
+      "mage-en": 0.9987610578536987,
+      "radar-vicuna-en": 0.005580571014434099
+    },
+    "8b32fb330e6c6cefdf6b510afc10c0202b5c1a26cce63860713f50c65af115d0": {
+      "openai-base-en": 0.021166102960705757,
+      "openai-large-en": 0.009954720735549927,
+      "piratexx-en": 0.0003500786260701716,
+      "mage-en": 0.9999464750289917,
+      "radar-vicuna-en": 0.04361261427402496
+    },
+    "8ce76f90dd381767e8f27d82b6b1e6232011b139be8194feccee3a9fee9af03b": {
+      "openai-base-en": 0.0034348522312939167,
+      "openai-large-en": 0.00403167586773634,
+      "piratexx-en": 0.0001583513367222622,
+      "mage-en": 0.0010770324151962996,
+      "radar-vicuna-en": 0.016564469784498215
+    },
+    "8e5af372978b3c53d56a9af51aa8559cabfd5dcb5f757e8a7cb1f06173b85b6d": {
+      "openai-base-en": 0.0005237134755589068,
+      "openai-large-en": 0.0006142605561763048,
+      "piratexx-en": 0.00016920232155825943,
+      "mage-en": 0.003969932906329632,
+      "radar-vicuna-en": 0.046748481690883636
+    },
+    "90d3238ebbe2aaf2377549fb2999db7ba73ccb716a0b3812963555cb5d070361": {
+      "openai-base-en": 0.00017497024964541197,
+      "openai-large-en": 0.00045920436969026923,
+      "piratexx-en": 0.0007627011509612203,
+      "mage-en": 0.00027283531380817294,
+      "radar-vicuna-en": 0.020622622221708298
+    },
+    "921d100999c77a18d2978e483253657b3cc146bde0edcade2456437c40918af2": {
+      "openai-base-en": 0.9997983574867249,
+      "openai-large-en": 0.6647480726242065,
+      "piratexx-en": 0.00018655721214599907,
+      "mage-en": 3.122242196695879e-05,
+      "radar-vicuna-en": 0.3967013359069824
+    },
+    "980bbe2456d9a2356ffd89cb4042954890fbbd850779e371c3a9c97ea1a3a1b1": {
+      "openai-base-en": 0.00028450682293623686,
+      "openai-large-en": 0.0005548229673877358,
+      "piratexx-en": 0.00017105437291320413,
+      "mage-en": 0.0027736166957765818,
+      "radar-vicuna-en": 0.08102884143590927
+    },
+    "98368ce962ec3cfb2344a7aaef18fc4dbd0b37d15b67af0e1842ad4b3d6bdad7": {
+      "openai-base-en": 0.0016454329015687108,
+      "openai-large-en": 0.008708947338163853,
+      "piratexx-en": 0.00019730671192519367,
+      "mage-en": 0.9991747736930847,
+      "radar-vicuna-en": 0.0325004905462265
+    },
+    "98c41095e4ae11f6b215db23f9de73d46d9323e30b148826430fc634dd6bfa8e": {
+      "openai-base-en": 0.00020945626602042466,
+      "openai-large-en": 0.0034983931109309196,
+      "piratexx-en": 0.00017429770377930254,
+      "mage-en": 0.0002946471213363111,
+      "radar-vicuna-en": 0.10627085715532303
+    },
+    "9a32849675d2d97a550c811a4e4e0ab6c547c5381f3bdf922bdc7b2a87500f06": {
+      "openai-base-en": 0.003535837633535266,
+      "openai-large-en": 0.03009382262825966,
+      "piratexx-en": 0.00017099257092922926,
+      "mage-en": 0.01023638155311346,
+      "radar-vicuna-en": 0.023853540420532227
+    },
+    "9acda96798ef94be5baba3c30fe5d338e95b22798a4966e1aee9ee176ecc735f": {
+      "openai-base-en": 0.00016979190695565194,
+      "openai-large-en": 0.006154429633170366,
+      "piratexx-en": 0.00017554326041135937,
+      "mage-en": 0.005913386587053537,
+      "radar-vicuna-en": 0.03432251513004303
+    },
+    "9b0681853f91c2031080ebc39ed13141026d7be741797132f4863cf4884e948d": {
+      "openai-base-en": 0.6042909622192383,
+      "openai-large-en": 0.0971820130944252,
+      "piratexx-en": 0.00025962444487959146,
+      "mage-en": 0.0004959104117006063,
+      "radar-vicuna-en": 0.3839138150215149
+    },
+    "9c28e0843d08b29246615bafbd3a317bb6282cfef7e74b654a6bfbbdef8ab3e8": {
+      "openai-base-en": 0.0012171725975349545,
+      "openai-large-en": 0.009371722117066383,
+      "piratexx-en": 0.0002113690134137869,
+      "mage-en": 0.00786010455340147,
+      "radar-vicuna-en": 0.4353885352611542
+    },
+    "9cae64edd1c89bc34ddcb0f178e5ce785816b92f712fb191c0944d7adc2a286d": {
+      "openai-base-en": 0.010186481289565563,
+      "openai-large-en": 0.13470086455345154,
+      "piratexx-en": 0.0020894042681902647,
+      "mage-en": 0.0004314405960030854,
+      "radar-vicuna-en": 0.057429734617471695
+    },
+    "9cb475e215c460b222c4a5e168a17fd27643f59ef8fe60998da86d2aff8fe460": {
+      "openai-base-en": 0.0019814425613731146,
+      "openai-large-en": 0.005356668494641781,
+      "piratexx-en": 0.0001601153053343296,
+      "mage-en": 0.9997690320014954,
+      "radar-vicuna-en": 0.07308010011911392
+    },
+    "9d8c82e7e8dda64f1236ff68039d0a54c1029c00d98fc8bc09c5237f35d6c394": {
+      "openai-base-en": 0.00692644901573658,
+      "openai-large-en": 0.10007952153682709,
+      "piratexx-en": 0.0001582559198141098,
+      "mage-en": 0.0009724054834805429,
+      "radar-vicuna-en": 0.07140965014696121
+    },
+    "a026b3d446131ef9bd8e8fb0e879c03201c294831249ec262549948dc7dbfea9": {
+      "openai-base-en": 0.00022285724116954952,
+      "openai-large-en": 0.0015665411483496428,
+      "piratexx-en": 0.00016986251284833997,
+      "mage-en": 6.462362944148481e-05,
+      "radar-vicuna-en": 0.01810622587800026
+    },
+    "a060148b55acdb6bff3e44af1d712a59576fa3b5330800f18b00d6b87361b5ba": {
+      "openai-base-en": 0.17693881690502167,
+      "openai-large-en": 0.002219355897977948,
+      "piratexx-en": 0.0011157102417200804,
+      "mage-en": 0.9997361302375793,
+      "radar-vicuna-en": 0.03835373744368553
+    },
+    "a0f23301ff113d04dc287d2461af7d65682424972bca12dd3755e2a9ed73c593": {
+      "openai-base-en": 0.00020443342509679496,
+      "openai-large-en": 0.0025005510542541742,
+      "piratexx-en": 0.0003675168554764241,
+      "mage-en": 0.9970248341560364,
+      "radar-vicuna-en": 0.014460175298154354
+    },
+    "a2a9157b0361557ede1dc87913d59bbf4c6dfee51570f43fc7de8c84d1c7012e": {
+      "openai-base-en": 0.00023929731105454266,
+      "openai-large-en": 0.03493853285908699,
+      "piratexx-en": 0.00035477051278576255,
+      "mage-en": 0.0021146698854863644,
+      "radar-vicuna-en": 0.4660619795322418
+    },
+    "a52385a8bb1451d93ae5b4d28dc1ee9283da2324421e1d1b008220e5fc84e0b1": {
+      "openai-base-en": 0.0007431120611727238,
+      "openai-large-en": 0.023798743262887,
+      "piratexx-en": 0.0001476084435125813,
+      "mage-en": 0.0002377689816057682,
+      "radar-vicuna-en": 0.037971530109643936
+    },
+    "a654c38519116f9bcf8a85ed20b30622b59f4b1c62b8ceab90b8971acea0994d": {
+      "openai-base-en": 0.00025439297314733267,
+      "openai-large-en": 0.0005169466021470726,
+      "piratexx-en": 0.00017102112178690732,
+      "mage-en": 0.00010210181790171191,
+      "radar-vicuna-en": 0.005822835024446249
+    },
+    "a7a0106cd5a4c5ba80d204eba456bbefed1476cf493f48ae73a14bf8510cf8d3": {
+      "openai-base-en": 0.0001873844157671556,
+      "openai-large-en": 0.0004694998497143388,
+      "piratexx-en": 0.00028500391636043787,
+      "mage-en": 0.00011385803372832015,
+      "radar-vicuna-en": 0.05127379298210144
+    },
+    "a8181b39bad700e3098a22d2379987df17a848b9c0d95be7558cdc0a54407d67": {
+      "openai-base-en": 0.006294863764196634,
+      "openai-large-en": 0.00920162908732891,
+      "piratexx-en": 0.0001663538278080523,
+      "mage-en": 9.371434862259775e-05,
+      "radar-vicuna-en": 0.02976888045668602
+    },
+    "a8ac9f69c8fc83349ae9eb04b6b01fb506f1018f4ec1c4816f0d77a483a21c04": {
+      "openai-base-en": 0.00018900728900916874,
+      "openai-large-en": 0.0005217586294747889,
+      "piratexx-en": 0.00016034372674766928,
+      "mage-en": 0.0034609180875122547,
+      "radar-vicuna-en": 0.01065031997859478
+    },
+    "a96e98e8338a8baf89f78860120910a353796eb96ab9b1f1898cc4eebef5dcc9": {
+      "openai-base-en": 0.9992098808288574,
+      "openai-large-en": 0.0038332026451826096,
+      "piratexx-en": 0.0012908801436424255,
+      "mage-en": 0.9999560117721558,
+      "radar-vicuna-en": 0.025306519120931625
+    },
+    "aa4b5ba4c18148677744e85dc3724f847c731d0add8d75a3598a7358a8c68e7e": {
+      "openai-base-en": 0.00017117528477683663,
+      "openai-large-en": 0.0007459002663381398,
+      "piratexx-en": 0.00017038645455613732,
+      "mage-en": 0.0003316726943012327,
+      "radar-vicuna-en": 0.3277699649333954
+    },
+    "aa7164b80383fad3c0e3db8fb4a73191bf905801c566b2696dd1fcaab724bdb6": {
+      "openai-base-en": 0.000195620785234496,
+      "openai-large-en": 0.004177738446742296,
+      "piratexx-en": 0.00019271639757789671,
+      "mage-en": 0.99994957447052,
+      "radar-vicuna-en": 0.019438371062278748
+    },
+    "ac0c8dcd571b676f365634d6d350e1a19322e73c2600b4a39cb98977f0af7304": {
+      "openai-base-en": 0.21103127300739288,
+      "openai-large-en": 0.5437521934509277,
+      "piratexx-en": 0.00018519854347687215,
+      "mage-en": 0.9946408271789551,
+      "radar-vicuna-en": 0.23593105375766754
+    },
+    "ac1a2a96d989441e8d0f47cd487a660a2871860eb4b843df48d6a3bc83371dd0": {
+      "openai-base-en": 0.00047886226093396544,
+      "openai-large-en": 0.0007594194612465799,
+      "piratexx-en": 0.00015551128308288753,
+      "mage-en": 0.9998016953468323,
+      "radar-vicuna-en": 0.021835971623659134
+    },
+    "ac4512380046f8b2b3ff7e94d5cf91ddb2f4879996dd86eba433a927383e3925": {
+      "openai-base-en": 0.00017158249102067202,
+      "openai-large-en": 0.0006319983513094485,
+      "piratexx-en": 0.00015347162843681872,
+      "mage-en": 7.685752643737942e-05,
+      "radar-vicuna-en": 0.03612690791487694
+    },
+    "ad29665b9e390878701582615a0604ae1d108c65a3305d5a678ec2467a348db7": {
+      "openai-base-en": 0.001364014926366508,
+      "openai-large-en": 0.028033064678311348,
+      "piratexx-en": 0.00017133954679593444,
+      "mage-en": 0.9882586002349854,
+      "radar-vicuna-en": 0.032314445823431015
+    },
+    "ad30c902a19468c49fc3daeffd9172a749903ded0e237d0738d1d95429793e46": {
+      "openai-base-en": 0.00017825972463469952,
+      "openai-large-en": 0.003052751999348402,
+      "piratexx-en": 0.00015330636233557016,
+      "mage-en": 0.00027640079497359693,
+      "radar-vicuna-en": 0.019876647740602493
+    },
+    "ad6f4a12da30636501dc5bb64136ca10e14f1ee8b8fbdbf554e9261b588c7c58": {
+      "openai-base-en": 0.002252360573038459,
+      "openai-large-en": 0.014890233054757118,
+      "piratexx-en": 0.00018946251657325774,
+      "mage-en": 0.004923216532915831,
+      "radar-vicuna-en": 0.04887750372290611
+    },
+    "afc83216b77ad8476e9595f0b4532ff4e826ee5dc24ef5822858ec32ddbdcd76": {
+      "openai-base-en": 0.00271715153940022,
+      "openai-large-en": 0.15005820989608765,
+      "piratexx-en": 0.00020013595349155366,
+      "mage-en": 0.00041387221426703036,
+      "radar-vicuna-en": 0.018926171585917473
+    },
+    "aff1dc04714bb80ffb31f20f5d7155ded8131e36e0b0789bb9c03817582f5396": {
+      "openai-base-en": 0.007051151245832443,
+      "openai-large-en": 0.020224636420607567,
+      "piratexx-en": 0.000174170927493833,
+      "mage-en": 0.00042674088035710156,
+      "radar-vicuna-en": 0.02352221868932247
+    },
+    "b368e2b48501b1cda78413dec2d92c67f996149f2f332f0d52600822269a33f3": {
+      "openai-base-en": 0.031963977962732315,
+      "openai-large-en": 0.0029633091762661934,
+      "piratexx-en": 0.0001496640470577404,
+      "mage-en": 0.00011115644156234339,
+      "radar-vicuna-en": 0.02683356963098049
+    },
+    "b3e5b0d3f66490728c80f84e5188dec4303745870b7030d2a5aa84e494a8fef3": {
+      "openai-base-en": 0.00026389522827230394,
+      "openai-large-en": 0.00047000133781693876,
+      "piratexx-en": 0.00015897130651865155,
+      "mage-en": 0.9997252821922302,
+      "radar-vicuna-en": 0.00597021309658885
+    },
+    "b495a2ad13202d59850a648155e403167f91d1de90913d4d2660c16ada61c5f2": {
+      "openai-base-en": 0.00029027456184849143,
+      "openai-large-en": 0.0026188381016254425,
+      "piratexx-en": 0.0001971669844351709,
+      "mage-en": 0.0006607990362681448,
+      "radar-vicuna-en": 0.028057513758540154
+    },
+    "b63b8b8d34c1ed5470f40a3d129488906a728d6e18c130e0406ed68d2f4d7e15": {
+      "openai-base-en": 0.00017559884872753173,
+      "openai-large-en": 0.0008726174710318446,
+      "piratexx-en": 0.00017019356891978532,
+      "mage-en": 0.9959036707878113,
+      "radar-vicuna-en": 0.015455532819032669
+    },
+    "b6a6b50519f3b880f52aa4812ae48234c90c019872fa0135cd054a49bb61f5f2": {
+      "openai-base-en": 0.00017259443120565265,
+      "openai-large-en": 0.033109571784734726,
+      "piratexx-en": 0.0001771835086401552,
+      "mage-en": 0.00034077628515660763,
+      "radar-vicuna-en": 0.00980241410434246
+    },
+    "b6c62a321eae2c7d4d8861683dd5f3843b64af1ba7244476ad0e72a302ee5b9b": {
+      "openai-base-en": 0.00018687715055420995,
+      "openai-large-en": 0.0010370244272053242,
+      "piratexx-en": 0.0001559749071020633,
+      "mage-en": 0.9999856948852539,
+      "radar-vicuna-en": 0.01135653629899025
+    },
+    "b6f4c8735a1a8f55b72fcb0cf3f5d03e8993a4dbbf74a64bc1eaa8fa3f026fb1": {
+      "openai-base-en": 0.10381808876991272,
+      "openai-large-en": 0.06849116086959839,
+      "piratexx-en": 0.00019130815053358674,
+      "mage-en": 0.0009099303861148655,
+      "radar-vicuna-en": 0.7951896786689758
+    },
+    "b78b97a5cd8f96db38770bcfd18d6dfb6596b4cedb563b0d6ad109b1528b9bd6": {
+      "openai-base-en": 0.0013976050540804863,
+      "openai-large-en": 0.002865081885829568,
+      "piratexx-en": 0.00016058686014730483,
+      "mage-en": 0.9956998825073242,
+      "radar-vicuna-en": 0.01448588352650404
+    },
+    "b7e89b0a814e32adb1ad7353c3a9b92a4c10d04949785303d5e113d3cdc39d9e": {
+      "openai-base-en": 0.001043352298438549,
+      "openai-large-en": 0.004150963854044676,
+      "piratexx-en": 0.00022073069703765213,
+      "mage-en": 0.9998278617858887,
+      "radar-vicuna-en": 0.0325038842856884
+    },
+    "b9e7fd66b35557334b8ea14ecdf7c5885882fb2ea0d122dc6bb7f39ba9722e7b": {
+      "openai-base-en": 0.0001721705193631351,
+      "openai-large-en": 0.0008996637188829482,
+      "piratexx-en": 0.0002067086606984958,
+      "mage-en": 0.005503114312887192,
+      "radar-vicuna-en": 0.06893622130155563
+    },
+    "b9ee2fc30fd852d64c4c9bfaac8f834651cd4ea4a769b2d21ebbaaafac901d1a": {
+      "openai-base-en": 0.0008690013783052564,
+      "openai-large-en": 0.01436549425125122,
+      "piratexx-en": 0.0006355306250043213,
+      "mage-en": 0.0023280757013708353,
+      "radar-vicuna-en": 0.14710170030593872
+    },
+    "baa11fb8d4013d746e7d4d6b1c19ef42ce4bd62fd7018ba5b7543e7695d273b9": {
+      "openai-base-en": 0.0009161225752905011,
+      "openai-large-en": 0.025721559301018715,
+      "piratexx-en": 0.0002110196219291538,
+      "mage-en": 0.007898195646703243,
+      "radar-vicuna-en": 0.03341195359826088
+    },
+    "bbda07a1f78c1c3b6015d725f2ad4d3fa71f61c00a242c139323b2963c7d3f14": {
+      "openai-base-en": 0.00023601810971740633,
+      "openai-large-en": 0.0006027213530614972,
+      "piratexx-en": 0.000159638628247194,
+      "mage-en": 2.6541167244431563e-05,
+      "radar-vicuna-en": 0.014106185175478458
+    },
+    "bdf8fdda32c3679c91b5d2e02f6bfea0021b5cdc871d44e3c763634d464f8c1a": {
+      "openai-base-en": 0.002324646105989814,
+      "openai-large-en": 0.009589718654751778,
+      "piratexx-en": 0.00017034164920914918,
+      "mage-en": 0.9999305009841919,
+      "radar-vicuna-en": 0.06468852609395981
+    },
+    "be432c4d73d211bdd49a7ab5fdc5409b82262870e062c3f8c67ce9e301b00bd3": {
+      "openai-base-en": 0.000173573600477539,
+      "openai-large-en": 0.0013701304560527205,
+      "piratexx-en": 0.00015194823208730668,
+      "mage-en": 0.0001351836690446362,
+      "radar-vicuna-en": 0.03581029549241066
+    },
+    "be4fc1ddca4caf5c8171a509ad791b77025b842d8c051adafd1c9445fa43259e": {
+      "openai-base-en": 0.0008810549043118954,
+      "openai-large-en": 0.001125914161093533,
+      "piratexx-en": 0.0001774594420567155,
+      "mage-en": 0.0006011772202327847,
+      "radar-vicuna-en": 0.043335966765880585
+    },
+    "bf5ce927c996a55b76b0db113b123905c00fbdefb4644f58859686f027b908ab": {
+      "openai-base-en": 0.0001790776732377708,
+      "openai-large-en": 0.0026366973761469126,
+      "piratexx-en": 0.00028934894362464547,
+      "mage-en": 0.008270416408777237,
+      "radar-vicuna-en": 0.014625000767409801
+    },
+    "bfba04e962c0ac0e14b8d7fe170f71368f5a1de2b32cbcd2e22e29451597d37f": {
+      "openai-base-en": 0.03493455797433853,
+      "openai-large-en": 0.45961132645606995,
+      "piratexx-en": 0.0010875448351725936,
+      "mage-en": 0.0006846765172667801,
+      "radar-vicuna-en": 0.9454831480979919
+    },
+    "bfcce615b711e07a9bbbaa607b55a69fdb23fa36c2097eedc78516b1ead2acaa": {
+      "openai-base-en": 0.0006091031827963889,
+      "openai-large-en": 0.0036562802270054817,
+      "piratexx-en": 0.0001681283611105755,
+      "mage-en": 0.003103048074990511,
+      "radar-vicuna-en": 0.005053218454122543
+    },
+    "bff9dba4dbb5dc37752e7141e509dba143b89a7b020759ac9d20647ff7908e3a": {
+      "openai-base-en": 0.0001895127643365413,
+      "openai-large-en": 0.0016236579976975918,
+      "piratexx-en": 0.00021509514772333205,
+      "mage-en": 0.928234338760376,
+      "radar-vicuna-en": 0.019604505971074104
+    },
+    "bffaedf3cd138746f48ffbb7191b9304925b733fd1cebc6efe1e9996990203cd": {
+      "openai-base-en": 0.004857645835727453,
+      "openai-large-en": 0.051238447427749634,
+      "piratexx-en": 0.00022533639275934547,
+      "mage-en": 0.9998584985733032,
+      "radar-vicuna-en": 0.04925718158483505
+    },
+    "c03b56e44deea9f2a94606eb53071c4beac7a5f5738ef5accfb0567d657b8444": {
+      "openai-base-en": 0.0009597376920282841,
+      "openai-large-en": 0.03904331848025322,
+      "piratexx-en": 0.00024325952108483762,
+      "mage-en": 0.9977397918701172,
+      "radar-vicuna-en": 0.04527796804904938
+    },
+    "c07ec6a5bb62ae8c70684f1f764c6926bf0901b50b220dbe02998cc2aca9841b": {
+      "openai-base-en": 0.0001704854512354359,
+      "openai-large-en": 0.0007999544031918049,
+      "piratexx-en": 0.00016525632236152887,
+      "mage-en": 0.004003085196018219,
+      "radar-vicuna-en": 0.006375096272677183
+    },
+    "c0968a0849cff613fff0567c5ae8f96bb1b7ec07f7940a4ee846bc61ea8d6bf3": {
+      "openai-base-en": 0.006342532578855753,
+      "openai-large-en": 0.002548737684264779,
+      "piratexx-en": 0.00017985334852710366,
+      "mage-en": 0.007514964789152145,
+      "radar-vicuna-en": 0.024797331541776657
+    },
+    "c1052878273f538d8c2d551d44fc6478de2ab53fb76f86bca2c2393f5f5196ff": {
+      "openai-base-en": 0.0002674137067515403,
+      "openai-large-en": 0.0027318710926920176,
+      "piratexx-en": 0.00015097108553163707,
+      "mage-en": 0.0020993573125451803,
+      "radar-vicuna-en": 0.018307076767086983
+    },
+    "c3f37715c4493478f5b3f2377ef524bbc82a29121559b23293cef77f5daedf94": {
+      "openai-base-en": 0.00017000024672597647,
+      "openai-large-en": 0.001214949763379991,
+      "piratexx-en": 0.0002469786850269884,
+      "mage-en": 0.9820959568023682,
+      "radar-vicuna-en": 0.0294505525380373
+    },
+    "c43183681fe7ec7a9b7ecc8c2581290b0896198e7d67387d996bd129415fa8af": {
+      "openai-base-en": 0.00018624457879923284,
+      "openai-large-en": 0.0013044631341472268,
+      "piratexx-en": 0.00015315997006837279,
+      "mage-en": 3.327157537569292e-05,
+      "radar-vicuna-en": 0.01784435100853443
+    },
+    "c4924fbb8622d5f27d247ee8f3952b5b1a107e25bc366f534b36b9121ea3c5e6": {
+      "openai-base-en": 0.00020308393868617713,
+      "openai-large-en": 0.0006063181208446622,
+      "piratexx-en": 0.0002080881386063993,
+      "mage-en": 0.9662072062492371,
+      "radar-vicuna-en": 0.5137820243835449
+    },
+    "c59b2351976ebc67b905fb003f3b433c72dfedaa6e43cec4c0c4dd0cf36545d8": {
+      "openai-base-en": 0.00031616369960829616,
+      "openai-large-en": 0.0008286585216410458,
+      "piratexx-en": 0.00015907714259810746,
+      "mage-en": 0.00011646757047856227,
+      "radar-vicuna-en": 0.0406908318400383
+    },
+    "c6890d2aa3282c480d975d7954eb6a7627e1e9fab80d9d6e039a2fc104adfe74": {
+      "openai-base-en": 0.000172380794538185,
+      "openai-large-en": 0.0006744858110323548,
+      "piratexx-en": 0.0027249243576079607,
+      "mage-en": 0.990441083908081,
+      "radar-vicuna-en": 0.12984304130077362
+    },
+    "c69afc5eb5e6ae71b57c3b8de233ffe903e3c9a14fea26982df3cf8d31646295": {
+      "openai-base-en": 0.00020394474267959595,
+      "openai-large-en": 0.0007293312228284776,
+      "piratexx-en": 0.00017689670494291931,
+      "mage-en": 0.00021539133740589023,
+      "radar-vicuna-en": 0.01137546170502901
+    },
+    "c718cb55b6d23630dab78c1281e85f8e92598007fea648020dcc3f92c924972a": {
+      "openai-base-en": 0.00017853819008450955,
+      "openai-large-en": 0.001978497952222824,
+      "piratexx-en": 0.00017342602950520813,
+      "mage-en": 0.00047467800322920084,
+      "radar-vicuna-en": 0.04723570495843887
+    },
+    "c7315116559cb6bba0e4a010b67aeed9b66f080902e09efd743535323c132d5e": {
+      "openai-base-en": 0.06537192314863205,
+      "openai-large-en": 0.011469651013612747,
+      "piratexx-en": 0.00015672571316827089,
+      "mage-en": 0.000795131956692785,
+      "radar-vicuna-en": 0.11260800063610077
+    },
+    "c750ea3dd8e349c59a2926c4d7a0346131a1501689bfb4802a03be2032c4ec0a": {
+      "openai-base-en": 0.0007853118586353958,
+      "openai-large-en": 0.06425613909959793,
+      "piratexx-en": 0.0005231674294918776,
+      "mage-en": 0.9999009370803833,
+      "radar-vicuna-en": 0.8428760170936584
+    },
+    "c8104f6f80283332faefee7172eab3faf11098ae69fbbf038d777b685a5d5f4c": {
+      "openai-base-en": 0.0001885544043034315,
+      "openai-large-en": 0.010168486274778843,
+      "piratexx-en": 0.00019596410857047886,
+      "mage-en": 6.3998086261563e-05,
+      "radar-vicuna-en": 0.02367100678384304
+    },
+    "c8572977115e7bc67ff7618f5d8d7d1baa4bbc47420d939c0d03a028255d88fe": {
+      "openai-base-en": 0.9997931122779846,
+      "openai-large-en": 0.04019618034362793,
+      "piratexx-en": 0.021533166989684105,
+      "mage-en": 0.999944806098938,
+      "radar-vicuna-en": 0.030768567696213722
+    },
+    "c9f1a1d5cdd978763d961dca4a529e2cfbc44db66a5d0796be16f2c6c3c6ee50": {
+      "openai-base-en": 0.00016881783085409552,
+      "openai-large-en": 0.0007092999294400215,
+      "piratexx-en": 0.0001837428571889177,
+      "mage-en": 0.015026586130261421,
+      "radar-vicuna-en": 0.010578719899058342
+    },
+    "ca01cc99e9eb25c39a3b90617e49db253d087c3a7619fedd25bf2b7a8c4961e7": {
+      "openai-base-en": 0.00025332949007861316,
+      "openai-large-en": 0.0611172616481781,
+      "piratexx-en": 0.00029617786640301347,
+      "mage-en": 0.9999312162399292,
+      "radar-vicuna-en": 0.2955569922924042
+    },
+    "ca0d1400e02ea24247a7a11b26c235a1aabf15bac32fbc6ddddccfa82b7c638b": {
+      "openai-base-en": 0.9941635727882385,
+      "openai-large-en": 0.0378902368247509,
+      "piratexx-en": 0.0002259640023112297,
+      "mage-en": 0.9999644756317139,
+      "radar-vicuna-en": 0.06111284717917442
+    },
+    "ca1f6c040dd8288f244686977e0511cd4a1a9c36a25b3ed49e1bf447667b177c": {
+      "openai-base-en": 0.0001713777892291546,
+      "openai-large-en": 0.0032381019555032253,
+      "piratexx-en": 0.0001446833339286968,
+      "mage-en": 0.0001303727476624772,
+      "radar-vicuna-en": 0.01944166235625744
+    },
+    "cb3bab39dbf6e9e13f4afe04d89ee45d486998ffc41041071b419802d17b87f1": {
+      "openai-base-en": 0.0003136083541903645,
+      "openai-large-en": 0.00046602400834672153,
+      "piratexx-en": 0.00016557713388465345,
+      "mage-en": 0.9997660517692566,
+      "radar-vicuna-en": 0.015595721080899239
+    },
+    "ccd8256ad674f34d6e2b73a979bfba543d20e6a4475847c9da6d6cb1d42e167f": {
+      "openai-base-en": 0.010690580122172832,
+      "openai-large-en": 0.042596787214279175,
+      "piratexx-en": 0.00015860036364756525,
+      "mage-en": 0.9767953157424927,
+      "radar-vicuna-en": 0.01393343135714531
+    },
+    "cf3b7d152bfc0ab776adff4ebd0f6e7c72b628ccd373f7007e9e0603a3ae104f": {
+      "openai-base-en": 0.04075320065021515,
+      "openai-large-en": 0.002320085419341922,
+      "piratexx-en": 0.00016926994430832565,
+      "mage-en": 0.9968885779380798,
+      "radar-vicuna-en": 0.015283524990081787
+    },
+    "d09c64192c1cd532ec224b471892b9172dbae90c9a90d6534d730910fb4775b6": {
+      "openai-base-en": 0.06837734580039978,
+      "openai-large-en": 0.02307101897895336,
+      "piratexx-en": 0.00016371863603126258,
+      "mage-en": 0.0003797485842369497,
+      "radar-vicuna-en": 0.03424099087715149
+    },
+    "d0fe0568174897e6241c35c35ed2b7e8c01b64be71b374d79f35395b9734a97f": {
+      "openai-base-en": 0.49926167726516724,
+      "openai-large-en": 0.35393238067626953,
+      "piratexx-en": 0.00038955206400714815,
+      "mage-en": 0.9999797344207764,
+      "radar-vicuna-en": 0.9727101922035217
+    },
+    "d1b18a3c79c0326879ccced8ce312492edb4b6d2624a2da0ad529791bc72c2f6": {
+      "openai-base-en": 0.0001696624531177804,
+      "openai-large-en": 0.0013354287948459387,
+      "piratexx-en": 0.00017664539336692542,
+      "mage-en": 0.0007376882713288069,
+      "radar-vicuna-en": 0.02324739284813404
+    },
+    "d52a7c57e3f8c2600f2ddefaec1ffc0e0664e27e7732be62a7931b52ba7e5a88": {
+      "openai-base-en": 0.00451041292399168,
+      "openai-large-en": 0.0019380251178517938,
+      "piratexx-en": 0.00032392097637057304,
+      "mage-en": 0.00038876725011505187,
+      "radar-vicuna-en": 0.03144107386469841
+    },
+    "d58f3c16572fc15a3a6b53bd825f3bee599e30f1b8160554dec93338129bbee8": {
+      "openai-base-en": 0.006749968510121107,
+      "openai-large-en": 0.5356990694999695,
+      "piratexx-en": 0.00029268587240949273,
+      "mage-en": 0.00021357271180022508,
+      "radar-vicuna-en": 0.6166767477989197
+    },
+    "d69491d31f8f71d5c877d9108a8bafffa6396fb07054866048c26702adaa3c36": {
+      "openai-base-en": 0.9967178702354431,
+      "openai-large-en": 0.00471046706661582,
+      "piratexx-en": 0.0001628765749046579,
+      "mage-en": 0.9997356534004211,
+      "radar-vicuna-en": 0.019917471334338188
+    },
+    "d6e763978a32c20ee2119d6b258848eeac3b5a668d6c246e575e8bcbd92d615f": {
+      "openai-base-en": 0.00018678611377254128,
+      "openai-large-en": 0.000591993797570467,
+      "piratexx-en": 0.00017315405420958996,
+      "mage-en": 0.9773327112197876,
+      "radar-vicuna-en": 0.14731815457344055
+    },
+    "d723c3e6d61cc817235c89b7bb29ee39d6bc8fe130bbf8e0d5e5cdff81b523d3": {
+      "openai-base-en": 0.028104234486818314,
+      "openai-large-en": 0.0056687006726861,
+      "piratexx-en": 0.00032558603561483324,
+      "mage-en": 0.9985009431838989,
+      "radar-vicuna-en": 0.19643613696098328
+    },
+    "d7ac7dfeee14b9ef5440dafc15756f7a85528e2ebd0fa05f8ed92c9986ebdf38": {
+      "openai-base-en": 0.0004089947324246168,
+      "openai-large-en": 0.06815462559461594,
+      "piratexx-en": 0.00020163512090221047,
+      "mage-en": 0.0002807524870149791,
+      "radar-vicuna-en": 0.19630925357341766
+    },
+    "d9833fbfb3997c9e41b495510a2e74928135508524a9931de718a1148d4029e4": {
+      "openai-base-en": 0.00016922362556215376,
+      "openai-large-en": 0.0033631506375968456,
+      "piratexx-en": 0.00020574789959937334,
+      "mage-en": 0.9998108744621277,
+      "radar-vicuna-en": 0.011124473065137863
+    },
+    "dacb861b7f8909eb7a1eb786cda827c2a6a9698e47ae125f6820a92870dcfddd": {
+      "openai-base-en": 0.00034177579800598323,
+      "openai-large-en": 0.008501819334924221,
+      "piratexx-en": 0.00018018839182332158,
+      "mage-en": 0.00024153587582986802,
+      "radar-vicuna-en": 0.059898000210523605
+    },
+    "dba20658da30526f807ff315cbb5b95e07a05dbc838717032d750d28fce6fa9b": {
+      "openai-base-en": 0.0001711401855573058,
+      "openai-large-en": 0.0006025783368386328,
+      "piratexx-en": 0.00020351425337139517,
+      "mage-en": 0.9948825836181641,
+      "radar-vicuna-en": 0.03760822117328644
+    },
+    "dc1d2a700c6761ebee0898de0d68b189d4deaa074a208887d3e1dd93683ce252": {
+      "openai-base-en": 0.00017313439457211643,
+      "openai-large-en": 0.0009038894204422832,
+      "piratexx-en": 0.00016376549319829792,
+      "mage-en": 0.9693499207496643,
+      "radar-vicuna-en": 0.21712017059326172
+    },
+    "dc9f8681c799eb393d4871e03a8a8f101a61cd28baed8851c0a5149450bd85e7": {
+      "openai-base-en": 0.00019463898206595331,
+      "openai-large-en": 0.0013529409188777208,
+      "piratexx-en": 0.0001524061954114586,
+      "mage-en": 2.5870689569273964e-05,
+      "radar-vicuna-en": 0.007469687610864639
+    },
+    "dd1a3fa8b0831eeababe9cb0c8b53d70758bc7ceba985030c287752b4199b055": {
+      "openai-base-en": 0.00024248585395980626,
+      "openai-large-en": 0.0004982978571206331,
+      "piratexx-en": 0.00017514101637061685,
+      "mage-en": 0.00036162452306598425,
+      "radar-vicuna-en": 0.013069111853837967
+    },
+    "e09072df2f700ebae0bcc7a0e9240b4225c5cc0ee8f510e8f09785c91cd084dd": {
+      "openai-base-en": 0.9998155236244202,
+      "openai-large-en": 0.3036063313484192,
+      "piratexx-en": 0.0001771142560755834,
+      "mage-en": 4.840284964302555e-05,
+      "radar-vicuna-en": 0.09745362401008606
+    },
+    "e0adc971e7f9c626558ac822b01e1d098c1478055cb90a7df630cb29fc805469": {
+      "openai-base-en": 0.000464766490040347,
+      "openai-large-en": 0.0007941214134916663,
+      "piratexx-en": 0.0001457959588151425,
+      "mage-en": 7.593943882966414e-05,
+      "radar-vicuna-en": 0.10850051045417786
+    },
+    "e19ce4f34654cfb4755fd3289ff315016322c4140d3d9f75e542e9b9364b0bae": {
+      "openai-base-en": 0.0014731824630871415,
+      "openai-large-en": 0.001763172447681427,
+      "piratexx-en": 0.0001656769309192896,
+      "mage-en": 0.005473145749419928,
+      "radar-vicuna-en": 0.072217658162117
+    },
+    "e26a30724a5bc35a77a970f8c701c0bce25edb54b8e5f6dfa2588b698a2cb7ee": {
+      "openai-base-en": 0.9947178959846497,
+      "openai-large-en": 0.29449746012687683,
+      "piratexx-en": 0.00022796937264502048,
+      "mage-en": 0.9999841451644897,
+      "radar-vicuna-en": 0.6622384786605835
+    },
+    "e3410ba758462c01ec68471bb229c56a9f135774965809bec735f8db0c7b836f": {
+      "openai-base-en": 0.9998260140419006,
+      "openai-large-en": 0.48058515787124634,
+      "piratexx-en": 0.00020447102724574506,
+      "mage-en": 0.9968423843383789,
+      "radar-vicuna-en": 0.5004900097846985
+    },
+    "e3ed7acaa8e9ff0c8c2c6359d6283af76c019af99c2936f4363f2e5b9c700fa7": {
+      "openai-base-en": 0.00035380281042307615,
+      "openai-large-en": 0.02226511389017105,
+      "piratexx-en": 0.0001512991002527997,
+      "mage-en": 0.03587453067302704,
+      "radar-vicuna-en": 0.04308024048805237
+    },
+    "e74cf0a05e2ac62dbecca1058ef06f0c5bea16e73e312b82b4f7358dfe881578": {
+      "openai-base-en": 0.10582047700881958,
+      "openai-large-en": 0.009243588894605637,
+      "piratexx-en": 0.00019714009249582887,
+      "mage-en": 0.9999492168426514,
+      "radar-vicuna-en": 0.07320482283830643
+    },
+    "e96d474ac5f7283ee5f51aeaa65fb8310a8a6d009109b2e81a91f7cbd9af6982": {
+      "openai-base-en": 0.00016998581122606993,
+      "openai-large-en": 0.002136222319677472,
+      "piratexx-en": 0.00020879885414615273,
+      "mage-en": 0.002418156247586012,
+      "radar-vicuna-en": 0.012682033702731133
+    },
+    "ea7157b28d1a920dd08562e42902cf09184ad7b4b305f87fe0526280d1f965f2": {
+      "openai-base-en": 0.27807101607322693,
+      "openai-large-en": 0.017473844811320305,
+      "piratexx-en": 0.00016008997044991702,
+      "mage-en": 0.9988729357719421,
+      "radar-vicuna-en": 0.010105845518410206
+    },
+    "eba00092fff0d492dc0554bd2c9e328bbd528416e65fad6f3cc0b2557dba2e77": {
+      "openai-base-en": 0.0005702287307940423,
+      "openai-large-en": 0.000716442009434104,
+      "piratexx-en": 0.0001692407240625471,
+      "mage-en": 0.0001987375144381076,
+      "radar-vicuna-en": 0.015240675769746304
+    },
+    "ed9f719647223998db76faa8107c5cdaa2fdc7f3053fd3c4c72d24b9e717ae9e": {
+      "openai-base-en": 0.19607996940612793,
+      "openai-large-en": 0.0027537159621715546,
+      "piratexx-en": 0.00020797426986973733,
+      "mage-en": 0.999951958656311,
+      "radar-vicuna-en": 0.05448739603161812
+    },
+    "edc3a3d2055349a8b2b30b4d2bf830e499c0507b64cac313616e3900beb39592": {
+      "openai-base-en": 0.9998100399971008,
+      "openai-large-en": 0.4618154764175415,
+      "piratexx-en": 0.00018403076683171093,
+      "mage-en": 0.9999862909317017,
+      "radar-vicuna-en": 0.698811948299408
+    },
+    "ef9ae5014e5594b75dcf7ee632ef84190c300232097b8d38526a740af10f62a7": {
+      "openai-base-en": 0.0003548838139977306,
+      "openai-large-en": 0.0007755469414405525,
+      "piratexx-en": 0.00015356372750829905,
+      "mage-en": 8.555029489798471e-05,
+      "radar-vicuna-en": 0.01579299382865429
+    },
+    "f0916e4de8b67e43ed19827aae0218ffccd7a45297f23744e91b4ffa56d28130": {
+      "openai-base-en": 0.00018535896379034966,
+      "openai-large-en": 0.007290109060704708,
+      "piratexx-en": 0.0001552292233100161,
+      "mage-en": 0.00030171260004863143,
+      "radar-vicuna-en": 0.0074462685734033585
+    },
+    "f0cdcb7d9c97d678d2ed80d772d059263125d6f86892a6dca8ced128d6a50410": {
+      "openai-base-en": 0.1294785588979721,
+      "openai-large-en": 0.0035393235739320517,
+      "piratexx-en": 0.00017946994921658188,
+      "mage-en": 0.018858464434742928,
+      "radar-vicuna-en": 0.03804675117135048
+    },
+    "f292d6045b7bc755a490dbeca0301a6dff2bbe53902eb9c8b6c4ccdb487bccb5": {
+      "openai-base-en": 0.00438356027007103,
+      "openai-large-en": 0.06534919887781143,
+      "piratexx-en": 0.0004813126288354397,
+      "mage-en": 0.9999681711196899,
+      "radar-vicuna-en": 0.7538545727729797
+    },
+    "f29b8f90064c12b680c47cfab17b198f47e803aa6e4e0b5fcfc0d22424c62570": {
+      "openai-base-en": 0.005787419155240059,
+      "openai-large-en": 0.23495836555957794,
+      "piratexx-en": 0.0001450178533559665,
+      "mage-en": 0.9757177829742432,
+      "radar-vicuna-en": 0.0675780400633812
+    },
+    "f2a9c2c570e368754904bcb5c8d6243b745dc8a497f7aa1540f71ae9a0d31964": {
+      "openai-base-en": 0.00023308272648137063,
+      "openai-large-en": 0.009521126747131348,
+      "piratexx-en": 0.00023610182688571513,
+      "mage-en": 0.999920129776001,
+      "radar-vicuna-en": 0.180966317653656
+    },
+    "f349b0ce6253cb603f062fc057fd95ecdffd3c0364fa4580d14514bad18935a1": {
+      "openai-base-en": 0.02283290959894657,
+      "openai-large-en": 0.016223352402448654,
+      "piratexx-en": 0.00019380878075025976,
+      "mage-en": 0.00010226864105788991,
+      "radar-vicuna-en": 0.1425647884607315
+    },
+    "f38d032bc159d22d997b4c290c83a4c68a96599d02ed53f1ed187407d1c84649": {
+      "openai-base-en": 0.01743307150900364,
+      "openai-large-en": 0.009120818227529526,
+      "piratexx-en": 0.00017339609621558338,
+      "mage-en": 0.999961256980896,
+      "radar-vicuna-en": 0.019547972828149796
+    },
+    "f43f659f0150bb13cb219d549f2305a4f796d65754644c13e83eeaebcee4c155": {
+      "openai-base-en": 0.00028819619910791516,
+      "openai-large-en": 0.026194319128990173,
+      "piratexx-en": 0.00019874036661349237,
+      "mage-en": 0.0040280637331306934,
+      "radar-vicuna-en": 0.018269212916493416
+    },
+    "f460f52477ff778e0ac7e9581ed19908addf5fad1b6d7c5050ba7e32c1f189c1": {
+      "openai-base-en": 0.0003626422840170562,
+      "openai-large-en": 0.0006312578916549683,
+      "piratexx-en": 0.00016092958685476333,
+      "mage-en": 0.00041842120117507875,
+      "radar-vicuna-en": 0.018408173695206642
+    },
+    "f50b7913121fc5e225ff96d356ea41e4b7e85a61e3f2369244968fe476f801ed": {
+      "openai-base-en": 0.0002576384285930544,
+      "openai-large-en": 0.0013214355567470193,
+      "piratexx-en": 0.0002323950466234237,
+      "mage-en": 5.989884084556252e-05,
+      "radar-vicuna-en": 0.04214923083782196
+    },
+    "f7c86cfdc4623f754e367d8b311b576d3c50a51a4a32bdb3f1f3ed0e2ad5a9e5": {
+      "openai-base-en": 0.0001693233789410442,
+      "openai-large-en": 0.0017860432853922248,
+      "piratexx-en": 0.00018262153025716543,
+      "mage-en": 6.065186607884243e-05,
+      "radar-vicuna-en": 0.03019443154335022
+    },
+    "f81426ae0e68dd6ffdd62fc79b42dd168c6662fd98f0bf14f6a8abd41407a250": {
+      "openai-base-en": 0.01014813780784607,
+      "openai-large-en": 0.13179342448711395,
+      "piratexx-en": 0.00018136759172193706,
+      "mage-en": 0.9983709454536438,
+      "radar-vicuna-en": 0.07343735545873642
+    },
+    "f87267f4f3d3087066da0269a5dca7be01c4a02b344b12042bc8c6d1822643f9": {
+      "openai-base-en": 0.011949146166443825,
+      "openai-large-en": 0.44665002822875977,
+      "piratexx-en": 0.00019418317242525518,
+      "mage-en": 0.0011440350208431482,
+      "radar-vicuna-en": 0.8024076819419861
+    },
+    "f9a599e4e5d5b8521e1d04e591a876c4757658445b65c3bea7ab7ab25b0801b1": {
+      "openai-base-en": 0.00016967732517514378,
+      "openai-large-en": 0.0007572782342322171,
+      "piratexx-en": 0.0002051163901342079,
+      "mage-en": 0.00012700572551693767,
+      "radar-vicuna-en": 0.3164620101451874
+    },
+    "fa6b248bc6ff032cc670b00fcf31764e7bd1094bab7b3afb78ce4ccfa6715d84": {
+      "openai-base-en": 0.38660159707069397,
+      "openai-large-en": 0.04257827624678612,
+      "piratexx-en": 0.00015330403402913362,
+      "mage-en": 3.820403799181804e-05,
+      "radar-vicuna-en": 0.01526638213545084
+    },
+    "fc317f5055bae3dd2fb9be6573c11c83e9445aa1cdc02e9a836859c49bb7caba": {
+      "openai-base-en": 0.00023920972307678312,
+      "openai-large-en": 0.00047279856516979635,
+      "piratexx-en": 0.00015384569996967912,
+      "mage-en": 8.813400927465409e-05,
+      "radar-vicuna-en": 0.012360712513327599
+    },
+    "fc4b1ed8967a212379b5db161662179667ab92161070ac2bf4f2d97569af56bc": {
+      "openai-base-en": 0.0001724101894069463,
+      "openai-large-en": 0.0022934088483452797,
+      "piratexx-en": 0.0002073673822451383,
+      "mage-en": 0.9999585151672363,
+      "radar-vicuna-en": 0.007700596936047077
+    },
+    "fc4d56354203ed266041580962731c5ebb8e27b7c7d76612945b0e53da7ff0d3": {
+      "openai-base-en": 0.005600656848400831,
+      "openai-large-en": 0.09276393055915833,
+      "piratexx-en": 0.00020143776782788336,
+      "mage-en": 6.071193638490513e-05,
+      "radar-vicuna-en": 0.06494157016277313
+    },
+    "fd28a6d221eac694ae9ac2a7a97bbe97975ce7a1bc7ccd0597139f1b705948cf": {
+      "openai-base-en": 0.013387596234679222,
+      "openai-large-en": 0.029227575287222862,
+      "piratexx-en": 0.0001662409194977954,
+      "mage-en": 0.0045738969929516315,
+      "radar-vicuna-en": 0.026825176551938057
+    },
+    "ff055d5daf875d5a9df8bdf67d08c0e27d2ccd71240fa74a7c65f55139f6d522": {
+      "openai-base-en": 0.057375065982341766,
+      "openai-large-en": 0.010273007676005363,
+      "piratexx-en": 0.00019861591863445938,
+      "mage-en": 0.00030008575413376093,
+      "radar-vicuna-en": 0.05704966560006142
+    },
+    "ff20372f9f921438819906934dcbc1935a4482f6116ebbd51e18eb74fea0e1cb": {
+      "openai-base-en": 0.004295896738767624,
+      "openai-large-en": 0.04831760376691818,
+      "piratexx-en": 0.0003197091573383659,
+      "mage-en": 0.9976978898048401,
+      "radar-vicuna-en": 0.034738752990961075
+    },
+    "ff48835f91a4b697faa7e84e202dc39a283c8d1d3b20355e176f4f50c52d992c": {
+      "openai-base-en": 0.0007570278248749673,
+      "openai-large-en": 0.0006184966769069433,
+      "piratexx-en": 0.00016253914509434253,
+      "mage-en": 0.9686388373374939,
+      "radar-vicuna-en": 0.00602237181738019
+    }
+  },
+  "roles": [
+    "acceptance"
+  ],
+  "models": [
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en"
+  ],
+  "created_at_utc": "2026-10-06T05:12:50.907158+00:00",
+  "cache_hashes": {
+    "openai-base-en": "83701e8d226d81c2a4be712a8ae27980fe6c380fd5d5b9ad44a9ba4954e74e9c",
+    "openai-large-en": "fe2dcaf92145b40603281d0e541e31eda4efcd4b175de57fc511220907456e45",
+    "piratexx-en": "eae7ee5cfa01122116cc3a49ab6c79bbc7e5f98e51f303d636d4274d6f242704",
+    "mage-en": "ab813da78c663147a073a90d5d9b72b2d4c69cf201d1c9287d0e91d710fa3d41",
+    "radar-vicuna-en": "d07edfa9f7b8bc9fd95071cc0dfb0b3165cc39d36593ec6a0e695e329377aa00"
+  },
+  "campaign_sha256": "2f8a4df32223e1286232c6c8a58d3075bf43851e864c62f0c79f777f215f9f9b",
+  "freeze_sha256": "77f04b80a3298b583395de73267829c5e0aa08b2c8372a4809c17936f30aa3dd"
+}

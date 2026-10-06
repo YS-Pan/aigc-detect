@@ -16,3 +16,5 @@
 4. 实际本机 HTTP 与跨 cwd CLI：验证调用方部署方式。
 
 依赖精确版本记录在 requirements-lock，原始真实模型结果保存在 reports。公开说明不把 smoke 分数当作阈值或准确率。
+
+[english_diverse_corpus.py](../../scripts/english_diverse_corpus.py)只读接入30原版/147混合的schema1与schema2，校验文件/跨度/逆向恢复，统一抽取abstract/prose/list并保留字符来源映射；整节247个实际生成叙述槽位与1112个资源拆分跨度分别管理。[english_diverse_validation.py](../../scripts/english_diverse_validation.py)声明来源作者角色、离线评分177完整输入、两候选冻结和六来源验收；[audit_english_diverse.py](../../scripts/audit_english_diverse.py)独立公式/逐字符核算、数值复现和跨cwd完整正文CLI验证。173项测试通过；[完整结果与限制](../context/english-diverse-validation-20261006.md)说明检出失败、保持v2及语料已见边界。

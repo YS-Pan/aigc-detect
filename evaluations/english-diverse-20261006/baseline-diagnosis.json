@@ -1,0 +1,110 @@
+{
+  "at_utc": "2026-10-06T05:11:04.408614+00:00",
+  "baseline": {
+    "development": {
+      "documents": 24,
+      "papers": 4,
+      "windows": 258,
+      "pure_human_windows": 184,
+      "false_windows": 0,
+      "false_unique_hashes": 0,
+      "false_documents": 0,
+      "original_documents": 4,
+      "original_false_windows": 0,
+      "original_false_documents": 0,
+      "mixed_false_windows": 0,
+      "generated_windows": 74,
+      "flagged_generated_windows": 0,
+      "narrative_units": 87,
+      "hit_units": 0,
+      "unit_recall": 0.0,
+      "section_units": 4,
+      "hit_sections": 0,
+      "generated_characters": 44440,
+      "covered_generated_characters": 0,
+      "generated_character_coverage": 0.0,
+      "positive_window_generated_characters": 0,
+      "positive_window_human_characters": 0,
+      "positive_window_human_fraction": null,
+      "hit_ids": [],
+      "section_hit_ids": [],
+      "false_ids": [],
+      "flag_ids": []
+    },
+    "fit": {
+      "documents": 95,
+      "papers": 16,
+      "windows": 1443,
+      "pure_human_windows": 1142,
+      "false_windows": 0,
+      "false_unique_hashes": 0,
+      "false_documents": 0,
+      "original_documents": 16,
+      "original_false_windows": 0,
+      "original_false_documents": 0,
+      "mixed_false_windows": 0,
+      "generated_windows": 301,
+      "flagged_generated_windows": 2,
+      "narrative_units": 295,
+      "hit_units": 2,
+      "unit_recall": 0.006779661016949152,
+      "section_units": 15,
+      "hit_sections": 0,
+      "generated_characters": 219326,
+      "covered_generated_characters": 2254,
+      "generated_character_coverage": 0.010276939350555793,
+      "positive_window_generated_characters": 2254,
+      "positive_window_human_characters": 815,
+      "positive_window_human_fraction": 0.26555881394591074,
+      "hit_ids": [
+        "P08-paragraph_compress_restore-gpt-6-astra:P08-p001-b004",
+        "P08-paragraph_compress_restore-gpt-6-luna:P08-p003-b002"
+      ],
+      "section_hit_ids": [],
+      "false_ids": [],
+      "flag_ids": [
+        "P08-paragraph_compress_restore-gpt-6-astra:s0000",
+        "P08-paragraph_compress_restore-gpt-6-luna:s0005"
+      ]
+    }
+  },
+  "signals": {
+    "openai-base-en": {
+      "human_max": 0.9997032284736633,
+      "generated_window_max": 0.9994354844093323,
+      "generated_windows_above_human_max": 0,
+      "human_saturated_at_one": 0,
+      "generated_saturated_at_one": 0
+    },
+    "openai-large-en": {
+      "human_max": 0.8657626509666443,
+      "generated_window_max": 0.983180820941925,
+      "generated_windows_above_human_max": 1,
+      "human_saturated_at_one": 0,
+      "generated_saturated_at_one": 0
+    },
+    "piratexx-en": {
+      "human_max": 0.061031121760606766,
+      "generated_window_max": 0.0012628453550860286,
+      "generated_windows_above_human_max": 0,
+      "human_saturated_at_one": 0,
+      "generated_saturated_at_one": 0
+    },
+    "mage-en": {
+      "human_max": 0.9999877214431763,
+      "generated_window_max": 0.9999877214431763,
+      "generated_windows_above_human_max": 0,
+      "human_saturated_at_one": 0,
+      "generated_saturated_at_one": 0
+    },
+    "radar-vicuna-en": {
+      "human_max": 0.9986030459403992,
+      "generated_window_max": 0.9908872842788696,
+      "generated_windows_above_human_max": 0,
+      "human_saturated_at_one": 0,
+      "generated_saturated_at_one": 0
+    }
+  },
+  "calibration_generated_scores_not_used": true,
+  "acceptance_scores_not_available": true
+}

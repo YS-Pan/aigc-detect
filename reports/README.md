@@ -21,3 +21,5 @@
 这些文件记录安装验证，不是论文检测报告。来源说明见 [samples](../samples/README.md)，结论和边界见 [验证记录](../dev_doc/context/installation-validation.md)。重复执行验证脚本会覆盖对应的最新结果；需要保存历史时，先为旧结果另建带日期的副本。
 
 长文融合默认 profile 为 `thesis-cnki-20260929-v1`，配置位于 [profile](../aigc_detector/profiles/thesis-cnki-20260929-v1.json)，算法与拟合限制见[融合模块说明](../dev_doc/blueprints/fusion.md)。报告目录中的运行结果、原始正文、CNKI PDF 和其他具体报告均不入 Git；该目录只跟踪本 README。
+
+[english-diverse-20261006/report/index.html](english-diverse-20261006/report/index.html)：30原版及147混合版本的完整正文阅读、精确生成标签与v2/冻结选中方案标记。结果未达目标；正文、源映射、原始缓存与标准CLI报告均仅本地保存。数值复现见[对应evaluations](../evaluations/english-diverse-20261006/README.md)。

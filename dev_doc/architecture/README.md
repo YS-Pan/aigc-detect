@@ -40,3 +40,5 @@
 源码、文档、有来源许可的公开测试样本、`models/manifest.json` 和不含论文正文的轻量证据可版本管理。论文输入文本、完整检测报告、CNKI 原始 PDF、模型权重、checkpoint、`.venv`、`.runtime`、`logs` 和缓存不进入 Git；`reports/README.md` 是报告目录中唯一应跟踪的文件。下载清单记录来源事实；健康检查只做文件存在/大小检查，完整性通过 verify_models 的 SHA-256 检查确认。
 
 dissertation 保有正文提取、章节筛选、结果归档和科学判断的责任。本项目不自动读取或更改它的论文文件。
+
+[多来源英文验证](../context/english-diverse-validation-20261006.md)新增维护期跨schema语料适配、逐字符来源/标签投影、来源作者分组和完整正文冻结评价。运行时仍为锁定五个原始分数；实验只重拟合上层线性映射或校准人工门限，没有训练底层/分类头、增加生产profile或改变默认接口。文本、源映射与完整缓存只放入Git忽略的reports。

@@ -30,3 +30,5 @@
 | [skill/README.md](skill/README.md) | 文档维护约定 |
 
 当前工作区不依赖其他项目的 Python 环境；不把 yadof 的框架、集群或 wheel 接收流程复制到本项目。
+
+[2026-10-06多来源英文验证](context/english-diverse-validation-20261006.md)：30来源、三种生成方式、177完整输入的先分组冻结验收；两条非神经改进未达目标，保留v2。

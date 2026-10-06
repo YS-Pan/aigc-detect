@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-06T05:20:16.263332+00:00",
+  "pytest": {
+    "passed": 173,
+    "warnings": 22,
+    "new_tests": 12
+  },
+  "docs_checked": 13,
+  "html_pages": 178,
+  "html_links_checked": 179,
+  "numeric_evidence_no_text": true,
+  "freeze_and_upstream_unchanged": true,
+  "report_complete_sha256": "f5e7c370957b71e4e3f9f2e6dc4baa4bee8b41f3a32997a2a031720f7cf2d6af"
+}

@@ -41,3 +41,5 @@ CNKI 原报告为 1.2%（1206/97762）；本人论文本地连续正文范围为
 长文报告 schema 为 `aigc-annotation/1.1`。报告保存 policy/profile、profile 哈希、模型 revisions、所有原始分数和窗口、融合分数及有符号贡献。
 
 CLI `recombine` 先核对完整报告的 `COMPLETE.json`、`report.json` 与 `source.txt`，再从缓存的原始分数重新应用 policy。默认融合模式还核对 roster、profile revision 和片段尺寸。重组不加载模型、不使用 GPU，结果写到新的报告目录；已有目录不会覆盖。HTTP 没有重组端点。
+
+[2026-10-06多来源实验](../context/english-diverse-validation-20261006.md)仅比较现有v2的人写门限校准和一次固定五分数线性存在判别重拟合（L2=10、人写权重20、1e-12 logit裁剪）；作者组内归一化和标签只用于维护期。新六来源冻结验收分别1/112、0/112，低于原样v2的5/112，未注册运行profile或改变默认。配置/门限以[evaluations](../../evaluations/english-diverse-20261006/README.md)为准，不进入实际调用参数。

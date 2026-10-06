@@ -1,0 +1,1830 @@
+{
+  "schema": "english-diverse-campaign/1.0",
+  "declared_at_utc": "2026-10-06T05:06:33.329506+00:00",
+  "seed": 20261006,
+  "groups": {
+    "acceptance": [
+      "P12",
+      "P15",
+      "P16",
+      "P25",
+      "P29",
+      "P30"
+    ],
+    "calibration": [
+      "P11",
+      "P18",
+      "P22",
+      "P27"
+    ],
+    "development": [
+      "P14",
+      "P19",
+      "P21",
+      "P24"
+    ],
+    "fit": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P13",
+      "P17",
+      "P20",
+      "P23",
+      "P26",
+      "P28"
+    ]
+  },
+  "author_source_groups": [
+    [
+      "P01",
+      "P02"
+    ],
+    [
+      "P03"
+    ],
+    [
+      "P04"
+    ],
+    [
+      "P05"
+    ],
+    [
+      "P06"
+    ],
+    [
+      "P07"
+    ],
+    [
+      "P08"
+    ],
+    [
+      "P09"
+    ],
+    [
+      "P10"
+    ],
+    [
+      "P11"
+    ],
+    [
+      "P12"
+    ],
+    [
+      "P13"
+    ],
+    [
+      "P14"
+    ],
+    [
+      "P15"
+    ],
+    [
+      "P16"
+    ],
+    [
+      "P17"
+    ],
+    [
+      "P18"
+    ],
+    [
+      "P19"
+    ],
+    [
+      "P20"
+    ],
+    [
+      "P21"
+    ],
+    [
+      "P22"
+    ],
+    [
+      "P23"
+    ],
+    [
+      "P24"
+    ],
+    [
+      "P25"
+    ],
+    [
+      "P26"
+    ],
+    [
+      "P27"
+    ],
+    [
+      "P28"
+    ],
+    [
+      "P29"
+    ],
+    [
+      "P30"
+    ]
+  ],
+  "previously_seen": {
+    "seen_papers": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ],
+    "matching_previous_documents": [
+      "P01-original",
+      "P02-original",
+      "P03-original",
+      "P04-original",
+      "P05-original",
+      "P06-original",
+      "P07-original",
+      "P08-original",
+      "P09-original",
+      "P10-original",
+      "P01-paragraph_compress_restore-gpt-6-astra",
+      "P01-paragraph_compress_restore-gpt-6-luna",
+      "P01-paragraph_compress_restore-gpt-6.1-sol",
+      "P02-paragraph_compress_restore-gpt-6-astra",
+      "P02-paragraph_compress_restore-gpt-6-luna",
+      "P02-paragraph_compress_restore-gpt-6.1-sol",
+      "P03-paragraph_compress_restore-gpt-6-astra",
+      "P03-paragraph_compress_restore-gpt-6-luna",
+      "P03-paragraph_compress_restore-gpt-6.1-sol",
+      "P04-paragraph_compress_restore-gpt-6-astra",
+      "P04-paragraph_compress_restore-gpt-6-luna",
+      "P04-paragraph_compress_restore-gpt-6.1-sol",
+      "P05-paragraph_compress_restore-gpt-6-astra",
+      "P05-paragraph_compress_restore-gpt-6-luna",
+      "P05-paragraph_compress_restore-gpt-6.1-sol",
+      "P06-paragraph_compress_restore-gpt-6-astra",
+      "P06-paragraph_compress_restore-gpt-6-luna",
+      "P06-paragraph_compress_restore-gpt-6.1-sol",
+      "P07-paragraph_compress_restore-gpt-6-astra",
+      "P07-paragraph_compress_restore-gpt-6-luna",
+      "P07-paragraph_compress_restore-gpt-6.1-sol",
+      "P08-paragraph_compress_restore-gpt-6-astra",
+      "P08-paragraph_compress_restore-gpt-6-luna",
+      "P08-paragraph_compress_restore-gpt-6.1-sol",
+      "P09-paragraph_compress_restore-gpt-6-astra",
+      "P09-paragraph_compress_restore-gpt-6-luna",
+      "P09-paragraph_compress_restore-gpt-6.1-sol",
+      "P10-paragraph_compress_restore-gpt-6-astra",
+      "P10-paragraph_compress_restore-gpt-6-luna",
+      "P10-paragraph_compress_restore-gpt-6.1-sol"
+    ],
+    "previous_external_controls": [
+      {
+        "id": "PMC4713056",
+        "sha256": "612f211a330ec89d84fc37c01525353630b4a64fd3d096bbdbafd5c055e978cf",
+        "related_papers": []
+      },
+      {
+        "id": "PMC5296718",
+        "sha256": "33d4df97499b8af4b495c12634a3f022ecf7f457c7435c1057e021f9727a8772",
+        "related_papers": []
+      },
+      {
+        "id": "PMC5361105",
+        "sha256": "e701de44d2417ec07c044f7fb4298ae8605dfa9b19f64da929cdf40160cb23e5",
+        "related_papers": []
+      },
+      {
+        "id": "PMC7181786",
+        "sha256": "f3dd37be065e62d54a34a63a6a607e30d626a287a743b88319c917b33accabc2",
+        "related_papers": []
+      }
+    ],
+    "scope": "Existing imported ten-paper collection plus four prior XML controls; no claim about base-model pretraining exposure."
+  },
+  "split_before_scores": true,
+  "source": "D:\\project\\20260911 dissertation\\side quest\\英文AIGC检测校准样本",
+  "source_files": {
+    "sources/manifest.json": {
+      "sha256": "6e534e7152bd939a0b002124bbb1ea2b9bec22f03c2c583626abd2df5277f62a",
+      "bytes": 191887
+    },
+    "corpus/aigc-index.json": {
+      "sha256": "a690ed34221d1a90e2ef0ad9eb800dc3bbf747bdc1b7ed1bb12ff1d4e99856a9",
+      "bytes": 337942
+    },
+    "corpus/indexes/20261005-additional-types.json": {
+      "sha256": "e70baad6fb69bc172e3781a1b268c1725b9f5d5f95cd88b5d78691e6b8d903dd",
+      "bytes": 3705425
+    },
+    "corpus/original/P01/content.json": {
+      "sha256": "99cca0705e5b70c4eea7e55253006265522e9c54a939ba2e86af29270dd1aba6",
+      "bytes": 124309
+    },
+    "corpus/original/P01/full.tex": {
+      "sha256": "5f207923881eaf3c13e5d9be9889ce53f8255e13e096e49fe27c77cc413ca9f2",
+      "bytes": 70140
+    },
+    "sources/P01.pdf": {
+      "sha256": "611e9ff0879a58f48afd4d66c477eadfe7d4761fdea7414d65941c2f4ef72b92",
+      "bytes": 1412456
+    },
+    "corpus/original/P02/content.json": {
+      "sha256": "b4de567cab39a84368f3f15f992cf93c9cd7d22e7e8f0f1f64befa938033d0c6",
+      "bytes": 134144
+    },
+    "corpus/original/P02/full.tex": {
+      "sha256": "8c51866d2ab9ed2d67a9498a6439f4ba7c5799e9190c44ca6fe41ce5cf443a80",
+      "bytes": 74773
+    },
+    "sources/P02.pdf": {
+      "sha256": "50dbe3cecbcf8dc45c7fcda0041695e02aa6cecbb99cdfb7aa830eb6257ec0da",
+      "bytes": 1160652
+    },
+    "corpus/original/P03/content.json": {
+      "sha256": "e51793dffb09dbc3cd63b71b7d42cb193c596257a7f9fdbf8f200245b258227f",
+      "bytes": 216733
+    },
+    "corpus/original/P03/full.tex": {
+      "sha256": "37bc1e8cd1deab287c5c3bc9649dc800e4f3926213c44a469ab5ee4236bdc43a",
+      "bytes": 96690
+    },
+    "sources/P03.pdf": {
+      "sha256": "57bb04be05100713f806e0238b393a00c5c479cb037a9251310a03731d9b4116",
+      "bytes": 4401753
+    },
+    "corpus/original/P04/content.json": {
+      "sha256": "dc7ecc1c99adfc5f9af5ec9b6a7e0029a0d7bde6d829e7ffb460ad74ae683c54",
+      "bytes": 49550
+    },
+    "corpus/original/P04/full.tex": {
+      "sha256": "31b7c17ca39afc7ae9bc042690bc64756b3a90c5a97bc6ed3b27e4cef3718b82",
+      "bytes": 24858
+    },
+    "sources/P04.pdf": {
+      "sha256": "2692ac2e44dbc094015c141c8eac75ee6456dd6abd1f7e16c0cb057bb712f11f",
+      "bytes": 233044
+    },
+    "corpus/original/P05/content.json": {
+      "sha256": "d5589b044058f255661bde4e527c7614d55fb09d583ae78fa06414d52d18f7c3",
+      "bytes": 94718
+    },
+    "corpus/original/P05/full.tex": {
+      "sha256": "e4bf1c485e1199341a17b65904eff458c595417beca7bd45ba416a125e482c63",
+      "bytes": 42630
+    },
+    "sources/P05.pdf": {
+      "sha256": "be17bf0e251d21fdc114daf59e4d7393835e254ad97f0a3d74c699a001af760e",
+      "bytes": 2718340
+    },
+    "corpus/original/P06/content.json": {
+      "sha256": "efb6b02b894c726c72006d768d665d03c6e2990ef158d702303c55e0b1f71564",
+      "bytes": 104592
+    },
+    "corpus/original/P06/full.tex": {
+      "sha256": "7a2fe61fe5f077b0cfd70844eb0f8de90412b0335f221ee853c06f417f8847ac",
+      "bytes": 45899
+    },
+    "sources/P06.pdf": {
+      "sha256": "c5587c635a5431c54104a59b8de34ee385c11b5f7fc5a3dc3a66f314b3eae21b",
+      "bytes": 4871618
+    },
+    "corpus/original/P07/content.json": {
+      "sha256": "f56133da10978c3f5518c852d22eff60aee04a834c50c6311d369f0d4e5fcf96",
+      "bytes": 23005
+    },
+    "corpus/original/P07/full.tex": {
+      "sha256": "d163454b01ae3de465bbaff50fe6aaad628d9b0d4089db4bb9ed05728666bacc",
+      "bytes": 13653
+    },
+    "sources/P07.pdf": {
+      "sha256": "011b707df7ecc59d7eac0e3e12973565fb645b57205b07614c90b6d39e9e81a0",
+      "bytes": 178157
+    },
+    "corpus/original/P08/content.json": {
+      "sha256": "392dcd996feffb4fd724bab1dbbb2e4d7d2f2ec38a77ae66447b8467878c357f",
+      "bytes": 64496
+    },
+    "corpus/original/P08/full.tex": {
+      "sha256": "bbc089c0fd1d63850f9ad078ae596abe70e2034b112f947db76c49c67cd74807",
+      "bytes": 43314
+    },
+    "sources/P08.pdf": {
+      "sha256": "b4e4743cfd6c1ad451a8826418ecfd1a1b8844a72e2cb78ed7c196ea41fcc14e",
+      "bytes": 879674
+    },
+    "corpus/original/P09/content.json": {
+      "sha256": "c176f5028b4eff7fe6a4c51b025c3483445009fbdd987f697934e6b629d28e53",
+      "bytes": 23935
+    },
+    "corpus/original/P09/full.tex": {
+      "sha256": "c12824be5d170ea216ffa5eee18a1b5969078d5cb11c325df22d35be60ee88d8",
+      "bytes": 11650
+    },
+    "sources/P09.pdf": {
+      "sha256": "205d9941baf940d80b183b5b6b96bf2d8bc19f042f9b2f3ccf770e4759b26d73",
+      "bytes": 99861
+    },
+    "corpus/original/P10/content.json": {
+      "sha256": "d203d203810534d435d6bb61e30f9de64479ff990bcf96dac2de19ace3774781",
+      "bytes": 97500
+    },
+    "corpus/original/P10/full.tex": {
+      "sha256": "f640e8764ade950f2373d3bf7457defcbbf4332d3df5425de3c35022ff0bd825",
+      "bytes": 67257
+    },
+    "sources/P10.pdf": {
+      "sha256": "771b21c205210640e87bc15f244b23a4079fbb39f72c6b968e3a53248e6ed520",
+      "bytes": 6024220
+    },
+    "corpus/original/P11/content.json": {
+      "sha256": "e3de9debcbba6aa0336430ad304d7262671e8a8e50fbe82736157a647cffe4dd",
+      "bytes": 36415
+    },
+    "corpus/original/P11/full.tex": {
+      "sha256": "d879a71e062cbc926b2747f6c432c9727618fa1b944665f3fb528017809e1631",
+      "bytes": 19328
+    },
+    "sources/P11.pdf": {
+      "sha256": "83de497bf115345dddc8ee3e2bb1f327be7e28eb782f997f595c42bb2efeda0f",
+      "bytes": 906262
+    },
+    "corpus/original/P12/content.json": {
+      "sha256": "bec19bc6ab0ef05e5b933047ba63e59f7a391adce5b20257f4a94d09e7c49360",
+      "bytes": 52381
+    },
+    "corpus/original/P12/full.tex": {
+      "sha256": "ffa77682007d229155f9d4f9b92aeeb325a60cf1f0408d00efdfc25c7c2d21ae",
+      "bytes": 31443
+    },
+    "sources/P12.pdf": {
+      "sha256": "fdc5125d7f75aee324fe0b8f5977fc445b59009768f1ff39a8a6e4f6108ad4da",
+      "bytes": 3351930
+    },
+    "corpus/original/P13/content.json": {
+      "sha256": "aba36d1e960942d0713ea03ba9488c1f825464cad14fc0514998f65585d886d2",
+      "bytes": 63639
+    },
+    "corpus/original/P13/full.tex": {
+      "sha256": "c4e6e02ca8ea0fdd866ef2d863399dc0528850c2401d7525cd91931f80aab11a",
+      "bytes": 39026
+    },
+    "sources/P13.pdf": {
+      "sha256": "9bdba0784a56247e4bc063fbf9257c9d664e5a88ea79b3ce9938f4ace1c7f471",
+      "bytes": 2210324
+    },
+    "corpus/original/P14/content.json": {
+      "sha256": "81eaf0711c23513f4d47ec583a6012ade50b59530a5bb175ce3f77192c4990f2",
+      "bytes": 85820
+    },
+    "corpus/original/P14/full.tex": {
+      "sha256": "5208209e933102fd0bd22d351682985189329604ec2cc9e228f33bfec25455b7",
+      "bytes": 36866
+    },
+    "sources/P14.pdf": {
+      "sha256": "50de43790a68c26d0c5afbb9f51f05eed968007eb821e30050bd8c8b46a68e57",
+      "bytes": 8476000
+    },
+    "corpus/original/P15/content.json": {
+      "sha256": "9f8185bad7ecbd2e290dc91148c1fcc9b61a3f4bddb87e653b6062e4c3247525",
+      "bytes": 111278
+    },
+    "corpus/original/P15/full.tex": {
+      "sha256": "03ea5dd0a35e2abe63a0e6bff2164552a753d0cf604b76c52fc562a9c49ee7eb",
+      "bytes": 55525
+    },
+    "sources/P15.pdf": {
+      "sha256": "1a893e9e218661205eb1b4ea8fb54ffc356ca0a13d3f3ee6b11b6c52ef77794c",
+      "bytes": 4240863
+    },
+    "corpus/original/P16/content.json": {
+      "sha256": "a6b3d250b5fa37b018d51dea6c461689e4391f2958d383b6a00896ae40ebdfe4",
+      "bytes": 103695
+    },
+    "corpus/original/P16/full.tex": {
+      "sha256": "6825ca19829f4f6a70b3e7de772be73aa7c224838772fc827586ff07eced58d9",
+      "bytes": 38755
+    },
+    "sources/P16.pdf": {
+      "sha256": "fa1b3924e392f2ce25df58f1e9c82bb4f42e3bbf8f48dd6a158058e063bffec4",
+      "bytes": 4497476
+    },
+    "corpus/original/P17/content.json": {
+      "sha256": "e4dc88177626f64952767d1ca01ef84343aac67ba25d40d72d7f61f6526bd188",
+      "bytes": 113857
+    },
+    "corpus/original/P17/full.tex": {
+      "sha256": "1692ca089d213c1cf11d96c322580f6ff6e87b7fc75b7258ba8a223a2294b2a9",
+      "bytes": 52710
+    },
+    "sources/P17.pdf": {
+      "sha256": "3b0722568b8d43437bfb5f91c9b414c78bebf19ae9cec9755cdf313f4050a155",
+      "bytes": 10905026
+    },
+    "corpus/original/P18/content.json": {
+      "sha256": "95c257a843393ea628f9e92791a5a568bb9eb1b94e8c8bfa0bc4d49473b90078",
+      "bytes": 162208
+    },
+    "corpus/original/P18/full.tex": {
+      "sha256": "5626e5a3b3dc551d554c4f4d3d8b833d55122aac186b40c943cbd7e7ba64e4bf",
+      "bytes": 66622
+    },
+    "sources/P18.pdf": {
+      "sha256": "7a0a9c40df3eb31990cfe6c7c74ec7e599f0d5824f8d79cb44a263d1641754bb",
+      "bytes": 4267131
+    },
+    "corpus/original/P19/content.json": {
+      "sha256": "afbb5bcfbb73ef754fca2e1484cce177592e7981ec5bd8bdfbcd1236c9cb334a",
+      "bytes": 24702
+    },
+    "corpus/original/P19/full.tex": {
+      "sha256": "d60d77e45e516eb05da72922534d6745663d95abb1d40f9bddeb3b749bc76567",
+      "bytes": 12434
+    },
+    "sources/P19.pdf": {
+      "sha256": "b8ad7ca92735049fe1c25ad72f317389dbf7277530ddd9012d4acbd25a3615d6",
+      "bytes": 324327
+    },
+    "corpus/original/P20/content.json": {
+      "sha256": "fc94e7d64d11138a210664d9f3d065b5e78a522dba168524e5e7739889fe756c",
+      "bytes": 45129
+    },
+    "corpus/original/P20/full.tex": {
+      "sha256": "e53d021a2c241673d96c2f75857769684d377378605d4f52fc8686dc9316c55a",
+      "bytes": 23002
+    },
+    "sources/P20.pdf": {
+      "sha256": "e811f46598c8fb11e11f1282a026472912992cf7aff432ef675c31b7d456f986",
+      "bytes": 408290
+    },
+    "corpus/original/P21/content.json": {
+      "sha256": "f56d4c493a53953630f75f9d671724df1d2117c21bbf3fcaa59b747943714ffa",
+      "bytes": 102887
+    },
+    "corpus/original/P21/full.tex": {
+      "sha256": "fcdb7c73b389818beae730b4ad6b2c0dbcd610f7d2339fa45a715fb04f26b261",
+      "bytes": 40704
+    },
+    "sources/P21.pdf": {
+      "sha256": "fcbb2ab48d2209dc9823be19f30000a2f1cc6958b192189887bd14108e5482eb",
+      "bytes": 881498
+    },
+    "corpus/original/P22/content.json": {
+      "sha256": "2d9f5c287fbc25e24845a21a5f77fd4cfdb74f2809ab21a527a78e24ab17ffc6",
+      "bytes": 89554
+    },
+    "corpus/original/P22/full.tex": {
+      "sha256": "9b3b78447eff10e5d0ad54d51c1851812305576d44a0dbf8637617f91e1a719f",
+      "bytes": 34336
+    },
+    "sources/P22.pdf": {
+      "sha256": "1248d55dd6994ae7e016be8112b0daeb5b75ec2809cd4def6a1512e866213c20",
+      "bytes": 417098
+    },
+    "corpus/original/P23/content.json": {
+      "sha256": "d11d20e593b1a79388d38901f35265597a8005806a7a8837c98aca75e79a9b8b",
+      "bytes": 111289
+    },
+    "corpus/original/P23/full.tex": {
+      "sha256": "2ab22afb9beb7433bcabd3cbace1f56cb0a5d012611f922ece5dc23efbb08305",
+      "bytes": 52705
+    },
+    "sources/P23.pdf": {
+      "sha256": "2851e5ce34927bdb7107f5deb90d36de939a8a346797bb634dc4af9eaabe794d",
+      "bytes": 661631
+    },
+    "corpus/original/P24/content.json": {
+      "sha256": "9676b764b7b5b24b221afcc6d60348beae8eb0b3429fa5ae474093b116e64b13",
+      "bytes": 90530
+    },
+    "corpus/original/P24/full.tex": {
+      "sha256": "8309d2a99431b707966c4933ac02a583a93fed3d196d4e134972e9d2bf62b95a",
+      "bytes": 39788
+    },
+    "sources/P24.pdf": {
+      "sha256": "2d51bb2a35350049d127112cf5853316d2e3e23f15c1fa17f61ffe26c1c2951e",
+      "bytes": 1855078
+    },
+    "corpus/original/P25/content.json": {
+      "sha256": "6e62a5cb9560300a6cabdec569a552eb1c8ac90a834e2322f1023cdb1b1af32b",
+      "bytes": 76366
+    },
+    "corpus/original/P25/full.tex": {
+      "sha256": "1570b1457a539612f728627a4306570f13b3814054b417566aa57d8d9ab763cb",
+      "bytes": 41359
+    },
+    "sources/P25.pdf": {
+      "sha256": "c2ee418e3b41c3f09a427ab22e38b94fd8646e672ed07d93e537406494247773",
+      "bytes": 3335730
+    },
+    "corpus/original/P26/content.json": {
+      "sha256": "566db01cc9e5514e07d8faa5910b8413e7149022c669ea6bb10eee9d3d1ed750",
+      "bytes": 44293
+    },
+    "corpus/original/P26/full.tex": {
+      "sha256": "9b9022768109b51ff149ccbace2da842c2cf67f8cb9d5f7da32bd3c50d40e8a6",
+      "bytes": 19805
+    },
+    "sources/P26.pdf": {
+      "sha256": "9d045c3e38244d280ebe620082c6964b5059f968c72b347efd1c04b8e430c65c",
+      "bytes": 104342
+    },
+    "corpus/original/P27/content.json": {
+      "sha256": "2fffcbcd6b0ec62ecb421db2148370d4fb01d52d439560efc85d426d86bd8d72",
+      "bytes": 257892
+    },
+    "corpus/original/P27/full.tex": {
+      "sha256": "4f9895b619ad0fc72a3bc1ce350ad952241ff3cac4583ef8d40fb47748d66bf0",
+      "bytes": 96727
+    },
+    "sources/P27.pdf": {
+      "sha256": "1eb242cadba750b38665be91da5ef05703d15c23787c771dd84fce6fc1f33a45",
+      "bytes": 810843
+    },
+    "corpus/original/P28/content.json": {
+      "sha256": "1202b2a96b9893b29f6807981ff9cdfbf2b872b6e9460feff9b300e7475c02eb",
+      "bytes": 148923
+    },
+    "corpus/original/P28/full.tex": {
+      "sha256": "4a5547e130ee2030298ba541f487f2c322bf752956929302f4a03d4a73bf0488",
+      "bytes": 65985
+    },
+    "sources/P28.pdf": {
+      "sha256": "d6a1696d2a44ea5004dc58d9f782399d4abf1476f76b9bd6aa0c3f5a16fadd80",
+      "bytes": 2456415
+    },
+    "corpus/original/P29/content.json": {
+      "sha256": "c8cd63497d5de86efb5ba339c5337b4c72a0a87074732a5d1703fe85824f21b9",
+      "bytes": 16424
+    },
+    "corpus/original/P29/full.tex": {
+      "sha256": "4036cf1f841668d3d3b930719f41618822fa03e31f4bc12fd0b1b458a5b59799",
+      "bytes": 7301
+    },
+    "sources/P29.pdf": {
+      "sha256": "879b6f09f23ff2e10dab3c8f684b1a4dc8956d16f1430623c56adc4134f019ad",
+      "bytes": 216606
+    },
+    "corpus/original/P30/content.json": {
+      "sha256": "3a8e692ddda3a2b76488ae184e9c56ccf0296226bca54ea90ae7f7cc03ca1f5c",
+      "bytes": 148477
+    },
+    "corpus/original/P30/full.tex": {
+      "sha256": "d0c626dc73f817fec2a682e6549b8059d3973da28a04a9012b8068a42ed87755",
+      "bytes": 51145
+    },
+    "sources/P30.pdf": {
+      "sha256": "0f8f7ad55a8fe5ff480527037364b2db937715e1eee2a4ae4594c5c1f05565b1",
+      "bytes": 1134172
+    },
+    "corpus/variants/gpt-6-astra/P01/full.tex": {
+      "sha256": "3778bc276f8fb1ae04370778533b22b7ed64f7f1940351074fa422a907a0da24",
+      "bytes": 70293
+    },
+    "corpus/variants/gpt-6-astra/P01/annotations.json": {
+      "sha256": "c72baba7a9659e859181b271b41cc3bb41ba9f224e7d430486e2e657ad83ee92",
+      "bytes": 2910
+    },
+    "corpus/variants/gpt-6-luna/P01/full.tex": {
+      "sha256": "2085acd8d3dc9484bcbabdd34405f65f94770175640e7095a20814e3c3f225e0",
+      "bytes": 70318
+    },
+    "corpus/variants/gpt-6-luna/P01/annotations.json": {
+      "sha256": "30a45bd4d5ffb8f10823ad08d60a65a24154cd0f1d18d2f7c7d95d736ac01c00",
+      "bytes": 2906
+    },
+    "corpus/variants/gpt-6.1-sol/P01/full.tex": {
+      "sha256": "e7980d05b90b0a340486043d25e838b9279b66f8cc1dfd78706a1c5f7afe4475",
+      "bytes": 70231
+    },
+    "corpus/variants/gpt-6.1-sol/P01/annotations.json": {
+      "sha256": "cab34aec960cf9e92c5791ee02a0197274b17a11a0124d7a1a0b7e6e104cc9a6",
+      "bytes": 2913
+    },
+    "corpus/variants/gpt-6-astra/P02/full.tex": {
+      "sha256": "e342211df14081849eb578cb577947fbc4107b70e59578f9ace9b73970c267e0",
+      "bytes": 74756
+    },
+    "corpus/variants/gpt-6-astra/P02/annotations.json": {
+      "sha256": "bed59c360df50f60084ccaddccda7e82319853fa29ab564a649365e740e5a3c2",
+      "bytes": 2922
+    },
+    "corpus/variants/gpt-6-luna/P02/full.tex": {
+      "sha256": "d7b5492406fc84d1d1ab0b4fb7afba1a36a9ecf8b3e203b0c7a3074849cefa6a",
+      "bytes": 75368
+    },
+    "corpus/variants/gpt-6-luna/P02/annotations.json": {
+      "sha256": "b73c67bbef9a841954b9c816a4cde5795f81126b4203861e5596b48c1cc3e04b",
+      "bytes": 2916
+    },
+    "corpus/variants/gpt-6.1-sol/P02/full.tex": {
+      "sha256": "03dfed5a18c7c66350677fbd0ee641f6f5ffee96bfd045f44b45a031b751063f",
+      "bytes": 74927
+    },
+    "corpus/variants/gpt-6.1-sol/P02/annotations.json": {
+      "sha256": "a69f9f364f971945165f5af5b620fcefb84db1af5ef9beabe4781a64b2b9df72",
+      "bytes": 2926
+    },
+    "corpus/variants/gpt-6-astra/P03/full.tex": {
+      "sha256": "afca5df1bc3ec5f4c31918775953655c4e849bedf1bc2169d8fbe00fccc8e6c4",
+      "bytes": 96506
+    },
+    "corpus/variants/gpt-6-astra/P03/annotations.json": {
+      "sha256": "a7e556113a526c9bfb985ea576e1b1b9f36ef50bf33f21ce1a82ca17a35bcabe",
+      "bytes": 2924
+    },
+    "corpus/variants/gpt-6-luna/P03/full.tex": {
+      "sha256": "b80b2cc732781347d71b4c1e687e4a4f6b528d79e0944ac04f702a4fa7e10890",
+      "bytes": 96780
+    },
+    "corpus/variants/gpt-6-luna/P03/annotations.json": {
+      "sha256": "333aeaa7d5518e985815c02efe235b8a776943c8d18bfc226c46b03d27ba28a0",
+      "bytes": 2910
+    },
+    "corpus/variants/gpt-6.1-sol/P03/full.tex": {
+      "sha256": "ea7d1d9eee61d7c33a85270e27a10c044f7df4faebabe72c14c5c35d04011c75",
+      "bytes": 96668
+    },
+    "corpus/variants/gpt-6.1-sol/P03/annotations.json": {
+      "sha256": "123ac7cd2ff61732bfb62dd608ffe9e0c873df7b307e82f0047384899b5ed1b9",
+      "bytes": 2925
+    },
+    "corpus/variants/gpt-6-astra/P04/full.tex": {
+      "sha256": "b4c027cada1660c3a659bae983ae198043f09731116dbd0b74fe6a6a6986181a",
+      "bytes": 24890
+    },
+    "corpus/variants/gpt-6-astra/P04/annotations.json": {
+      "sha256": "69f0274dd526c7ec2f97cc873a6d7a062236b020b3fb2ff9474cf699165f8861",
+      "bytes": 2915
+    },
+    "corpus/variants/gpt-6-luna/P04/full.tex": {
+      "sha256": "d58a567b523f408030fdc28948945978be2cb7d0238f7d7199b30c62abdf9d8e",
+      "bytes": 25107
+    },
+    "corpus/variants/gpt-6-luna/P04/annotations.json": {
+      "sha256": "3334ad19a5aab182010e4648252e0e94c84e3d27e98616c54c793723a78b973b",
+      "bytes": 2906
+    },
+    "corpus/variants/gpt-6.1-sol/P04/full.tex": {
+      "sha256": "351ea6f73110af9b506f1593c356174f856595aecdde2cf948e1fb9873bbcc68",
+      "bytes": 24795
+    },
+    "corpus/variants/gpt-6.1-sol/P04/annotations.json": {
+      "sha256": "4ba6a9b21995f670332222d5c0746a4200677150260479760869737933f6e87e",
+      "bytes": 2916
+    },
+    "corpus/variants/gpt-6-astra/P05/full.tex": {
+      "sha256": "0d3b7e9ab952d212090406da385b4c1e0f6ac196a7d566341d2c50cd30635b7d",
+      "bytes": 42692
+    },
+    "corpus/variants/gpt-6-astra/P05/annotations.json": {
+      "sha256": "78bb5fbe14948ae0ffcf69cbec09a25de770574c79b28ee7ea8bbf6b953eb31c",
+      "bytes": 2916
+    },
+    "corpus/variants/gpt-6-luna/P05/full.tex": {
+      "sha256": "a190923eadf01e3ef231be5feaa7a2c207ae6541656620d6b3642e1a5d310ccf",
+      "bytes": 41979
+    },
+    "corpus/variants/gpt-6-luna/P05/annotations.json": {
+      "sha256": "9a377a9ee2c7d762098e545686caff69e1d19eaca97e4492ed72be69408db9e1",
+      "bytes": 2907
+    },
+    "corpus/variants/gpt-6.1-sol/P05/full.tex": {
+      "sha256": "1d020bdf05762a56790f84b3b269d5e1e1b9e85dd4b9b5e41c919816615b8005",
+      "bytes": 42606
+    },
+    "corpus/variants/gpt-6.1-sol/P05/annotations.json": {
+      "sha256": "ebcbd9ba7b7d05cb2a7f3832ea7f6adf3fa33cefced3c21c9fc37ab00ed1d92d",
+      "bytes": 2918
+    },
+    "corpus/variants/gpt-6-astra/P06/full.tex": {
+      "sha256": "cef114e42045d066c35d209bc2f9b724763e5528f21eabf4452709074164e5cd",
+      "bytes": 45554
+    },
+    "corpus/variants/gpt-6-astra/P06/annotations.json": {
+      "sha256": "815b60a75b33529684e4b691c9a217eb02051113f3bc7142a681765a8838e5a8",
+      "bytes": 2169
+    },
+    "corpus/variants/gpt-6-luna/P06/full.tex": {
+      "sha256": "d1d0033642786283082f8d2b6715ffff69df88728f0e1b43344cd55e061c2122",
+      "bytes": 45703
+    },
+    "corpus/variants/gpt-6-luna/P06/annotations.json": {
+      "sha256": "e43ce7e6a20b4063d695f674a63f39176705843cd67259353c498c9186bf2798",
+      "bytes": 2162
+    },
+    "corpus/variants/gpt-6.1-sol/P06/full.tex": {
+      "sha256": "7458887f4e92f69f5c08ecd21d1d621832a78db7758c7656b8b2ca3860a130d6",
+      "bytes": 45798
+    },
+    "corpus/variants/gpt-6.1-sol/P06/annotations.json": {
+      "sha256": "36fdea92e20ede135e3aa8729e6f21d8c6105e666e10c463f67db18e6a8ccce7",
+      "bytes": 2176
+    },
+    "corpus/variants/gpt-6-astra/P07/full.tex": {
+      "sha256": "fd591d01d288572b435124348527d05e3213c93c68ab6168d4a752a9fcf07ff0",
+      "bytes": 13652
+    },
+    "corpus/variants/gpt-6-astra/P07/annotations.json": {
+      "sha256": "af7f348946a549f2fe1351de5cdbde2a5b904b6d8653dffd58995eeb918ccc76",
+      "bytes": 1421
+    },
+    "corpus/variants/gpt-6-luna/P07/full.tex": {
+      "sha256": "b03c349a5626dc42bfff69d91ba8b3b26b4a16a23196299bed9d4bd1c84d71ca",
+      "bytes": 13624
+    },
+    "corpus/variants/gpt-6-luna/P07/annotations.json": {
+      "sha256": "d72e7fb0341c417a0981c73053964b0e12da0c7478893ddac81e40fee260602c",
+      "bytes": 1423
+    },
+    "corpus/variants/gpt-6.1-sol/P07/full.tex": {
+      "sha256": "4e3ec3fccda58c68fecb9f4dedf572fae5b7c95253584e229729a1dc98a158ae",
+      "bytes": 13673
+    },
+    "corpus/variants/gpt-6.1-sol/P07/annotations.json": {
+      "sha256": "27b838b34af3cff2a569bfaed7a9c77cf19f43ac2a6c6f474c10f2e427028c33",
+      "bytes": 1425
+    },
+    "corpus/variants/gpt-6-astra/P08/full.tex": {
+      "sha256": "c4aa68462f87775a0def786370bddc5c0c52a2f2724ae2a903e3d36d8e93fc40",
+      "bytes": 42896
+    },
+    "corpus/variants/gpt-6-astra/P08/annotations.json": {
+      "sha256": "8db1d4a67ade91a994f8195c45bccb413666715c43e5788c4a91ffe6cf46fc9f",
+      "bytes": 2914
+    },
+    "corpus/variants/gpt-6-luna/P08/full.tex": {
+      "sha256": "5106849143e81ae9daabf22bf277a89cd445a8907ae96d32c049b78631539872",
+      "bytes": 43285
+    },
+    "corpus/variants/gpt-6-luna/P08/annotations.json": {
+      "sha256": "5670f871c7d286ac4e93441a1482de50719c3bed5959b72def7f31c7b057ee39",
+      "bytes": 2916
+    },
+    "corpus/variants/gpt-6.1-sol/P08/full.tex": {
+      "sha256": "77495dd1d96ae91ccc9189a8c756289ed574e31c98f57ab57349fc2017442e55",
+      "bytes": 43435
+    },
+    "corpus/variants/gpt-6.1-sol/P08/annotations.json": {
+      "sha256": "b00890676a18d6d98c4ef181987e59938373265ea028a25bf8790875d8af1803",
+      "bytes": 2922
+    },
+    "corpus/variants/gpt-6-astra/P09/full.tex": {
+      "sha256": "192b10f58c1814f4285a96056c8492a9c6f11a4a63cabf94a40a54ad91a76c01",
+      "bytes": 11656
+    },
+    "corpus/variants/gpt-6-astra/P09/annotations.json": {
+      "sha256": "ccd564ea732be0169b66b0675ffa3126951250c8f46275cdb5b22921cc15f786",
+      "bytes": 1421
+    },
+    "corpus/variants/gpt-6-luna/P09/full.tex": {
+      "sha256": "410ab0a115bda02036e4c6a730567040720bf1b6c3856914e2fc39a8c78ca66e",
+      "bytes": 11708
+    },
+    "corpus/variants/gpt-6-luna/P09/annotations.json": {
+      "sha256": "0ae05a0893df2f3ef867c0bb29256ba1e929396f2516ad0b45da5f891c2ee155",
+      "bytes": 1415
+    },
+    "corpus/variants/gpt-6.1-sol/P09/full.tex": {
+      "sha256": "540eefe4c6118e5576f5d2278353fdb74cb3fd5580573f5a171516aa9db7e169",
+      "bytes": 11657
+    },
+    "corpus/variants/gpt-6.1-sol/P09/annotations.json": {
+      "sha256": "49368756fe96e86566553a982389f5e402a957d2e24cecc8b9a251a237570736",
+      "bytes": 1425
+    },
+    "corpus/variants/gpt-6-astra/P10/full.tex": {
+      "sha256": "a3e40ddb3ebf17865c14373b4b3fab5a5c09165eac9864143da02345b27014d3",
+      "bytes": 67238
+    },
+    "corpus/variants/gpt-6-astra/P10/annotations.json": {
+      "sha256": "05eaabb53c1020c7384abdbfc1f5f0e5d75a640f5fc0fe1781bebda73d18364c",
+      "bytes": 2923
+    },
+    "corpus/variants/gpt-6-luna/P10/full.tex": {
+      "sha256": "222019f110d27ad19542cf4b016b7f3e26bd8d304fa914e7362b788389b67878",
+      "bytes": 67344
+    },
+    "corpus/variants/gpt-6-luna/P10/annotations.json": {
+      "sha256": "2ac445b0bc18e76ab86f74a2cf4c53759a032a54dcc3f5033dc832732d1e84bc",
+      "bytes": 2911
+    },
+    "corpus/variants/gpt-6.1-sol/P10/full.tex": {
+      "sha256": "2ca8240d3e4e2914527cf0e18d80a5042c867337347ae73fc74d8ebe7afaea5c",
+      "bytes": 67212
+    },
+    "corpus/variants/gpt-6.1-sol/P10/annotations.json": {
+      "sha256": "c57c5959971e6e44f4b19e1e9b6489256c2270a16b89e88b2fbdafc3df0e71de",
+      "bytes": 2921
+    },
+    "corpus/variants/gpt-6-astra/P11/full.tex": {
+      "sha256": "7c3499d9b62f771b6db99804d35ab0383eabdc0849e116ea72974ea01c34caab",
+      "bytes": 19062
+    },
+    "corpus/variants/gpt-6-astra/P11/annotations.json": {
+      "sha256": "760629a254469265ba595751e0ed5610d91533568f0b89a1911e0a456b91aa54",
+      "bytes": 2237
+    },
+    "corpus/variants/gpt-6-luna/P11/full.tex": {
+      "sha256": "10cf3f7489cf0750582496653b4a099f64bd1bccf7579be85b652619274afc51",
+      "bytes": 19260
+    },
+    "corpus/variants/gpt-6-luna/P11/annotations.json": {
+      "sha256": "2a86d2e19a1a7942d726808aede0316142d3aa145545cc13d40161705b937bf0",
+      "bytes": 2232
+    },
+    "corpus/variants/gpt-6.1-sol/P11/full.tex": {
+      "sha256": "70f732f349afe535200f4d8ae9ce1b5accc1f843feac9c57f5fe830d40d88798",
+      "bytes": 19297
+    },
+    "corpus/variants/gpt-6.1-sol/P11/annotations.json": {
+      "sha256": "0cece4125efedb2572b74e4321468f1dd84ec93408a441be8f1b143fcaeaef58",
+      "bytes": 2230
+    },
+    "corpus/variants/gpt-6-astra/P12/full.tex": {
+      "sha256": "243b446205c8b831919ce01a1b9ba29ef85eb35346841326ac31317e8297e8fe",
+      "bytes": 31204
+    },
+    "corpus/variants/gpt-6-astra/P12/annotations.json": {
+      "sha256": "304556c0582369131d544374ecdbc6eb123bc96cde7e7e0e334a15c0de4c8090",
+      "bytes": 3614
+    },
+    "corpus/variants/gpt-6-luna/P12/full.tex": {
+      "sha256": "ad941e75e90a5099bd80eb51f52cbb1b462faffd05605d76fa6569bc5bf90608",
+      "bytes": 31374
+    },
+    "corpus/variants/gpt-6-luna/P12/annotations.json": {
+      "sha256": "4c727f2563ca5dfe11d074e796aba4c5474b83a0e1d0fc3b8f47fd39ad4a9a49",
+      "bytes": 3595
+    },
+    "corpus/variants/gpt-6.1-sol/P12/full.tex": {
+      "sha256": "8d9049f129356d8e0db89b8c991ad2e975a0c8e113b1bb8f93414119f3a1898b",
+      "bytes": 31133
+    },
+    "corpus/variants/gpt-6.1-sol/P12/annotations.json": {
+      "sha256": "d0ad378252ed6dc35129320942067bb79774135f562d107a79625167ce9a7995",
+      "bytes": 3610
+    },
+    "corpus/variants/gpt-6-astra/P13/full.tex": {
+      "sha256": "2473a019f0e62de800aa8120c5aba7bbdb0049da8d298bae2a26d5b76c15b23e",
+      "bytes": 38959
+    },
+    "corpus/variants/gpt-6-astra/P13/annotations.json": {
+      "sha256": "bfcdd181497e350e14b2d20cde629b55dde48531858836ffa738c467bd858bbb",
+      "bytes": 3512
+    },
+    "corpus/variants/gpt-6-luna/P13/full.tex": {
+      "sha256": "fc6e2e39dbd2d0c4d3c321a9eef29083b590175eafc74122115a7980f1c2e28e",
+      "bytes": 38855
+    },
+    "corpus/variants/gpt-6-luna/P13/annotations.json": {
+      "sha256": "f566d90f8aadfc13c32b62081508c30c49f469ce23f8ed87cf92e78674f698b6",
+      "bytes": 3504
+    },
+    "corpus/variants/gpt-6.1-sol/P13/full.tex": {
+      "sha256": "316debc79948c80914b41a1ca7b36832f19712312c0d03d588c847187472aae2",
+      "bytes": 39083
+    },
+    "corpus/variants/gpt-6.1-sol/P13/annotations.json": {
+      "sha256": "e7f024e4063920030528f83a3ee19511c7c98b2a7128ae32dd900d4233bff0a2",
+      "bytes": 3528
+    },
+    "corpus/variants/gpt-6-astra/P14/full.tex": {
+      "sha256": "9e99c0461591edfdc605d85b2c02e13a303a2f7072c06bc43e2aad865387da1e",
+      "bytes": 36898
+    },
+    "corpus/variants/gpt-6-astra/P14/annotations.json": {
+      "sha256": "a538fbcb68019c50478cf1c450576e68391f28d334a2572a8b0def93f0f3b145",
+      "bytes": 3612
+    },
+    "corpus/variants/gpt-6-luna/P14/full.tex": {
+      "sha256": "cacba6da82414b6b3adb115110400dad39a5edba7e11c6e79d1c421171112d4e",
+      "bytes": 36973
+    },
+    "corpus/variants/gpt-6-luna/P14/annotations.json": {
+      "sha256": "99697a0519c19f7f4416e3318799577db38be1655d9328a8faecc830bea7e4a3",
+      "bytes": 3588
+    },
+    "corpus/variants/gpt-6.1-sol/P14/full.tex": {
+      "sha256": "107741e137d0caf7fb8038e68e2f4e52a015397b36445a196b380c461c2a71a9",
+      "bytes": 37083
+    },
+    "corpus/variants/gpt-6.1-sol/P14/annotations.json": {
+      "sha256": "00387bd12e0a9c43391380bd0b9ae11ef54be8729de45f94532d5828ac6840e8",
+      "bytes": 3605
+    },
+    "corpus/variants/gpt-6-astra/P15/full.tex": {
+      "sha256": "15e4b51a5397d8a25f392d5c3a5b804619640b508c693e44bdf13c4295e9eec0",
+      "bytes": 55712
+    },
+    "corpus/variants/gpt-6-astra/P15/annotations.json": {
+      "sha256": "f6e382c8b632bfc83982c5f67eb497e1508960d4b76a5b278ecc1b181983397f",
+      "bytes": 3625
+    },
+    "corpus/variants/gpt-6-luna/P15/full.tex": {
+      "sha256": "fbd517c7fa03dc34b07b49644048e47956969e1776be7279fa39bf2031013847",
+      "bytes": 55643
+    },
+    "corpus/variants/gpt-6-luna/P15/annotations.json": {
+      "sha256": "7fc7a45b9600111b5156b50cd5c623210d38641c2f28ffa92fb91a8b516c9055",
+      "bytes": 3615
+    },
+    "corpus/variants/gpt-6.1-sol/P15/full.tex": {
+      "sha256": "9a4bbd4e82c1faa48b08759a04dcc0449cc37a13afc882db3d81ce75b3332bdb",
+      "bytes": 55696
+    },
+    "corpus/variants/gpt-6.1-sol/P15/annotations.json": {
+      "sha256": "d72f4d7953a06907402ac906720ebd7a5d09f0e358d2a0a2c06420b349b56abb",
+      "bytes": 3622
+    },
+    "corpus/variants/gpt-6-astra/P16/full.tex": {
+      "sha256": "0c0fdc4444c474a7c5b89a14c9907ea4a981a6f54d8e8a3c5903fb40a1977fcd",
+      "bytes": 38799
+    },
+    "corpus/variants/gpt-6-astra/P16/annotations.json": {
+      "sha256": "d31504b37a708e26261f7a0130822e03a60942d84d9346c21a1b5b193bd947a2",
+      "bytes": 4489
+    },
+    "corpus/variants/gpt-6-luna/P16/full.tex": {
+      "sha256": "1951334c7172fce65a9e562105c7fadaf91fb778c985bcac10799511368fc4df",
+      "bytes": 38849
+    },
+    "corpus/variants/gpt-6-luna/P16/annotations.json": {
+      "sha256": "9c69b0e52cd53f341ad222aad2c1628e6b65d16c8605696f8933138d5f18dddf",
+      "bytes": 4467
+    },
+    "corpus/variants/gpt-6.1-sol/P16/full.tex": {
+      "sha256": "f277989b06b2c3bcc9a5268addc0d015847fcec83d5a4b43ac1af2a50ad4e242",
+      "bytes": 38836
+    },
+    "corpus/variants/gpt-6.1-sol/P16/annotations.json": {
+      "sha256": "4e9a31139c6a6aad53cd8d57b1fc84199473a7ec4a67a12d506f070102e67175",
+      "bytes": 4479
+    },
+    "corpus/variants/gpt-6-astra/P17/full.tex": {
+      "sha256": "0ad85906c7ba0e34f63f42baf1783f611c8073ea9d17f8af54ec12c6e2ffc5b0",
+      "bytes": 52810
+    },
+    "corpus/variants/gpt-6-astra/P17/annotations.json": {
+      "sha256": "6f973fdd274345df706a111fd314630f0eaf2709645b7c01a634fb46f33f6e4e",
+      "bytes": 4391
+    },
+    "corpus/variants/gpt-6-luna/P17/full.tex": {
+      "sha256": "aaa753a49f9ac7c65fe53d21c6c43e6deec2b7b38837ca378bafc8939cdc2211",
+      "bytes": 52626
+    },
+    "corpus/variants/gpt-6-luna/P17/annotations.json": {
+      "sha256": "5ab18da3dbda64b68b031185f393f0082af74f9bc3134f5611a3124ef5ca105e",
+      "bytes": 4944
+    },
+    "corpus/variants/gpt-6.1-sol/P17/full.tex": {
+      "sha256": "9abac19deb352f9511929f9a197d11b4acf94bba872856b0a799cb788a757edf",
+      "bytes": 52718
+    },
+    "corpus/variants/gpt-6.1-sol/P17/annotations.json": {
+      "sha256": "1d5dbbac5fd9601a1a42fa5b10ce6c6327133c26facd379ec7d928bb60aa8638",
+      "bytes": 4389
+    },
+    "corpus/variants/gpt-6-astra/P18/full.tex": {
+      "sha256": "037032c7143e6c48c9b720b9862bc1c60b74c0d0c2c0f4372a68595e68dfbdc2",
+      "bytes": 66757
+    },
+    "corpus/variants/gpt-6-astra/P18/annotations.json": {
+      "sha256": "7c0083e7c6a0e1e2c19e1b476240c1f6c3b9cade63c2dd206b5522c5027cdbe5",
+      "bytes": 5511
+    },
+    "corpus/variants/gpt-6-luna/P18/full.tex": {
+      "sha256": "660a12313e4262e77b9f2b4be26952c6edef2022955655bcd7bcc4540d3ae1f2",
+      "bytes": 66680
+    },
+    "corpus/variants/gpt-6-luna/P18/annotations.json": {
+      "sha256": "11801e1c55474bdb20a100968b051affd50a53ff9db9f8999af74c0894a3490f",
+      "bytes": 5496
+    },
+    "corpus/variants/gpt-6.1-sol/P18/full.tex": {
+      "sha256": "75d46f01aa4569a6f727b32595a71f3eec41ad29a76bb9faf81e968c1155b26c",
+      "bytes": 66607
+    },
+    "corpus/variants/gpt-6.1-sol/P18/annotations.json": {
+      "sha256": "b6f9dcb0c00a0475c42dc672e265b32a0c9e36bf24a46a01933c23450fcd6cbf",
+      "bytes": 5512
+    },
+    "corpus/variants/gpt-6-astra/P19/full.tex": {
+      "sha256": "8615ef3a323eceb82d3d71154470c5f448b5862d974f4f29de4d22264a1a0b74",
+      "bytes": 12431
+    },
+    "corpus/variants/gpt-6-astra/P19/annotations.json": {
+      "sha256": "03be94cb1620555dffb38e031614d5a75542d5f5955794e5eaf46043b1b1b237",
+      "bytes": 2139
+    },
+    "corpus/variants/gpt-6-luna/P19/full.tex": {
+      "sha256": "5f20e97c09a167fa986277c0b55e1da32a6d0975ac311eac9fdd9ebeeb2a36e5",
+      "bytes": 12346
+    },
+    "corpus/variants/gpt-6-luna/P19/annotations.json": {
+      "sha256": "01715f673c2fdb2d807d9eac9f421ebce97b5c5c3c4631413413b5111b205bbd",
+      "bytes": 2137
+    },
+    "corpus/variants/gpt-6.1-sol/P19/full.tex": {
+      "sha256": "3525ee7a0a7c58f2fc51d501358c95a351cf5fdb6d20e10319cb77755eb13357",
+      "bytes": 12424
+    },
+    "corpus/variants/gpt-6.1-sol/P19/annotations.json": {
+      "sha256": "4f315df8a3507efd305d401f4e31620a660d514ed52db12bc0d6c8c877fdfc58",
+      "bytes": 2145
+    },
+    "corpus/variants/gpt-6-astra/P20/full.tex": {
+      "sha256": "d2fd57d88b923536cae18644e726c9df082dedc2848f0aefc883ccc50dca5943",
+      "bytes": 22947
+    },
+    "corpus/variants/gpt-6-astra/P20/annotations.json": {
+      "sha256": "ddfcc4c2e9273c0c9428e92288762657c303bd3567ea1be44b3bf57ff45ffa78",
+      "bytes": 3804
+    },
+    "corpus/variants/gpt-6-luna/P20/full.tex": {
+      "sha256": "874a814946d1acb035f55cb10ace47ff04c19144756c27460d2fd252f08d435e",
+      "bytes": 22806
+    },
+    "corpus/variants/gpt-6-luna/P20/annotations.json": {
+      "sha256": "c48ab229dafed396ccf75ef60ecca2bfa4b755a371bbacfe39f3d6b809cdcf2c",
+      "bytes": 3791
+    },
+    "corpus/variants/gpt-6.1-sol/P20/full.tex": {
+      "sha256": "f25481442b09fdf61c4b875c3a34c700ea0c5db89eae36851634c8f9e3255fea",
+      "bytes": 23079
+    },
+    "corpus/variants/gpt-6.1-sol/P20/annotations.json": {
+      "sha256": "d5313faa9fcc2a067b5a7000ac132cdbe9f18790aacfc8dbea6bafbb6556aefd",
+      "bytes": 3813
+    },
+    "corpus/variants/gpt-6-astra/P21/full.tex": {
+      "sha256": "a59d7240169fb98f7ce4837e42205adcc1b2e20b4c2d61a574b3c0a1b1f8dcea",
+      "bytes": 40592
+    },
+    "corpus/variants/gpt-6-astra/P21/annotations.json": {
+      "sha256": "8b6640b2a3f3a090d1d879d5156661f857749160ea7c60ac76c6a4d7321aa942",
+      "bytes": 4387
+    },
+    "corpus/variants/gpt-6-luna/P21/full.tex": {
+      "sha256": "b04c483d48496eb4173aa55c806a3ba250a4ca0c36663f41be5b128b129e450c",
+      "bytes": 40701
+    },
+    "corpus/variants/gpt-6-luna/P21/annotations.json": {
+      "sha256": "d207de014ea1d1a4fe701cf6048278988bf5308aa2f3c12c5905f8924fa8b0fb",
+      "bytes": 4366
+    },
+    "corpus/variants/gpt-6.1-sol/P21/full.tex": {
+      "sha256": "7b15b13783a4d7cc847d42307de18226602b8e357a29f25d78220ee6ed26653f",
+      "bytes": 40816
+    },
+    "corpus/variants/gpt-6.1-sol/P21/annotations.json": {
+      "sha256": "2104e84210d58bf471990e9a7b99410de05b27d3351c1df8aff70dc8a0218e47",
+      "bytes": 4394
+    },
+    "corpus/variants/gpt-6-astra/P22/full.tex": {
+      "sha256": "cc191429148da4fceebdfec5f219de4cbc06df759faf8f48f063cc0e348ff0c6",
+      "bytes": 34543
+    },
+    "corpus/variants/gpt-6-astra/P22/annotations.json": {
+      "sha256": "95b6c2dc051287629f90c365cd36ac147ed440d2df985c4389957f721e3041df",
+      "bytes": 4491
+    },
+    "corpus/variants/gpt-6-luna/P22/full.tex": {
+      "sha256": "3ed42f62befdf5652465fdd4122347bf59c83d2a40d3851f003b8b83b1a8126c",
+      "bytes": 34700
+    },
+    "corpus/variants/gpt-6-luna/P22/annotations.json": {
+      "sha256": "40be35234db1b09037e7d75a123a046a8fd0b50d965621576cc38418c0dd88b8",
+      "bytes": 4489
+    },
+    "corpus/variants/gpt-6.1-sol/P22/full.tex": {
+      "sha256": "f841e823b1103f36cbe13c609e8bc6ed5a78c45b3a37673a60a87fa7479f274e",
+      "bytes": 34311
+    },
+    "corpus/variants/gpt-6.1-sol/P22/annotations.json": {
+      "sha256": "9db5e63187d86c23befa1124e7e44fa027f9a78bf2a520caf6b6209e2e425176",
+      "bytes": 4476
+    },
+    "corpus/variants/gpt-6-astra/P23/full.tex": {
+      "sha256": "c2567e588c30449ab4a9fa7bff05f9f4fc9a867cbdc3922525a8853a40b130cf",
+      "bytes": 52713
+    },
+    "corpus/variants/gpt-6-astra/P23/annotations.json": {
+      "sha256": "b671e78d5a77d22f7c13536b3450aeafe86578f0d11ab25da6e69e6fa149ae4f",
+      "bytes": 3808
+    },
+    "corpus/variants/gpt-6-luna/P23/full.tex": {
+      "sha256": "0d8b13177dd0ebbb2e0754080584d2ebd38aa9d31a9b2ba754dd6d14a5346c2f",
+      "bytes": 52477
+    },
+    "corpus/variants/gpt-6-luna/P23/annotations.json": {
+      "sha256": "9e21ba46b7fe96595e18f8db753cce8ec6d6e90c93a70ef4b9e8aaacfa39b392",
+      "bytes": 4378
+    },
+    "corpus/variants/gpt-6.1-sol/P23/full.tex": {
+      "sha256": "804446c4adc007e244cdece1c68f37d3b4804d15725e7b7936a00e0091226c35",
+      "bytes": 52532
+    },
+    "corpus/variants/gpt-6.1-sol/P23/annotations.json": {
+      "sha256": "1d93eeee636ac48c5924bd8551976abd641420dc9faa655f451874d733febf12",
+      "bytes": 3815
+    },
+    "corpus/variants/gpt-6-astra/P24/full.tex": {
+      "sha256": "dbe4581553a23c1a6d9c5b84322d6f9f9465fa9246cd0967c82a571baad6561d",
+      "bytes": 39600
+    },
+    "corpus/variants/gpt-6-astra/P24/annotations.json": {
+      "sha256": "8e09de52541ba58c15973cdb39ed06e1170a7f123a7a7b963adc00f1e65824e2",
+      "bytes": 3820
+    },
+    "corpus/variants/gpt-6-luna/P24/full.tex": {
+      "sha256": "dfc99ea445a922ca6afd542f96cc3e7c9db24a6cc64cc80bb61e0d8c7a5e3104",
+      "bytes": 39699
+    },
+    "corpus/variants/gpt-6-luna/P24/annotations.json": {
+      "sha256": "ec7e5ef89d9f8d5c5374f3d96ee418ed1055994da37c1a2f4da5ec2f84657fe6",
+      "bytes": 4378
+    },
+    "corpus/variants/gpt-6.1-sol/P24/full.tex": {
+      "sha256": "6863b0c548ab0482f36430be48c655facf01a12e21c78e6a5ae3ad1315a42f5c",
+      "bytes": 39763
+    },
+    "corpus/variants/gpt-6.1-sol/P24/annotations.json": {
+      "sha256": "42808b9bb4ebe47e6dc9dc7b8734991771180dfd0bd0462567fb42709faf66ea",
+      "bytes": 3825
+    },
+    "corpus/variants/gpt-6-astra/P25/full.tex": {
+      "sha256": "14b2d92e4954a31ad6d742deeb49c1a988d49fc587a6b9c0d4a3e73f20bb1af6",
+      "bytes": 41290
+    },
+    "corpus/variants/gpt-6-astra/P25/annotations.json": {
+      "sha256": "504b048ac4a5083b52cf4b0cc6bd0bbad98e6846d419f36077af2c1fbf785bca",
+      "bytes": 3622
+    },
+    "corpus/variants/gpt-6-luna/P25/full.tex": {
+      "sha256": "f3f3f831e8b691922c619d744da8f3f46ca2c46215d14199f1228cdca5a08908",
+      "bytes": 41091
+    },
+    "corpus/variants/gpt-6-luna/P25/annotations.json": {
+      "sha256": "2c34828bad04b9430fd8b59dfe9c69756767188fd3649583c4051056d8837f78",
+      "bytes": 4186
+    },
+    "corpus/variants/gpt-6.1-sol/P25/full.tex": {
+      "sha256": "bf434f809490351acc9371802a321c0f9944aa846c866b2cf35f3af783021c16",
+      "bytes": 41027
+    },
+    "corpus/variants/gpt-6.1-sol/P25/annotations.json": {
+      "sha256": "fec0c8d66b20af891a4ea54605d5f6fc86a431a449037fbfb55ff7496a9c0555",
+      "bytes": 3625
+    },
+    "corpus/variants/gpt-6-astra/P26/full.tex": {
+      "sha256": "c03f391b34ed2a3b8f2b7e1b51fcd27e19d0c719453356c0cb244f7c3daf58ff",
+      "bytes": 19816
+    },
+    "corpus/variants/gpt-6-astra/P26/annotations.json": {
+      "sha256": "43a684054709f68e088fe3374268df1ce3e6607acc7aa179c1f85e8e04491360",
+      "bytes": 3449
+    },
+    "corpus/variants/gpt-6-luna/P26/full.tex": {
+      "sha256": "da41d42fd1e003afdc0e846ac63505e6e4a038d04fbca27c94fa06c0626d0fe5",
+      "bytes": 19752
+    },
+    "corpus/variants/gpt-6-luna/P26/annotations.json": {
+      "sha256": "55e961a63a1b28c0ca3d8ca7e8aec0b2a78a167d4defd0ee77ef6fa5f44e409f",
+      "bytes": 3443
+    },
+    "corpus/variants/gpt-6.1-sol/P26/full.tex": {
+      "sha256": "2635d386f9ca3d5392a519e68e999c43641125ee0810937ab1a35493c6cbdc75",
+      "bytes": 19705
+    },
+    "corpus/variants/gpt-6.1-sol/P26/annotations.json": {
+      "sha256": "de3b9b5f2912cf11baccb91941fa95ab1fe9d6c1cb603a74a903bf355c75af3c",
+      "bytes": 3451
+    },
+    "corpus/variants/gpt-6-astra/P27/full.tex": {
+      "sha256": "77d733ef00c2bcff87163e8dcfe576611ac028dfe1efed70f283b252191e95a3",
+      "bytes": 96718
+    },
+    "corpus/variants/gpt-6-astra/P27/annotations.json": {
+      "sha256": "42e293b724e6cc1e97b1903122bbc54c33be72a362ee7731f8a84236531ee857",
+      "bytes": 4317
+    },
+    "corpus/variants/gpt-6-luna/P27/full.tex": {
+      "sha256": "2badd5df53b4ab81ef512a863b00420e4c203dc17d500f6959b02aeb1b434ee0",
+      "bytes": 96386
+    },
+    "corpus/variants/gpt-6-luna/P27/annotations.json": {
+      "sha256": "baaa6b44d116137ab381a557287b5b6ca55d8fd19cd1af170ae7629a6f5a58ff",
+      "bytes": 4308
+    },
+    "corpus/variants/gpt-6.1-sol/P27/full.tex": {
+      "sha256": "fd1d4ff24b15dae605a37571367c26da0cf5c6907783a534d5c83246be0f240c",
+      "bytes": 96697
+    },
+    "corpus/variants/gpt-6.1-sol/P27/annotations.json": {
+      "sha256": "cd07306167372c2aad759c8cde721ca2e81e829646fdebc75868ece027c18d7c",
+      "bytes": 4311
+    },
+    "corpus/variants/gpt-6-astra/P28/full.tex": {
+      "sha256": "3d78067538c9c921a1001734b4c2bb44acd1dedb4bab327ed75579938b2d8eef",
+      "bytes": 66077
+    },
+    "corpus/variants/gpt-6-astra/P28/annotations.json": {
+      "sha256": "edba93e6c80a92b3fe46c7e70e4c76061aa7bea83be33427a7f2da338cc07225",
+      "bytes": 4297
+    },
+    "corpus/variants/gpt-6-luna/P28/full.tex": {
+      "sha256": "9a35eff764e8bb8ab7f7418c9f5fe18448add1284cbf2b3c5a9f09ce87fe3ea3",
+      "bytes": 66051
+    },
+    "corpus/variants/gpt-6-luna/P28/annotations.json": {
+      "sha256": "b71313e022732ae9295505067a189759dcabba8864f1f1a8538795dbb1acdcf7",
+      "bytes": 4284
+    },
+    "corpus/variants/gpt-6.1-sol/P28/full.tex": {
+      "sha256": "3f3faf788afc9ff71f70dc6d7cbb31b436578d84f264054ce7869a104d0c0214",
+      "bytes": 66144
+    },
+    "corpus/variants/gpt-6.1-sol/P28/annotations.json": {
+      "sha256": "df947ad165eb75f17cb73370dc90d166a1a6875e42d497745a6d53afcb335361",
+      "bytes": 4283
+    },
+    "corpus/variants/gpt-6-astra/P29/full.tex": {
+      "sha256": "7a2f44d9b27cb9a6e675200fedb6079cbf9fc373feb0ae98430438eb5573e6a4",
+      "bytes": 7275
+    },
+    "corpus/variants/gpt-6-astra/P29/annotations.json": {
+      "sha256": "ced5b6289ecd28038be68fadd6bbd929979039f9f88dc6ce636b3f06030ac25b",
+      "bytes": 2024
+    },
+    "corpus/variants/gpt-6-luna/P29/full.tex": {
+      "sha256": "6ea2171e1bd17f1ba1a79e7e5629c61e785d6a225522c67a53b2bc6074e92d82",
+      "bytes": 7356
+    },
+    "corpus/variants/gpt-6-luna/P29/annotations.json": {
+      "sha256": "f94c283b96286ca789d2bda2ba7e153e475eea6136f2253c14b86eaeb1d08aa8",
+      "bytes": 2019
+    },
+    "corpus/variants/gpt-6.1-sol/P29/full.tex": {
+      "sha256": "b38d5cbe4c01719d439e71f25af9bc1db6c8d4d759f627b230569f22f828d158",
+      "bytes": 7232
+    },
+    "corpus/variants/gpt-6.1-sol/P29/annotations.json": {
+      "sha256": "54474451b827f2b40140e4f6040261a4b13444f974b633da037092c2a3d98981",
+      "bytes": 2026
+    },
+    "corpus/variants/gpt-6-astra/P30/full.tex": {
+      "sha256": "5650ad446891ca5035da76ccdb042ffc770e187df092a6974f2ae43e02fbfab3",
+      "bytes": 50906
+    },
+    "corpus/variants/gpt-6-astra/P30/annotations.json": {
+      "sha256": "2f500f4964c431ad549210e5d3213d1d65f106e3e47aed8b5d6bc6b8aae19e7f",
+      "bytes": 4106
+    },
+    "corpus/variants/gpt-6-luna/P30/full.tex": {
+      "sha256": "7522265a2af1d7721cd00a6cc1a9301a48b4aee6f69092c09b837dc49ac7a913",
+      "bytes": 50141
+    },
+    "corpus/variants/gpt-6-luna/P30/annotations.json": {
+      "sha256": "27b59d4aaa273c4e9197f58c26792990015f23f6a9708702f84f4f398e564d00",
+      "bytes": 4080
+    },
+    "corpus/variants/gpt-6.1-sol/P30/full.tex": {
+      "sha256": "d015a2146d42eacbe7f51daa8d99d5a996dab32f5a05298bb5febdf422efda78",
+      "bytes": 51444
+    },
+    "corpus/variants/gpt-6.1-sol/P30/annotations.json": {
+      "sha256": "0279f17ee583f4b4bcd3205d017e8f113a4098cf005aff319ec37a4f567e8be1",
+      "bytes": 4099
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P01/full.tex": {
+      "sha256": "7ff90ace2070ba018c1349f5a90c85f26c2773a8cf97f76f699026b83aef83e3",
+      "bytes": 70794
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P01/annotations.json": {
+      "sha256": "75d2e62c94276313e41e1dfd1dd52cf98d337ffb62c956381d78e1703eb0f6ec",
+      "bytes": 12048
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P02/full.tex": {
+      "sha256": "8f8fff9aa246405974ed2f8d9e8cb1d9c5c2bd0c545330d94292901d907c9cc9",
+      "bytes": 74482
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P02/annotations.json": {
+      "sha256": "9d18f4bca812e86a591eeddb6af4dc92f06f023313d52048a389716d1a4c5b68",
+      "bytes": 14554
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P03/full.tex": {
+      "sha256": "65274758a51c40496afc45bc696f5cff1f579c949416c6d1e30a31ae3719d560",
+      "bytes": 95922
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P03/annotations.json": {
+      "sha256": "dbfe7730962d524702a1bc08c94a8fcfec358ee38771f1a3cf64de4fd0360354",
+      "bytes": 14918
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P04/full.tex": {
+      "sha256": "69c107b3b75df4725aacabda66f9483c9f254d729d56cf3745b4d45f1588e14e",
+      "bytes": 24397
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P04/annotations.json": {
+      "sha256": "ea41850ee4332165750652bd4b9f2407cf621813b5bbe819ee7517086650d609",
+      "bytes": 9196
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P05/full.tex": {
+      "sha256": "e07ff82eb32e322ff347e5088cc6318418e19f81e70594ab22d58f60d3bcc5ee",
+      "bytes": 41459
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P05/annotations.json": {
+      "sha256": "d23dc70fb8b7362334c632bdc3e4fac6b3fa430f5ba2eee976e6022e1f4f7864",
+      "bytes": 8947
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P06/full.tex": {
+      "sha256": "fb2c6e1e01c4c693b4459e115c1c03b75db40d1d9bda45fb96fdb3427152342d",
+      "bytes": 44494
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P06/annotations.json": {
+      "sha256": "82193570b1afcaa70f2e46ff47606f1dd924be9c072c335062ea29d789336c3e",
+      "bytes": 11024
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P07/full.tex": {
+      "sha256": "907451e7e133bcd0a9417be17943edb2ec4c2dc7e8ce488f01946254a43a5b90",
+      "bytes": 13763
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P07/annotations.json": {
+      "sha256": "bd13d52e8ecfa2f80525816276995f51610f5dd0f091b25349c3ab9b056600ef",
+      "bytes": 5449
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P08/full.tex": {
+      "sha256": "0431861571297fedb82ff72534c0eaafadacecd5dce43eee67f72d2a73e55903",
+      "bytes": 42869
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P08/annotations.json": {
+      "sha256": "9ed479850f2f7716e6e511e62da040fe269b93994c65604c6947fd9e899af520",
+      "bytes": 11987
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P09/full.tex": {
+      "sha256": "c7d83ff524ce7bd64e86fce597c95622b1ad6b614771dd0de583732612027d6e",
+      "bytes": 11809
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P09/annotations.json": {
+      "sha256": "b01150c9ef13ac6d2be5f0ab6e29942f749082b46a83b8f6aea70b779eca7773",
+      "bytes": 6077
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P10/full.tex": {
+      "sha256": "4ba9adc86896682b48640ca79cb8c2e34418d5fb7bbb746f7ecc6f1e910fa924",
+      "bytes": 67751
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P10/annotations.json": {
+      "sha256": "ec16975697e87dc8439b80bef69f23e778c44dc036434f434ddf9a302541feb4",
+      "bytes": 12208
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P11/full.tex": {
+      "sha256": "c57d56cae3c343b27dda6753528ffa516a03c7635cea256cf7d790017c899a4c",
+      "bytes": 18969
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P11/annotations.json": {
+      "sha256": "4ee9908e81077f447ed3950fd8fd626de19464bb5cfcf494f1c4e525c6b574cd",
+      "bytes": 8234
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P12/full.tex": {
+      "sha256": "f79424fb0364c711b625f77836ffb2c0399f6d0624c4eaef9c3cd998689e0950",
+      "bytes": 32128
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P12/annotations.json": {
+      "sha256": "1fae1ce3e34bfd561c73873ddb2bde3997484daa4f5e4fe56e74f858117e2c95",
+      "bytes": 9872
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P13/full.tex": {
+      "sha256": "ce92d89407e1d99272f76a866d16557076413bc3af738b4f59abca188d12625d",
+      "bytes": 39066
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P13/annotations.json": {
+      "sha256": "e5adbb7cf1e6bcab1b29141e0a299a65608074063a3eb2e63380e68137ac30aa",
+      "bytes": 8313
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P14/full.tex": {
+      "sha256": "684c86f5e9354616991ec22141fa480c12b90d6acf59b92bc8a6273e278ed08a",
+      "bytes": 36629
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P14/annotations.json": {
+      "sha256": "f873146d6fb667b3335a388b554c5b3de96f4043b421867597bfb933d4d5e7d3",
+      "bytes": 10903
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P15/full.tex": {
+      "sha256": "148d4a42a7ca84066e8ec26d03ec72d384f662af5466c7a788de5cdc2b0def3d",
+      "bytes": 56407
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P15/annotations.json": {
+      "sha256": "2e0ca2d82360fef010a88294541ef2daf1ce48356fcb3ede762bd70bbb7ef524",
+      "bytes": 9304
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P16/full.tex": {
+      "sha256": "6b19260dcb3e9457eb6a5d593d99ba89664ff0b742b0220258335a4e4ad1126d",
+      "bytes": 38886
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P16/annotations.json": {
+      "sha256": "2b351868e54ce5c0ee345dd72687a900d1e786e365f26d4da4fb213d5ac6ca72",
+      "bytes": 11857
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P17/full.tex": {
+      "sha256": "549d223b1ade5a64bf164821cfc5e6c105b6e02789b14fb57d3a75aa5f10b6d5",
+      "bytes": 52861
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P17/annotations.json": {
+      "sha256": "20210739877307b8afcced8d8500606b57935ccdafc741f88dd94de5c8f3e149",
+      "bytes": 12541
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P18/full.tex": {
+      "sha256": "4b94d8330ccbbe1fd4f5b6f63384704be17547c54cbd918851322cedae865043",
+      "bytes": 66649
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P18/annotations.json": {
+      "sha256": "07518d7cd0aa72e06b9de47905b9969a13090a7023199f358713ac880ba1281d",
+      "bytes": 13918
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P19/full.tex": {
+      "sha256": "d82ab26afbd32b5ed45ef2ba497029666d27f8e2b15215c08f8717e543b317ea",
+      "bytes": 12365
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P19/annotations.json": {
+      "sha256": "0c67b25f1160d9e8e135f57823b43b29d6602313abd454175a110b6f8db2b6c1",
+      "bytes": 8075
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P20/full.tex": {
+      "sha256": "7f39dbfce0c334162a179e7e0260c93f0d32cff31acf49a797c71be64e740dc5",
+      "bytes": 23138
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P20/annotations.json": {
+      "sha256": "a7f1f2ae690ac4051ea30c55e5793a27f24771ed81701f903b8ec6250b193bc9",
+      "bytes": 10275
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P21/full.tex": {
+      "sha256": "fa617f3ec355ae4180d82189ff060041c4866f5b6b245d803dab80415648d60c",
+      "bytes": 40724
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P21/annotations.json": {
+      "sha256": "3cb90c9abc5a9f92963d37dad4dca5de0dcf72ec2394ee9bd138a693d66ebc98",
+      "bytes": 11317
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P22/full.tex": {
+      "sha256": "e11dd34c64da6d153040f82a8db56c9bba5663d6bb849189419bfa580f072aee",
+      "bytes": 34528
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P22/annotations.json": {
+      "sha256": "a97752f497e7cf5444dc5a9c7caaea139fda7828655a509654fceaf9c65a353c",
+      "bytes": 11730
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P23/full.tex": {
+      "sha256": "6d3e2dc15712334c6a9bf413a885a4313a9784679ff21bfd699077620a10a430",
+      "bytes": 52786
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P23/annotations.json": {
+      "sha256": "c35c3c52e30c4279a919d00f67589633c4b0d3d71df5ee8ff432270d3c578559",
+      "bytes": 12347
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P24/full.tex": {
+      "sha256": "1a8921d9b73e2b0f208c0e7b270176a23152e1c0f528a33ce3d85b071b626a9c",
+      "bytes": 40088
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P24/annotations.json": {
+      "sha256": "f8a066ee9b47780384860cef9394531e0a4607b260d1489f0c7f362db97549de",
+      "bytes": 10270
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P25/full.tex": {
+      "sha256": "a87f305668d74ccff98d4915025dd198bb11a5dc49f1612c2438e242c2c77bbe",
+      "bytes": 40594
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P25/annotations.json": {
+      "sha256": "e2b6e2625263efe020eda30ff843dff6b7f5bf8c74d4e2423d9432b5354addc9",
+      "bytes": 9684
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P26/full.tex": {
+      "sha256": "52e02bb11e5ba26ed4ebd34aa2aa2fc1511434d3b040a661e691d84a92566103",
+      "bytes": 19543
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P26/annotations.json": {
+      "sha256": "4fcf8f1c6337d9d26850bf836d4a4ad48bcbf65c00bd9cc9f233de9d7cc6b296",
+      "bytes": 7815
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P27/full.tex": {
+      "sha256": "be4f3171478fea155828fca76652233746c4b96a5cd533ad20dd82f6d25ecae1",
+      "bytes": 96995
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P27/annotations.json": {
+      "sha256": "a686bd0609eee6b5bba7e4530a265bf15948d2fb7e00989633b39818a8e88c76",
+      "bytes": 14136
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P28/full.tex": {
+      "sha256": "f0cfff4f26f25b3c77c8af7443cc91dd6877b97e602b85d256dc1ca218328598",
+      "bytes": 66251
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P28/annotations.json": {
+      "sha256": "70f245defb8b437a9de300df05a7d3b511f7d43f7700c56852f3c4fbab5ea730",
+      "bytes": 11709
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P29/full.tex": {
+      "sha256": "bc0211f020100a94a28c27a1ec390bea98710f85854d6fc4ce8fc4188b49f79c",
+      "bytes": 6873
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P29/annotations.json": {
+      "sha256": "018dcd003ef8c3bc96e1c7aeeda96d66039fc16534456cc144f3ab0837fe7ba8",
+      "bytes": 4585
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P30/full.tex": {
+      "sha256": "95d6d9fc74af2319469a2d2777d8afd7d28da8e9a987e5425d5017ff262c99f8",
+      "bytes": 50400
+    },
+    "corpus/variants/20261005-additional-types/paragraph_context_infill/gpt-6-astra/P30/annotations.json": {
+      "sha256": "f2e9b63d072402601a601b5e742b38e6db44eab62024d2b364582c0f173277a2",
+      "bytes": 17148
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P01/full.tex": {
+      "sha256": "9d1e574fcdf9227b63c2cffb7b5a9ed6330d9ae54bc4b82f2ee21e37eaf6c0e4",
+      "bytes": 70131
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P01/annotations.json": {
+      "sha256": "10cbbea36bcf42b6ab503578a2d66111ccd66f6a9b05e2007542215497dbe1c0",
+      "bytes": 192616
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P02/full.tex": {
+      "sha256": "620affef055000f756f11937b7a320443d10b70c7fd5a59500f8e8a8c0171d14",
+      "bytes": 74774
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P02/annotations.json": {
+      "sha256": "b75d80b688acdbb7729548d559a5c0c4ff8f12602885535d1808f79e07a6ab82",
+      "bytes": 62180
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P03/full.tex": {
+      "sha256": "543edc4d2e02701fffdf317e889da082d9bcbfb43629e38456a2fcfff1266fd3",
+      "bytes": 96675
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P03/annotations.json": {
+      "sha256": "6b0241854730a7364f66ed6ec8a03619a13dda015cbd8f1c1ae89abdeb50ec37",
+      "bytes": 182058
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P04/full.tex": {
+      "sha256": "08411f0d85342a413f5463f8dc45c0a15383a537fa351abb06e2001c04d479bf",
+      "bytes": 24659
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P04/annotations.json": {
+      "sha256": "b2d30f0d1edb0c7a0ee1bb328eb46b16d9bcd6d0ed3af4d16e3d0da5dfb8ce73",
+      "bytes": 119157
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P05/full.tex": {
+      "sha256": "18f6b5e36950834598a7b419918f22e565b0a6e35620abb349dc75434aa8cfe3",
+      "bytes": 42754
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P05/annotations.json": {
+      "sha256": "03939b0e6f22e6a6d1ae31938f4138f8c8471e80469ca5f140eab4df78d8198e",
+      "bytes": 14555
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P06/full.tex": {
+      "sha256": "ecc7707991c7c1827f6009e1e93ae36fe3a37c878fda3850338813a63bb5db2f",
+      "bytes": 44344
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P06/annotations.json": {
+      "sha256": "d20e824c56af703d6f394c49584533cbbc5361824210c48e949738fbfe122531",
+      "bytes": 359733
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P07/full.tex": {
+      "sha256": "c351c81937c3a722b954dc5c18250c9201edabe24df79594486a17e7c66ae8a0",
+      "bytes": 13633
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P07/annotations.json": {
+      "sha256": "bf919392149464d97f49bc2d3f1da2158e02118e15e688887e479d98998d7095",
+      "bytes": 13926
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P08/full.tex": {
+      "sha256": "588953523b17f8517e796e3ee85f8b296d77948d0030b199089be365dfb2715b",
+      "bytes": 43089
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P08/annotations.json": {
+      "sha256": "5fa3ec611d0ca15cce5c9dea3786912435ff9f966fd96807c3a1fa848dbdd1be",
+      "bytes": 181420
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P09/full.tex": {
+      "sha256": "4e7aa83d01482b36a339db2971ee28cc59eae043dd6920a341fcba10ede8f7f1",
+      "bytes": 11644
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P09/annotations.json": {
+      "sha256": "74318c843dff52653cbe052d5ea99c90a03040e890b4fdde8632ca5a8aa2850d",
+      "bytes": 18435
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P10/full.tex": {
+      "sha256": "5029b508949b11230aedbd11ad30de30640519f68c46c300daf9ddb64ccbda4c",
+      "bytes": 66801
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P10/annotations.json": {
+      "sha256": "205fcaf5302c9f30bf6d87d298e2c75f97431e75e1f87c22d5e871eec824302b",
+      "bytes": 166265
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P12/full.tex": {
+      "sha256": "1116b57c6f3942acd2786e27cfd42ff7508898d5ddf226215485aacd6b3c5ffe",
+      "bytes": 30896
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P12/annotations.json": {
+      "sha256": "de33fc14001f30e41232e8d715e0d09a2b0607939c6d87534ef8f827c7dff6ff",
+      "bytes": 251202
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P14/full.tex": {
+      "sha256": "3d64ceb1024f32ccfe27ac4b9b382776fb7d6dc25f11ea7cc2e8eef5e31f138b",
+      "bytes": 36561
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P14/annotations.json": {
+      "sha256": "7737c8a69d26f5d9343f179fae98aa2ad4218e96b98d968e6ffc6c7201712da0",
+      "bytes": 57587
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P15/full.tex": {
+      "sha256": "0749af735ab12179017cf75d710b1879d659b96757681dc4dd3f3ce150101994",
+      "bytes": 55249
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P15/annotations.json": {
+      "sha256": "b17ec710d5bcfc73b138383767efa4fccace4da6d19708f0f57ec2b5d1491365",
+      "bytes": 250600
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P16/full.tex": {
+      "sha256": "dc9f96bb0314f14fbc69c4e5bfb655149326fa0e4d139f6d4661f38291c8a0e9",
+      "bytes": 38595
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P16/annotations.json": {
+      "sha256": "5cbdc7c12a52de01839d2045eaa17c788b60e130bc271b7e8e75dbf23cba003b",
+      "bytes": 50122
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P17/full.tex": {
+      "sha256": "cdac266869dd488b7bd3612222e0a937504e1b6264240c85394e5da63d8e44ab",
+      "bytes": 53074
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P17/annotations.json": {
+      "sha256": "15badadd7da629645b104baa2f5c29c299e65b36c34a0978d0fb02a87ccee624",
+      "bytes": 44701
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P18/full.tex": {
+      "sha256": "b552d688befd9448bebeb83a713b5e1ca3672cee975fea25b4cafb6c3baff2ef",
+      "bytes": 66625
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P18/annotations.json": {
+      "sha256": "93fb3ecb29bb82773fbf5323ca013863e51c002b0b26102b9959ab764b407d71",
+      "bytes": 43472
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P19/full.tex": {
+      "sha256": "431273c693529f1b857f307af0f9305a0126d531751b0cac071368366a69b5f7",
+      "bytes": 12385
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P19/annotations.json": {
+      "sha256": "791dbcc2337fcff7c5b026c6f7053404dca10b9e3a73b5904cbd2b5c6f147774",
+      "bytes": 12995
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P20/full.tex": {
+      "sha256": "24e7069d6591a1072cca3007da99326ca2b4afe49b865c55124a07d67dd7084c",
+      "bytes": 22850
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P20/annotations.json": {
+      "sha256": "20ecfc4d41cef6d2ead2e642fdb11d55d4e66f4baac9824fbc9211829304cfb3",
+      "bytes": 37682
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P21/full.tex": {
+      "sha256": "6ce29ee689a0fb2122e5b8b22742309fd359a3ce021636925b0c4b0bfc08e869",
+      "bytes": 40331
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P21/annotations.json": {
+      "sha256": "a9ec4d074e7756a9de9c53adc97c558296340bf68bcfbf7761adc90eb5e45ff4",
+      "bytes": 241568
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P22/full.tex": {
+      "sha256": "eff0b3c12c08f6b42fd7e1c72a64eeb4d16423d76ee3d56e79eb57074952b2f7",
+      "bytes": 34544
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P22/annotations.json": {
+      "sha256": "611429aa7a84fd7326502e17f754dcbc3d9ddac347726ffd040736cb5230a26a",
+      "bytes": 133631
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P23/full.tex": {
+      "sha256": "dd0099dad93f23bdc3d121736384f0d01ce836e303e454a645881d66cdf59eab",
+      "bytes": 52874
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P23/annotations.json": {
+      "sha256": "c45ed2211edb361de9df8df1be1b1c08c7f68ae0cd07de48cd13e0ebf9b034e9",
+      "bytes": 21422
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P24/full.tex": {
+      "sha256": "0855394e793156dbf078d761273408e4863924391198dfdb8979ab43ed9fa847",
+      "bytes": 39314
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P24/annotations.json": {
+      "sha256": "232215598571ac8f0713d7a7b7f83f386715360e50575200c712a91ddcbc28db",
+      "bytes": 89450
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P25/full.tex": {
+      "sha256": "cb5786919d8712b0e8f0b3b11a87d422edc7c6ff796d5e13f7461d59efece651",
+      "bytes": 40445
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P25/annotations.json": {
+      "sha256": "b9bc1ef76f0588b5f5fb65bbbea7584da24d70fbd749295e42dd2c2bc33884e3",
+      "bytes": 259315
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P26/full.tex": {
+      "sha256": "2312458b28b5cf7bc931c789a240f1c6f8d66c9029407ddc238082cbfa15b7bb",
+      "bytes": 19815
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P26/annotations.json": {
+      "sha256": "e6ff4b1e7da222881ad097fdd1b3589cc8ea70447cd9034d88cb7e669fd99f07",
+      "bytes": 22009
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P27/full.tex": {
+      "sha256": "d5eb566fbbf566d0225a5e55bed7e1c192a48aebb386f8ac67f9e18a3f00db42",
+      "bytes": 96681
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P27/annotations.json": {
+      "sha256": "9c69914de43f4e18d431f6d0081d898c21519e01d1b0a6813efa9e4f6702bc07",
+      "bytes": 31075
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P28/full.tex": {
+      "sha256": "12bf389bebcf38df93c5706d71e73657843fd0d7ab00998db36067b55e6bb74f",
+      "bytes": 66709
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P28/annotations.json": {
+      "sha256": "f4f9a68a3b65350178bce0d5cab46eeb06c81d455bae83495e5c9b46c73b9b12",
+      "bytes": 65075
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P30/full.tex": {
+      "sha256": "d17c45b3ebb4da5ace865be4f8de32157d5f3d96404b7645f0ae829e8795973d",
+      "bytes": 51092
+    },
+    "corpus/variants/20261005-additional-types/section_compress_restore/gpt-6-astra/P30/annotations.json": {
+      "sha256": "2e4306b93db9a0b25980c5c5b6df2ae3f15e49fe58c6b239933bfb3242d80636",
+      "bytes": 47208
+    }
+  },
+  "process_hashes": {
+    "scripts/english_diverse_validation.py": "7db2afb099f3e81455e34865e878cf71970339f1417ec9fa99ed3ef7aaf5b836",
+    "scripts/english_diverse_corpus.py": "83cec6bebb302afb646ff4af3e72c9bc85c16ec9ef837e98af2d1ff8df9dc164",
+    "scripts/fit_fusion_v2.py": "ec3df135d2f377b91c77e05bf7f8a7ecca463f969bd17fd568ba8eefc69a74b4",
+    "aigc_detector/annotation.py": "fd02d908572989ba95d0d0f60746ecef421632acfdd14a3576773ae1f8214791",
+    "aigc_detector/engine.py": "4e81777ca2c5582325d7fd2b983c76ea56e7bc6e35dab5d8b8930af08b7b6f11",
+    "aigc_detector/fusion.py": "f66096fc051bed249215b0d5b2202da930004fe1fa0f5ad345f38973949835ef",
+    "aigc_detector/modeling.py": "394dd6484d7bcae24b96ccb309e7f0e102cb8ecffa3404628cb60ffbf415cb7e",
+    "aigc_detector/catalog.py": "35f1775d3d6e0f3412799f39bd3422f9ffb610d9740b7d271e24f2e209d746c0",
+    "aigc_detector/assets.py": "ea3954cf504cec8440615bc80d12346ca893550761c62b65da78166f950d9950",
+    "models/manifest.json": "3fac1bad9310bdbefd6b0b30f6b84f8777aa14b64e14952ca4651441d92c37fb",
+    "aigc_detector/profiles/english-academic-20261003-v2.json": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e"
+  },
+  "baseline_policy": "english-academic-20261003-v2",
+  "baseline_profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "models": [
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en"
+  ],
+  "revisions": {
+    "openai-base-en": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "openai-large-en": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+    "piratexx-en": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+    "mage-en": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+    "radar-vicuna-en": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b"
+  },
+  "segmentation": {
+    "id": "english-natural-boundaries-v1",
+    "segment_chars": 1600,
+    "minimum_chars": 400
+  },
+  "inference": {
+    "device": "cuda",
+    "dtype": "float32",
+    "batch_size": 8,
+    "overlap_tokens": 64,
+    "network_blocked": true
+  },
+  "primary_metrics": "Any positive-length generated intersection makes a window positive. Pure-human windows in originals AND mixed documents count as negatives. A narrative unit hits if any of its exact generated characters intersects a flagged window.",
+  "section_metric": "Report resource-excluded narrative-slot recall (247 labelled slots) and whole-section recall (27) separately; 1112 split spans are not paragraphs.",
+  "candidates": [
+    "v2-human-calibration",
+    "presence-linear-refit"
+  ],
+  "candidate_scope": "Same five pinned raw scores, same full input and 1600/400 segmentation; no local scan, new signals, neural training or classifier heads.",
+  "refit": {
+    "features": "Five raw score logits only",
+    "clip_probability": 1e-12,
+    "clip_standardized": 5.0,
+    "regularization": 10.0,
+    "human_weight": 20.0,
+    "target": "any generated character",
+    "weights": "Deduplicate (paper, input hash, window label); equal total per author group and class bucket; retain contradictions.",
+    "search": "none; one fixed convex fit, plus leave-author-group-out diagnostics"
+  },
+  "thresholds": "All pure-human scan opportunities in fit/development/calibration; maximum score logit plus fixed 0.1 margin. V2 calibration may only raise existing thresholds.",
+  "selection": "Development only: minimize false windows, maximize narrative-unit hits, prefer threshold-only change on ties. Calibration generated results are masked until final evaluation.",
+  "acceptance": "Infer only after FREEZE.json; no threshold/candidate changes after acceptance. Six fresh full-paper groups, every derived version bound.",
+  "gate": "Zero observed pure-human-window false positives and >=50% generated narrative-unit recall, plus reliable development improvement before default promotion.",
+  "no_bottom_network_training": true,
+  "contains_source_text": false
+}

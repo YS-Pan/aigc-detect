@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-06T05:13:30.804434+00:00",
+  "checked_method_roles": [
+    "baseline-v2::all",
+    "baseline-v2::acceptance",
+    "baseline-v2::calibration",
+    "baseline-v2::development",
+    "baseline-v2::fit",
+    "v2-human-calibration::all",
+    "v2-human-calibration::acceptance",
+    "v2-human-calibration::calibration",
+    "v2-human-calibration::development",
+    "v2-human-calibration::fit",
+    "presence-linear-refit::all",
+    "presence-linear-refit::acceptance",
+    "presence-linear-refit::calibration",
+    "presence-linear-refit::development",
+    "presence-linear-refit::fit"
+  ],
+  "formula_and_character_mask_agreement": true,
+  "author_holdout_folds_verified": 15,
+  "numeric_refit_max_absolute_difference": 0.0,
+  "uncertainty": {
+    "baseline-v2": {
+      "paper_cluster_bootstrap_95_interval": [
+        0.0,
+        0.11428571428571428
+      ],
+      "source_groups": 6,
+      "scope": "Descriptive source-cluster uncertainty with only six groups; zero observed FP does not establish population zero."
+    },
+    "v2-human-calibration": {
+      "paper_cluster_bootstrap_95_interval": [
+        0.0,
+        0.03225806451612903
+      ],
+      "source_groups": 6,
+      "scope": "Descriptive source-cluster uncertainty with only six groups; zero observed FP does not establish population zero."
+    },
+    "presence-linear-refit": {
+      "paper_cluster_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "source_groups": 6,
+      "scope": "Descriptive source-cluster uncertainty with only six groups; zero observed FP does not establish population zero."
+    }
+  },
+  "baseline_profile_sha256_unchanged": true,
+  "source_files_unchanged": 387,
+  "freeze_sha256": "77f04b80a3298b583395de73267829c5e0aa08b2c8372a4809c17936f30aa3dd"
+}

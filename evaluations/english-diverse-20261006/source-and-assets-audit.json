@@ -1,0 +1,234 @@
+{
+  "at_utc": "2026-10-06T05:10:38.545728+00:00",
+  "manifest_qa_hashes": {
+    "experiments/manifest.json": "edc01fd56afdfc1447076820052b85314b792808fe38bba6cee6f29e62ee0263",
+    "experiments/batches/20261005-diverse20/config.json": "1c9bdb05c94e97d2fa680dfc3780b864363de03dfb74106e95cf4b39e148d15a",
+    "experiments/batches/20261005-additional-types/manifest.json": "2a7ae794fa6e55189d11416b96d16a1c077d845d6f2d3d721b63b6a043e71dbf",
+    "qa/validation.json": "e8fc03405aa0d2a0367203c8fb0bc0ac4ccece3017e4b792090e70e6a559d33a",
+    "qa/batches/20261005-diverse20/delivery-audit.json": "7b5bd7c6ef6e602ca2bb77dff3a76dafbabb1319936cf4ba630276b686dcda74",
+    "qa/batches/20261005-additional-types/mechanical-validation.json": "8192d2d769d76aba1a201b37ebca040297afae3f87d97a28c9b4a1caa9fc65b2",
+    "qa/batches/20261005-additional-types/delivery-audit.json": "37edf68c77b918516e4e0764d92d50e23c2cc42ba541c36bd39f14503bcba51c"
+  },
+  "legacy_identical_full_inputs": [
+    "P01-original",
+    "P02-original",
+    "P03-original",
+    "P04-original",
+    "P05-original",
+    "P06-original",
+    "P07-original",
+    "P08-original",
+    "P09-original",
+    "P10-original",
+    "P01-paragraph_compress_restore-gpt-6-astra",
+    "P01-paragraph_compress_restore-gpt-6-luna",
+    "P01-paragraph_compress_restore-gpt-6.1-sol",
+    "P02-paragraph_compress_restore-gpt-6-astra",
+    "P02-paragraph_compress_restore-gpt-6-luna",
+    "P02-paragraph_compress_restore-gpt-6.1-sol",
+    "P03-paragraph_compress_restore-gpt-6-astra",
+    "P03-paragraph_compress_restore-gpt-6-luna",
+    "P03-paragraph_compress_restore-gpt-6.1-sol",
+    "P04-paragraph_compress_restore-gpt-6-astra",
+    "P04-paragraph_compress_restore-gpt-6-luna",
+    "P04-paragraph_compress_restore-gpt-6.1-sol",
+    "P05-paragraph_compress_restore-gpt-6-astra",
+    "P05-paragraph_compress_restore-gpt-6-luna",
+    "P05-paragraph_compress_restore-gpt-6.1-sol",
+    "P06-paragraph_compress_restore-gpt-6-astra",
+    "P06-paragraph_compress_restore-gpt-6-luna",
+    "P06-paragraph_compress_restore-gpt-6.1-sol",
+    "P07-paragraph_compress_restore-gpt-6-astra",
+    "P07-paragraph_compress_restore-gpt-6-luna",
+    "P07-paragraph_compress_restore-gpt-6.1-sol",
+    "P08-paragraph_compress_restore-gpt-6-astra",
+    "P08-paragraph_compress_restore-gpt-6-luna",
+    "P08-paragraph_compress_restore-gpt-6.1-sol",
+    "P09-paragraph_compress_restore-gpt-6-astra",
+    "P09-paragraph_compress_restore-gpt-6-luna",
+    "P09-paragraph_compress_restore-gpt-6.1-sol",
+    "P10-paragraph_compress_restore-gpt-6-astra",
+    "P10-paragraph_compress_restore-gpt-6-luna",
+    "P10-paragraph_compress_restore-gpt-6.1-sol"
+  ],
+  "model_files_verified": [
+    {
+      "model": "openai-base-en",
+      "path": "README.md",
+      "sha256": "4134857b7cb949c670781aa1382e2a5938e5b5ff0b9e2259ac33167cef4d9bf2"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "config.json",
+      "sha256": "bd2b40605e167659786107548562d94a87a3cb50c084ccc386d7177ccfb1d268"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "model.safetensors",
+      "sha256": "3abd6d2b005f5876b945cb5b68ddde04f6e28fbd9c5d6dc5adfb06ba647e0546"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "tokenizer.json",
+      "sha256": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "tokenizer_config.json",
+      "sha256": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce"
+    },
+    {
+      "model": "openai-base-en",
+      "path": "vocab.json",
+      "sha256": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "README.md",
+      "sha256": "ec7df67b5fed2486e428d2e5c32baaafee906016c3bd479f18465fcea67faf0b"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "config.json",
+      "sha256": "5d93caa966b81d8f39177184f528035e1d1404daec601086a31fd66646b68367"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "model.safetensors",
+      "sha256": "c3dde6261c9491bf5bc34a1a3cba92aa3e9b369b40ce17ccfcf66de508fe0c53"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "tokenizer.json",
+      "sha256": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "tokenizer_config.json",
+      "sha256": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce"
+    },
+    {
+      "model": "openai-large-en",
+      "path": "vocab.json",
+      "sha256": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "README.md",
+      "sha256": "1b9f2a5a656928c463476afe765cc7bd6420f0d815bddf19fdbc63f834e92ce9"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "config.json",
+      "sha256": "b1af520af0b3df501e91dae17c976dc2511ba476dbac072c0d3b71b51aa8a269"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "pytorch_model.bin",
+      "sha256": "ad4edd68e7a210313698ba19570c98c861d8ee10c5dbb422b74bb89deaf6d90c"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "special_tokens_map.json",
+      "sha256": "8293ae960b0a0852d4d3813118030a1149a3ed9fe37bc2e1e7b3c2e62eb2d4b7"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "tokenizer_config.json",
+      "sha256": "708707cf455d7e7febb152a57afc513d068e25c979c30f2ca3e18ecf6cedb74b"
+    },
+    {
+      "model": "piratexx-en",
+      "path": "vocab.json",
+      "sha256": "32b29acf82d3333462eb4b13416760f2aef956052e8fea1749fe5b20f866a4bf"
+    },
+    {
+      "model": "mage-en",
+      "path": "README.md",
+      "sha256": "6e4d7f4bdc9181eba6fea22fdfe9cfd16116179c90d6222d98ea572e22067c1a"
+    },
+    {
+      "model": "mage-en",
+      "path": "config.json",
+      "sha256": "81eeb8706ba6150c1472434974882e5ec5daf6bf54977cff86fb66062f0d0ad2"
+    },
+    {
+      "model": "mage-en",
+      "path": "merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "model": "mage-en",
+      "path": "pytorch_model.bin",
+      "sha256": "faa61e5c1947367058280e5317b32fbf7b6335e7f4c12c34b4f34c83ad56b359"
+    },
+    {
+      "model": "mage-en",
+      "path": "special_tokens_map.json",
+      "sha256": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f"
+    },
+    {
+      "model": "mage-en",
+      "path": "tokenizer.json",
+      "sha256": "5e158a6340357dc1ce64d776ac6618e6645909e28604d87619dd9c92a7e1a623"
+    },
+    {
+      "model": "mage-en",
+      "path": "tokenizer_config.json",
+      "sha256": "4e95efbbb4595f9a11496fe8b3bd2c0cdfab422ff990373d3799780ddc6e1e6c"
+    },
+    {
+      "model": "mage-en",
+      "path": "vocab.json",
+      "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "README.md",
+      "sha256": "37ef71defa9ce6be9ec16f21ca021748e82ca517de3d91a67d640de86475dd97"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "config.json",
+      "sha256": "b0c3b797790df0d4e7cb9482091b77daa362d7f8f52929b43c651c94f76384e1"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "pytorch_model.bin",
+      "sha256": "4ea32c4a31b7004364df4fe672c5c763f3d5f32b7514aaeb2b5e47653bc89792"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "tokenizer.json",
+      "sha256": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e"
+    },
+    {
+      "model": "radar-vicuna-en",
+      "path": "vocab.json",
+      "sha256": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655"
+    }
+  ],
+  "upstream_source_hashes_verified": 387,
+  "no_source_writes": true,
+  "scope": "Current corpus hash/span/reversal checks and upstream QA documents; no claim of complete actual generator tool-read transcripts or full visual proofreading."
+}

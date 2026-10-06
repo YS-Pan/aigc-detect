@@ -1,0 +1,726 @@
+{
+  "selection": "First, middle and last prose block >=200 chars per paper, chosen before scores",
+  "rows": [
+    {
+      "paper_id": "P01",
+      "block_id": "P01-p001-b006",
+      "source_page": 1,
+      "body_sha256": "e171357c7c418123891cf629b15d82e417373010aa709df2e7ab7ec96669da39",
+      "words": 109,
+      "source_page_word_match_fraction": 0.981651376146789
+    },
+    {
+      "paper_id": "P01",
+      "block_id": "P01-p005-b003",
+      "source_page": 5,
+      "body_sha256": "bb712d98d76667538d3684e06320c08d60c3ba282e2552203ca0aefa75fcf25a",
+      "words": 266,
+      "source_page_word_match_fraction": 0.981203007518797
+    },
+    {
+      "paper_id": "P01",
+      "block_id": "P01-p011-b004",
+      "source_page": 11,
+      "body_sha256": "78aa2526b348c628ae882e78e879c0ef3f862162bca7794b260800bdb4091a9f",
+      "words": 137,
+      "source_page_word_match_fraction": 0.9781021897810219
+    },
+    {
+      "paper_id": "P02",
+      "block_id": "P02-p001-b005",
+      "source_page": 1,
+      "body_sha256": "55be8c38b4ea032985ee26844d95a30bd1fc5a6dd9716a27c3a1d2e6a3064f91",
+      "words": 129,
+      "source_page_word_match_fraction": 0.9689922480620154
+    },
+    {
+      "paper_id": "P02",
+      "block_id": "P02-p006-b006",
+      "source_page": 6,
+      "body_sha256": "e73b02e3d7b91160a844af13593772c65f41af0364bd2767aa68e6f4bf589ac1",
+      "words": 65,
+      "source_page_word_match_fraction": 0.9846153846153847
+    },
+    {
+      "paper_id": "P02",
+      "block_id": "P02-p012-b004",
+      "source_page": 12,
+      "body_sha256": "8bc867abaf31b45ecae1f1402c39bfad9e017efe4fc328fd82dec14e8bcc4d38",
+      "words": 208,
+      "source_page_word_match_fraction": 0.9759615384615384
+    },
+    {
+      "paper_id": "P03",
+      "block_id": "P03-p001-b006",
+      "source_page": 1,
+      "body_sha256": "2d80152cd77de2cd1fe0bdcd3c26b681d3545d910c30cac3c2b30946ab3b60d3",
+      "words": 56,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P03",
+      "block_id": "P03-p005-b008",
+      "source_page": 5,
+      "body_sha256": "b0f25bed3ef9b4454aa4317fd85d6cd49273dbfd3bae65ebbfd4ac79ca06db51",
+      "words": 74,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P03",
+      "block_id": "P03-p012-b009",
+      "source_page": 12,
+      "body_sha256": "2861565bd9a9173582e5e645efb45f28f637875dd9034b91b7c5c248bf2b8e26",
+      "words": 75,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P04",
+      "block_id": "P04-p001-b005",
+      "source_page": 1,
+      "body_sha256": "731d8947d4d521d4185e5c9d7a91527d3cf00ab276beb3ca4f86e40a8d8aeab1",
+      "words": 112,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P04",
+      "block_id": "P04-p002-b007",
+      "source_page": 2,
+      "body_sha256": "e1599a3b978843e92ccaaa045d44212b499149cc979f8b3e62344c674bdc6c82",
+      "words": 170,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P04",
+      "block_id": "P04-p005-b003",
+      "source_page": 5,
+      "body_sha256": "ca2a278b4aa0ad65eb58de1f3d879ae33053635c49b6cf735ca252668b3b2772",
+      "words": 38,
+      "source_page_word_match_fraction": 0.9736842105263158
+    },
+    {
+      "paper_id": "P05",
+      "block_id": "P05-p001-b003",
+      "source_page": 1,
+      "body_sha256": "ae1309a9b9d20b8ce4568d41ca5a7866831fcedf595ab3a86f3affefce135d84",
+      "words": 288,
+      "source_page_word_match_fraction": 0.9965277777777778
+    },
+    {
+      "paper_id": "P05",
+      "block_id": "P05-p003-b011",
+      "source_page": 3,
+      "body_sha256": "894d3af4ebfe4154f8483687d9c7f9ba43d7a67172170cb907bec094fcbda866",
+      "words": 70,
+      "source_page_word_match_fraction": 0.9714285714285714
+    },
+    {
+      "paper_id": "P05",
+      "block_id": "P05-p007-b003",
+      "source_page": 7,
+      "body_sha256": "e08e4a90330bfe3bc420e6dc674214267125f0797c01b690b87fbbb4689e26cf",
+      "words": 86,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P06",
+      "block_id": "P06-p001-b003",
+      "source_page": 1,
+      "body_sha256": "a954806461216fb195fd827cc5058eaf98dc87eab6c7a49e7f7769071c1b7e9c",
+      "words": 293,
+      "source_page_word_match_fraction": 0.9931740614334471
+    },
+    {
+      "paper_id": "P06",
+      "block_id": "P06-p004-b006",
+      "source_page": 4,
+      "body_sha256": "50d77bebb5628936d0139b456450a0de8b6b96e766c016b92ab5104633eb747f",
+      "words": 97,
+      "source_page_word_match_fraction": 0.9896907216494846
+    },
+    {
+      "paper_id": "P06",
+      "block_id": "P06-p008-b001",
+      "source_page": 8,
+      "body_sha256": "0cb37691b98dd9be1c984a624938eba95ed5d0237459b4344250bfb6ea93c68e",
+      "words": 62,
+      "source_page_word_match_fraction": 0.9838709677419355
+    },
+    {
+      "paper_id": "P07",
+      "block_id": "P07-p001-b003",
+      "source_page": 1,
+      "body_sha256": "38a09f63ec3d4bc577930d4135992852ffd4ea28c84c668de6efd9e1c439de16",
+      "words": 115,
+      "source_page_word_match_fraction": 0.991304347826087
+    },
+    {
+      "paper_id": "P07",
+      "block_id": "P07-p002-b002",
+      "source_page": 2,
+      "body_sha256": "b5b12603964fa3bcb7db0eba3e656ff598e501fbe7d6c984deffaba410a9acd5",
+      "words": 38,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P07",
+      "block_id": "P07-p002-b008",
+      "source_page": 2,
+      "body_sha256": "3c0219b178bfd2058773748c8b93e0b61aae482b4f7f76c0ebd5d046c3d0b6c9",
+      "words": 74,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P08",
+      "block_id": "P08-p001-b004",
+      "source_page": 1,
+      "body_sha256": "c5a8b470ab1ad545ae83f8ab28c789f899c21dc3ac28171c4857e5419db8e4ff",
+      "words": 192,
+      "source_page_word_match_fraction": 0.984375
+    },
+    {
+      "paper_id": "P08",
+      "block_id": "P08-p004-b004",
+      "source_page": 4,
+      "body_sha256": "d4f3667cce8b10c2484bab01dd4fb299d42ced56fce21344be0fc50c93418b2d",
+      "words": 52,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P08",
+      "block_id": "P08-p007-b004",
+      "source_page": 7,
+      "body_sha256": "525bae41a8d8c1b0282e61f7a77a95cf37a9281db6ae42b1bd27cee31c52cb6e",
+      "words": 65,
+      "source_page_word_match_fraction": 0.9692307692307692
+    },
+    {
+      "paper_id": "P09",
+      "block_id": "P09-p001-b004",
+      "source_page": 1,
+      "body_sha256": "9d7d0e7c91aa9cebf2f0db81722960665c884165323e6ef81967548fbcc70f77",
+      "words": 53,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P09",
+      "block_id": "P09-p002-b005",
+      "source_page": 2,
+      "body_sha256": "ffb1db5f7dccc9d306a5e39de53d551dca2424134c84b8463a44423961b81116",
+      "words": 50,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P09",
+      "block_id": "P09-p002-b025",
+      "source_page": 2,
+      "body_sha256": "ba9a4d4e30e9a81fdba010dc3e1a64dee432e6c9c40b553bf8ffc0bba31b8d1f",
+      "words": 61,
+      "source_page_word_match_fraction": 0.9672131147540983
+    },
+    {
+      "paper_id": "P10",
+      "block_id": "P10-p001-b004",
+      "source_page": 1,
+      "body_sha256": "5bdf62898fc0f2ec7b1e454d0823753561581451fcddb3ad7d810625a808b69f",
+      "words": 86,
+      "source_page_word_match_fraction": 0.9651162790697675
+    },
+    {
+      "paper_id": "P10",
+      "block_id": "P10-p005-b006",
+      "source_page": 5,
+      "body_sha256": "62a897ccec254689908f64a84e1234f7f7f3cc9248173ee9b13d1f2b2f07a175",
+      "words": 36,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P10",
+      "block_id": "P10-p010-b006",
+      "source_page": 10,
+      "body_sha256": "a1c4fd2612b3e392abc3577154c454e958c91cab41fe11bee5fb1eab011c9d89",
+      "words": 74,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P11",
+      "block_id": "P11-p002-b006",
+      "source_page": 2,
+      "body_sha256": "a6842aea357a0f88aab111e5900c356bb7fbd52a2bcfc0e6df73127917450f10",
+      "words": 256,
+      "source_page_word_match_fraction": 0.97265625
+    },
+    {
+      "paper_id": "P11",
+      "block_id": "P11-p003-b004",
+      "source_page": 3,
+      "body_sha256": "1a79049d24934e6c7647705a01d6acf4405917e61c3e614d462a4dc1f9ea5df0",
+      "words": 338,
+      "source_page_word_match_fraction": 0.9704142011834319
+    },
+    {
+      "paper_id": "P11",
+      "block_id": "P11-p004-b003",
+      "source_page": 4,
+      "body_sha256": "cf6f5507bbdc0794eb2e9570a4c4218359c8f074dbbec9f824247071a0667e36",
+      "words": 79,
+      "source_page_word_match_fraction": 0.9620253164556962
+    },
+    {
+      "paper_id": "P12",
+      "block_id": "P12-p001-b006",
+      "source_page": 1,
+      "body_sha256": "cbd9461a7a12942e51f5579fc42da344d803ef3f922ab4df025c94cf66af5c06",
+      "words": 98,
+      "source_page_word_match_fraction": 0.9897959183673469
+    },
+    {
+      "paper_id": "P12",
+      "block_id": "P12-p002-b007",
+      "source_page": 2,
+      "body_sha256": "c196f241170d91e818580db2d43c721241ac81a7e700eae2dfee93b7a3cbca5f",
+      "words": 54,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P12",
+      "block_id": "P12-p005-b006",
+      "source_page": 5,
+      "body_sha256": "97b388327b4468cf5a0ade37c189b9d27e9a3734ffa5f7caa210d0bf9bf0a8fc",
+      "words": 139,
+      "source_page_word_match_fraction": 0.9640287769784173
+    },
+    {
+      "paper_id": "P13",
+      "block_id": "P13-p001-b005",
+      "source_page": 1,
+      "body_sha256": "7d8abdbe29b99c20eb9489c56864bae6e2eddaa137d9fe84722b22ac342246b8",
+      "words": 120,
+      "source_page_word_match_fraction": 0.975
+    },
+    {
+      "paper_id": "P13",
+      "block_id": "P13-p003-b007",
+      "source_page": 3,
+      "body_sha256": "76f8f4a030d366bf763026d09b24b821ac8afabd046c3d8ee3e8ed4d0db13176",
+      "words": 46,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P13",
+      "block_id": "P13-p006-b001",
+      "source_page": 6,
+      "body_sha256": "4980393ad85ba220ac2980c7fe951a52e6907ebacb40dd9c5c17df1872a695d0",
+      "words": 109,
+      "source_page_word_match_fraction": 0.963302752293578
+    },
+    {
+      "paper_id": "P14",
+      "block_id": "P14-p001-b006",
+      "source_page": 1,
+      "body_sha256": "126fa37a53d18013c4c05a2965ff0663e8c31e53ad12e2a1ada7bd3df62273d1",
+      "words": 51,
+      "source_page_word_match_fraction": 0.9803921568627451
+    },
+    {
+      "paper_id": "P14",
+      "block_id": "P14-p003-b012",
+      "source_page": 3,
+      "body_sha256": "5d8cff245c2f919959221fe6e50c2c23102825c5a10a5ae5fbb5f102fb6a66c6",
+      "words": 36,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P14",
+      "block_id": "P14-p006-b001",
+      "source_page": 6,
+      "body_sha256": "f48492a65353dd7ee9750262f2911c09de871a1f61c8431982f98d6134478add",
+      "words": 36,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P15",
+      "block_id": "P15-p001-b004",
+      "source_page": 1,
+      "body_sha256": "4e27070c41a82c1e8f3ed37abfc3df410eecc43bf4276150319342c6be8986d4",
+      "words": 198,
+      "source_page_word_match_fraction": 0.9949494949494949
+    },
+    {
+      "paper_id": "P15",
+      "block_id": "P15-p005-b003",
+      "source_page": 5,
+      "body_sha256": "3af75b5afbbbb0eac50f73044b12a986735e0488dd78021b31a18f750ad5c5a6",
+      "words": 46,
+      "source_page_word_match_fraction": 0.9782608695652174
+    },
+    {
+      "paper_id": "P15",
+      "block_id": "P15-p009-b010",
+      "source_page": 9,
+      "body_sha256": "17de0773edb0df79e6b89d7704c41612d40f911a01f0241a5f4665692326b17b",
+      "words": 78,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P16",
+      "block_id": "P16-p001-b006",
+      "source_page": 1,
+      "body_sha256": "7850da57dd68d0c87beb1c9e94151c32e9c520f7c15b6efc4269410514401cf0",
+      "words": 50,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P16",
+      "block_id": "P16-p003-b020",
+      "source_page": 3,
+      "body_sha256": "dd0ae16b339e2872d88568aaebdb27f13854c5a9880504773de25797b7a71ae7",
+      "words": 89,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P16",
+      "block_id": "P16-p006-b009",
+      "source_page": 6,
+      "body_sha256": "cfcd398068b6f227978436de7dd780965237bad4cc38c0f14c9e9f7732ff0124",
+      "words": 43,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P17",
+      "block_id": "P17-p001-b005",
+      "source_page": 1,
+      "body_sha256": "605267a9ddaf6efeb7bddc576176fba2618a75e12e22cdfadcd38c847e2f633a",
+      "words": 92,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P17",
+      "block_id": "P17-p004-b005",
+      "source_page": 4,
+      "body_sha256": "9a232b2bd1acfb4594fef28b8d0f2f2b6c1934de4f9ec7cc8481632bb6e04069",
+      "words": 102,
+      "source_page_word_match_fraction": 0.9705882352941176
+    },
+    {
+      "paper_id": "P17",
+      "block_id": "P17-p010-b003",
+      "source_page": 10,
+      "body_sha256": "76c25abff2920b20c1158c9de40e6147c6ebe7e6cb3b6d301d801528eb427d21",
+      "words": 52,
+      "source_page_word_match_fraction": 0.9807692307692307
+    },
+    {
+      "paper_id": "P18",
+      "block_id": "P18-p001-b005",
+      "source_page": 1,
+      "body_sha256": "d6f5b5f00ab02673022e6fea2e1a7167b9b17add6448cd1ac060d00381b6a6d9",
+      "words": 115,
+      "source_page_word_match_fraction": 0.9826086956521739
+    },
+    {
+      "paper_id": "P18",
+      "block_id": "P18-p005-b012",
+      "source_page": 5,
+      "body_sha256": "90a87c7a46e1a2fe0031fc77db900ef7baccd9be9df3c19026b2d1b820ebf8dd",
+      "words": 57,
+      "source_page_word_match_fraction": 0.9649122807017544
+    },
+    {
+      "paper_id": "P18",
+      "block_id": "P18-p009-b004",
+      "source_page": 9,
+      "body_sha256": "6d104bd1f15e5a191a9b6fd7297b829b1cb251728727e5244636b33dbe1d629d",
+      "words": 173,
+      "source_page_word_match_fraction": 0.9942196531791907
+    },
+    {
+      "paper_id": "P19",
+      "block_id": "P19-p001-b004",
+      "source_page": 1,
+      "body_sha256": "477374376366b99345a3b097764cc605deea12496f028ce15e059e5d46701ffc",
+      "words": 88,
+      "source_page_word_match_fraction": 0.9772727272727273
+    },
+    {
+      "paper_id": "P19",
+      "block_id": "P19-p002-b004",
+      "source_page": 2,
+      "body_sha256": "8d4ea5ed6004a93d2efa520f2e952f7a77a4231a63c8910d4af628180b9291b5",
+      "words": 120,
+      "source_page_word_match_fraction": 0.975
+    },
+    {
+      "paper_id": "P19",
+      "block_id": "P19-p003-b002",
+      "source_page": 3,
+      "body_sha256": "e7ab23793dbe306aa4af32b16c0ca09cc73244c40c611d0804ab594459b65538",
+      "words": 54,
+      "source_page_word_match_fraction": 0.9629629629629629
+    },
+    {
+      "paper_id": "P20",
+      "block_id": "P20-p001-b005",
+      "source_page": 1,
+      "body_sha256": "826722c70b8af53004016f735e1ec517bf020c39ac26ec85ed57dfdb4482dfdf",
+      "words": 88,
+      "source_page_word_match_fraction": 0.9772727272727273
+    },
+    {
+      "paper_id": "P20",
+      "block_id": "P20-p003-b005",
+      "source_page": 3,
+      "body_sha256": "0f22a0b37adc775c68ab11ce22e05d666c8ace35777610a4d5c9558fb8861bc1",
+      "words": 197,
+      "source_page_word_match_fraction": 0.9796954314720813
+    },
+    {
+      "paper_id": "P20",
+      "block_id": "P20-p006-b008",
+      "source_page": 6,
+      "body_sha256": "62e9976993e9d05ede9ae8f1f1a28389cabfa441d2ed08d8d59a1beda0262b1f",
+      "words": 46,
+      "source_page_word_match_fraction": 0.8913043478260869
+    },
+    {
+      "paper_id": "P21",
+      "block_id": "P21-p001-b005",
+      "source_page": 1,
+      "body_sha256": "69f274a68e7f92fbfaddabc791ed67fc8adceb8114ffa8bf051c7044e9b9895d",
+      "words": 111,
+      "source_page_word_match_fraction": 0.990990990990991
+    },
+    {
+      "paper_id": "P21",
+      "block_id": "P21-p003-b004",
+      "source_page": 3,
+      "body_sha256": "6ba02dcf285730128f3df511bc3d3fedb177f41b3f11b0e1699a145771946c92",
+      "words": 93,
+      "source_page_word_match_fraction": 0.978494623655914
+    },
+    {
+      "paper_id": "P21",
+      "block_id": "P21-p007-b001",
+      "source_page": 7,
+      "body_sha256": "25ccab4cf9e698f984f68bbc12b9f4db76c7d768020e7b42e6e3d0f1adfcd0a3",
+      "words": 147,
+      "source_page_word_match_fraction": 0.9863945578231292
+    },
+    {
+      "paper_id": "P22",
+      "block_id": "P22-p001-b006",
+      "source_page": 1,
+      "body_sha256": "b827406b5d5fc03161b4d318e3869cf833d3bb61c186cb81366fb62d881fa8ad",
+      "words": 107,
+      "source_page_word_match_fraction": 0.9813084112149533
+    },
+    {
+      "paper_id": "P22",
+      "block_id": "P22-p003-b018",
+      "source_page": 3,
+      "body_sha256": "2913a08f2ed373afea8b5930f587461a2a9b7e9bc2e9e465c5632bec36eb873f",
+      "words": 105,
+      "source_page_word_match_fraction": 0.9523809523809523
+    },
+    {
+      "paper_id": "P22",
+      "block_id": "P22-p006-b009",
+      "source_page": 6,
+      "body_sha256": "8a6a2abea4570b20c2de4a18fd80402a6980a809dfe4eec69add918115af3684",
+      "words": 54,
+      "source_page_word_match_fraction": 0.9814814814814815
+    },
+    {
+      "paper_id": "P23",
+      "block_id": "P23-p001-b004",
+      "source_page": 1,
+      "body_sha256": "c11f84c02eea401945b613a4e10ee11a818abae9ed712c07851b13cee74147cd",
+      "words": 171,
+      "source_page_word_match_fraction": 0.7777777777777778
+    },
+    {
+      "paper_id": "P23",
+      "block_id": "P23-p003-b016",
+      "source_page": 3,
+      "body_sha256": "2387ac310c35dff71357562166329562112dc17d0093a6678112193c6eaf853a",
+      "words": 60,
+      "source_page_word_match_fraction": 0.9833333333333333
+    },
+    {
+      "paper_id": "P23",
+      "block_id": "P23-p008-b004",
+      "source_page": 8,
+      "body_sha256": "c3262fa07d46fb3841981bbb663ba36cc8dd332f597398fe744b526903414221",
+      "words": 48,
+      "source_page_word_match_fraction": 0.9791666666666666
+    },
+    {
+      "paper_id": "P24",
+      "block_id": "P24-p001-b012",
+      "source_page": 1,
+      "body_sha256": "5e40e84b3ac9bf16bd24888cc053dd2e346cf0b98ef5b427709c421ebf1f620d",
+      "words": 76,
+      "source_page_word_match_fraction": 0.9868421052631579
+    },
+    {
+      "paper_id": "P24",
+      "block_id": "P24-p003-b008",
+      "source_page": 3,
+      "body_sha256": "dc87d9349aeaf65a21e57acf5b44df167635738965673beacce17bac7561953a",
+      "words": 120,
+      "source_page_word_match_fraction": 0.9833333333333333
+    },
+    {
+      "paper_id": "P24",
+      "block_id": "P24-p007-b011",
+      "source_page": 7,
+      "body_sha256": "3e6b376b2b6b835a424d7a4d6c817e0c53b502cf38600865d18eea14c004997b",
+      "words": 34,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P25",
+      "block_id": "P25-p003-b003",
+      "source_page": 3,
+      "body_sha256": "00f5fd9b9aae269e69ae2a41c226eba16a02a3991cec44ec4115fc6b5710aa30",
+      "words": 58,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P25",
+      "block_id": "P25-p005-b006",
+      "source_page": 5,
+      "body_sha256": "fd67ad55b8deaf26713fe22dffc3c30fc7863755eb7516c5835926aed7c55a36",
+      "words": 51,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P25",
+      "block_id": "P25-p009-b002",
+      "source_page": 9,
+      "body_sha256": "3f97420563a00c01b2c26449048d4b519e9641d1186482e18870dd5f46bb8513",
+      "words": 104,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P26",
+      "block_id": "P26-p001-b004",
+      "source_page": 1,
+      "body_sha256": "a2c7012b4d3bac6a8e38ed4e7eb17766bdb9cae64b4b9de79951be7da4edcf66",
+      "words": 93,
+      "source_page_word_match_fraction": 0.989247311827957
+    },
+    {
+      "paper_id": "P26",
+      "block_id": "P26-p002-b014",
+      "source_page": 2,
+      "body_sha256": "49b6cfa83409457325ab03eb43ef3dc27183a07302f081644b43627eabd2af8a",
+      "words": 79,
+      "source_page_word_match_fraction": 0.9873417721518988
+    },
+    {
+      "paper_id": "P26",
+      "block_id": "P26-p004-b004",
+      "source_page": 4,
+      "body_sha256": "27eed0dd860094296fbc828fd311e507195b849c79666b67a9a5be374540a642",
+      "words": 51,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P27",
+      "block_id": "P27-p001-b005",
+      "source_page": 1,
+      "body_sha256": "df2c89581a5eeb5f7e6a2a997ef0952ce49f0f24bb62347458e6437337cde6a4",
+      "words": 130,
+      "source_page_word_match_fraction": 0.9692307692307692
+    },
+    {
+      "paper_id": "P27",
+      "block_id": "P27-p006-b003",
+      "source_page": 6,
+      "body_sha256": "438c15c1cd846758c297a481ae1ef36a2bb777d38c7931db07a1500f851739cd",
+      "words": 185,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P27",
+      "block_id": "P27-p011-b008",
+      "source_page": 11,
+      "body_sha256": "0955bac49e904be0413821a51dae8c6fde76eeb5a8b9afd863f7d1c03f933a67",
+      "words": 37,
+      "source_page_word_match_fraction": 1.0
+    },
+    {
+      "paper_id": "P28",
+      "block_id": "P28-p001-b006",
+      "source_page": 1,
+      "body_sha256": "4a194e7fe08e156cb1db243ebfa685a361f1b86f609337ca907eb5eeac99bf76",
+      "words": 99,
+      "source_page_word_match_fraction": 0.9595959595959596
+    },
+    {
+      "paper_id": "P28",
+      "block_id": "P28-p005-b003",
+      "source_page": 5,
+      "body_sha256": "26d309ef51c2799669d888d596ea9c6346f18175c339a8bc6fe4b02bd275aa02",
+      "words": 259,
+      "source_page_word_match_fraction": 0.9922779922779923
+    },
+    {
+      "paper_id": "P28",
+      "block_id": "P28-p011-b009",
+      "source_page": 11,
+      "body_sha256": "cf75e5057daaaf4fb26e125c59d9e6059d06080cc3d9cca2e5e2c2aae235507c",
+      "words": 137,
+      "source_page_word_match_fraction": 0.9781021897810219
+    },
+    {
+      "paper_id": "P29",
+      "block_id": "P29-p001-b003",
+      "source_page": 1,
+      "body_sha256": "484b5eef4c07d2869467a9b7fedab71c90ac4c1f046ff68ab5c8670a8904e188",
+      "words": 74,
+      "source_page_word_match_fraction": 0.9459459459459459
+    },
+    {
+      "paper_id": "P29",
+      "block_id": "P29-p001-b005",
+      "source_page": 1,
+      "body_sha256": "f721965e0a96e4d34e000117847df90ecdc0565cd12d132c29855e8d39bac6ed",
+      "words": 88,
+      "source_page_word_match_fraction": 0.8863636363636364
+    },
+    {
+      "paper_id": "P29",
+      "block_id": "P29-p002-b002",
+      "source_page": 2,
+      "body_sha256": "c9f0c549d53c029db102433460a61868b422ebf413bd4d5376c9668b57a0e5cb",
+      "words": 67,
+      "source_page_word_match_fraction": 0.8507462686567164
+    },
+    {
+      "paper_id": "P30",
+      "block_id": "P30-p001-b006",
+      "source_page": 1,
+      "body_sha256": "1730476ad04c73864dd6b29ca1c2f34f8b0a34ef4acca2d9bb2677292f5c5aa1",
+      "words": 66,
+      "source_page_word_match_fraction": 0.9696969696969697
+    },
+    {
+      "paper_id": "P30",
+      "block_id": "P30-p004-b004",
+      "source_page": 4,
+      "body_sha256": "aafee1eeebc84b2cbd38c7906de1918312885a53db9fb19dd3b61d596aa52c0b",
+      "words": 37,
+      "source_page_word_match_fraction": 0.972972972972973
+    },
+    {
+      "paper_id": "P30",
+      "block_id": "P30-p009-b004",
+      "source_page": 9,
+      "body_sha256": "dbe2bac373c4b3a1de88fd4189f756cc115364f68cef115b8f988f26e64b8301",
+      "words": 167,
+      "source_page_word_match_fraction": 0.9760479041916168
+    }
+  ],
+  "scope": "Mechanical page-order token comparison only; neither full visual proofreading nor semantic certification. Keep conversion uncertainty and labels separate."
+}

@@ -8,3 +8,5 @@
 
 - [20260928_221930_initial-deployment.md](20260928_221930_initial-deployment.md)：四个中文检测模型、统一接口、真实试跑与文档系统。
 - [20260928_223900_long-text-annotation.md](20260928_223900_long-text-annotation.md)：敏感筛查三档标注、JSON/JSONL/HTML 报告和十万字符验证。
+
+- [20261006_132010_english-diverse.md](20261006_132010_english-diverse.md)：30来源三类生成语料、177完整输入、六来源冻结验收及两条固定纯分数改进；失败保留v2，173项测试和真实跨cwd CLI通过。

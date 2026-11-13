@@ -27,3 +27,7 @@
 2026-10-04：0.9.0下载并接入FollowSci、NTNU academic、LLM-DetectAIve和CoCoDet四个专业英文／协作检测器，登记22分类器。完成多分类语义保留、ModernBERT本地适配、离线与部署验证，未改默认融合或拟合新门限。见[本轮记录](context/english-specialized-validation.md)。
 
 同日四新模型完成115输入全量打分及42候选融合；发现旧裁剪抹平微小分数后另做75候选精度对照。两轮完整嵌套流程未过零误报条件，开发选择优胜者复测均0/12混合段命中，默认保持v2。29项相关测试、16次单条推理对照和冻结参数重建完成；见[融合重调记录](context/english-specialized-fusion-validation.md)。
+
+## 2026-11：独立包与 GitHub 源码发布
+
+0.10.0 将代码、小型资源和 skill 打包为独立安装包，资源另存使用者选择的目录；对照证据及本机验收边界见[独立包记录](change_records/20261113_184500_independent-package.md)。2026-11-13 将原工作区的可公开现行版本正常推送到 [YS-Pan/aigc-detect](https://github.com/YS-Pan/aigc-detect)，保留原有两次提交；隐私、字节哈希、安装及 203 项回归检查见[发布记录](change_records/20261113_193920_github-publication.md)。模型权重和私人材料不随仓库发布，本次未上传 PyPI。

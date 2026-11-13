@@ -4,7 +4,7 @@
 
 ## 发布集合与历史
 
-- 远端起点为空；本地原有 `8b0fe44`、`0136784` 两次提交保留。`origin` 配置为指定 HTTPS 地址，推送预检成功；实际推送完成后补记远端核对结果。
+- 远端起点为空；本地原有 `8b0fe44`、`0136784` 两次提交保留。`origin` 配置为指定 HTTPS 地址，正常推送 `main` 并建立 `origin/main` 上游跟踪，未强推。
 - 历史 110 个 blob 合计约 4.63 MB，最大约 2.74 MB；未发现论文正文、完整报告、PDF、权重、checkpoint、缓存或虚拟环境。当前发布集合再次检查了路径、尺寸、常见凭据模式及 evaluations JSON 的正文类字段，未发现应排除内容。
 - 模型 manifest 仅保存来源、revision、尺寸及哈希。公开样本保留来源、署名及许可；私人论文、作者提供的论坛材料和完整报告由忽略规则排除。补充忽略 `build/`、`dist/` 和 wheel。
 - 对带字节哈希的样本、纯分数证据、模型 manifest 和包内 profile／资源索引禁用 Git 换行转换，防止新克隆破坏来源或冻结证据哈希；保留上游样本的原有空白。
@@ -24,3 +24,7 @@
 - 最终暂存集合为 373 文件、约 53.9 MB；203 份样本／证据／资源文件与工作区原始字节一致。只从暂存区导出的新源码目录中，24 条公开样本与 20 条英文样本的来源、位置及哈希核验通过；在该目录使用 `python -m pytest -q --basetemp .pytest-tmp -p no:cacheprovider --tb=short` 再次得到 203 passed、7 个 Torch 弃用警告，确认无需被排除的本机材料。
 
 本次未重复真实模型推理。既有 0.10.0 的分类器和统计后端对照见 [独立包记录](20261113_184500_independent-package.md)，其范围与未完本机联合验收须按原记录理解。203 项工程测试和安装检查不证明检测准确率、零误报或独立泛化能力。
+
+## 实际发布结果
+
+2026-11-13 19:46（Asia/Shanghai）核对：源码提交 [`a0bc65df9cc346fdeedda34282f4e93d0b1c54ef`](https://github.com/YS-Pan/aigc-detect/commit/a0bc65df9cc346fdeedda34282f4e93d0b1c54ef) 已推送；`git ls-remote origin refs/heads/main` 与本地 HEAD 一致。GitHub 接口已从 `main` 读回新版 README，仓库为 public、默认分支 `main`。本记录的发布结果补记以随后文档提交随同保存；最终分支头可由仓库提交历史核对。

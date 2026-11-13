@@ -1,0 +1,183 @@
+{
+  "schema_version": "aigc-score-fusion/3.0",
+  "id": "english-academic-20261003-v2",
+  "language": "en",
+  "segmentation_id": "english-natural-boundaries-v1",
+  "models": [
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en"
+  ],
+  "revisions": {
+    "openai-base-en": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "openai-large-en": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+    "piratexx-en": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+    "mage-en": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+    "radar-vicuna-en": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b"
+  },
+  "statistical_assets": {},
+  "statistical_inference": {
+    "max_tokens": 512,
+    "overlap_tokens": 64,
+    "dtype": "bfloat16",
+    "aggregation": "inverse_coverage_token_statistics_then_formula"
+  },
+  "score_transforms": {
+    "openai-base-en": "logit",
+    "openai-large-en": "logit",
+    "piratexx-en": "logit",
+    "mage-en": "logit",
+    "radar-vicuna-en": "logit"
+  },
+  "segment_chars": 1600,
+  "min_segment_chars": 400,
+  "center": [
+    -6.858264256723909,
+    -5.034348406778791,
+    -8.328987670687463,
+    -2.0944525633111732,
+    -2.6253373368498583
+  ],
+  "scale": [
+    3.1243836818584048,
+    1.8042211580302887,
+    0.6788345494288008,
+    7.4829788079124455,
+    1.1775184743455855
+  ],
+  "feature_terms": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ]
+  ],
+  "clip_probability": 1e-05,
+  "clip_standardized": 5.0,
+  "heads": {
+    "strong": {
+      "intercept": -3.8399210051806456,
+      "coefficients": [
+        0.04027541532492637,
+        -0.7830479413769681,
+        -0.008278735158972038,
+        -0.08254108150813239,
+        -0.18258718414757125
+      ]
+    },
+    "review": {
+      "intercept": -3.8399210051806456,
+      "coefficients": [
+        0.04027541532492637,
+        -0.7830479413769681,
+        -0.008278735158972038,
+        -0.08254108150813239,
+        -0.18258718414757125
+      ]
+    }
+  },
+  "high_threshold": 0.09837111849630996,
+  "possible_threshold": 0.09067212529888685,
+  "fit": {
+    "dataset_sha256": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a",
+    "campaign_sha256": "d43dfd0e5cd29a02a1c710a28b985d4c81f0bfe407664738995a4f4763733ef0",
+    "groups": {
+      "fit": [
+        "P01",
+        "P10",
+        "P06",
+        "P02",
+        "P04",
+        "P03"
+      ],
+      "calibration": [
+        "P09",
+        "P05"
+      ],
+      "test": [
+        "P07",
+        "P08"
+      ]
+    },
+    "family": "linear",
+    "regularization": 1.0,
+    "human_weight": 20.0,
+    "optimization": {
+      "method": "damped Newton with exact Hessian and Armijo backtracking",
+      "converged": true,
+      "iterations": 6,
+      "final_objective": 36.58645395152865,
+      "final_gradient_inf_norm": 1.4323073282973553e-10,
+      "parameter_l2_norm": 0.8093243076675792,
+      "trace": [
+        {
+          "iteration": 0,
+          "objective": 36.83895884091791,
+          "gradient_inf_norm_before_step": 5.845942760283289,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 1,
+          "objective": 36.59389527252592,
+          "gradient_inf_norm_before_step": 1.6433949389346352,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 2,
+          "objective": 36.58646917705567,
+          "gradient_inf_norm_before_step": 0.18295964005935778,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 3,
+          "objective": 36.586453951621664,
+          "gradient_inf_norm_before_step": 0.007736230685643379,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 4,
+          "objective": 36.58645395152865,
+          "gradient_inf_norm_before_step": 2.148676894925955e-05,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 5,
+          "objective": 36.58645395152865,
+          "gradient_inf_norm": 1.4323073282973553e-10,
+          "step_size": 0.0
+        }
+      ]
+    },
+    "target_mode": "ai_character_fraction",
+    "training_passages_after_deduplication": 307,
+    "head_relationship": "Identical fitted score function in both heads; distinct conservative thresholds.",
+    "calibration_passages_after_deduplication": 58,
+    "test_used_for_fitting_or_selection": false,
+    "prior_test_metrics_known": true,
+    "new_independent_validation": false,
+    "threshold_controls": "Human fit+calibration only",
+    "threshold_logit_margins": {
+      "review": 0.01,
+      "strong": 0.1
+    },
+    "cv_zero_human_flags_feasible": true
+  },
+  "limitations": [
+    "Same ten antenna papers and three related generators; prior v1 test outcomes already known.",
+    "Repeat evaluation is not a fresh independent test; no broad reliability claim.",
+    "Human zero-control flags do not establish a zero population false-positive rate.",
+    "Screening scores are not authorship probabilities; PDF conversion uncertainty remains."
+  ]
+}

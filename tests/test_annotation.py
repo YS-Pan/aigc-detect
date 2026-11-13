@@ -8,6 +8,7 @@ from fastapi.testclient import TestClient
 from aigc_detector.annotation import decide, segment_spans, validate_policy
 from aigc_detector.api import app
 from aigc_detector.engine import Detector
+from aigc_detector.fusion import LEGACY_POLICY, REFERENCE_POLICY
 from aigc_detector.reporting import save_annotation
 
 
@@ -43,9 +44,20 @@ def test_sensitive_rule_and_boundary_values(scores, expected, triggered):
 
 
 @pytest.mark.parametrize("high,possible", [(.7, .7), (.6, .7), (float("nan"), .5), (1.1, .5), (.9, -1), (True, .5)])
-def test_invalid_policy_is_rejected(high, possible):
+def test_legacy_and_v1_threshold_order_is_preserved(high, possible):
     with pytest.raises(ValueError):
-        validate_policy(high, possible, 400, 120)
+        validate_policy(high, possible, 400, 120, independent_thresholds=False)
+
+
+@pytest.mark.parametrize("high,possible", [(0, 0), (0, .6), (.6, .6), (.6, .7), (1, 1)])
+def test_v2_allows_independent_thresholds_in_unit_interval(high, possible):
+    validate_policy(high, possible, 400, 120, independent_thresholds=True)
+
+
+@pytest.mark.parametrize("high,possible", [(-.1, .7), (.6, 1.1), (float("inf"), .5), (True, .5)])
+def test_v2_still_rejects_thresholds_outside_unit_interval(high, possible):
+    with pytest.raises(ValueError):
+        validate_policy(high, possible, 400, 120, independent_thresholds=True)
 
 
 def minimal_report(text):
@@ -85,12 +97,18 @@ def test_annotation_contract_rejects_bad_options_before_loading(tmp_path):
     with patch("aigc_detector.api.get_detector", return_value=detector), TestClient(app) as client:
         for payload in [
             {"text": " "}, {"text": "文本", "models": []}, {"text": "文本", "models": ["unknown"]},
-            {"text": "文本", "high_threshold": .6, "possible_threshold": .7},
+            {"text": "文本", "high_threshold": .6, "possible_threshold": .7, "policy": LEGACY_POLICY},
             {"text": "文本", "segment_chars": 200, "min_segment_chars": 201},
             {"text": "文本", "segment_chars": 100}, {"text": "文本", "high_threshold": True},
             {"text": "文本", "output_dir": "arbitrary"}, {"text": "x" * 200001},
         ]:
             response = client.post("/v1/annotate", json=payload)
             assert response.status_code == 422, response.text
+        # The v2 thresholds are independent; without installed weights the request
+        # should reach inference and return 503 instead of rejecting the thresholds.
+        response = client.post("/v1/annotate", json={"text": "独立门限校验。", "policy": REFERENCE_POLICY,
+                                                      "high_threshold": .6, "possible_threshold": .7})
+        assert response.status_code == 503, response.text
         assert not detector._loaded
-        assert client.post("/v1/annotate", json={"text": "缺少模型", "models": ["hc3-zh"], "policy": "sensitive-any-model-v1"}).status_code == 503
+        assert client.post("/v1/annotate", json={"text": "缺少模型", "models": ["hc3-zh"],
+                                                  "policy": LEGACY_POLICY}).status_code == 503

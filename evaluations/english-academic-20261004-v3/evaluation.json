@@ -1,0 +1,732 @@
+{
+  "status": "complete",
+  "profile_sha256": "0368f651fb829d5796817eefbb8c26901f747f71eddf8fd09ec7eb53a1e996c6",
+  "groups": {
+    "fit": {
+      "source_inputs": {
+        "human_document": 6,
+        "mixed_document": 18,
+        "ai_paragraph": 51
+      },
+      "segments": 515,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 115,
+          "human_flagged_segments": 0,
+          "human_characters": 172551,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 6,
+          "ai_segments": 54,
+          "ai_flagged_segments": 0,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 51,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 18,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 19,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 17,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 115,
+          "human_flagged_segments": 0,
+          "human_characters": 172551,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 6,
+          "ai_segments": 54,
+          "ai_flagged_segments": 1,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 1303,
+          "ai_character_recall": 0.02952974504249292,
+          "ai_paragraphs": 51,
+          "ai_paragraphs_with_any_flag": 1,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 18,
+              "flagged": 1,
+              "character_recall": 0.0861715495006944
+            },
+            "gpt-6-luna": {
+              "segments": 19,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 17,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 18,
+          "segments": 346,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 51,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 475344,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 275,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 18,
+          "segments": 346,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 51,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 475344,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 275,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 6,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 6,
+          "documents_with_any_flag": 0
+        }
+      }
+    },
+    "calibration": {
+      "source_inputs": {
+        "human_document": 2,
+        "mixed_document": 6,
+        "ai_paragraph": 12
+      },
+      "segments": 75,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 15,
+          "human_flagged_segments": 0,
+          "human_characters": 22114,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 14,
+          "ai_flagged_segments": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 15,
+          "human_flagged_segments": 0,
+          "human_characters": 22114,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 14,
+          "ai_flagged_segments": 1,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 1503,
+          "ai_character_recall": 0.12191758598312784,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 1,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 6,
+              "flagged": 1,
+              "character_recall": 0.2543577593501439
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 6,
+          "segments": 46,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 53747,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 30,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 6,
+          "segments": 46,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 53747,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 30,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        }
+      }
+    },
+    "test": {
+      "source_inputs": {
+        "human_document": 2,
+        "mixed_document": 6,
+        "ai_paragraph": 12
+      },
+      "segments": 88,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 19,
+          "human_flagged_segments": 0,
+          "human_characters": 26656,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 12,
+          "ai_flagged_segments": 0,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 19,
+          "human_flagged_segments": 0,
+          "human_characters": 26656,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 12,
+          "ai_flagged_segments": 1,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 1455,
+          "ai_character_recall": 0.13157894736842105,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 1,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 1,
+              "character_recall": 0.39548790432182657
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 6,
+          "segments": 57,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 68702,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 39,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 6,
+          "segments": 57,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 68702,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 39,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        }
+      }
+    }
+  },
+  "full_collection": {
+    "original_documents": 10,
+    "mixed_documents": 30,
+    "isolated_generated_paragraphs": 75,
+    "scored_segments": 678
+  },
+  "v2_baseline": {
+    "fit": {
+      "source_inputs": {
+        "human_document": 6,
+        "mixed_document": 18,
+        "ai_paragraph": 51
+      },
+      "segments": 515,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 115,
+          "human_flagged_segments": 0,
+          "human_characters": 172551,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 6,
+          "ai_segments": 54,
+          "ai_flagged_segments": 1,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 1284,
+          "ai_character_recall": 0.02909915014164306,
+          "ai_paragraphs": 51,
+          "ai_paragraphs_with_any_flag": 1,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 18,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 19,
+              "flagged": 1,
+              "character_recall": 0.08056217844146066
+            },
+            "gpt-6.1-sol": {
+              "segments": 17,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 115,
+          "human_flagged_segments": 0,
+          "human_characters": 172551,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 6,
+          "ai_segments": 54,
+          "ai_flagged_segments": 3,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 3551,
+          "ai_character_recall": 0.08047592067988668,
+          "ai_paragraphs": 51,
+          "ai_paragraphs_with_any_flag": 3,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 18,
+              "flagged": 1,
+              "character_recall": 0.0861715495006944
+            },
+            "gpt-6-luna": {
+              "segments": 19,
+              "flagged": 2,
+              "character_recall": 0.14104655540218347
+            },
+            "gpt-6.1-sol": {
+              "segments": 17,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 18,
+          "segments": 346,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 51,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 475344,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 275,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 18,
+          "segments": 346,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 51,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 44125,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 475344,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 275,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 6,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 6,
+          "documents_with_any_flag": 0
+        }
+      }
+    },
+    "calibration": {
+      "source_inputs": {
+        "human_document": 2,
+        "mixed_document": 6,
+        "ai_paragraph": 12
+      },
+      "segments": 75,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 15,
+          "human_flagged_segments": 0,
+          "human_characters": 22114,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 14,
+          "ai_flagged_segments": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 15,
+          "human_flagged_segments": 0,
+          "human_characters": 22114,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 14,
+          "ai_flagged_segments": 2,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 2548,
+          "ai_character_recall": 0.20668397144711226,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 2,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 6,
+              "flagged": 2,
+              "character_recall": 0.43120663394821457
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 6,
+          "segments": 46,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 53747,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 30,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 6,
+          "segments": 46,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 12328,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 53747,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 30,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        }
+      }
+    },
+    "test": {
+      "source_inputs": {
+        "human_document": 2,
+        "mixed_document": 6,
+        "ai_paragraph": 12
+      },
+      "segments": 88,
+      "pure_inputs": {
+        "strong": {
+          "human_segments": 19,
+          "human_flagged_segments": 0,
+          "human_characters": 26656,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 12,
+          "ai_flagged_segments": 1,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 1455,
+          "ai_character_recall": 0.13157894736842105,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 1,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 1,
+              "character_recall": 0.39548790432182657
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        },
+        "any_flag": {
+          "human_segments": 19,
+          "human_flagged_segments": 0,
+          "human_characters": 26656,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 2,
+          "ai_segments": 12,
+          "ai_flagged_segments": 3,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 4330,
+          "ai_character_recall": 0.39157171278712244,
+          "ai_paragraphs": 12,
+          "ai_paragraphs_with_any_flag": 3,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 4,
+              "flagged": 2,
+              "character_recall": 0.6551959890610757
+            },
+            "gpt-6-luna": {
+              "segments": 4,
+              "flagged": 1,
+              "character_recall": 0.39548790432182657
+            },
+            "gpt-6.1-sol": {
+              "segments": 4,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      "mixed_documents": {
+        "strong": {
+          "mixed_documents": 6,
+          "segments": 57,
+          "mixed_documents_with_any_flag": 0,
+          "mixed_documents_with_generated_position_flagged": 0,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 0,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "human_characters": 68702,
+          "human_characters_within_flagged_segments": 0,
+          "pure_human_segments": 39,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        },
+        "any_flag": {
+          "mixed_documents": 6,
+          "segments": 57,
+          "mixed_documents_with_any_flag": 2,
+          "mixed_documents_with_generated_position_flagged": 2,
+          "generated_blocks": 12,
+          "generated_blocks_with_any_flag": 2,
+          "ai_characters": 11058,
+          "ai_flagged_characters": 2254,
+          "ai_character_recall": 0.20383432808826188,
+          "human_characters": 68702,
+          "human_characters_within_flagged_segments": 815,
+          "pure_human_segments": 39,
+          "pure_human_flagged_segments": 0,
+          "note": "Whole mixed spans are marked; adjacent human characters are spillover, not estimated AI authorship."
+        }
+      },
+      "original_documents": {
+        "strong": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        },
+        "any_flag": {
+          "documents": 2,
+          "documents_with_any_flag": 0
+        }
+      }
+    }
+  },
+  "v2_baseline_segmentation": [
+    1600,
+    400
+  ],
+  "repeat_dataset_sha256": "733da243eb9a149ffc818f6f3b89b61ef8e296ff9de3d76cd51efbd5820fbf3d",
+  "promotion_rule_satisfied": false,
+  "prior_test_outcomes_known": true,
+  "is_new_independent_validation": false,
+  "contains_source_text": false,
+  "parameters_unchanged_after_repeat": true
+}

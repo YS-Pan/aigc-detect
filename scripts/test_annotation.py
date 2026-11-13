@@ -42,10 +42,14 @@ def main():
             assert 0 <= value["ai_score"] <= 1
             assert value["windows"][-1]["token_end"] == value["token_count"]
             assert all(segment["char_start"] <= window["char_start"] < window["char_end"] <= segment["char_end"] for window in value["windows"])
-        joint = segment["decision"]["ensemble_score"]
+        decision = segment["decision"]
+        joint = decision["ensemble_score"]
+        review = decision["review_score"]
         assert joint is not None and math.isfinite(joint) and 0 <= joint <= 1
-        assert segment["decision"]["category"] == ("strong_signal" if joint >= report["policy"]["high_threshold"] else
-                                                   "possible_signal" if joint >= report["policy"]["possible_threshold"] else "other")
+        assert review is not None and math.isfinite(review) and 0 <= review <= 1
+        expected = ("strong_signal" if joint >= report["policy"]["high_threshold"] else
+                    "possible_signal" if review >= report["policy"]["possible_threshold"] else "other")
+        assert decision["category"] == expected
     # Independent calls should agree with cross-passage GPU batching.
     max_difference = 0.0
     for segment in report["segments"][:3]:

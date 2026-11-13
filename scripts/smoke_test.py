@@ -11,7 +11,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from aigc_detector.catalog import CATALOG, ROOT
+from aigc_detector.catalog import CATALOG, CHINESE_MODELS, ROOT
 from aigc_detector.engine import Detector
 
 
@@ -54,12 +54,12 @@ def main():
         parity = {}
         mlp_parity = {}
         tokenizer_parity = {}
-        for model_id in CATALOG:
+        for model_id in CHINESE_MODELS:
             tokenizer, model, limit = detector._load(model_id)
             inputs = tokenizer(samples[0]["text"], return_tensors="pt", max_length=limit, truncation=True).to(detector.device)
             with torch.inference_mode():
                 official_score = model(**inputs).logits[0].softmax(0)[CATALOG[model_id]["ai_label_index"]].item()
-            wrapper_score = report["runs"][0]["result"]["results"][list(CATALOG).index(model_id)]["ai_score"]
+            wrapper_score = report["runs"][0]["result"]["results"][list(CHINESE_MODELS).index(model_id)]["ai_score"]
             difference = abs(official_score - wrapper_score)
             assert difference < 1e-6, (model_id, difference)
             parity[model_id] = {"max_absolute_difference": difference, "passed": True}
@@ -100,22 +100,22 @@ def main():
     with patch("aigc_detector.api.get_detector", return_value=detector), TestClient(api.app) as client:
         assert client.get("/health").json()["status"] == "ok"
         assert len(client.get("/v1/models").json()["models"]) == len(CATALOG)
-        response = client.post("/v1/detect", json={"text": samples[0]["text"], "models": list(CATALOG)})
+        response = client.post("/v1/detect", json={"text": samples[0]["text"], "models": list(CHINESE_MODELS)})
         assert response.status_code == 200, response.text
-        assert len(response.json()["results"]) == len(CATALOG)
+        assert len(response.json()["results"]) == len(CHINESE_MODELS)
         response = client.post("/v1/detect-batch", json={"texts": [samples[0]["text"], "中文🙂测试。"], "models": ["hc3-zh"], "include_chunks": False})
         assert response.status_code == 200, response.text
         assert len(response.json()["items"]) == 2
         assert "chunks" not in response.json()["items"][0]["results"][0]
-        response = client.post("/v1/annotate", json={"text": samples[1]["text"], "models": list(CATALOG)})
+        response = client.post("/v1/annotate", json={"text": samples[1]["text"], "models": list(CHINESE_MODELS)})
         assert response.status_code == 200, response.text
         annotation = response.json()
-        assert len(annotation["models"]) == len(CATALOG)
+        assert len(annotation["models"]) == len(CHINESE_MODELS)
         assert annotation["segmentation"]["characters_covered"] == len(samples[1]["text"])
-        assert set(annotation["segments"][0]["model_scores"]) == set(CATALOG)
+        assert set(annotation["segments"][0]["model_scores"]) == set(CHINESE_MODELS)
     report["checks"]["api_in_process"] = "passed"
     report["status"] = "passed"
-    report["model_sample_runs"] = len(samples) * len(CATALOG)
+    report["model_sample_runs"] = len(samples) * len(CHINESE_MODELS)
     report["device"] = detector.device
     if detector.device == "cuda":
         report["gpu"] = torch.cuda.get_device_name(0)

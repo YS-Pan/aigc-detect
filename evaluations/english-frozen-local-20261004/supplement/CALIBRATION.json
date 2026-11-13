@@ -1,0 +1,24 @@
+{
+  "at_utc": "2026-10-04T08:43:35.837633+00:00",
+  "thresholds": {
+    "whole1600::followsci-bert-en": -9.826087897853066,
+    "whole1600::roberta-academic-en": 5.8486107720907015,
+    "whole1600::llm-detectaive-en": 12.430293725250307,
+    "whole1600::cocodet-en": 13.948659868509333,
+    "paragraph::followsci-bert-en": 9.588973162122768,
+    "paragraph::roberta-academic-en": 8.776142962073719,
+    "paragraph::llm-detectaive-en": 11.644572550100577,
+    "paragraph::cocodet-en": 69.57755278982137,
+    "sentence3::followsci-bert-en": 10.547939044705483,
+    "sentence3::roberta-academic-en": 9.372370824468105,
+    "sentence3::llm-detectaive-en": 11.106161284968781,
+    "sentence3::cocodet-en": 69.57755278982137
+  },
+  "calibration_scores_sha256": "5b7178ff8751302b3e3181b3196a63f610795c4194545d01c7175855c92559ee",
+  "declaration_sha256": "2156a7950cfe661856f4389aaed4bec6b3b0ccb2f9b18090c505273d5546e34e",
+  "selected": {
+    "id": "sentence3::llm-detectaive-en",
+    "mode": "sentence3",
+    "model": "llm-detectaive-en"
+  }
+}

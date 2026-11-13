@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-04T08:38:20.242149+00:00",
+  "hashes": {
+    "campaign.json": "899f26410be4845f0c5c68387a7ec14716be054de907192b1b547fc87f0f2950",
+    "input-lock.json": "b5ca429bc8e447723a00b0c0bf5c2d04f4666e4bd8135bdaa1b00e18a8dc83dd",
+    "inputs.json": "d8e8512264d2a627e479e383f60fa4e9f0acf210a7c3b5d2e29607f9fd0ff58d",
+    "development-scores.json": "b75f59c0ded99b0f39c48fb5111bff272ccd8be6bf7ed871cd9a8bb5e6ff7030",
+    "selection.json": "914d5c01123c2f784be791e0be3c3c92b8f58134bcc1a137c4f7fcab2082ff81"
+  }
+}

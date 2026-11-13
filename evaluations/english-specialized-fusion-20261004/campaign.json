@@ -1,0 +1,838 @@
+{
+  "schema_version": "english-specialized-fusion-experiment/1.0",
+  "declared_at_utc": "2026-10-04T07:27:00.446432+00:00",
+  "groups": {
+    "fit": [
+      "P01",
+      "P10",
+      "P06",
+      "P02",
+      "P04",
+      "P03"
+    ],
+    "calibration": [
+      "P09",
+      "P05"
+    ],
+    "test": [
+      "P07",
+      "P08"
+    ]
+  },
+  "sample_collection_sha256": "139db165059c4b0c3d12bcc724b5fdfeb0f2c08d05b466e9b865900044def961",
+  "models": [
+    "hc3-en",
+    "desklib-en",
+    "fakespot-en",
+    "bibbbu-xlm-roberta",
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en",
+    "followsci-bert-en",
+    "roberta-academic-en",
+    "llm-detectaive-en",
+    "cocodet-en"
+  ],
+  "signals": [
+    "hc3-en",
+    "desklib-en",
+    "fakespot-en",
+    "bibbbu-xlm-roberta",
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en",
+    "followsci-bert-en",
+    "roberta-academic-en",
+    "llm-detectaive-en",
+    "cocodet-en",
+    "llm-detectaive-en::human_machine_polished",
+    "llm-detectaive-en::machine",
+    "llm-detectaive-en::machine_machine_humanized",
+    "cocodet-en::mix",
+    "cocodet-en::ai"
+  ],
+  "revisions": {
+    "hc3-en": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+    "desklib-en": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+    "fakespot-en": "f9cdb14d1f8b105f597d80fa7b56f20c6ea0e9db",
+    "bibbbu-xlm-roberta": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+    "openai-base-en": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "openai-large-en": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+    "piratexx-en": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+    "mage-en": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+    "radar-vicuna-en": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b",
+    "followsci-bert-en": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+    "roberta-academic-en": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+    "llm-detectaive-en": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+    "cocodet-en": "7f60a5dcdad3af02767cb57da842ead41424c89d"
+  },
+  "class_signal_mapping": {
+    "llm-detectaive-en::human_machine_polished": {
+      "model": "llm-detectaive-en",
+      "class": "human_machine_polished"
+    },
+    "llm-detectaive-en::machine": {
+      "model": "llm-detectaive-en",
+      "class": "machine"
+    },
+    "llm-detectaive-en::machine_machine_humanized": {
+      "model": "llm-detectaive-en",
+      "class": "machine_machine_humanized"
+    },
+    "cocodet-en::mix": {
+      "model": "cocodet-en",
+      "class": "mix"
+    },
+    "cocodet-en::ai": {
+      "model": "cocodet-en",
+      "class": "ai"
+    }
+  },
+  "segmentation": [
+    1600,
+    400
+  ],
+  "inference": {
+    "overlap_tokens": 64,
+    "dtype": "float32",
+    "device": "cuda",
+    "batch_size": 8
+  },
+  "configurations": [
+    {
+      "id": "new_aggregate-presence-0.01",
+      "family": "new_aggregate-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "new_aggregate-presence-0.1",
+      "family": "new_aggregate-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "new_aggregate-presence-1",
+      "family": "new_aggregate-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "new_aggregate-hard_human_bag_ranking-0.01",
+      "family": "new_aggregate-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.01
+    },
+    {
+      "id": "new_aggregate-hard_human_bag_ranking-0.1",
+      "family": "new_aggregate-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.1
+    },
+    {
+      "id": "new_aggregate-hard_human_bag_ranking-1",
+      "family": "new_aggregate-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 1.0
+    },
+    {
+      "id": "new_classes-presence-0.01",
+      "family": "new_classes-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "new_classes-presence-0.1",
+      "family": "new_classes-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "new_classes-presence-1",
+      "family": "new_classes-presence",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "new_classes-hard_human_bag_ranking-0.01",
+      "family": "new_classes-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.01
+    },
+    {
+      "id": "new_classes-hard_human_bag_ranking-0.1",
+      "family": "new_classes-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.1
+    },
+    {
+      "id": "new_classes-hard_human_bag_ranking-1",
+      "family": "new_classes-hard_human_bag_ranking",
+      "signals": [
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 1.0
+    },
+    {
+      "id": "v2_plus_new-presence-0.01",
+      "family": "v2_plus_new-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "v2_plus_new-presence-0.1",
+      "family": "v2_plus_new-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "v2_plus_new-presence-1",
+      "family": "v2_plus_new-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "v2_plus_new-hard_human_bag_ranking-0.01",
+      "family": "v2_plus_new-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.01
+    },
+    {
+      "id": "v2_plus_new-hard_human_bag_ranking-0.1",
+      "family": "v2_plus_new-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.1
+    },
+    {
+      "id": "v2_plus_new-hard_human_bag_ranking-1",
+      "family": "v2_plus_new-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en",
+        "cocodet-en"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 1.0
+    },
+    {
+      "id": "v2_plus_classes-presence-0.01",
+      "family": "v2_plus_classes-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "v2_plus_classes-presence-0.1",
+      "family": "v2_plus_classes-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "v2_plus_classes-presence-1",
+      "family": "v2_plus_classes-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "v2_plus_classes-hard_human_bag_ranking-0.01",
+      "family": "v2_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.01
+    },
+    {
+      "id": "v2_plus_classes-hard_human_bag_ranking-0.1",
+      "family": "v2_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.1
+    },
+    {
+      "id": "v2_plus_classes-hard_human_bag_ranking-1",
+      "family": "v2_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 1.0
+    },
+    {
+      "id": "all_plus_classes-presence-0.01",
+      "family": "all_plus_classes-presence",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "all_plus_classes-presence-0.1",
+      "family": "all_plus_classes-presence",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "all_plus_classes-presence-1",
+      "family": "all_plus_classes-presence",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "all_plus_classes-hard_human_bag_ranking-0.01",
+      "family": "all_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.01
+    },
+    {
+      "id": "all_plus_classes-hard_human_bag_ranking-0.1",
+      "family": "all_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 0.1
+    },
+    {
+      "id": "all_plus_classes-hard_human_bag_ranking-1",
+      "family": "all_plus_classes-hard_human_bag_ranking",
+      "signals": [
+        "hc3-en",
+        "desklib-en",
+        "fakespot-en",
+        "bibbbu-xlm-roberta",
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en",
+        "followsci-bert-en",
+        "roberta-academic-en",
+        "llm-detectaive-en::human_machine_polished",
+        "llm-detectaive-en::machine",
+        "llm-detectaive-en::machine_machine_humanized",
+        "cocodet-en::mix",
+        "cocodet-en::ai"
+      ],
+      "method": "hard_human_bag_ranking",
+      "regularization": 1.0
+    },
+    {
+      "id": "v2_refit-presence-0.01",
+      "family": "v2_refit-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "method": "presence",
+      "regularization": 0.01
+    },
+    {
+      "id": "v2_refit-presence-0.1",
+      "family": "v2_refit-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "method": "presence",
+      "regularization": 0.1
+    },
+    {
+      "id": "v2_refit-presence-1",
+      "family": "v2_refit-presence",
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "method": "presence",
+      "regularization": 1.0
+    },
+    {
+      "id": "single-followsci-bert-en",
+      "family": "single-followsci-bert-en",
+      "signals": [
+        "followsci-bert-en"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-roberta-academic-en",
+      "family": "single-roberta-academic-en",
+      "signals": [
+        "roberta-academic-en"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-llm-detectaive-en",
+      "family": "single-llm-detectaive-en",
+      "signals": [
+        "llm-detectaive-en"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-cocodet-en",
+      "family": "single-cocodet-en",
+      "signals": [
+        "cocodet-en"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-llm-detectaive-en::human_machine_polished",
+      "family": "single-llm-detectaive-en::human_machine_polished",
+      "signals": [
+        "llm-detectaive-en::human_machine_polished"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-llm-detectaive-en::machine",
+      "family": "single-llm-detectaive-en::machine",
+      "signals": [
+        "llm-detectaive-en::machine"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-llm-detectaive-en::machine_machine_humanized",
+      "family": "single-llm-detectaive-en::machine_machine_humanized",
+      "signals": [
+        "llm-detectaive-en::machine_machine_humanized"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-cocodet-en::mix",
+      "family": "single-cocodet-en::mix",
+      "signals": [
+        "cocodet-en::mix"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    },
+    {
+      "id": "single-cocodet-en::ai",
+      "family": "single-cocodet-en::ai",
+      "signals": [
+        "cocodet-en::ai"
+      ],
+      "method": "single",
+      "regularization": 0.0
+    }
+  ],
+  "candidate_count": 42,
+  "bag_temperature": 0.1,
+  "ranking_margin": 0.1,
+  "threshold_margin": 0.01,
+  "optimizer": {
+    "algorithm": "CPU float64 L-BFGS strong Wolfe",
+    "max_iter": 250,
+    "max_eval": 400,
+    "gradient_tolerance": 1e-08,
+    "change_tolerance": 1e-12
+  },
+  "fit_scope": "Original/mixed windows from fit papers only; same-paper text hashes deduplicated with bag memberships retained; conflicting and cross-paper duplicates excluded. Isolated generated paragraphs are evaluation-only.",
+  "standardization": "Fit-only logit clip 1e-5; equal paper/class weights; SD floor .5; standardized clip 5. Single-signal controls use unclipped standardized logit range (clip 5 avoided with scale 3).",
+  "selection": "Fit-only six-paper LOPO; minimize pure-human false windows, maximize mixed block hits, minimize false originals, maximize mixed AI characters; ties fewer signals, stronger L2, ID. No calibration positives or repeat scores.",
+  "nested": "Outer six-paper LOPO repeats complete candidate selection in inner five-paper LOPO. Every train/scale/cutoff excludes outer paper.",
+  "threshold": "Max pure-human score in fit plus calibration papers + .01; calibration positives excluded.",
+  "freeze": "Freeze overall choice and each family champion before new-model P07/P08 inference; no retuning after repeat.",
+  "success": "Selected pipeline: zero pure-human false windows and >=50% mixed-block hits both in nested diagnostic and frozen repeat. Historical material only; no automatic default replacement.",
+  "source_hashes": {
+    "scripts/english_specialized_fusion.py": "3243b9fb8b983805146335cbe8df388b495063be45e67f909289fb9c108d82d7",
+    "scripts/english_hard_negative.py": "ab678343b9727c5c1fea84ca0386ddeb56ac64466369e3cec386818e057ab8c9",
+    "scripts/calibrate_english_v2.py": "037a8be34cc3a8f224bc3e6ca02e2a62ff8add13fb5cfa538b8c34d63851e8eb",
+    "scripts/english_academic_samples.py": "af1be608be7832f7f4ca8e6f05fe58af79d9b4da5885f6c4d2c2e5a1b526422d",
+    "aigc_detector/engine.py": "4e81777ca2c5582325d7fd2b983c76ea56e7bc6e35dab5d8b8930af08b7b6f11",
+    "aigc_detector/modeling.py": "394dd6484d7bcae24b96ccb309e7f0e102cb8ecffa3404628cb60ffbf415cb7e",
+    "aigc_detector/catalog.py": "35f1775d3d6e0f3412799f39bd3422f9ffb610d9740b7d271e24f2e209d746c0",
+    "aigc_detector/annotation.py": "fd02d908572989ba95d0d0f60746ecef421632acfdd14a3576773ae1f8214791",
+    "models/manifest.json": "3fac1bad9310bdbefd6b0b30f6b84f8777aa14b64e14952ca4651441d92c37fb",
+    "aigc_detector/profiles/english-academic-20261003-v2.json": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+    "samples/english-academic-20261003/samples.jsonl": "139db165059c4b0c3d12bcc724b5fdfeb0f2c08d05b466e9b865900044def961",
+    "evaluations/english-academic-20261003-v2/campaign.json": "d43dfd0e5cd29a02a1c710a28b985d4c81f0bfe407664738995a4f4763733ef0",
+    "evaluations/english-academic-20261003-v2/context1600/train-scores.json": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a",
+    "evaluations/english-academic-20261003-v2/repeat-scores.json": "5114d6d0c8ef40d9e27b16a8db8803809c86b96743e4e6f30ae160a3c5df2d89",
+    "samples/english-academic-20261003/maps/P01-human.json": "c5c4eb81770ddbdd9967b81c45387b4697db1abfc76dfcedc6c44e5041766526",
+    "samples/english-academic-20261003/maps/P01-gpt-6-astra-mixed.json": "144187e1a6065a48fa53d6899818e28d6a2936d12ba31b6cba638f82e5664921",
+    "samples/english-academic-20261003/maps/P01-gpt-6-luna-mixed.json": "8190739a549c7941bad5851bf3dc773bf3caf2740a12e16d5a9acfaaae926946",
+    "samples/english-academic-20261003/maps/P01-gpt-6.1-sol-mixed.json": "e183a9a16ce48a13b4a8f1632b1e06dc71b74d95a5f1505690ad91a0211349fb",
+    "samples/english-academic-20261003/maps/P02-human.json": "ac02b20f918678c9b8541d59bda1a8c2aa1ac07e72cd2feda24a0af631afc54b",
+    "samples/english-academic-20261003/maps/P02-gpt-6-astra-mixed.json": "51e54f86c7b599a000e5497ae4332894da992c030e7040b52e686537a7640498",
+    "samples/english-academic-20261003/maps/P02-gpt-6-luna-mixed.json": "37fff3c3eb3f5f3360c0d842b5093de648fce54e49f910439ea49bbc388515c7",
+    "samples/english-academic-20261003/maps/P02-gpt-6.1-sol-mixed.json": "29b9af5431057b3fcc09b45c6e623043ab8d24a63eda19393208cecd2c5d2c13",
+    "samples/english-academic-20261003/maps/P03-human.json": "dd804af5784850298cd3ce6895cbb9e258976b901c3de16876fa22224ed2f8af",
+    "samples/english-academic-20261003/maps/P03-gpt-6-astra-mixed.json": "65cf232fd1e1eb8e48b69bb8c31e4aaba9b27aba7f157434640570b33fefed6d",
+    "samples/english-academic-20261003/maps/P03-gpt-6-luna-mixed.json": "9d2d37da983d5a7081b3fa72e998ad2261e5295031333d261831fd2a6fc1781c",
+    "samples/english-academic-20261003/maps/P03-gpt-6.1-sol-mixed.json": "44f675070a562d229b146305c9803395e10986b23026cc2fa167c31f34b559a8",
+    "samples/english-academic-20261003/maps/P04-human.json": "9344345afaf3f3c11d3b79b37481e702a32576ffd0dd4711e947eeef86ea2efd",
+    "samples/english-academic-20261003/maps/P04-gpt-6-astra-mixed.json": "135d51aeb60d2fa8087fae1e1f69264bc06aac82b5ea18813f2428ee9f579a56",
+    "samples/english-academic-20261003/maps/P04-gpt-6-luna-mixed.json": "8d854a044b0e9af25904fb5de1653e3e3460ff49dfcab4e8aa0956c1518dc7fa",
+    "samples/english-academic-20261003/maps/P04-gpt-6.1-sol-mixed.json": "3b4ee34c3e9990c337df7a48f98e35fb21f6b73cf0c52b741807fb4d8842d979",
+    "samples/english-academic-20261003/maps/P05-human.json": "7f652ccf8745d8e35e2c4e174c4dd923d789337b4be3977dab5ffa9835eecf1d",
+    "samples/english-academic-20261003/maps/P05-gpt-6-astra-mixed.json": "a6477510a47321f345bb14f824c816a21288918d248199b592e93b27aba0fd41",
+    "samples/english-academic-20261003/maps/P05-gpt-6-luna-mixed.json": "217c1e64c025cb60c081ba5f806ad0587a0bc7aaec14daef7dc62641b1ed4cb8",
+    "samples/english-academic-20261003/maps/P05-gpt-6.1-sol-mixed.json": "c0a591094343c4851b0a2c222a8960b3e3154ee64a1bd1bd41379d2d772752fd",
+    "samples/english-academic-20261003/maps/P06-human.json": "d21c25fe7d2795b3b96774ce9d940a0113356a2a7c9e068d03e98e52d0515d73",
+    "samples/english-academic-20261003/maps/P06-gpt-6-astra-mixed.json": "7393f58e8b56d9fd3baa4df51b5887aaafae8c7724d79e9e46b2f1288614f522",
+    "samples/english-academic-20261003/maps/P06-gpt-6-luna-mixed.json": "e6b99dbe7a8ba3b1e8025f24f92cff03f251c7591e3c7099ecf63bff27624ef4",
+    "samples/english-academic-20261003/maps/P06-gpt-6.1-sol-mixed.json": "e6edfe0a660b29ea49acf3abf1df62b44f46d56d4d3563f4723aff3b8bafa6d2",
+    "samples/english-academic-20261003/maps/P07-human.json": "01ed06e3984bee7880be2fa4bd307c5b42db5dbfd766bff8c4060f927081db7b",
+    "samples/english-academic-20261003/maps/P07-gpt-6-astra-mixed.json": "84ddd51c5291472ecf5693f3925aeed08b2f4ceed1cb637c31ae90e1d4851219",
+    "samples/english-academic-20261003/maps/P07-gpt-6-luna-mixed.json": "6464a7bbeeab00f4fe6de9aac91ab7cbe8ae38b6e3c3a7a1d5387379e01da2ba",
+    "samples/english-academic-20261003/maps/P07-gpt-6.1-sol-mixed.json": "ee579b9adf67ea7b8334c9b60badb0b1f5a5322e6631f27153c5caeac67d53d1",
+    "samples/english-academic-20261003/maps/P08-human.json": "0a87905e8112d2d249437da6be5955004b90106fcfc08382b545f4b289cf5c12",
+    "samples/english-academic-20261003/maps/P08-gpt-6-astra-mixed.json": "c35eaa626bfbdeb88b533c0f1173a5210411eb023d6a138f353f3480acd34d02",
+    "samples/english-academic-20261003/maps/P08-gpt-6-luna-mixed.json": "039dd57081bdfd0a2e1be3083a4b864c085286d7b2946d13b2a12352136c16c8",
+    "samples/english-academic-20261003/maps/P08-gpt-6.1-sol-mixed.json": "b35383a2f6d401ba9d66d70359d760a26b6776a7d136bdeb5e93fff66d45fa9e",
+    "samples/english-academic-20261003/maps/P09-human.json": "63c7656ea19bc5abbea6f9ed0451dbf58cfd13158d45725cb7a4a7b1b4b1eadb",
+    "samples/english-academic-20261003/maps/P09-gpt-6-astra-mixed.json": "e0e0f05183ac86601565c7d3ee4823310a254a91acc855e02ba0e7194c1969c5",
+    "samples/english-academic-20261003/maps/P09-gpt-6-luna-mixed.json": "4538a2d1de215b89bd38a1cc47209e3664c793900ead36c7e404eaca7f4afb99",
+    "samples/english-academic-20261003/maps/P09-gpt-6.1-sol-mixed.json": "e50d8df8d600c5652bb93efb1a556680579fc882f969798981714c37c050f2a5",
+    "samples/english-academic-20261003/maps/P10-human.json": "f5a51a7cadacd1858119457bd6796924e9fc19afbe09a93ec3e52ae6eb872a86",
+    "samples/english-academic-20261003/maps/P10-gpt-6-astra-mixed.json": "612d8523ba3f8c6335e65333160c9aebc3db7caa3e9c9e9ab45a9890ba281b46",
+    "samples/english-academic-20261003/maps/P10-gpt-6-luna-mixed.json": "f3b0c4a46a143d28b4dd907ebf530c48de8f1540696958245917c81aed78ca0e",
+    "samples/english-academic-20261003/maps/P10-gpt-6.1-sol-mixed.json": "49efe28f25e2321142ada20de480c667f1803b5eb4f74c15c49669012552fba7"
+  },
+  "new_independent_validation": false,
+  "historical_results_known": true,
+  "automatic_deployment": false,
+  "contains_source_text": false,
+  "versions": {
+    "numpy": "2.5.3",
+    "torch": "2.11.0+cu128",
+    "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

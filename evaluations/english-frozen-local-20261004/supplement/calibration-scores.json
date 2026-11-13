@@ -1,0 +1,1614 @@
+{
+  "scores": {
+    "0071816682c7a4d8c8e23b0c50c4187ab8f0fb21a1988e463f59246129101f3a": {
+      "followsci-bert-en": 2.2923507003724808e-06,
+      "roberta-academic-en": 0.0005823688115924597,
+      "llm-detectaive-en": 0.03470654951524921,
+      "cocodet-en": 1.9501767134218022e-08
+    },
+    "01f190e778272388bdf1d69c4c2aeb67aa05a14606a7085c4a0a10ac4d8e10d6": {
+      "followsci-bert-en": 6.035302249074448e-06,
+      "roberta-academic-en": 0.0006355997174978256,
+      "llm-detectaive-en": 0.9986134673818015,
+      "cocodet-en": 1.9247240047202616e-08
+    },
+    "0261ac422fae5cd34f2b648a421a8888ccbd31442e8406f324251dd3345db41b": {
+      "followsci-bert-en": 2.059565076706349e-06,
+      "roberta-academic-en": 0.9844739437103271,
+      "llm-detectaive-en": 0.9998306003399193,
+      "cocodet-en": 2.677894343609561e-08
+    },
+    "034c937820d1a61d2ebd186bab82f9631da6baa26c247bccd825474a56f8b4f3": {
+      "followsci-bert-en": 4.600973625201732e-06,
+      "roberta-academic-en": 0.0006566343945451081,
+      "llm-detectaive-en": 0.3316595843061805,
+      "cocodet-en": 3.00997800568685e-08
+    },
+    "03abbc80542b21786c25a2d633e4e023b20ecaf0694756be82b8235dc3762640": {
+      "followsci-bert-en": 2.0602055883500725e-06,
+      "roberta-academic-en": 0.0006362306303344667,
+      "llm-detectaive-en": 0.25628213814343326,
+      "cocodet-en": 6.008850711024683e-08
+    },
+    "04e739de788a4ef5ff0ce9c8fc53c6e80f7aef5e8413ce456cf3979848f1f020": {
+      "followsci-bert-en": 1.7934675270225853e-05,
+      "roberta-academic-en": 0.0009396144305355847,
+      "llm-detectaive-en": 0.007042900457236101,
+      "cocodet-en": 9.034847214687072e-08
+    },
+    "08ed78268aa120ab24aa9873774ef3878e6092b1a6fca767fc0f108512b95275": {
+      "followsci-bert-en": 4.137028099648887e-06,
+      "roberta-academic-en": 0.0018010948551818728,
+      "llm-detectaive-en": 0.9994514299032744,
+      "cocodet-en": 6.690837938327834e-09
+    },
+    "0a5536bc6adb17661121c25d12399ccf0def1a233287287dca2124605292d3b9": {
+      "followsci-bert-en": 2.1794410258735297e-06,
+      "roberta-academic-en": 0.00028960697818547487,
+      "llm-detectaive-en": 0.987159935888485,
+      "cocodet-en": 1.7915431829281718e-08
+    },
+    "0adcb20e3f6768950aa7fb4d93fcde73fa2af2b7ce4e7b490f4b4a8bc7770bee": {
+      "followsci-bert-en": 2.2647691366728395e-06,
+      "roberta-academic-en": 0.00021767888392787427,
+      "llm-detectaive-en": 0.9992939602525439,
+      "cocodet-en": 5.202940962236672e-09
+    },
+    "0c3a14f131ad5c16456010b4cbf376a54c93cc23aebba3f621c9da3b1ccd6aad": {
+      "followsci-bert-en": 2.0739219053211855e-06,
+      "roberta-academic-en": 0.00027070491341874003,
+      "llm-detectaive-en": 0.9999326235702028,
+      "cocodet-en": 1.2128205163083276e-06
+    },
+    "0c562e4c7ce7135cae9b776d801e1f9a108e7562fcd590544cbb440b8c197c1c": {
+      "followsci-bert-en": 2.1126204501342727e-06,
+      "roberta-academic-en": 0.00023980070545803756,
+      "llm-detectaive-en": 0.9448944854666479,
+      "cocodet-en": 1.2623800167444474e-08
+    },
+    "0c9cffb362544cf1ca74be735d413c269483176010a2f62aa85cb4b6e95a5b39": {
+      "followsci-bert-en": 3.471875288596493e-06,
+      "roberta-academic-en": 0.00019939366029575467,
+      "llm-detectaive-en": 0.9139873034437187,
+      "cocodet-en": 2.0391465921734166e-08
+    },
+    "0ee99537f0d1feae7bfea1fe5ecdfdffe7bc6f03e440dad5dc9f30d0340fd837": {
+      "followsci-bert-en": 2.1050184386695037e-06,
+      "roberta-academic-en": 0.00030757294734939933,
+      "llm-detectaive-en": 0.9999594269902445,
+      "cocodet-en": 1.258359992137195e-08
+    },
+    "0f4023e11ee1c1113563ae03b0df7c0e2f54e9b9019608364aa86572e05df81c": {
+      "followsci-bert-en": 2.0216334633005317e-06,
+      "roberta-academic-en": 0.9752593040466309,
+      "llm-detectaive-en": 0.9999807236599736,
+      "cocodet-en": 2.0325059406790108e-08
+    },
+    "0fec5233bd5bcc920fa19ecb62d8cea4ce0228396cce52fb922c5e8fafd0c7f4": {
+      "followsci-bert-en": 2.0930117443640484e-06,
+      "roberta-academic-en": 0.0013047736138105392,
+      "llm-detectaive-en": 0.0016773943857515405,
+      "cocodet-en": 3.7486140320368375e-08
+    },
+    "11238c668155e0652956fc92c9c137447ea18bbda01f0341a3b6fa02b87afddc": {
+      "followsci-bert-en": 2.233971599707729e-06,
+      "roberta-academic-en": 0.0008363277884200215,
+      "llm-detectaive-en": 0.2971497466787696,
+      "cocodet-en": 1.6386555101114558e-09
+    },
+    "1164adaa1274ee398c141538a798b6e1993901bca322d5a3f0c81ef1a57ef565": {
+      "followsci-bert-en": 2.234318799310131e-06,
+      "roberta-academic-en": 0.00029823326622135937,
+      "llm-detectaive-en": 0.002050855033303378,
+      "cocodet-en": 4.001545858773117e-09
+    },
+    "136f3a114fc796a34a6af4ee7eff1d4134b8d12c30e224890baf8bfdf9d91dd3": {
+      "followsci-bert-en": 2.1103530798427528e-06,
+      "roberta-academic-en": 0.00034093926660716534,
+      "llm-detectaive-en": 0.008795407518846332,
+      "cocodet-en": 8.10348850497928e-08
+    },
+    "14145f34d63185ab9d958f8f2ed759dd723d827f59117a1abd86a109cf6e4cc7": {
+      "followsci-bert-en": 2.1498326532309875e-06,
+      "roberta-academic-en": 0.00025192383327521384,
+      "llm-detectaive-en": 0.9970849803939927,
+      "cocodet-en": 8.95163089446459e-09
+    },
+    "1420f4bea1abdc84e6c8f47f6413706933778cafd7c3eae716a96d14d355f894": {
+      "followsci-bert-en": 5.340594725566916e-06,
+      "roberta-academic-en": 0.0004524178511928767,
+      "llm-detectaive-en": 0.9998955589253455,
+      "cocodet-en": 1.617332341388657e-07
+    },
+    "1572e2092146782392372bb070c148c303ef65662e35fd1871e95e2c7b98d798": {
+      "followsci-bert-en": 0.012604493647813797,
+      "roberta-academic-en": 0.005667975638061762,
+      "llm-detectaive-en": 0.03800814870191971,
+      "cocodet-en": 1.0961685587560551e-07
+    },
+    "161cfcbe9f45eed030e3f5e159f734f5e5f669737b4b0b6d127487254e16a8e2": {
+      "followsci-bert-en": 2.3336565391218755e-06,
+      "roberta-academic-en": 0.0006210435531102121,
+      "llm-detectaive-en": 0.6175913319457322,
+      "cocodet-en": 2.1021637233442636e-06
+    },
+    "164d0a664616c7d853cf948c1c59ceb30cbde2868e9267abc8969fdd3e898432": {
+      "followsci-bert-en": 2.136084731318988e-06,
+      "roberta-academic-en": 0.0007916941540315747,
+      "llm-detectaive-en": 0.9715620831702836,
+      "cocodet-en": 4.3508556664580145e-08
+    },
+    "1656241417b8174659ced2f0141ebd23a3ba5bb519ca8088ee03a30a5ba4f5d2": {
+      "followsci-bert-en": 2.2504325443151174e-06,
+      "roberta-academic-en": 0.0016120333457365632,
+      "llm-detectaive-en": 0.9975253093289211,
+      "cocodet-en": 1.7456972964185677e-08
+    },
+    "18065037c67f50c870c6e53d992508ba189c0386bb11d6152486be7fa7ce83df": {
+      "followsci-bert-en": 2.1867988380108727e-06,
+      "roberta-academic-en": 0.000297233578749001,
+      "llm-detectaive-en": 0.08876262454577954,
+      "cocodet-en": 6.7551529922343315e-09
+    },
+    "18d0c405cfed3c7ae7ad131cc707c49b095a3a18c9c81c5cd7a0f48231cc8a93": {
+      "followsci-bert-en": 2.419785232632421e-06,
+      "roberta-academic-en": 0.000169093138538301,
+      "llm-detectaive-en": 0.9991303745191544,
+      "cocodet-en": 8.783018522326089e-09
+    },
+    "19c58cde8dc976cecc42564b40cc392c02dd35e9b7fb821587aeb1ed0ede6382": {
+      "followsci-bert-en": 2.227153800049564e-06,
+      "roberta-academic-en": 0.0009786381851881742,
+      "llm-detectaive-en": 0.9984357986249961,
+      "cocodet-en": 2.5531565239850988e-08
+    },
+    "1acd8f0792729549fe2115476639407f315c110f57d6e52fb82d330c6fcc10e4": {
+      "followsci-bert-en": 2.046909685304854e-06,
+      "roberta-academic-en": 0.0002455773064866662,
+      "llm-detectaive-en": 0.005598661380645353,
+      "cocodet-en": 1.9422623542635336e-08
+    },
+    "1af9e2e010ee94d90ecdc937944d1adfc409c9dea3369641fbfd76f1508e5381": {
+      "followsci-bert-en": 2.356741788389627e-06,
+      "roberta-academic-en": 0.00023068059817887843,
+      "llm-detectaive-en": 0.9999650535173714,
+      "cocodet-en": 2.9634941019435288e-08
+    },
+    "1b80b0e8f75d28170b8902adf1ce6eecfe51826405dc41ff595acb2e16f9c296": {
+      "followsci-bert-en": 2.0971197045582812e-06,
+      "roberta-academic-en": 0.00029641203582286835,
+      "llm-detectaive-en": 0.5395644003292546,
+      "cocodet-en": 1.177618264122833e-08
+    },
+    "1d4c07ba8accecd256244b217b456af8219b5c996eaa6d65c1f60f5d908046e6": {
+      "followsci-bert-en": 0.9999268054962158,
+      "roberta-academic-en": 0.0019285447197034955,
+      "llm-detectaive-en": 0.9984407089650631,
+      "cocodet-en": 8.198837255272116e-08
+    },
+    "1df5df97aa81504219445dbbb9dbb3c052605d7f97816d725bc3c8ca23c6f2b1": {
+      "followsci-bert-en": 2.1246787582640536e-06,
+      "roberta-academic-en": 0.0010241116397082806,
+      "llm-detectaive-en": 0.9999535859096795,
+      "cocodet-en": 2.709299325475475e-07
+    },
+    "1effe65578cb797061c5898cb1cbcc5e54d3ac042c519052e6c5b91a5bef53b0": {
+      "followsci-bert-en": 3.0342030186147895e-06,
+      "roberta-academic-en": 0.0001643786090426147,
+      "llm-detectaive-en": 0.999003867211286,
+      "cocodet-en": 7.317489734905581e-08
+    },
+    "1fe2635d745632368251e4b4b29fa41f159702a630004b66dc4880189c89f8c6": {
+      "followsci-bert-en": 0.9254510998725891,
+      "roberta-academic-en": 0.0007003255886957049,
+      "llm-detectaive-en": 0.5823667714139447,
+      "cocodet-en": 1.6962730960796372e-08
+    },
+    "20f43a6ee4ca70137774928b4f626668a482bafeaac5ddfeacef90f07ffec089": {
+      "followsci-bert-en": 3.5195168948121136e-06,
+      "roberta-academic-en": 0.8938349485397339,
+      "llm-detectaive-en": 0.9650015161605552,
+      "cocodet-en": 7.68192680089064e-08
+    },
+    "2205547915eebc7a696954ee012dc694c21ce1a43ce8c05b7636da13743c4369": {
+      "followsci-bert-en": 2.0743252662214218e-06,
+      "roberta-academic-en": 0.0012962296605110168,
+      "llm-detectaive-en": 0.9994576221833995,
+      "cocodet-en": 9.377078371522896e-08
+    },
+    "223fba34eaab91af60ea57b9864db224f8f76124900f20273af7f1e125e12e03": {
+      "followsci-bert-en": 9.718370165501256e-06,
+      "roberta-academic-en": 0.0007697546388953924,
+      "llm-detectaive-en": 0.992019852361409,
+      "cocodet-en": 2.6763223671087688e-08
+    },
+    "22ba7b1311040c0911ba61c9cb563061a73898a8bf8bae3a86923ca1ec2c917f": {
+      "followsci-bert-en": 2.2643587271886645e-06,
+      "roberta-academic-en": 0.9783715009689331,
+      "llm-detectaive-en": 0.9999523926526308,
+      "cocodet-en": 1.1051641692697012e-06
+    },
+    "2337f5cb9ed30caba329a850ae4cf2d84b8bb3a9ffc3f400d465b00a3f6cc4af": {
+      "followsci-bert-en": 0.9949200749397278,
+      "roberta-academic-en": 0.0014328723773360252,
+      "llm-detectaive-en": 0.02941989190003369,
+      "cocodet-en": 1.473075838802785e-07
+    },
+    "24e9a79581b8b1334bf1fb29b90ec0017f12173c875b4f488471c06bb1a1d690": {
+      "followsci-bert-en": 0.00014409270079340786,
+      "roberta-academic-en": 0.005658529698848724,
+      "llm-detectaive-en": 0.9995633053476922,
+      "cocodet-en": 2.289962621782049e-05
+    },
+    "25d2a60e9e8aeede9e40e5aa6067bc9d5fd4c0506a9ba41886ac88659aee34be": {
+      "followsci-bert-en": 5.3898922487860546e-05,
+      "roberta-academic-en": 0.00041754177073016763,
+      "llm-detectaive-en": 0.9980255256450619,
+      "cocodet-en": 1.8081067597363124e-08
+    },
+    "262cf37fbb62941769b603190c5ea48248718aee5b83790ec8df494c596f559d": {
+      "followsci-bert-en": 2.0875058908131905e-06,
+      "roberta-academic-en": 0.00038994927308522165,
+      "llm-detectaive-en": 0.9998846036323812,
+      "cocodet-en": 2.5396036845638965e-08
+    },
+    "26a1b559f8600c2d88097d620e3be5ed4e5a064ba4cecd3a31c281b4d5298042": {
+      "followsci-bert-en": 2.1547978121816413e-06,
+      "roberta-academic-en": 0.0018444089218974113,
+      "llm-detectaive-en": 0.9919042587280273,
+      "cocodet-en": 1.7093604405744346e-08
+    },
+    "26c3a20a60d13a8a2618bc3616e74788f08d006780349d5ec0a780b7894ea882": {
+      "followsci-bert-en": 2.4059143015620066e-06,
+      "roberta-academic-en": 0.0017490173922851682,
+      "llm-detectaive-en": 0.33502537189633586,
+      "cocodet-en": 1.4160498974574373e-08
+    },
+    "271e9361360eaa946c1396c422c4217b1d40c59ef9bb4677311e67af4bff2c7c": {
+      "followsci-bert-en": 2.088421751977876e-06,
+      "roberta-academic-en": 0.00035561705590225756,
+      "llm-detectaive-en": 0.9995907147385878,
+      "cocodet-en": 5.0855737721000865e-08
+    },
+    "2733feedc38c024969bb661894b7b0e18c509db0e9df46e8277561cc0ff13f2b": {
+      "followsci-bert-en": 0.06070242077112198,
+      "roberta-academic-en": 0.0014735436998307705,
+      "llm-detectaive-en": 0.01606053763134696,
+      "cocodet-en": 1.5910449570224854e-07
+    },
+    "29ff3dc61d553e2e117dd8f11e3e2d59b837a4f61bb45f35b68103db10be0537": {
+      "followsci-bert-en": 3.941824616049416e-06,
+      "roberta-academic-en": 0.0007765830378048122,
+      "llm-detectaive-en": 0.9999755742028356,
+      "cocodet-en": 3.1565528773170974e-08
+    },
+    "2acfbaacbcfdc2b47d02e8f1df7238a2ee8c402af1f931a9cd723d99514bcc99": {
+      "followsci-bert-en": 0.9998871088027954,
+      "roberta-academic-en": 0.0020005551632493734,
+      "llm-detectaive-en": 0.9971906280843541,
+      "cocodet-en": 3.3583510155752935e-08
+    },
+    "2c0c366d99151c8b131eae4daccdfc58c018a759c01d786363ff19364123b885": {
+      "followsci-bert-en": 2.485502818672103e-06,
+      "roberta-academic-en": 0.0001430019037798047,
+      "llm-detectaive-en": 0.9965057606677874,
+      "cocodet-en": 1.4025785081050925e-08
+    },
+    "2c6968b15c156a19ba4b2b2a4f106367785c7b1796f165a2e9ddf3daf3f575c9": {
+      "followsci-bert-en": 0.007797340862452984,
+      "roberta-academic-en": 0.0015355650102719665,
+      "llm-detectaive-en": 0.9972332559991628,
+      "cocodet-en": 6.256957466054848e-08
+    },
+    "2cff50dc436051579abfe78576f996559fe94465e6468e445cf8853b6da65fa1": {
+      "followsci-bert-en": 3.3721569252520567e-06,
+      "roberta-academic-en": 0.001545064034871757,
+      "llm-detectaive-en": 0.9991563730000053,
+      "cocodet-en": 7.49644190207446e-09
+    },
+    "2e2ae8f52b6d772d1a4424763cefdf363822ce368d9a9da4ca24f2634df77340": {
+      "followsci-bert-en": 2.062598014163086e-06,
+      "roberta-academic-en": 0.0016635401407256722,
+      "llm-detectaive-en": 0.9992250411305577,
+      "cocodet-en": 2.842729892595878e-08
+    },
+    "2eae1fc0b619c04a0fdb55eae3c6fd25889e6d2bde06d1d5bf9620d12d0ca5b7": {
+      "followsci-bert-en": 0.9995971322059631,
+      "roberta-academic-en": 0.0019505140371620655,
+      "llm-detectaive-en": 0.992640033364296,
+      "cocodet-en": 1.2031330831174109e-07
+    },
+    "2eb75fb6d0dd091b665b3008a6e84ee19f69cb5a99ae897e65c5170a37de6aad": {
+      "followsci-bert-en": 0.005438101477921009,
+      "roberta-academic-en": 0.0006276087369769812,
+      "llm-detectaive-en": 0.1522170449461555,
+      "cocodet-en": 5.778742473278291e-07
+    },
+    "2ec5d8ed21fd82b0d508136a298a6f8efa5bc784e4707432584443260ebb5548": {
+      "followsci-bert-en": 2.4850146473909263e-06,
+      "roberta-academic-en": 0.0001454050070606172,
+      "llm-detectaive-en": 0.9996425112185534,
+      "cocodet-en": 2.843232539077173e-08
+    },
+    "2f4204a826e6b8bb4ec22f909922d80157d5d9772d1ae00c3a7c0f1a28cf9f46": {
+      "followsci-bert-en": 2.1280086457409197e-06,
+      "roberta-academic-en": 0.002648847410455346,
+      "llm-detectaive-en": 0.01602420204653754,
+      "cocodet-en": 1.4912961829511608e-08
+    },
+    "2f4ba1e859d52242ade4de15f5cf4ace053f5ab89c684559dec1484a4684e38f": {
+      "followsci-bert-en": 4.449918378668372e-06,
+      "roberta-academic-en": 0.0011354441521689296,
+      "llm-detectaive-en": 0.9783630627207458,
+      "cocodet-en": 3.009149266829797e-08
+    },
+    "2fc9bad4dd3031ea59947d2463465ee0f3d3ed562f7ef6a7f5e4ff52d05026d5": {
+      "followsci-bert-en": 2.3570767098135548e-06,
+      "roberta-academic-en": 0.0016743707237765193,
+      "llm-detectaive-en": 0.9851989133749157,
+      "cocodet-en": 1.7435728178849356e-08
+    },
+    "300babdee34d31dacbd1aa7f37ee0f4ab88903d26984fb1d170fd0d6596f3d83": {
+      "followsci-bert-en": 1.9336283003212884e-05,
+      "roberta-academic-en": 0.0019210220780223608,
+      "llm-detectaive-en": 0.9961879262700677,
+      "cocodet-en": 3.2804027302012206e-07
+    },
+    "319a0da21fe626e4983e81806c634150226771143e8c725453183ad3ae7f43a4": {
+      "followsci-bert-en": 2.0690324618044542e-06,
+      "roberta-academic-en": 0.0003369974438101053,
+      "llm-detectaive-en": 0.5903151536476798,
+      "cocodet-en": 7.51717842871957e-09
+    },
+    "33412676d62d59091de7fd6cad1fd097bcc0f61b3e8d79f1ca3a540b653bc64d": {
+      "followsci-bert-en": 2.26231463784643e-06,
+      "roberta-academic-en": 0.00047992149484343827,
+      "llm-detectaive-en": 0.9999067633325467,
+      "cocodet-en": 2.7770555159492907e-08
+    },
+    "338d9a68f75162117d629bcba4dff155d268a48f8fc909d4499a3704d2736257": {
+      "followsci-bert-en": 2.0911122646793956e-06,
+      "roberta-academic-en": 0.0012512862449511886,
+      "llm-detectaive-en": 0.0004489833643219754,
+      "cocodet-en": 2.988592520680733e-08
+    },
+    "346b3e427e2176f2ff6c3831d7385846072e3398a6b7dd81818527151f0c8fa7": {
+      "followsci-bert-en": 9.276716809836216e-06,
+      "roberta-academic-en": 0.9974623918533325,
+      "llm-detectaive-en": 0.9969624299556017,
+      "cocodet-en": 7.838825175933688e-09
+    },
+    "358433a863a6ef370f3410e999d15233d0fff2ca77b01cfdea784aaa33e4a8f4": {
+      "followsci-bert-en": 0.32602131366729736,
+      "roberta-academic-en": 0.9977288842201233,
+      "llm-detectaive-en": 0.9998403862118721,
+      "cocodet-en": 3.9606805910061965e-08
+    },
+    "358d5f6c4c8dbabc7c7aa37ef853d4c2fe8d66e97cbdbce9e60435eddab3298d": {
+      "followsci-bert-en": 2.1778121208626544e-06,
+      "roberta-academic-en": 0.0013482723152264953,
+      "llm-detectaive-en": 0.9998237508698367,
+      "cocodet-en": 2.8273432095896056e-07
+    },
+    "36e8ff4f1303a24c0859ad5f5a0def4d7366316161897009e8d7526871722868": {
+      "followsci-bert-en": 2.017542556131957e-06,
+      "roberta-academic-en": 0.00022118701599538326,
+      "llm-detectaive-en": 0.01907429021957796,
+      "cocodet-en": 1.4427698651672122e-08
+    },
+    "38043b5b7bd2489f178fe8c76c8d518830e399fd1917fa72faf3c6916133578b": {
+      "followsci-bert-en": 2.5465371891186805e-06,
+      "roberta-academic-en": 0.0013623401755467057,
+      "llm-detectaive-en": 0.000760175437790167,
+      "cocodet-en": 1.775830135936421e-09
+    },
+    "38b0e70971797b6d73a6b27ae66cbd94ff7ec0fadce78239c5360aad5ddb6e46": {
+      "followsci-bert-en": 2.2406006792152766e-06,
+      "roberta-academic-en": 0.00024783305707387626,
+      "llm-detectaive-en": 0.00045052019800095877,
+      "cocodet-en": 2.3672816886984895e-08
+    },
+    "3919ad9ec6ad386ce54021fd10a74a33868ae2e54df7f0ff4c182ed12770993c": {
+      "followsci-bert-en": 2.0768388822034467e-06,
+      "roberta-academic-en": 0.0010335211409255862,
+      "llm-detectaive-en": 0.993109069262573,
+      "cocodet-en": 3.347123032025872e-09
+    },
+    "3a91a2c44fac8063256b9c5e699e0b4ceaf0024077ccc156426bfe92dd9ddc1e": {
+      "followsci-bert-en": 0.3157790005207062,
+      "roberta-academic-en": 0.00477965921163559,
+      "llm-detectaive-en": 0.9999821907549631,
+      "cocodet-en": 3.891109386809297e-06
+    },
+    "3c0219b178bfd2058773748c8b93e0b61aae482b4f7f76c0ebd5d046c3d0b6c9": {
+      "followsci-bert-en": 2.4130054043780547e-06,
+      "roberta-academic-en": 0.0018620827468112111,
+      "llm-detectaive-en": 0.9877267790725455,
+      "cocodet-en": 6.444171485060074e-09
+    },
+    "3c2b95d92151ed0ec304b670e54cc79c3005f89e7281ed18b424187463f0d0bf": {
+      "followsci-bert-en": 2.0382510683703003e-06,
+      "roberta-academic-en": 0.0004060275969095528,
+      "llm-detectaive-en": 0.9203906301991083,
+      "cocodet-en": 2.396639918014515e-07
+    },
+    "3c7eca129ed47fe21b82d5cc91787693bec06a231d45d9d96563ae628d258fcd": {
+      "followsci-bert-en": 2.3934831006044988e-06,
+      "roberta-academic-en": 0.00015964485646691173,
+      "llm-detectaive-en": 0.9995764201157726,
+      "cocodet-en": 1.5316127840910845e-07
+    },
+    "3d94f07eba85979fb95b93e9b0c3ffc292612f2f3f9a97077ca3fc9836e1a638": {
+      "followsci-bert-en": 2.1571047454926884e-06,
+      "roberta-academic-en": 0.001736006117425859,
+      "llm-detectaive-en": 0.6438418886391446,
+      "cocodet-en": 2.113133065225056e-08
+    },
+    "3f3a10d9566885b7cd43942b06f8ca16dd57b7305ad92dc36ebf136f83d8589f": {
+      "followsci-bert-en": 2.2951924165681703e-06,
+      "roberta-academic-en": 0.0003263993712607771,
+      "llm-detectaive-en": 0.9971316328155808,
+      "cocodet-en": 1.994824678770539e-08
+    },
+    "3ffb1c002aeffdd6ce4f410d5fdc05694594e111a8847f3aacabb122086e9cf8": {
+      "followsci-bert-en": 2.440634261802188e-06,
+      "roberta-academic-en": 0.00022791745141148567,
+      "llm-detectaive-en": 0.9988766293972731,
+      "cocodet-en": 1.7612985676049644e-08
+    },
+    "4035e5bf10a17032d953ba0c539e6828014edbe5866a0babd08bc304086e7e8b": {
+      "followsci-bert-en": 9.309818779001944e-06,
+      "roberta-academic-en": 0.0006791111081838608,
+      "llm-detectaive-en": 0.9998211541678756,
+      "cocodet-en": 3.326393947712669e-06
+    },
+    "405f918a8c2a6172ca52d1f5f1a236a7d1aba509e4246dcce8b0eaead48dd5fd": {
+      "followsci-bert-en": 9.377817150379997e-06,
+      "roberta-academic-en": 0.9905813932418823,
+      "llm-detectaive-en": 0.6336648515425622,
+      "cocodet-en": 6.884215861903192e-08
+    },
+    "42f493822b2da242df646b8e9359362ab9e045ec9abb03c375cab20d0c305a8b": {
+      "followsci-bert-en": 2.637696297824732e-06,
+      "roberta-academic-en": 0.0003484649059828371,
+      "llm-detectaive-en": 0.999162496329518,
+      "cocodet-en": 1.2024068592788586e-07
+    },
+    "45106236f1b1998ab13398a636a61dd9523e00fc6bd6eebc1150dec4973415d5": {
+      "followsci-bert-en": 2.2416736555896932e-06,
+      "roberta-academic-en": 0.00521021569147706,
+      "llm-detectaive-en": 0.999558385781711,
+      "cocodet-en": 9.672886000316148e-09
+    },
+    "452f3aa370ff063d79a99ecb2d9c7b842bf25682ddf67ae3b8b4626c6115f242": {
+      "followsci-bert-en": 2.160513986382284e-06,
+      "roberta-academic-en": 0.0004918789491057396,
+      "llm-detectaive-en": 0.0313382892854861,
+      "cocodet-en": 4.035054690983836e-09
+    },
+    "4597ec2cf6270906ef01aca8d7c912d04e155b36cc9ba9734eaf54cd0c5de784": {
+      "followsci-bert-en": 2.1405733150459128e-06,
+      "roberta-academic-en": 0.00023246972705237567,
+      "llm-detectaive-en": 0.9921170745510608,
+      "cocodet-en": 2.165388212141406e-08
+    },
+    "45c268c84ee825944db15924c79856bfcf078939c6830e7c60b30d56d856ef42": {
+      "followsci-bert-en": 3.276595089118928e-05,
+      "roberta-academic-en": 0.0015808180905878544,
+      "llm-detectaive-en": 0.9999883418058744,
+      "cocodet-en": 7.91397938695274e-07
+    },
+    "462abd45d72c947b7bbd59093d1daefd2cc1c5e45391e855b46b576990d88d8c": {
+      "followsci-bert-en": 2.1747487153334077e-06,
+      "roberta-academic-en": 0.001467376365326345,
+      "llm-detectaive-en": 0.9986930079176091,
+      "cocodet-en": 1.9639129391095175e-08
+    },
+    "47681f5757c3cd9c3b24f7d9678b1b838ffc1b641c073e9c63ff5ac36464cb5d": {
+      "followsci-bert-en": 2.101682639477076e-06,
+      "roberta-academic-en": 0.00038835735176689923,
+      "llm-detectaive-en": 0.999948994096485,
+      "cocodet-en": 4.0897891993754276e-08
+    },
+    "478f7c54bcc215f96f384283fa69c0c9cca5d858e2771012760270432e967e52": {
+      "followsci-bert-en": 2.2108947632659692e-06,
+      "roberta-academic-en": 0.0001375528227072209,
+      "llm-detectaive-en": 0.997411193093285,
+      "cocodet-en": 1.9095020269621274e-08
+    },
+    "486b41ba092197650193ad8139a12273af8b34fe010a6b6e54925485b52e6803": {
+      "followsci-bert-en": 3.4829781725420617e-06,
+      "roberta-academic-en": 0.9988214373588562,
+      "llm-detectaive-en": 0.021723754791310057,
+      "cocodet-en": 1.524329534385166e-08
+    },
+    "4a11264e49bc3addacc5deafbe353bef89c1a961cbe17c2af2391dfb9b93cbea": {
+      "followsci-bert-en": 0.972093939781189,
+      "roberta-academic-en": 0.002965345745906234,
+      "llm-detectaive-en": 0.9714797609485686,
+      "cocodet-en": 1.6078763583038912e-08
+    },
+    "4b1f0fcb94c5796853c7b6275f934517fedc74331cf605eed357a9b5d4c73c4b": {
+      "followsci-bert-en": 2.0789393602171913e-06,
+      "roberta-academic-en": 0.0005316325114108622,
+      "llm-detectaive-en": 0.00055566736318724,
+      "cocodet-en": 4.876177824865956e-08
+    },
+    "4c1e5e030529d441a387499f0ac4864ab8b53ac3ac7d975e83039449da3f8523": {
+      "followsci-bert-en": 2.24168229578936e-06,
+      "roberta-academic-en": 0.0012705849949270487,
+      "llm-detectaive-en": 0.9995426368550397,
+      "cocodet-en": 2.6049691980703418e-08
+    },
+    "4ce846991a9ff277c3b48a964a9393445e3046d3d9ddd10f9970ba71d3f64504": {
+      "followsci-bert-en": 0.9991372227668762,
+      "roberta-academic-en": 0.0017504958668723702,
+      "llm-detectaive-en": 0.9989314610138535,
+      "cocodet-en": 4.781216791059639e-08
+    },
+    "4d3c20bbc878af8347310129879a5302cc5c17dbc561aa4b7a12c60b6f156c6d": {
+      "followsci-bert-en": 2.0596378362824908e-06,
+      "roberta-academic-en": 0.0003040315641555935,
+      "llm-detectaive-en": 0.9998664900340373,
+      "cocodet-en": 3.871565558866575e-08
+    },
+    "4f1fb4b8dab0a51b6df4e648884a66270c2a40112058a7d81f7aecefd3190b66": {
+      "followsci-bert-en": 1.8140748579753563e-05,
+      "roberta-academic-en": 0.0008328953408636153,
+      "llm-detectaive-en": 0.9996107641200069,
+      "cocodet-en": 4.220031424441808e-07
+    },
+    "4fa394803fa19df95338ef70ccfab0838a55cc522be638bee250b67cfe8b1f31": {
+      "followsci-bert-en": 2.2629383238381706e-06,
+      "roberta-academic-en": 0.000569376046769321,
+      "llm-detectaive-en": 0.023652761861740146,
+      "cocodet-en": 1.0130597678879166e-08
+    },
+    "504de33a214b570d77463837b23df71fe54ec0d0ae536767551c575b68712b05": {
+      "followsci-bert-en": 2.088123210342019e-06,
+      "roberta-academic-en": 0.0002472868363838643,
+      "llm-detectaive-en": 0.9999873413471505,
+      "cocodet-en": 1.844199412701173e-06
+    },
+    "50d77bebb5628936d0139b456450a0de8b6b96e766c016b92ab5104633eb747f": {
+      "followsci-bert-en": 2.552847263359581e-06,
+      "roberta-academic-en": 0.00022003518824931234,
+      "llm-detectaive-en": 0.9253342840820551,
+      "cocodet-en": 1.7656452211948668e-08
+    },
+    "519d819c892d124d468f4772f8cc99ddab707c2b44ec189a34869d30e55d59b7": {
+      "followsci-bert-en": 2.421186309220502e-06,
+      "roberta-academic-en": 0.0002015077043324709,
+      "llm-detectaive-en": 0.9991337094688788,
+      "cocodet-en": 1.9477567012656394e-08
+    },
+    "522e871bf52d5b3e361051469cc29570433bc33a64f64849ef70b781f5689dca": {
+      "followsci-bert-en": 2.023853767241235e-06,
+      "roberta-academic-en": 0.02013477124273777,
+      "llm-detectaive-en": 0.9997856384143233,
+      "cocodet-en": 8.894643472711489e-09
+    },
+    "52a423656e9258a1154caf21459505b7fd2df12feed970ea4f5a455a0bc4a9e7": {
+      "followsci-bert-en": 0.9905343055725098,
+      "roberta-academic-en": 0.06786803156137466,
+      "llm-detectaive-en": 0.17357749037910253,
+      "cocodet-en": 4.7301423079411375e-06
+    },
+    "542eac3ac66f80cc270443dd7ab443852a04b310cfb732cedd7cd00c8ba41413": {
+      "followsci-bert-en": 2.310393711013603e-06,
+      "roberta-academic-en": 0.0015283100074157119,
+      "llm-detectaive-en": 0.9194835247471929,
+      "cocodet-en": 7.603944615847472e-07
+    },
+    "55925856b640f9a67ff1a25562e1fc8da4087fed6060ec51d15f40a1f1361b52": {
+      "followsci-bert-en": 2.0320578641985776e-06,
+      "roberta-academic-en": 0.05326538532972336,
+      "llm-detectaive-en": 0.33414547494612634,
+      "cocodet-en": 8.580555696633026e-09
+    },
+    "56153ca337544460039edaa754ab83d6cd26c56964628f53e0cd8bc6de855eab": {
+      "followsci-bert-en": 0.001989689888432622,
+      "roberta-academic-en": 0.001717293169349432,
+      "llm-detectaive-en": 0.07482320048438851,
+      "cocodet-en": 2.372876081713736e-08
+    },
+    "57983075071ba5291e47d02760debf6a122d20da1459a5da6b5351bae42834b9": {
+      "followsci-bert-en": 4.826015356229618e-05,
+      "roberta-academic-en": 0.0012464926112443209,
+      "llm-detectaive-en": 0.43797095550689846,
+      "cocodet-en": 2.158706429496865e-08
+    },
+    "57a3f440fbc8aa05fb7ede9a3e1326172e438f0710abeb167ade1f5b031608a9": {
+      "followsci-bert-en": 0.00385354389436543,
+      "roberta-academic-en": 0.000705864280462265,
+      "llm-detectaive-en": 0.9797001350671053,
+      "cocodet-en": 1.5099754826028043e-08
+    },
+    "57d04ce1677ecbf26686cb0d39694b43fd44d32b007fb5478e1aec0aeea1d7c4": {
+      "followsci-bert-en": 2.2640263068751665e-06,
+      "roberta-academic-en": 0.0030359209049493074,
+      "llm-detectaive-en": 0.9991789743653499,
+      "cocodet-en": 0.9999994188547134
+    },
+    "59d935f032522d6bc6737912f8ecd839054a79e932a3a9a68379690b9f2626c0": {
+      "followsci-bert-en": 2.083905883409898e-06,
+      "roberta-academic-en": 0.0009669800638221204,
+      "llm-detectaive-en": 0.99993200917379,
+      "cocodet-en": 7.99655612560013e-09
+    },
+    "5b01eb90afde2f1345c3608a4690aa12e44347a3cf775fbf63906456f4a5ebf2": {
+      "followsci-bert-en": 2.089675035676919e-06,
+      "roberta-academic-en": 0.0007389653474092484,
+      "llm-detectaive-en": 0.9941570717492141,
+      "cocodet-en": 8.381951893085852e-08
+    },
+    "5b5117606ab64d5a9870540e1341e9d3b3e6f11ab85de037b330a682d9f6fba2": {
+      "followsci-bert-en": 2.04322941499413e-06,
+      "roberta-academic-en": 0.0002842129615601152,
+      "llm-detectaive-en": 0.9987788311409531,
+      "cocodet-en": 6.735142305653273e-08
+    },
+    "5c710760b7685d7d7456b475d42c1119e540e7257cced0d06fc8abdfef0adb08": {
+      "followsci-bert-en": 2.119441433023894e-06,
+      "roberta-academic-en": 0.0011388356797397137,
+      "llm-detectaive-en": 0.9997607304831035,
+      "cocodet-en": 3.2872394623516786e-09
+    },
+    "6108d101eaff9abb14f0e5da3ca3fc6ed7a9346ff57ecd6541b022f16911d192": {
+      "followsci-bert-en": 2.2747653929400258e-06,
+      "roberta-academic-en": 0.000501524074934423,
+      "llm-detectaive-en": 0.9998729096259922,
+      "cocodet-en": 0.9999981241408022
+    },
+    "61c41e1d26614cc58e80de6a03182bd40673d9901651d012cd19c7ce4d0c8342": {
+      "followsci-bert-en": 2.336872285013669e-06,
+      "roberta-academic-en": 0.0004157255170866847,
+      "llm-detectaive-en": 0.9895894471555948,
+      "cocodet-en": 4.485397569640656e-09
+    },
+    "671d303ab3ef46e686bba53276cc667d1081c435ad9c55a4e37fa2c097dc28a2": {
+      "followsci-bert-en": 3.7438196613948094e-06,
+      "roberta-academic-en": 0.0009399967384524643,
+      "llm-detectaive-en": 0.9998049254063517,
+      "cocodet-en": 0.9999980953116392
+    },
+    "6883d32eae991cdf7ed17659a81d4d3dc68b62926ab4596b7953b4467834625c": {
+      "followsci-bert-en": 0.9246994256973267,
+      "roberta-academic-en": 0.03391295671463013,
+      "llm-detectaive-en": 0.020159547762887087,
+      "cocodet-en": 2.9060955610699102e-08
+    },
+    "694b0e3cfb58c5dd7fe52c01801a5bb44e5e17b0f7419af75bd27205fc902467": {
+      "followsci-bert-en": 0.0004007451643701643,
+      "roberta-academic-en": 0.0002405820705462247,
+      "llm-detectaive-en": 0.9833191632351372,
+      "cocodet-en": 2.023709973620995e-08
+    },
+    "6a09536881efc85e667c4cda21e230ab7ce3263eb2c6802e9125d3b5ca25db33": {
+      "followsci-bert-en": 2.066253955490538e-06,
+      "roberta-academic-en": 0.0010198934469372034,
+      "llm-detectaive-en": 0.9985127425170504,
+      "cocodet-en": 4.781310901185148e-09
+    },
+    "6cb72857a8e483b83267f66485b8a78ddc833a984ed18ff1607ddeb8ac50bf03": {
+      "followsci-bert-en": 0.10380818694829941,
+      "roberta-academic-en": 0.0042475019581615925,
+      "llm-detectaive-en": 0.05325499641185161,
+      "cocodet-en": 1.8946531479759228e-07
+    },
+    "6fdb5fba98a4a2e0d1bd1ecac2cad26764a340d1246964d01d02674655c2704f": {
+      "followsci-bert-en": 2.2408571567211766e-06,
+      "roberta-academic-en": 0.0010047254618257284,
+      "llm-detectaive-en": 0.04687367003498366,
+      "cocodet-en": 2.3563174330557685e-08
+    },
+    "6ff41c287c2e97d78af463833436ae71d9479b2cb5ba090860f08dc7b60cc702": {
+      "followsci-bert-en": 2.124928187186015e-06,
+      "roberta-academic-en": 0.0012055971892550588,
+      "llm-detectaive-en": 0.5280206253228243,
+      "cocodet-en": 3.1041563166482947e-08
+    },
+    "701ad264c4bdc4d39e57164b0973fe7dd5f53fa2c7fa01647036d0eaa031850b": {
+      "followsci-bert-en": 2.0899281025776872e-06,
+      "roberta-academic-en": 0.00032743660267442465,
+      "llm-detectaive-en": 0.9999326895922422,
+      "cocodet-en": 6.564932546332392e-07
+    },
+    "71b008f60912abb010ddbc2cf9fdbd5e8c83dff5e26998ea22ac8033846751e0": {
+      "followsci-bert-en": 2.477491989338887e-06,
+      "roberta-academic-en": 0.0005480371182784438,
+      "llm-detectaive-en": 0.9956271321789245,
+      "cocodet-en": 3.857400181000656e-08
+    },
+    "721a514a2c4c2e72267165b2edeb1fce9f13e109ec8f84020fbc79a5ec8a6a29": {
+      "followsci-bert-en": 2.0889078768959735e-06,
+      "roberta-academic-en": 0.000770194863434881,
+      "llm-detectaive-en": 0.9946997030638158,
+      "cocodet-en": 4.232937623571513e-08
+    },
+    "722eaaa9eb9c4b1deecd1f0458c7024c207bf34fcc77e5443b1dd6a97a4e970d": {
+      "followsci-bert-en": 0.0006650548311881721,
+      "roberta-academic-en": 0.0006415453972294927,
+      "llm-detectaive-en": 0.9995721597224474,
+      "cocodet-en": 8.397718204022908e-05
+    },
+    "72a13e74fc375d84d968b3908011f9b19d36d6d760cfa2daaa64444601a2ceab": {
+      "followsci-bert-en": 2.1212956653471338e-06,
+      "roberta-academic-en": 0.0014996385434642434,
+      "llm-detectaive-en": 0.25340731389587745,
+      "cocodet-en": 6.841826307726288e-08
+    },
+    "733e934a411904970ac283a5ba15f632123e421a9de16c9055769e6359ba7355": {
+      "followsci-bert-en": 0.0017262676265090704,
+      "roberta-academic-en": 0.0010533445747569203,
+      "llm-detectaive-en": 0.9987310692667961,
+      "cocodet-en": 9.980263935465208e-07
+    },
+    "746caae016e1ce901d090bb2f2c4f9d506b0ad72795a3727751a26c8d0a7aecb": {
+      "followsci-bert-en": 2.459903043927625e-06,
+      "roberta-academic-en": 0.013951597735285759,
+      "llm-detectaive-en": 0.7357008749386296,
+      "cocodet-en": 4.888742441194662e-09
+    },
+    "7643099aee6dc75d60f23f8da4605be3f511826ce68419f40bd8973c5351e56f": {
+      "followsci-bert-en": 0.000252652884228155,
+      "roberta-academic-en": 0.002348407404497266,
+      "llm-detectaive-en": 0.0068304049636935815,
+      "cocodet-en": 1.0002859997769453e-07
+    },
+    "766e371e6236d84160ab0b124437790b49d87906b85e2c0fd5e56e75db158e99": {
+      "followsci-bert-en": 2.2083704607211985e-06,
+      "roberta-academic-en": 0.0005771195283159614,
+      "llm-detectaive-en": 0.6373317134566605,
+      "cocodet-en": 5.562680940873754e-08
+    },
+    "77822a0cc59cfcbf823488847e124b34af3e1339f9bfe8f519996caa94d3c911": {
+      "followsci-bert-en": 2.1865944290766492e-06,
+      "roberta-academic-en": 0.0015682592056691647,
+      "llm-detectaive-en": 0.9998285520123318,
+      "cocodet-en": 1.1460041477362373e-07
+    },
+    "7792f3ed2fb92a585d29d111ba512ecb3248d83af177d1021749a8c235311a64": {
+      "followsci-bert-en": 2.0301033600844676e-06,
+      "roberta-academic-en": 0.005814637057483196,
+      "llm-detectaive-en": 0.9974619394633919,
+      "cocodet-en": 2.882502928664918e-08
+    },
+    "77c21ac4e487e23732cf2c335ed41dd23f20b337d9d583f88ee1b62f5a3d6ca6": {
+      "followsci-bert-en": 2.0556128674797947e-06,
+      "roberta-academic-en": 0.003370493184775114,
+      "llm-detectaive-en": 0.9999330593418563,
+      "cocodet-en": 1.3055634851964933e-06
+    },
+    "77f59198b4bca35785a6b4d6a315297b4a721408c3948518ed82edac2b9d09cc": {
+      "followsci-bert-en": 2.3273687475011684e-06,
+      "roberta-academic-en": 0.0032175807282328606,
+      "llm-detectaive-en": 0.9993228151870426,
+      "cocodet-en": 8.73826168278839e-09
+    },
+    "78aa2526b348c628ae882e78e879c0ef3f862162bca7794b260800bdb4091a9f": {
+      "followsci-bert-en": 2.428897005302133e-06,
+      "roberta-academic-en": 0.9952677488327026,
+      "llm-detectaive-en": 0.9929948100616457,
+      "cocodet-en": 3.369599769456784e-09
+    },
+    "7a9fb6b3b34a78685cddeb22238fc7bd7dfa02b41402d2c0eb02da127553d59b": {
+      "followsci-bert-en": 2.2258670924202306e-06,
+      "roberta-academic-en": 0.0003353091888129711,
+      "llm-detectaive-en": 0.9955810114770429,
+      "cocodet-en": 4.217635181965988e-09
+    },
+    "7d028299483d4d0d8beaccb189828b4c29e16c0d5b71e7307da7fd504e39b057": {
+      "followsci-bert-en": 2.5318649932160042e-06,
+      "roberta-academic-en": 0.0004558168875519186,
+      "llm-detectaive-en": 0.9990185020724311,
+      "cocodet-en": 1.0794027332730214e-08
+    },
+    "7d3bc7ccd94969c0591e96688014df5cad9cc4d52353b410d7835fb77122ff78": {
+      "followsci-bert-en": 2.0980119188607205e-06,
+      "roberta-academic-en": 0.00032332303817383945,
+      "llm-detectaive-en": 0.9999075150117278,
+      "cocodet-en": 1.1903007217134616e-08
+    },
+    "7d9436f4ece5920ae578ff70a691ac9c5f07006a2a93110882495deaa1ed482e": {
+      "followsci-bert-en": 2.58903037320124e-06,
+      "roberta-academic-en": 0.0034236896317452192,
+      "llm-detectaive-en": 0.9962029661983252,
+      "cocodet-en": 1.6830313628732807e-08
+    },
+    "7f459e60fd53220af5aa93c87b2c866bb63d40e103eab1fce244ced8a13696c9": {
+      "followsci-bert-en": 7.036871465970762e-06,
+      "roberta-academic-en": 0.0003852806694339961,
+      "llm-detectaive-en": 0.9863327943021432,
+      "cocodet-en": 1.535913324894275e-08
+    },
+    "8138b76fc58dda1f0054f34d8f66e2addfc8159b06f46c44b02545fe442896a3": {
+      "followsci-bert-en": 0.0022828986402601004,
+      "roberta-academic-en": 0.00146108353510499,
+      "llm-detectaive-en": 0.9905166502430802,
+      "cocodet-en": 1.4691759073963244e-08
+    },
+    "813b23bc753c6aef569194e978e2d8e71905eb5759db2ab05841966ca20e88f9": {
+      "followsci-bert-en": 2.0110380773985526e-06,
+      "roberta-academic-en": 0.0011844098335132003,
+      "llm-detectaive-en": 0.9989917842904106,
+      "cocodet-en": 3.656865617241399e-08
+    },
+    "815ecb11bde857e9466f65e6620395c3418a0d8cbae3854bd83a29ffc317ae50": {
+      "followsci-bert-en": 0.005577375181019306,
+      "roberta-academic-en": 0.002995109185576439,
+      "llm-detectaive-en": 0.9990801587700844,
+      "cocodet-en": 1.3675790387877862e-06
+    },
+    "8264dee1d51ca47a1a020aa9d6b788785898599b43f6a0a44b76de739d917b76": {
+      "followsci-bert-en": 2.173815801143064e-06,
+      "roberta-academic-en": 0.0012837988324463367,
+      "llm-detectaive-en": 0.708965621990501,
+      "cocodet-en": 3.056363467933247e-08
+    },
+    "85bdbd049ddb19e54910ca8846496f071743425fe23927c8085b46b56f075226": {
+      "followsci-bert-en": 2.1184673641982954e-06,
+      "roberta-academic-en": 0.0005185364279896021,
+      "llm-detectaive-en": 0.9962325627857354,
+      "cocodet-en": 8.475650492209552e-09
+    },
+    "85f95596bc95566b18f253090da60e7533395a4dda29d2a371d67b7b3e78498c": {
+      "followsci-bert-en": 0.007274383679032326,
+      "roberta-academic-en": 0.004802790004760027,
+      "llm-detectaive-en": 0.9999695095029892,
+      "cocodet-en": 4.723988607673209e-05
+    },
+    "865d2ef65d3b13070a4460df813d753e107905f3d7b790d3af84f1f23b05a4a8": {
+      "followsci-bert-en": 2.056209041256807e-06,
+      "roberta-academic-en": 0.0016534453025087714,
+      "llm-detectaive-en": 0.9146703375736251,
+      "cocodet-en": 1.9466952454216292e-08
+    },
+    "867d9ae0a910bcc65cafc92764abfa1762ce581ad9053b02e7b0f75348703592": {
+      "followsci-bert-en": 0.00995903555303812,
+      "roberta-academic-en": 0.019115621224045753,
+      "llm-detectaive-en": 0.998477190034464,
+      "cocodet-en": 1.0491649836408268e-07
+    },
+    "879d7c0cd3cea97438173d794fbb4cbb0dd1877c0394718c5e9dda8754c8e8bb": {
+      "followsci-bert-en": 3.7903100746916607e-06,
+      "roberta-academic-en": 0.002010744996368885,
+      "llm-detectaive-en": 0.9998117417562753,
+      "cocodet-en": 0.9999983420757417
+    },
+    "8ac2bb546d6fbc837d5b9969592d0c316fbb2e5305d20340153af7628781fc3a": {
+      "followsci-bert-en": 2.078979150610394e-06,
+      "roberta-academic-en": 0.0014641492161899805,
+      "llm-detectaive-en": 0.38764399685896933,
+      "cocodet-en": 5.058063215421238e-07
+    },
+    "8af8bbfb1109f6bdb8cc3d046dca4e259eae3d7a4e8d557358a7da37f4c938ab": {
+      "followsci-bert-en": 2.299570041941479e-06,
+      "roberta-academic-en": 0.0002132245572283864,
+      "llm-detectaive-en": 0.9977948123087117,
+      "cocodet-en": 4.957601606634613e-09
+    },
+    "8d945f4a6a7c737892343e0c7dcea97f260965cb8c8921aa5e4d52f15fc95d74": {
+      "followsci-bert-en": 2.3436120955011575e-06,
+      "roberta-academic-en": 0.0003670261357910931,
+      "llm-detectaive-en": 0.0027949843324677204,
+      "cocodet-en": 2.726907511753883e-08
+    },
+    "8eac9e1e4cf3bf38ee0d2fdcca14cb495ac3169f5bf3efc78583b359e04a1eff": {
+      "followsci-bert-en": 1.1674617780954577e-05,
+      "roberta-academic-en": 0.001387969357892871,
+      "llm-detectaive-en": 0.9880794547498226,
+      "cocodet-en": 4.084685167153601e-07
+    },
+    "8f40d9ec8f3c71543af8603ed597e29e3a5e51482d04a9040c2dfca8ff017cea": {
+      "followsci-bert-en": 0.039755288511514664,
+      "roberta-academic-en": 0.9948893785476685,
+      "llm-detectaive-en": 0.9994227141141891,
+      "cocodet-en": 0.00023420467884704976
+    },
+    "8fb87fa291d9d655db4f12c675f3e93c4c60dc387d807bc339618755d0b6f42e": {
+      "followsci-bert-en": 2.520876023481833e-06,
+      "roberta-academic-en": 0.0002678605087567121,
+      "llm-detectaive-en": 0.9997861571609974,
+      "cocodet-en": 9.939138784285755e-08
+    },
+    "8fc624a2a6692eca028eb5e71c5267a6582d139d35d333f49a46121d81eab26b": {
+      "followsci-bert-en": 0.9009442329406738,
+      "roberta-academic-en": 0.00022535423340741545,
+      "llm-detectaive-en": 0.999894768174272,
+      "cocodet-en": 6.891012148087846e-08
+    },
+    "8fefcb6952988e7b1644bb35818d7c388b227f6367bae821a774aa4bfa6a4a81": {
+      "followsci-bert-en": 2.040604385911138e-06,
+      "roberta-academic-en": 0.0003801544662564993,
+      "llm-detectaive-en": 0.9992223588633351,
+      "cocodet-en": 9.884994753121823e-08
+    },
+    "9089f1aaca858ebf569a4eea1d1972f139057a14c3c3212b4b0cadfdc632025d": {
+      "followsci-bert-en": 2.028110202445532e-06,
+      "roberta-academic-en": 0.0018405925948172808,
+      "llm-detectaive-en": 0.9943980472162366,
+      "cocodet-en": 3.754237085529938e-08
+    },
+    "9249cb2e14c1251ef5ead47d96986c58c719f124d2fe7460b29a41553f1bda05": {
+      "followsci-bert-en": 2.3234813397721155e-06,
+      "roberta-academic-en": 0.00028476407169364393,
+      "llm-detectaive-en": 0.9944588097278029,
+      "cocodet-en": 6.727457812507297e-09
+    },
+    "927c95c98642ba9d9435a74407ea6971de3501962f453c47ea9e2c5cf4cb4c58": {
+      "followsci-bert-en": 0.999545156955719,
+      "roberta-academic-en": 0.0014403749955818057,
+      "llm-detectaive-en": 0.9295270796865225,
+      "cocodet-en": 1.1589401454834003e-07
+    },
+    "94f936d504e5cf7a6a77c55f2531e0a2fab6fed98f7e5853ef040414019a12c1": {
+      "followsci-bert-en": 2.1245452899165684e-06,
+      "roberta-academic-en": 0.0007153913611546159,
+      "llm-detectaive-en": 0.9992613114882261,
+      "cocodet-en": 2.2561749813516333e-08
+    },
+    "953d782b061947c4f15b83c51ffd6538428c9b4c5a7a9e2c31fa203f5feeb655": {
+      "followsci-bert-en": 2.2259307570493547e-06,
+      "roberta-academic-en": 0.0019530330318957567,
+      "llm-detectaive-en": 0.9999420213353005,
+      "cocodet-en": 3.7926636798935607e-08
+    },
+    "9696c4b1b0db318520a633147413fe55d28e8531c8b4885887dd2cadce8430f8": {
+      "followsci-bert-en": 0.998778760433197,
+      "roberta-academic-en": 0.0012867975747212768,
+      "llm-detectaive-en": 0.9986402820795774,
+      "cocodet-en": 2.6877466897511776e-08
+    },
+    "96de28158902f88028298f7fcff628dee00ff900bba036cf4b1ff14b3ee75c4c": {
+      "followsci-bert-en": 2.1882842702325433e-06,
+      "roberta-academic-en": 0.00038893570308573544,
+      "llm-detectaive-en": 0.9976213397458196,
+      "cocodet-en": 2.1029541688328407e-08
+    },
+    "98a6e88e90fcb41d6cdc522ed37ec15ee6004b125ea52b5ba1b0314b65c644b3": {
+      "followsci-bert-en": 2.1892194581596414e-06,
+      "roberta-academic-en": 0.0024296690244227648,
+      "llm-detectaive-en": 0.998585868626833,
+      "cocodet-en": 3.858206370707662e-09
+    },
+    "9935c6e39d5469413e0a9057d95dbb9003c6351c06e2002282a898dd181a26d0": {
+      "followsci-bert-en": 2.063133024421404e-06,
+      "roberta-academic-en": 0.0046185776591300964,
+      "llm-detectaive-en": 0.9972352357581258,
+      "cocodet-en": 1.2768421635001026e-06
+    },
+    "9dd6463b668a6ed713d64ce913757c27894c3398434cef63305d8b77776a1c85": {
+      "followsci-bert-en": 2.17020738091378e-06,
+      "roberta-academic-en": 0.0003024294273927808,
+      "llm-detectaive-en": 0.033621726848650724,
+      "cocodet-en": 1.6955437015129735e-08
+    },
+    "9e201766fdfd84ba366c2796bbbac598eb07cdf2a391580a59c98e1622c0ea66": {
+      "followsci-bert-en": 2.224778199888533e-06,
+      "roberta-academic-en": 0.0030414420180022717,
+      "llm-detectaive-en": 0.9999765701650176,
+      "cocodet-en": 0.9999973896256336
+    },
+    "9f3ddb84bf47f54a2c4942777f803f4e472a068ac9bde7729c135c2b847b7054": {
+      "followsci-bert-en": 2.483711568856961e-06,
+      "roberta-academic-en": 0.0001346228236798197,
+      "llm-detectaive-en": 0.9992061539232964,
+      "cocodet-en": 1.0758826617151065e-08
+    },
+    "9f4f235830ed0412dc611fcb66a5cf417142229ddca49606468bd963fc26b9f4": {
+      "followsci-bert-en": 1.3661055163538549e-05,
+      "roberta-academic-en": 0.0009566009975969791,
+      "llm-detectaive-en": 0.0009608597515580186,
+      "cocodet-en": 6.054807967178534e-09
+    },
+    "a0c03deeb6584858c33868932e61a5ecc79821020347be696caaafbb78ccee58": {
+      "followsci-bert-en": 2.2601821001444478e-06,
+      "roberta-academic-en": 0.0002710380358621478,
+      "llm-detectaive-en": 0.012323993654717924,
+      "cocodet-en": 4.798845240237479e-09
+    },
+    "a1ff044ff67b06969e1221df38fbe8e6b368f5803d5b5b7517e3ff55f8a42075": {
+      "followsci-bert-en": 5.063463504484389e-06,
+      "roberta-academic-en": 0.00029214448295533657,
+      "llm-detectaive-en": 0.9986866238759831,
+      "cocodet-en": 6.323892962767233e-08
+    },
+    "a38f846f4382fa44dff9b9ec0645dcece6f1ea762268acb6971394db029100b8": {
+      "followsci-bert-en": 1.989209067687625e-06,
+      "roberta-academic-en": 0.012394636869430542,
+      "llm-detectaive-en": 0.47986099822446704,
+      "cocodet-en": 3.307713279145086e-07
+    },
+    "a39646894f193885891f9e9bce25d55a7d064eb2a494c8cd5033dc83b96536a1": {
+      "followsci-bert-en": 2.2361521132552298e-06,
+      "roberta-academic-en": 0.0003527144144754857,
+      "llm-detectaive-en": 0.9999765393440612,
+      "cocodet-en": 9.841257476718131e-09
+    },
+    "a3bb5d35ea98ce65571cd9d201bf37bd55c547d1546d4ff8049d778803b48f83": {
+      "followsci-bert-en": 2.284138872710173e-06,
+      "roberta-academic-en": 0.0002976696996483952,
+      "llm-detectaive-en": 0.9921134880714817,
+      "cocodet-en": 4.681095545910896e-08
+    },
+    "a3e642145322532c236f012a92fede08ca9308041f7b36706c46fa31a1cbbdf4": {
+      "followsci-bert-en": 4.038543465867406e-06,
+      "roberta-academic-en": 0.0034721107222139835,
+      "llm-detectaive-en": 0.9998402947094291,
+      "cocodet-en": 4.009674027055871e-07
+    },
+    "a4085b9bcf155021707a19566d1cb2186964682a1058579dd735a71b60326643": {
+      "followsci-bert-en": 2.4293717615364585e-06,
+      "roberta-academic-en": 0.00017185791512019932,
+      "llm-detectaive-en": 0.9998394065842149,
+      "cocodet-en": 1.1369672091641027e-08
+    },
+    "a60dff96970bf0e5b6c9b954a1ed6da03e11aa1f01902e018ef1082303d37344": {
+      "followsci-bert-en": 2.300447249581339e-06,
+      "roberta-academic-en": 0.0004482247750274837,
+      "llm-detectaive-en": 0.0025961283026845194,
+      "cocodet-en": 3.381424096499455e-08
+    },
+    "a65d382675928d2a122d1e848850b40e45afc0968e0ccbd14b9ef6584050b3f1": {
+      "followsci-bert-en": 2.101163545376039e-06,
+      "roberta-academic-en": 0.0022142319940030575,
+      "llm-detectaive-en": 0.0007678579377170536,
+      "cocodet-en": 1.1849151569491307e-08
+    },
+    "a6e82c2757ca98b3ba04d34988da075f9d90c0cef097c0535129e149e085b50e": {
+      "followsci-bert-en": 2.2313822682917817e-06,
+      "roberta-academic-en": 0.0005978827830404043,
+      "llm-detectaive-en": 0.003089160470153729,
+      "cocodet-en": 3.3179724242356125e-09
+    },
+    "a762708f8b82cada8349e2457110631f4c8654326b09b8c065d0fd04f3ef37c7": {
+      "followsci-bert-en": 0.00965115986764431,
+      "roberta-academic-en": 0.0007914214511401951,
+      "llm-detectaive-en": 0.0008907443598218379,
+      "cocodet-en": 1.2438556304958728e-08
+    },
+    "a8d7883b2106d4e67302e02d87beb800471beb5d01aea3e2b4cfa4acc645fe29": {
+      "followsci-bert-en": 2.13110979530029e-06,
+      "roberta-academic-en": 0.0001739982981234789,
+      "llm-detectaive-en": 0.9990944860037416,
+      "cocodet-en": 2.716409553988209e-08
+    },
+    "a9c9b50d9657048060f139899e1835071bc46284f641f59ef49ce76b33ea4691": {
+      "followsci-bert-en": 2.2919202820048667e-06,
+      "roberta-academic-en": 0.0002602862077765167,
+      "llm-detectaive-en": 0.007888682403063285,
+      "cocodet-en": 1.3426518176017262e-08
+    },
+    "ab9455cdc37a724443199d7675160c26ce8eba5204cbe67ee66af9faa08f1e86": {
+      "followsci-bert-en": 2.2315950900519965e-06,
+      "roberta-academic-en": 0.00019704275473486632,
+      "llm-detectaive-en": 0.9999653497216059,
+      "cocodet-en": 2.9009129898938807e-06
+    },
+    "ad489784d3ccaf1ab0b72c4b6a4400d644578aa3c9ddaa418b1fe464d868c76b": {
+      "followsci-bert-en": 2.295378408234683e-06,
+      "roberta-academic-en": 0.00022458162857219577,
+      "llm-detectaive-en": 0.28007870286819525,
+      "cocodet-en": 1.0500149493809785e-08
+    },
+    "ad9052138af04fcccaf176cf7e3f14f0437d85df8037b2a1157d9c998116d15e": {
+      "followsci-bert-en": 2.185564653700567e-06,
+      "roberta-academic-en": 0.005181705579161644,
+      "llm-detectaive-en": 0.999956839819788,
+      "cocodet-en": 2.7037936168087216e-08
+    },
+    "ae1764e4bf79339ee8ffef741a20f3087bf08914b050f942c586fa0787463556": {
+      "followsci-bert-en": 2.090767338813748e-06,
+      "roberta-academic-en": 0.0005840723752044141,
+      "llm-detectaive-en": 0.006499000714029535,
+      "cocodet-en": 1.1122160160220718e-07
+    },
+    "ae7a019bf167336fc43cefebeb1c049484a3974dd63bdae96d59054b7b52bdca": {
+      "followsci-bert-en": 2.187182644775021e-06,
+      "roberta-academic-en": 0.0001798295124899596,
+      "llm-detectaive-en": 0.9996032498893328,
+      "cocodet-en": 7.106100431870932e-08
+    },
+    "af22522d499cbb31eb6d296d8ca76fc8327ea182034cf80008600e34f3a38b43": {
+      "followsci-bert-en": 2.3693053208262427e-06,
+      "roberta-academic-en": 0.0003798150282818824,
+      "llm-detectaive-en": 0.9999158568607527,
+      "cocodet-en": 4.418268267198343e-09
+    },
+    "af92ca9975cb720f17a198c8451e105d4c5803b40d9cc534cfbab171fdc067cc": {
+      "followsci-bert-en": 2.333106749574654e-06,
+      "roberta-academic-en": 0.00039542175363749266,
+      "llm-detectaive-en": 0.000943886583627318,
+      "cocodet-en": 7.861933484982521e-09
+    },
+    "b10fd4bfa5d553ea43f5639b36f5bf1c73fadaa131cc382a9534d1c4439cabe7": {
+      "followsci-bert-en": 2.116544919772423e-06,
+      "roberta-academic-en": 0.0011663325130939484,
+      "llm-detectaive-en": 0.8999049882404506,
+      "cocodet-en": 6.573356962870022e-08
+    },
+    "b17a3b0ccdddd8cc9282678a81b7033f6b88fbda9d2e561df4b2778512a0f1ee": {
+      "followsci-bert-en": 2.4487428618158447e-06,
+      "roberta-academic-en": 0.0001762834726832807,
+      "llm-detectaive-en": 0.9993608713848516,
+      "cocodet-en": 2.7634964737031052e-08
+    },
+    "b41a11941f1def6ce6f32e690cb67eeed6934a8cda866f4f5ec502ed2372f618": {
+      "followsci-bert-en": 2.638164232848794e-06,
+      "roberta-academic-en": 0.00172604585532099,
+      "llm-detectaive-en": 0.009007685563119594,
+      "cocodet-en": 1.9987208108897259e-07
+    },
+    "b44e41109762cc03d0a9178156c24e840c1d31b7a566c80e1517ff1fc01157b3": {
+      "followsci-bert-en": 2.3861806766944937e-05,
+      "roberta-academic-en": 0.001065861782990396,
+      "llm-detectaive-en": 0.9993845507851802,
+      "cocodet-en": 6.05432104742315e-06
+    },
+    "b4617d8b7dd3c1111c41baceec66704695640910c5e70147760ed607d2919543": {
+      "followsci-bert-en": 2.2281096789811272e-06,
+      "roberta-academic-en": 0.000247413496254012,
+      "llm-detectaive-en": 0.006565219220647123,
+      "cocodet-en": 8.607557609491452e-09
+    },
+    "b4a4559dffd2384d5e8400a5a8c96c809f18aa154ebcd7237e18a0c0dc7425f7": {
+      "followsci-bert-en": 0.9999300241470337,
+      "roberta-academic-en": 0.0013083141529932618,
+      "llm-detectaive-en": 0.16065380244981498,
+      "cocodet-en": 1.0471850904328946e-07
+    },
+    "b8160b5c8f2e947af6f9dbe446cba828837f367a8731bfa4f43e66791a29ecd2": {
+      "followsci-bert-en": 0.01713130995631218,
+      "roberta-academic-en": 0.0004483640950638801,
+      "llm-detectaive-en": 0.37833743731607683,
+      "cocodet-en": 2.324414938591245e-08
+    },
+    "b8cb13776ba1e55facb811d031d89f0636f9847df77ec988b6b91c2968c02fb9": {
+      "followsci-bert-en": 2.2178680865181377e-06,
+      "roberta-academic-en": 0.00021196094166953117,
+      "llm-detectaive-en": 0.9971213344106218,
+      "cocodet-en": 2.2504440330781833e-08
+    },
+    "b97cfd24088c818fc066ff940cd203e27f7e071553a153c5de966211a27ec097": {
+      "followsci-bert-en": 0.16045628488063812,
+      "roberta-academic-en": 0.0006987882661633193,
+      "llm-detectaive-en": 0.7119374133180827,
+      "cocodet-en": 1.67286610984539e-08
+    },
+    "b9ade4f58226f9e0d7e52773c842527b05b3b9d25ffccf88f37f908fad4522f6": {
+      "followsci-bert-en": 1.0353178367950022e-05,
+      "roberta-academic-en": 0.0007270603673532605,
+      "llm-detectaive-en": 0.5166295742528746,
+      "cocodet-en": 1.3887054219139782e-07
+    },
+    "ba689685666f5b3ac5d7f5aa58e8338a6583496e778a72452f3fc153ca105096": {
+      "followsci-bert-en": 2.048204351012828e-06,
+      "roberta-academic-en": 0.000550913973711431,
+      "llm-detectaive-en": 0.4686013685131911,
+      "cocodet-en": 7.039012676446181e-09
+    },
+    "bbd4da44a82f93e3e4edf180d9dc799e04e3e5f6eeb8cc344168c1419e28f8e2": {
+      "followsci-bert-en": 0.9984878301620483,
+      "roberta-academic-en": 0.0022648845333606005,
+      "llm-detectaive-en": 0.7553523555397987,
+      "cocodet-en": 5.867411299008418e-08
+    },
+    "bcc1ec8d016149d1108c50615d385d9aec599a2a35b12759f33fb440fdc0b0df": {
+      "followsci-bert-en": 0.0007965913391672075,
+      "roberta-academic-en": 0.0036352318711578846,
+      "llm-detectaive-en": 0.39693710627034307,
+      "cocodet-en": 1.0917718075049987e-05
+    },
+    "bd898b8ca12bbe3fe25b5cf251e00601cd553b657f03bdc6b26102143a5e947e": {
+      "followsci-bert-en": 2.038161710515851e-06,
+      "roberta-academic-en": 0.0026758473832160234,
+      "llm-detectaive-en": 0.003231384800528758,
+      "cocodet-en": 1.2532674778823957e-08
+    },
+    "bf1d6ebd6fca212079204e86fdc7ca5e0d3d6f50f6593be6b59dba5d2971eb22": {
+      "followsci-bert-en": 2.1850269149581436e-06,
+      "roberta-academic-en": 0.000511469435878098,
+      "llm-detectaive-en": 0.9999918309622444,
+      "cocodet-en": 1.6643574216469292e-08
+    },
+    "bf35a5c7e08c00df36d18f82d048ccee49a6abba4bc81b66b227a24127684242": {
+      "followsci-bert-en": 2.25045187107753e-06,
+      "roberta-academic-en": 0.00027525759651325643,
+      "llm-detectaive-en": 0.18838450257317163,
+      "cocodet-en": 3.857202431588325e-09
+    },
+    "c03362acc303becc7e7b70610c29d84cfaf166ffda8e28a2337a8d8d8c27cdd9": {
+      "followsci-bert-en": 2.1504067717614817e-06,
+      "roberta-academic-en": 0.0016918274341151118,
+      "llm-detectaive-en": 0.9982597400812665,
+      "cocodet-en": 5.692161720921227e-09
+    },
+    "c05c62eab6797d8200267172c728241cf7f5e7bbeb1c1f60c3a530c18dec5a85": {
+      "followsci-bert-en": 0.0011099944822490215,
+      "roberta-academic-en": 0.0016532549634575844,
+      "llm-detectaive-en": 0.039784711698303,
+      "cocodet-en": 1.4770202129161386e-07
+    },
+    "c266b561941225f585c590ebda75c057f2fc3ee5ff20d650272dc8bf933cf473": {
+      "followsci-bert-en": 2.4355701953027165e-06,
+      "roberta-academic-en": 0.0003639691276475787,
+      "llm-detectaive-en": 0.9999316485045711,
+      "cocodet-en": 3.1397674346220206e-07
+    },
+    "c327355af47f6eee06ec8eff8d34b7c9c7f9aa3cbf46cb302395aab7f48eaad1": {
+      "followsci-bert-en": 2.224177933385363e-06,
+      "roberta-academic-en": 0.00033794878982007504,
+      "llm-detectaive-en": 0.9995587329758564,
+      "cocodet-en": 9.888398646781815e-09
+    },
+    "c4d9e36f491e83004e639e9bbe18029829afb3380b55e66e45740e80a0110db1": {
+      "followsci-bert-en": 2.0867216790065868e-06,
+      "roberta-academic-en": 0.000232087928452529,
+      "llm-detectaive-en": 0.9966527508804575,
+      "cocodet-en": 3.260660734374487e-08
+    },
+    "c630c60ef71afaad1041a4a36d8c2ee06fe7e655a295536b38aa519ebbe8b9da": {
+      "followsci-bert-en": 2.438463752696407e-06,
+      "roberta-academic-en": 0.002129587111994624,
+      "llm-detectaive-en": 0.9980767964152619,
+      "cocodet-en": 3.538570157463755e-08
+    },
+    "c70d3f869d3471484bc9ad56bd7131b41bf66bdbdd043bd9ce0adde6909ac193": {
+      "followsci-bert-en": 2.0451086584216682e-06,
+      "roberta-academic-en": 0.00036028458271175623,
+      "llm-detectaive-en": 0.9998132570617599,
+      "cocodet-en": 9.386638529233944e-07
+    },
+    "c8547fb4dd1c8dab66c75142649704735d7cb66471b9dcf606948782359ba28d": {
+      "followsci-bert-en": 2.1268722321110545e-06,
+      "roberta-academic-en": 0.00043208434362895787,
+      "llm-detectaive-en": 0.025658330428996123,
+      "cocodet-en": 5.0741421466025255e-09
+    },
+    "cb45358df7dffccd8f4801817c74049ca56c8f122c5ec518f037d0310e33d47b": {
+      "followsci-bert-en": 2.0448901523195673e-06,
+      "roberta-academic-en": 0.0019387992797419429,
+      "llm-detectaive-en": 0.7447037845849991,
+      "cocodet-en": 5.960021210501404e-08
+    },
+    "cb58732718fec3bb10646a027ecf27b26b233a75931d4981068e0a28cfa734a2": {
+      "followsci-bert-en": 2.343183041375596e-06,
+      "roberta-academic-en": 0.00019424167112447321,
+      "llm-detectaive-en": 0.999933849550871,
+      "cocodet-en": 3.3703592742422364e-08
+    },
+    "cb9b8b95c6b2922580e14db7ce8d797c2a84d22aa93cc192c562597bbfc22b2f": {
+      "followsci-bert-en": 1.593035995028913e-05,
+      "roberta-academic-en": 0.0002165545738535002,
+      "llm-detectaive-en": 0.9999520003329962,
+      "cocodet-en": 9.877818385722187e-08
+    },
+    "cbd28f029d2df7e423f5b99ab3a4752af77fd2b58a0f3ab627ebda4b419f6c83": {
+      "followsci-bert-en": 0.009329626336693764,
+      "roberta-academic-en": 0.001301582669839263,
+      "llm-detectaive-en": 0.9997903015464544,
+      "cocodet-en": 4.207418002975111e-08
+    },
+    "cc0b5524829f21ad897015fbcb05a326485f76ddd2281fb309c2617b122c2452": {
+      "followsci-bert-en": 2.348151383557706e-06,
+      "roberta-academic-en": 0.00033843694836832583,
+      "llm-detectaive-en": 0.9144433073233813,
+      "cocodet-en": 1.1102943787131593e-08
+    },
+    "d042fc4aaaa7089af112724d2f56f1df00ecb20c0a30df4c77abad7867db538e": {
+      "followsci-bert-en": 4.1510415940138046e-06,
+      "roberta-academic-en": 0.0006216217298060656,
+      "llm-detectaive-en": 0.02385199318450759,
+      "cocodet-en": 1.5297115861664067e-08
+    },
+    "d049adfc8d787cccf5627047ccbfdd5f584b70e1d0ce41415e25e8484ebf7e86": {
+      "followsci-bert-en": 7.419691974064335e-05,
+      "roberta-academic-en": 0.015289862640202045,
+      "llm-detectaive-en": 0.9999563544988632,
+      "cocodet-en": 1.0887395939223471e-07
+    },
+    "d055f6d8b7720d3446a5508fb69e5cd817f00f45123f0701e405407c899b682c": {
+      "followsci-bert-en": 3.563888185453834e-06,
+      "roberta-academic-en": 0.0025335708633065224,
+      "llm-detectaive-en": 0.23311279667541385,
+      "cocodet-en": 3.788290394441795e-07
+    },
+    "d1d28b438cea51f0c34184391533aa7e8033da385fa24b92f7f5d5ad9dccfe3d": {
+      "followsci-bert-en": 2.0810102796531282e-06,
+      "roberta-academic-en": 0.00017123110592365265,
+      "llm-detectaive-en": 0.06241320630942937,
+      "cocodet-en": 4.4721592718535664e-09
+    },
+    "d1fd7df8e0d3b165163869b89dbf58a9c207cc87aa7d8479518658a89986d6a8": {
+      "followsci-bert-en": 2.3907111881271703e-06,
+      "roberta-academic-en": 0.0003297979128547013,
+      "llm-detectaive-en": 0.02868723144638352,
+      "cocodet-en": 2.89089890418673e-08
+    },
+    "d2723b2d2f588ce28366f65a5c33beaecc913279ce6ddfa908a79b29d8edb991": {
+      "followsci-bert-en": 2.0416593997651944e-06,
+      "roberta-academic-en": 0.011152761057019234,
+      "llm-detectaive-en": 0.9999855472997297,
+      "cocodet-en": 3.27802518709959e-08
+    },
+    "d2eb19e92e2859ec75a89871b8d3e58044bbcdc601d74fe1de2b073210ead436": {
+      "followsci-bert-en": 2.0561776636895956e-06,
+      "roberta-academic-en": 0.0009558065212331712,
+      "llm-detectaive-en": 0.9996474507570383,
+      "cocodet-en": 5.021444085952058e-09
+    },
+    "d4c202df865136c2e1f96ca3af71c875d0ded09c846c9a499dd2cb90c5033b0f": {
+      "followsci-bert-en": 0.00144433684181422,
+      "roberta-academic-en": 0.0007719025015830994,
+      "llm-detectaive-en": 0.9394452136475593,
+      "cocodet-en": 2.845756993789285e-08
+    },
+    "d73652a555f20af58e04d12f438733fc976c158a6e1f523f90c4e18974a65416": {
+      "followsci-bert-en": 2.2270901354204398e-06,
+      "roberta-academic-en": 0.0002150703512597829,
+      "llm-detectaive-en": 0.9996753728482872,
+      "cocodet-en": 1.825594238887701e-08
+    },
+    "d83a131afa76e1b6668e7d8c83693443c4d30037ec2745945f97b79d17ccb684": {
+      "followsci-bert-en": 0.9877501130104065,
+      "roberta-academic-en": 0.001843381323851645,
+      "llm-detectaive-en": 0.904115840792656,
+      "cocodet-en": 9.392895615055637e-09
+    },
+    "d83f94a995b0f006cf5419b237fc9659284d58968164f844269c29e4e9e36634": {
+      "followsci-bert-en": 0.0002898111124522984,
+      "roberta-academic-en": 0.003980269655585289,
+      "llm-detectaive-en": 0.9997575665474869,
+      "cocodet-en": 1.9144172204270393e-06
+    },
+    "d9d17cbe280181cb83f604260f8f46f70b2a3e8c81529e24a6fdea1c642fd08f": {
+      "followsci-bert-en": 2.124719458151958e-06,
+      "roberta-academic-en": 0.0014795060269534588,
+      "llm-detectaive-en": 0.9996867733134422,
+      "cocodet-en": 4.2879822841437355e-08
+    },
+    "da74cd20149cc92135b54c0dfdf8ab2503ef9853723bb0fbf1dc0e9b5dff8a0e": {
+      "followsci-bert-en": 2.359210839131265e-06,
+      "roberta-academic-en": 0.0013260608538985252,
+      "llm-detectaive-en": 0.9996330236754147,
+      "cocodet-en": 1.5116776765907803e-07
+    },
+    "db4204e10c88fd9fbf8c9ea8b1427ccd106523ceddc5224574cb0ca8d60d5ef7": {
+      "followsci-bert-en": 2.04489401767205e-06,
+      "roberta-academic-en": 0.0006182630313560367,
+      "llm-detectaive-en": 0.0016524757229490206,
+      "cocodet-en": 1.980737088062845e-08
+    },
+    "db62a3c559d7c6011c14b0fe6eacf71190cfa3b06e0acb9676d907f05ac9b6cc": {
+      "followsci-bert-en": 2.020580950556905e-06,
+      "roberta-academic-en": 0.00018845555314328521,
+      "llm-detectaive-en": 0.9892934971721843,
+      "cocodet-en": 4.781305295372025e-08
+    },
+    "dbb70fd5583bbd8d865044a4b63bc3b1774369bfc4285abc1ab730a8a0fa3247": {
+      "followsci-bert-en": 2.0643356037908234e-06,
+      "roberta-academic-en": 0.0006600036285817623,
+      "llm-detectaive-en": 0.11571398450178094,
+      "cocodet-en": 1.976678828095619e-08
+    },
+    "dbe22be29a498a3312ddf8ef805e7ff745847811bcac42c62efdc9f6ea3ea5b4": {
+      "followsci-bert-en": 3.253169552408508e-06,
+      "roberta-academic-en": 0.0010749378707259893,
+      "llm-detectaive-en": 0.006734021630109055,
+      "cocodet-en": 1.5527019217565462e-08
+    },
+    "dc203c296707a747e67da86a829fe1f240a3aef7fff0335b93b13081e69bbd46": {
+      "followsci-bert-en": 2.414616801615921e-06,
+      "roberta-academic-en": 0.00020207530178595334,
+      "llm-detectaive-en": 0.9998639213008573,
+      "cocodet-en": 1.0610307276038471e-08
+    },
+    "dce1125bb121be6b5b0969aed561bd6d520be459d10ddb3f75f8a211077123a0": {
+      "followsci-bert-en": 2.0754018805746455e-06,
+      "roberta-academic-en": 0.0008278555469587445,
+      "llm-detectaive-en": 0.9851952968165278,
+      "cocodet-en": 1.592808599123769e-07
+    },
+    "de3b906fb21ca3dec4ea9f5ba1f7bb24680d10c770c4e1669e80eeb12ecfaa2b": {
+      "followsci-bert-en": 2.2490721676149406e-06,
+      "roberta-academic-en": 0.0003519217134453356,
+      "llm-detectaive-en": 0.9827063761767931,
+      "cocodet-en": 1.5772350482715384e-08
+    },
+    "df318b01c54de86cce45170a55264f4cad4fa02af0248a90057a614c9a21a72f": {
+      "followsci-bert-en": 2.4157432108040666e-06,
+      "roberta-academic-en": 0.0008836922352202237,
+      "llm-detectaive-en": 0.9998878761543892,
+      "cocodet-en": 1.3761698535775819e-08
+    },
+    "e18e78b3b122d5ef47be16d4ebb3fd30d65ca4e51e4ed8b5bb48266aedd66bc9": {
+      "followsci-bert-en": 2.352706133024185e-06,
+      "roberta-academic-en": 0.0005416939966380596,
+      "llm-detectaive-en": 0.0011245352634432493,
+      "cocodet-en": 6.659514092683793e-09
+    },
+    "e1dd8f50d82e20981a6fd0a6eae8e06ada914c2cafd8d38fb481c81c3089f661": {
+      "followsci-bert-en": 3.875423317367677e-06,
+      "roberta-academic-en": 0.001296726055443287,
+      "llm-detectaive-en": 0.9987183585762978,
+      "cocodet-en": 6.265314164423082e-09
+    },
+    "e3aa8da726bb44d27456a03c0f527f993165244fa0409a063426596f9c403416": {
+      "followsci-bert-en": 4.128372893319465e-06,
+      "roberta-academic-en": 0.0011777281761169434,
+      "llm-detectaive-en": 0.9822480959119275,
+      "cocodet-en": 1.319020043438323e-08
+    },
+    "e3c8272c47a268e5af0300fdd06359edfc71d2bb1963b1019f0a116079ff13a5": {
+      "followsci-bert-en": 2.445048949084594e-06,
+      "roberta-academic-en": 0.0002424763806629926,
+      "llm-detectaive-en": 0.9999128263443708,
+      "cocodet-en": 3.005203089059393e-08
+    },
+    "e6ec3502fe36233f2d56a9c5a3b1d72a35fba303e8ad1cd1009a3855942dd877": {
+      "followsci-bert-en": 2.0588149709510617e-06,
+      "roberta-academic-en": 0.0005940415430814028,
+      "llm-detectaive-en": 0.9999852803302929,
+      "cocodet-en": 3.4289946220129874e-08
+    },
+    "e827ff2c27a099c2c8878416b5b504e0b6f6887611ef870d2b329583061394e9": {
+      "followsci-bert-en": 2.33027822105214e-06,
+      "roberta-academic-en": 0.0008253590203821659,
+      "llm-detectaive-en": 0.9998530025186483,
+      "cocodet-en": 2.4458686919879256e-09
+    },
+    "e9356ff4d7f59c5484745da886ad6e201347d1d32da91733d8d2840ba509ba53": {
+      "followsci-bert-en": 2.068223466267227e-06,
+      "roberta-academic-en": 0.03300531208515167,
+      "llm-detectaive-en": 0.9540453068912029,
+      "cocodet-en": 4.642340293843465e-08
+    },
+    "ea4d848aca79c4640d2146d6ca4862f74a28c28994d2265279df5ec82964b398": {
+      "followsci-bert-en": 2.386540472798515e-06,
+      "roberta-academic-en": 0.00025339011335745454,
+      "llm-detectaive-en": 0.9995983179542236,
+      "cocodet-en": 5.295388485950653e-08
+    },
+    "eadee0bb30b623c38c4c8c2702c72a44e10aa6f66b94805b0a39dd1c46c11dea": {
+      "followsci-bert-en": 2.382583261351101e-06,
+      "roberta-academic-en": 0.0007761099259369075,
+      "llm-detectaive-en": 0.00013330630827113055,
+      "cocodet-en": 7.393519863376809e-08
+    },
+    "eb41756be4175eabfbb34491991b78514522614807af351ae8cbd75363f71e2b": {
+      "followsci-bert-en": 2.1533496692427434e-06,
+      "roberta-academic-en": 0.0004766948986798525,
+      "llm-detectaive-en": 0.0013028542471147375,
+      "cocodet-en": 1.7507742494855035e-08
+    },
+    "eb6730fef892a6243382a40ffd17ae0ac6929142d3d9a08339680f2f573fb5ea": {
+      "followsci-bert-en": 2.0365100681374315e-06,
+      "roberta-academic-en": 0.0002041753032244742,
+      "llm-detectaive-en": 0.9867816176265478,
+      "cocodet-en": 9.113448984669151e-09
+    },
+    "ed69f7a139e26d8e4017f1990f78af1ad008b9968a420b12e337dc105c58fd4a": {
+      "followsci-bert-en": 0.0036483092699199915,
+      "roberta-academic-en": 0.0007609170861542225,
+      "llm-detectaive-en": 0.9975103932956699,
+      "cocodet-en": 3.235566995787864e-07
+    },
+    "eda12ca13bde1429f91c616b2561cf6b616b1a51b71a79ef26e84d8ba736cfce": {
+      "followsci-bert-en": 0.0007969004800543189,
+      "roberta-academic-en": 0.0022690044716000557,
+      "llm-detectaive-en": 0.07842274592258036,
+      "cocodet-en": 3.529254523869374e-08
+    },
+    "ef16319b30514c432adcfc8a86a99be4f8a6fa2b84955481dfd9a81af7d81393": {
+      "followsci-bert-en": 2.59083867604204e-06,
+      "roberta-academic-en": 0.9983835220336914,
+      "llm-detectaive-en": 0.9986075182678178,
+      "cocodet-en": 6.134206274321929e-07
+    },
+    "ef9d72325f62417b4b431923b743dbd91c2e56b19a5f6426bd531f2a073b58c2": {
+      "followsci-bert-en": 0.9998871088027954,
+      "roberta-academic-en": 0.001729408628307283,
+      "llm-detectaive-en": 0.9920408665202558,
+      "cocodet-en": 3.451134799313006e-08
+    },
+    "f0c4337d6e53a5dd73331b1f17cee6f88a01134f7a0f6fc67e2c841195a520c5": {
+      "followsci-bert-en": 0.0003265543782617897,
+      "roberta-academic-en": 0.9952427744865417,
+      "llm-detectaive-en": 0.9795811134390533,
+      "cocodet-en": 0.9999990675637491
+    },
+    "f30272a5c4f9c6d3c6f0ffd98247bd3a37e6f7ed7802280e4ea1350ace8eefca": {
+      "followsci-bert-en": 0.0155256362631917,
+      "roberta-academic-en": 0.004087536130100489,
+      "llm-detectaive-en": 0.9999232870322885,
+      "cocodet-en": 1.2927240933234552e-06
+    },
+    "f31b17e770d03c2c7478325f95c102afa6b6898d95f3b0557d865b6c10c10b14": {
+      "followsci-bert-en": 2.1279233806126285e-06,
+      "roberta-academic-en": 0.00566896703094244,
+      "llm-detectaive-en": 0.9997653760947287,
+      "cocodet-en": 2.4093622952867447e-08
+    },
+    "f66efe57dc6809b669d6db67d30ce36c5698f7062a731742c1b2a787c5debd49": {
+      "followsci-bert-en": 2.358529172852286e-06,
+      "roberta-academic-en": 0.000698569871019572,
+      "llm-detectaive-en": 0.8318184832460247,
+      "cocodet-en": 7.406161291065522e-08
+    },
+    "f704c6857e3b518558af4ca9dd074439c9f087dfab816492a7847819349a463a": {
+      "followsci-bert-en": 0.013730362989008427,
+      "roberta-academic-en": 0.00023314297141041607,
+      "llm-detectaive-en": 0.9997953172132839,
+      "cocodet-en": 1.2757765227545351e-08
+    },
+    "f7ebf92aba869ca9766cb8b7a343ad9c56b6a1ba39fad936071326b6a3d64c58": {
+      "followsci-bert-en": 2.0892305201414274e-06,
+      "roberta-academic-en": 0.00018929658108390868,
+      "llm-detectaive-en": 0.9868004509335151,
+      "cocodet-en": 4.9258897898141196e-08
+    },
+    "f86456026ef8c986d730dc22a8e9f45a785203bcfc1ffb7ea776e674946a348f": {
+      "followsci-bert-en": 2.170710558857536e-06,
+      "roberta-academic-en": 0.0006573494174517691,
+      "llm-detectaive-en": 0.9999544640231761,
+      "cocodet-en": 2.7083307321813625e-06
+    },
+    "f8faee72a9cc49fbb6db92adecbd1f10820a8053aabf5414b8bf135492178a74": {
+      "followsci-bert-en": 2.3122345282899914e-06,
+      "roberta-academic-en": 0.0015722765820100904,
+      "llm-detectaive-en": 0.7238129675388336,
+      "cocodet-en": 3.0200517918193767e-07
+    },
+    "fa1e5d663a065cfa85a80f7f882cd2fe878d373c0edc44faec7a4b003c76d5a0": {
+      "followsci-bert-en": 2.8075260161131155e-06,
+      "roberta-academic-en": 0.0011109837796539068,
+      "llm-detectaive-en": 0.8969372267602012,
+      "cocodet-en": 9.80493487670684e-09
+    },
+    "fabe412325a565101b7734a7fc78840b2ad4c70b6995d7596ad5b52e012233eb": {
+      "followsci-bert-en": 2.245816403956269e-06,
+      "roberta-academic-en": 0.00045471303747035563,
+      "llm-detectaive-en": 0.9989434058079496,
+      "cocodet-en": 1.0592970261049696e-08
+    },
+    "fb37ce6001295485f12efab64225782de29f568f3f3af967c813f044c76af5f4": {
+      "followsci-bert-en": 2.250722218377632e-06,
+      "roberta-academic-en": 0.00046375993406400084,
+      "llm-detectaive-en": 0.00011924868158530444,
+      "cocodet-en": 1.2833435288073236e-07
+    },
+    "fcab3c4922463c98453d268265c593e5b0487b50a2d8e1b2fa8f2e9cc4811aa3": {
+      "followsci-bert-en": 8.19518118078122e-06,
+      "roberta-academic-en": 0.0014296869048848748,
+      "llm-detectaive-en": 0.019712012635864085,
+      "cocodet-en": 4.688719056349273e-09
+    },
+    "fd8e4acd05683b5b1ccff62a871bf192f8018a8f28164c68d5e0c86ff3c5db94": {
+      "followsci-bert-en": 2.046523377430276e-06,
+      "roberta-academic-en": 0.9931634664535522,
+      "llm-detectaive-en": 0.9999158172868192,
+      "cocodet-en": 3.9637747953585704e-08
+    },
+    "fe13e12d42ae53db64e60d21253ab6a7b0b9ec5afff076b8a8e76ea8861ff2c2": {
+      "followsci-bert-en": 4.7779689339222386e-05,
+      "roberta-academic-en": 0.9989616870880127,
+      "llm-detectaive-en": 0.999869515246246,
+      "cocodet-en": 4.0425498877799497e-07
+    },
+    "fe44bb34df767f5e383d2073fcd99ffa6994bb270fbd96068a998493e1af346e": {
+      "followsci-bert-en": 2.017411588894902e-06,
+      "roberta-academic-en": 0.00263600773178041,
+      "llm-detectaive-en": 0.04296709045593161,
+      "cocodet-en": 2.2458251422094455e-07
+    },
+    "ff14d47231d30bbead7bd6c06973da2ab7cf3b905a94a46043c571dc011d1ef1": {
+      "followsci-bert-en": 2.2917015485290904e-06,
+      "roberta-academic-en": 0.00025110680144280195,
+      "llm-detectaive-en": 0.9998203673458192,
+      "cocodet-en": 6.8929867479822476e-09
+    }
+  },
+  "declaration_sha256": "2156a7950cfe661856f4389aaed4bec6b3b0ccb2f9b18090c505273d5546e34e",
+  "no_training": true
+}

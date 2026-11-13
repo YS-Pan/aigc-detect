@@ -1,0 +1,59 @@
+{
+  "phase": "fit-only protocol extension; test not inspected",
+  "groups": {
+    "fit": [
+      "P01",
+      "P10",
+      "P06",
+      "P02",
+      "P04",
+      "P03"
+    ],
+    "calibration": [
+      "P09",
+      "P05"
+    ],
+    "test": [
+      "P07",
+      "P08"
+    ]
+  },
+  "segmentation_candidates": [
+    [
+      400,
+      120
+    ],
+    [
+      800,
+      240
+    ],
+    [
+      1200,
+      400
+    ],
+    [
+      1600,
+      400
+    ]
+  ],
+  "families": [
+    "linear",
+    "squares",
+    "quadratic"
+  ],
+  "regularization": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "human_weight": [
+    1,
+    5,
+    20
+  ],
+  "review_logit_margin": 0.01,
+  "strong_logit_margin": 0.1,
+  "selection": "Lowest fit-paper CV false-positive rate, then highest CV AI-character recall; test scores and metrics excluded from comparison",
+  "reason": "Initial 400-character linear model with larger margins flagged zero human and zero AI segments."
+}

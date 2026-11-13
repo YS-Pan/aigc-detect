@@ -1,0 +1,81 @@
+{
+  "frozen_result_groups_checked": 48,
+  "inner_threshold_folds_checked": 240,
+  "local_text_spans_checked": 6682,
+  "context_triplets_checked": 1311,
+  "author_group_isolation": true,
+  "v2_baseline": {
+    "fit": {
+      "pure_human_windows": 390,
+      "pure_human_false_windows": 0,
+      "original_windows": 115,
+      "original_false_windows": 0,
+      "original_documents": 6,
+      "original_false_documents": 0,
+      "mixed_blocks": 51,
+      "mixed_block_hits": 0,
+      "mixed_ai_chars": 44125,
+      "mixed_ai_hit_chars": 0,
+      "mixed_non_ai_chars_in_positive_windows": 0,
+      "isolated_blocks": 51,
+      "isolated_block_hits": 3
+    },
+    "calibration": {
+      "pure_human_windows": 45,
+      "pure_human_false_windows": 0,
+      "original_windows": 15,
+      "original_false_windows": 0,
+      "original_documents": 2,
+      "original_false_documents": 0,
+      "mixed_blocks": 12,
+      "mixed_block_hits": 0,
+      "mixed_ai_chars": 12328,
+      "mixed_ai_hit_chars": 0,
+      "mixed_non_ai_chars_in_positive_windows": 0,
+      "isolated_blocks": 12,
+      "isolated_block_hits": 2
+    },
+    "test": {
+      "pure_human_windows": 58,
+      "pure_human_false_windows": 0,
+      "original_windows": 19,
+      "original_false_windows": 0,
+      "original_documents": 2,
+      "original_false_documents": 0,
+      "mixed_blocks": 12,
+      "mixed_block_hits": 2,
+      "mixed_ai_chars": 11058,
+      "mixed_ai_hit_chars": 2254,
+      "mixed_non_ai_chars_in_positive_windows": 815,
+      "isolated_blocks": 12,
+      "isolated_block_hits": 3
+    },
+    "all": {
+      "pure_human_windows": 493,
+      "pure_human_false_windows": 0,
+      "original_windows": 149,
+      "original_false_windows": 0,
+      "original_documents": 10,
+      "original_false_documents": 0,
+      "mixed_blocks": 75,
+      "mixed_block_hits": 2,
+      "mixed_ai_chars": 67511,
+      "mixed_ai_hit_chars": 2254,
+      "mixed_non_ai_chars_in_positive_windows": 815,
+      "isolated_blocks": 75,
+      "isolated_block_hits": 8
+    }
+  },
+  "model_assets_verified_against_manifest": {
+    "files": 29,
+    "models": [
+      "followsci-bert-en",
+      "roberta-academic-en",
+      "llm-detectaive-en",
+      "cocodet-en"
+    ]
+  },
+  "new_source_recall_evaluated": false,
+  "default_profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "contains_source_text": false
+}

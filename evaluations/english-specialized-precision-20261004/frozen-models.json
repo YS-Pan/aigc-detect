@@ -1,0 +1,2693 @@
+{
+  "models": {
+    "native_logit-all_plus_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "hc3-en",
+          "desklib-en",
+          "fakespot-en",
+          "bibbbu-xlm-roberta",
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.3408687351388044,
+          -3.1895730224101673,
+          -1.4043779344253067,
+          6.4165749867299,
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          1.8829829546753942,
+          2.231502120248231,
+          2.9552509058994127,
+          3.2676843658027357,
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          -0.03030447380386946,
+          0.02343382948189934,
+          0.0030231499759522757,
+          0.01437804401996452,
+          -0.015968069736865466,
+          -0.048488241812797324,
+          -0.04903657714908716,
+          0.031012182217256472,
+          -0.02424121574754912,
+          -0.017597049049689034,
+          0.1265732356813401,
+          0.056206989667854666,
+          -0.028814671815863013,
+          0.000990717311981613,
+          0.06572393183581653,
+          0.0019812343807329145
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-all_plus_classes-hard_human_bag_ranking-1",
+          "family": "native_logit-all_plus_classes-hard_human_bag_ranking",
+          "signals": [
+            "hc3-en",
+            "desklib-en",
+            "fakespot-en",
+            "bibbbu-xlm-roberta",
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 0.9991992019130388,
+          "gradient_inf": 1.12396056015443e-06,
+          "iterations": 19,
+          "evaluations": 21,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 0.9991992019130388,
+              "gradient_inf": 1.12396056015443e-06,
+              "iterations": 19,
+              "evaluations": 21,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0417618482829243,
+              "final_loss": 0.9991992019147812,
+              "gradient_inf": 1.623821600023334e-06,
+              "iterations": 21,
+              "evaluations": 23,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.24455008091071834,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-all_plus_classes-presence": {
+      "model": {
+        "signals": [
+          "hc3-en",
+          "desklib-en",
+          "fakespot-en",
+          "bibbbu-xlm-roberta",
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.3408687351388044,
+          -3.1895730224101673,
+          -1.4043779344253067,
+          6.4165749867299,
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          1.8829829546753942,
+          2.231502120248231,
+          2.9552509058994127,
+          3.2676843658027357,
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          0.007697283346470128,
+          0.042622229498109634,
+          -0.008438358131676624,
+          0.03896035308104292,
+          -0.027929897263686408,
+          -0.08634216504231204,
+          -0.028425396247233198,
+          0.020867137512567743,
+          -0.06092579652353355,
+          -0.010722980456477406,
+          0.047195374229851546,
+          0.09588626526592108,
+          -0.06640489475121322,
+          0.0027584250503337074,
+          0.045002785515147734,
+          0.005050690131959368
+        ],
+        "intercept": 0.0001661366213898311,
+        "configuration": {
+          "id": "native_logit-all_plus_classes-presence-1",
+          "family": "native_logit-all_plus_classes-presence",
+          "signals": [
+            "hc3-en",
+            "desklib-en",
+            "fakespot-en",
+            "bibbbu-xlm-roberta",
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6685539805322375,
+          "gradient_inf": 1.9428772150831275e-07,
+          "iterations": 11,
+          "evaluations": 11,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6685539805322375,
+              "gradient_inf": 1.9428772150831275e-07,
+              "iterations": 11,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.4178308047950313,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-new_aggregate-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -12.97487530497407,
+          -7.827916331011058,
+          8.699905995854444,
+          -15.278633208157164
+        ],
+        "scale": [
+          0.5,
+          2.0855857288427604,
+          2.9327918557639427,
+          6.4935488912258945
+        ],
+        "coefficients": [
+          -0.018975409044729122,
+          0.05994584043659983,
+          0.08665098544769106,
+          0.015587110529769327
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-new_aggregate-hard_human_bag_ranking-1",
+          "family": "native_logit-new_aggregate-hard_human_bag_ranking",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0334366586080055,
+          "final_loss": 1.0276597398925305,
+          "gradient_inf": 8.765535128990587e-08,
+          "iterations": 11,
+          "evaluations": 13,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0276597398925318,
+              "gradient_inf": 7.685483845512597e-08,
+              "iterations": 10,
+              "evaluations": 12,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0334366586080055,
+              "final_loss": 1.0276597398925305,
+              "gradient_inf": 8.765535128990587e-08,
+              "iterations": 11,
+              "evaluations": 13,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.20613087876527525,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-new_aggregate-presence": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -12.97487530497407,
+          -7.827916331011058,
+          8.699905995854444,
+          -15.278633208157164
+        ],
+        "scale": [
+          0.5,
+          2.0855857288427604,
+          2.9327918557639427,
+          6.4935488912258945
+        ],
+        "coefficients": [
+          -0.5087201997332138,
+          0.31957553454678267,
+          0.6615736578488546,
+          0.047747042887039834
+        ],
+        "intercept": -0.025351041707527867,
+        "configuration": {
+          "id": "native_logit-new_aggregate-presence-0.01",
+          "family": "native_logit-new_aggregate-presence",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "presence",
+          "regularization": 0.01,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6431420887808379,
+          "gradient_inf": 2.957761491450997e-07,
+          "iterations": 13,
+          "evaluations": 14,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6431420887808379,
+              "gradient_inf": 2.957761491450997e-07,
+              "iterations": 13,
+              "evaluations": 14,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 1.1675740097881955,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-new_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          -0.015213751094018837,
+          0.08101312441937758,
+          0.06642765909561175,
+          -0.04055919260740158,
+          0.0024089035441244412,
+          0.044466984409810874,
+          -0.012707329328374083
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-new_classes-hard_human_bag_ranking-1",
+          "family": "native_logit-new_classes-hard_human_bag_ranking",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 1.0210203005007457,
+          "gradient_inf": 1.7807432280275703e-06,
+          "iterations": 16,
+          "evaluations": 17,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0210203005007457,
+              "gradient_inf": 1.7807432280275703e-06,
+              "iterations": 16,
+              "evaluations": 17,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0322071877512236,
+              "final_loss": 1.0210203005013028,
+              "gradient_inf": 1.0834645153764977e-06,
+              "iterations": 17,
+              "evaluations": 20,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.23539043295602702,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-new_classes-presence": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          -0.010680321519569633,
+          0.0519218877051899,
+          0.09858137445426325,
+          -0.0746713746494595,
+          -0.003528557580665788,
+          0.04785714087123944,
+          0.007461816419500473
+        ],
+        "intercept": 0.0014260324616749396,
+        "configuration": {
+          "id": "native_logit-new_classes-presence-1",
+          "family": "native_logit-new_classes-presence",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6797206880851471,
+          "gradient_inf": 1.6712323476497648e-07,
+          "iterations": 10,
+          "evaluations": 11,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6797206880851471,
+              "gradient_inf": 1.6712323476497648e-07,
+              "iterations": 10,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.2888249073860071,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-cocodet-en": {
+      "model": {
+        "signals": [
+          "cocodet-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-cocodet-en",
+          "family": "native_logit-single-cocodet-en",
+          "signals": [
+            "cocodet-en"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 13.458659868509333,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-cocodet-en::ai": {
+      "model": {
+        "signals": [
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-cocodet-en::ai",
+          "family": "native_logit-single-cocodet-en::ai",
+          "signals": [
+            "cocodet-en::ai"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": -12.307947793725544,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-cocodet-en::mix": {
+      "model": {
+        "signals": [
+          "cocodet-en::mix"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-cocodet-en::mix",
+          "family": "native_logit-single-cocodet-en::mix",
+          "signals": [
+            "cocodet-en::mix"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 13.11916978226255,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-followsci-bert-en": {
+      "model": {
+        "signals": [
+          "followsci-bert-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-followsci-bert-en",
+          "family": "native_logit-single-followsci-bert-en",
+          "signals": [
+            "followsci-bert-en"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": -12.3451083046061,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-llm-detectaive-en": {
+      "model": {
+        "signals": [
+          "llm-detectaive-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-llm-detectaive-en",
+          "family": "native_logit-single-llm-detectaive-en",
+          "signals": [
+            "llm-detectaive-en"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 11.939750470231116,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-llm-detectaive-en::human_machine_polished": {
+      "model": {
+        "signals": [
+          "llm-detectaive-en::human_machine_polished"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-llm-detectaive-en::human_machine_polished",
+          "family": "native_logit-single-llm-detectaive-en::human_machine_polished",
+          "signals": [
+            "llm-detectaive-en::human_machine_polished"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 8.927602122206023,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-llm-detectaive-en::machine": {
+      "model": {
+        "signals": [
+          "llm-detectaive-en::machine"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-llm-detectaive-en::machine",
+          "family": "native_logit-single-llm-detectaive-en::machine",
+          "signals": [
+            "llm-detectaive-en::machine"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 4.810841263422946,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-llm-detectaive-en::machine_machine_humanized": {
+      "model": {
+        "signals": [
+          "llm-detectaive-en::machine_machine_humanized"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-llm-detectaive-en::machine_machine_humanized",
+          "family": "native_logit-single-llm-detectaive-en::machine_machine_humanized",
+          "signals": [
+            "llm-detectaive-en::machine_machine_humanized"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": -1.4047240577311924,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-single-roberta-academic-en": {
+      "model": {
+        "signals": [
+          "roberta-academic-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 70.0,
+        "center": [
+          0.0
+        ],
+        "scale": [
+          1.0
+        ],
+        "coefficients": [
+          1.0
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-single-roberta-academic-en",
+          "family": "native_logit-single-roberta-academic-en",
+          "signals": [
+            "roberta-academic-en"
+          ],
+          "method": "single",
+          "regularization": 0.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "optimization": {
+          "stationary_1e_5": true,
+          "gradient_inf": 0.0
+        }
+      },
+      "threshold": 5.358610772090701,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-v2_plus_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          -0.010853666813516308,
+          -0.05086325399929259,
+          -0.04230529766720636,
+          0.034868664200495426,
+          -0.026337408250698444,
+          -0.01966659954279876,
+          0.12472114137470312,
+          0.05880158124297788,
+          -0.034219665640482594,
+          0.0029458807257779574,
+          0.05927967708394798,
+          0.004254757603618388
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-v2_plus_classes-hard_human_bag_ranking-1",
+          "family": "native_logit-v2_plus_classes-hard_human_bag_ranking",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 1.0028996433481132,
+          "gradient_inf": 1.4877257225043294e-06,
+          "iterations": 21,
+          "evaluations": 23,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0028996433481132,
+              "gradient_inf": 1.4877257225043294e-06,
+              "iterations": 21,
+              "evaluations": 23,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0368577962645238,
+              "final_loss": 1.0028996433484318,
+              "gradient_inf": 1.40916599526697e-06,
+              "iterations": 20,
+              "evaluations": 22,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.23571269570709816,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-v2_plus_classes-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          6.378765340034716,
+          -7.671147704482947,
+          -8.36007381290419,
+          -15.288207162400761,
+          -26.20315885258185
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.6668718836353476,
+          1.8352426973118185,
+          1.7499263235182827,
+          6.457715804893181,
+          3.256376414662645
+        ],
+        "coefficients": [
+          -0.028665792497013617,
+          -0.08712977238001736,
+          -0.02715435630685816,
+          0.023308326599127814,
+          -0.0607772461867546,
+          -0.01078790853458746,
+          0.050810425831196215,
+          0.09673970363259576,
+          -0.06679086020132449,
+          0.002414518218879793,
+          0.04820803032115829,
+          0.007381300121209206
+        ],
+        "intercept": 0.00035128187380234054,
+        "configuration": {
+          "id": "native_logit-v2_plus_classes-presence-1",
+          "family": "native_logit-v2_plus_classes-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6706683856122103,
+          "gradient_inf": 2.930413148631572e-07,
+          "iterations": 10,
+          "evaluations": 10,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6706683856122103,
+              "gradient_inf": 2.930413148631572e-07,
+              "iterations": 10,
+              "evaluations": 10,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.35077535763192585,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-v2_plus_new-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          8.699905995854444,
+          -15.278633208157164
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.9327918557639427,
+          6.4935488912258945
+        ],
+        "coefficients": [
+          -0.018067834654598304,
+          -0.06897433937371099,
+          -0.11485700328812974,
+          0.033356792551423396,
+          -0.028060989823966914,
+          0.00271808144436989,
+          0.2058242571000356,
+          0.11760765848054504,
+          0.051213671658986444
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "native_logit-v2_plus_new-hard_human_bag_ranking-0.01",
+          "family": "native_logit-v2_plus_new-hard_human_bag_ranking",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 0.01,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 0.9866592343373786,
+          "gradient_inf": 3.826163649312594e-07,
+          "iterations": 21,
+          "evaluations": 24,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 0.9866592343373786,
+              "gradient_inf": 3.826163649312594e-07,
+              "iterations": 21,
+              "evaluations": 24,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.8576273186547567,
+              "final_loss": 0.986659234337502,
+              "gradient_inf": 6.126541661510311e-07,
+              "iterations": 28,
+              "evaluations": 30,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.3381222701319224,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-v2_plus_new-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082,
+          -12.97487530497407,
+          -7.827916331011058,
+          8.699905995854444,
+          -15.278633208157164
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017,
+          0.5,
+          2.0855857288427604,
+          2.9327918557639427,
+          6.4935488912258945
+        ],
+        "coefficients": [
+          0.03808535220644891,
+          -0.32617201704815274,
+          -0.14618466524590024,
+          0.12345432571394037,
+          -0.236512811329743,
+          -0.08302241685225077,
+          0.2014496194728886,
+          0.39845160055806766,
+          0.10884958829176546
+        ],
+        "intercept": -0.004318292773884474,
+        "configuration": {
+          "id": "native_logit-v2_plus_new-presence-0.1",
+          "family": "native_logit-v2_plus_new-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "presence",
+          "regularization": 0.1,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6265173880689644,
+          "gradient_inf": 2.6349215979243334e-07,
+          "iterations": 12,
+          "evaluations": 12,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6265173880689644,
+              "gradient_inf": 2.6349215979243334e-07,
+              "iterations": 12,
+              "evaluations": 12,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 1.1878369253880654,
+      "cv_zero_false_feasible": false
+    },
+    "native_logit-v2_refit-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "transform": "native_logit",
+        "clip_standardized": 5.0,
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.760106260512831,
+          -2.7791282656082
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805085,
+          7.5982244858088,
+          1.1883719980524017
+        ],
+        "coefficients": [
+          -0.036165301424420926,
+          -0.0912660576680507,
+          -0.02565786836558816,
+          0.02525062460997818,
+          -0.06294340799374426
+        ],
+        "intercept": -0.0008560946929995584,
+        "configuration": {
+          "id": "native_logit-v2_refit-presence-1",
+          "family": "native_logit-v2_refit-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "native_logit"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6829025188660411,
+          "gradient_inf": 1.6013075337939497e-08,
+          "iterations": 10,
+          "evaluations": 11,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6829025188660411,
+              "gradient_inf": 1.6013075337939497e-08,
+              "iterations": 10,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.3145355037232895,
+      "cv_zero_false_feasible": true
+    },
+    "raw_probability-all_plus_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "hc3-en",
+          "desklib-en",
+          "fakespot-en",
+          "bibbbu-xlm-roberta",
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.010629125236661813,
+          0.13399616752239882,
+          0.31749293364310816,
+          0.945270894772195,
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          0.03941507372455704,
+          0.23239707370633267,
+          0.3567099317006183,
+          0.21947672869055582,
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          0.022201261957151833,
+          0.051860856748745125,
+          -0.017624873896893597,
+          0.007567682967139758,
+          0.0009135652285780082,
+          -0.03050656991771787,
+          -0.07093096351206561,
+          0.02944350908725443,
+          -0.05904998340510827,
+          -0.04902663547265217,
+          0.0885812853170972,
+          0.034668290858441635,
+          -0.038919973720719016,
+          -0.024550278518492234,
+          0.041670008214917155,
+          0.04040478494953762
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "raw_probability-all_plus_classes-hard_human_bag_ranking-1",
+          "family": "raw_probability-all_plus_classes-hard_human_bag_ranking",
+          "signals": [
+            "hc3-en",
+            "desklib-en",
+            "fakespot-en",
+            "bibbbu-xlm-roberta",
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0244498327775546,
+          "final_loss": 1.0135351731138982,
+          "gradient_inf": 7.792847124959978e-07,
+          "iterations": 18,
+          "evaluations": 19,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0135351731139068,
+              "gradient_inf": 2.2179895375479264e-06,
+              "iterations": 18,
+              "evaluations": 21,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0244498327775546,
+              "final_loss": 1.0135351731138982,
+              "gradient_inf": 7.792847124959978e-07,
+              "iterations": 18,
+              "evaluations": 19,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.20288383435683416,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-all_plus_classes-presence": {
+      "model": {
+        "signals": [
+          "hc3-en",
+          "desklib-en",
+          "fakespot-en",
+          "bibbbu-xlm-roberta",
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.010629125236661813,
+          0.13399616752239882,
+          0.31749293364310816,
+          0.945270894772195,
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          0.03941507372455704,
+          0.23239707370633267,
+          0.3567099317006183,
+          0.21947672869055582,
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          0.012050675705160671,
+          0.054802059032292974,
+          -0.02716962766944859,
+          0.01946888694474432,
+          -0.02319891471163563,
+          -0.04818247827881859,
+          -0.027015673777523567,
+          0.02769228298386779,
+          -0.05804166201439821,
+          -0.052579237339417585,
+          0.024761850484961438,
+          0.07225936103606174,
+          -0.024099718722344315,
+          -0.011512718015437746,
+          0.010236783410954114,
+          0.01380592348054544
+        ],
+        "intercept": -0.0034167622346289554,
+        "configuration": {
+          "id": "raw_probability-all_plus_classes-presence-1",
+          "family": "raw_probability-all_plus_classes-presence",
+          "signals": [
+            "hc3-en",
+            "desklib-en",
+            "fakespot-en",
+            "bibbbu-xlm-roberta",
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6799658130277169,
+          "gradient_inf": 1.1444034176549822e-07,
+          "iterations": 10,
+          "evaluations": 11,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6799658130277169,
+              "gradient_inf": 1.1444034176549822e-07,
+              "iterations": 10,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.2213860199669933,
+      "cv_zero_false_feasible": true
+    },
+    "raw_probability-new_aggregate-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9655963279028944,
+          0.04832593438723748
+        ],
+        "scale": [
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.17182159108467582,
+          0.21208770774742422
+        ],
+        "coefficients": [
+          -0.04455958337172578,
+          0.040591205087586076,
+          0.032154208031442984,
+          0.011562468712235716
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "raw_probability-new_aggregate-hard_human_bag_ranking-1",
+          "family": "raw_probability-new_aggregate-hard_human_bag_ranking",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0413483964100934,
+          "final_loss": 1.0402439186504837,
+          "gradient_inf": 3.5200944265706413e-07,
+          "iterations": 8,
+          "evaluations": 10,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0402439186508021,
+              "gradient_inf": 1.5659264049894261e-06,
+              "iterations": 10,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0413483964100934,
+              "final_loss": 1.0402439186504837,
+              "gradient_inf": 3.5200944265706413e-07,
+              "iterations": 8,
+              "evaluations": 10,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.19200567964359233,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-new_aggregate-presence": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9655963279028944,
+          0.04832593438723748
+        ],
+        "scale": [
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.17182159108467582,
+          0.21208770774742422
+        ],
+        "coefficients": [
+          -0.050424940054472005,
+          0.02849724277133003,
+          0.057069228712778655,
+          0.00973225443615438
+        ],
+        "intercept": -0.0004229505111616102,
+        "configuration": {
+          "id": "raw_probability-new_aggregate-presence-1",
+          "family": "raw_probability-new_aggregate-presence",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6891060723936318,
+          "gradient_inf": 2.1256220689852556e-07,
+          "iterations": 9,
+          "evaluations": 9,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6891060723936318,
+              "gradient_inf": 2.1256220689852556e-07,
+              "iterations": 9,
+              "evaluations": 9,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.1380203301262428,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-new_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          -0.04579555345907768,
+          0.04807026447211326,
+          0.03979916395703468,
+          -0.041637714226454896,
+          -0.00843271885320456,
+          0.015689454327342457,
+          0.04921824766091213
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "raw_probability-new_classes-hard_human_bag_ranking-1",
+          "family": "raw_probability-new_classes-hard_human_bag_ranking",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 1.0356648514413866,
+          "gradient_inf": 8.857352951571751e-07,
+          "iterations": 12,
+          "evaluations": 13,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0356648514413866,
+              "gradient_inf": 8.857352951571751e-07,
+              "iterations": 12,
+              "evaluations": 13,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.038334422250959,
+              "final_loss": 1.0356648514420623,
+              "gradient_inf": 1.155177033376753e-06,
+              "iterations": 12,
+              "evaluations": 14,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.179161944735649,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-new_classes-presence": {
+      "model": {
+        "signals": [
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          -0.05083640896950859,
+          0.027902368704332495,
+          0.07186383120111452,
+          -0.025069378512075458,
+          -0.011677041130819441,
+          0.011521328467663981,
+          0.015349170641853342
+        ],
+        "intercept": -0.0009007701600664558,
+        "configuration": {
+          "id": "raw_probability-new_classes-presence-1",
+          "family": "raw_probability-new_classes-presence",
+          "signals": [
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6872904337364838,
+          "gradient_inf": 2.1355101512479657e-07,
+          "iterations": 9,
+          "evaluations": 9,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6872904337364838,
+              "gradient_inf": 2.1355101512479657e-07,
+              "iterations": 9,
+              "evaluations": 9,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.15470329883974804,
+      "cv_zero_false_feasible": true
+    },
+    "raw_probability-v2_plus_classes-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          0.04416604507214554,
+          -0.22557833944533,
+          -0.45267102852819935,
+          0.0462960520594386,
+          -0.06004538606692195,
+          -0.114689978177893,
+          0.6790759786082031,
+          0.4185435607986753,
+          -0.9408659341229934,
+          0.019904042369749998,
+          0.2094863034198158,
+          0.19172123319183781
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "raw_probability-v2_plus_classes-hard_human_bag_ranking-0.01",
+          "family": "raw_probability-v2_plus_classes-hard_human_bag_ranking",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 0.01,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 0.953683427885303,
+          "gradient_inf": 1.4006341013882932e-07,
+          "iterations": 55,
+          "evaluations": 63,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 0.953683427885303,
+              "gradient_inf": 1.4006341013882932e-07,
+              "iterations": 55,
+              "evaluations": 63,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.2524602116690031,
+              "final_loss": 0.9536834278853236,
+              "gradient_inf": 2.4504495578503427e-07,
+              "iterations": 56,
+              "evaluations": 65,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.36929048621969096,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-v2_plus_classes-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en::human_machine_polished",
+          "llm-detectaive-en::machine",
+          "llm-detectaive-en::machine_machine_humanized",
+          "cocodet-en::mix",
+          "cocodet-en::ai"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9549585833684647,
+          0.00757914859316062,
+          0.0030585959412692447,
+          0.04825490716403299,
+          7.102722320449641e-05
+        ],
+        "scale": [
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.18297129721588917,
+          0.06354171440111545,
+          0.018577311594563745,
+          0.212092487333554,
+          0.0008489515451667282
+        ],
+        "coefficients": [
+          -0.04908320437391348,
+          -0.1964775815906641,
+          -0.16234033574523538,
+          0.14205305959305653,
+          -0.22992684879129124,
+          -0.24685868614630752,
+          0.15555987297742027,
+          0.2855395138297573,
+          -0.14699691223780342,
+          -0.11007200763271081,
+          0.0780643532678837,
+          0.06796307915765627
+        ],
+        "intercept": -0.031213543952487755,
+        "configuration": {
+          "id": "raw_probability-v2_plus_classes-presence-0.1",
+          "family": "raw_probability-v2_plus_classes-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en::human_machine_polished",
+            "llm-detectaive-en::machine",
+            "llm-detectaive-en::machine_machine_humanized",
+            "cocodet-en::mix",
+            "cocodet-en::ai"
+          ],
+          "method": "presence",
+          "regularization": 0.1,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6485532703871943,
+          "gradient_inf": 2.4984623420154506e-07,
+          "iterations": 12,
+          "evaluations": 12,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6485532703871943,
+              "gradient_inf": 2.4984623420154506e-07,
+              "iterations": 12,
+              "evaluations": 12,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.7147442991281233,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-v2_plus_new-hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9655963279028944,
+          0.04832593438723748
+        ],
+        "scale": [
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.17182159108467582,
+          0.21208770774742422
+        ],
+        "coefficients": [
+          -0.001703210888196972,
+          -0.02002021417663196,
+          -0.06187510431561813,
+          0.026662977090541762,
+          -0.03955971513535789,
+          -0.053625654759278094,
+          0.10000484787802348,
+          0.029723330836490074,
+          0.018410439641071794
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "raw_probability-v2_plus_new-hard_human_bag_ranking-1",
+          "family": "raw_probability-v2_plus_new-hard_human_bag_ranking",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.036205070470549,
+          "final_loss": 1.0270722388090037,
+          "gradient_inf": 3.0286530790929467e-07,
+          "iterations": 12,
+          "evaluations": 14,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.0270722388092686,
+              "gradient_inf": 9.776908056757794e-07,
+              "iterations": 13,
+              "evaluations": 14,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.036205070470549,
+              "final_loss": 1.0270722388090037,
+              "gradient_inf": 3.0286530790929467e-07,
+              "iterations": 12,
+              "evaluations": 14,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.18707397536332426,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-v2_plus_new-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en",
+          "followsci-bert-en",
+          "roberta-academic-en",
+          "llm-detectaive-en",
+          "cocodet-en"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266,
+          2.3251439852925315e-06,
+          0.016296149445513625,
+          0.9655963279028944,
+          0.04832593438723748
+        ],
+        "scale": [
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948,
+          1.9721372213327053e-07,
+          0.12461792708287242,
+          0.17182159108467582,
+          0.21208770774742422
+        ],
+        "coefficients": [
+          -0.02455816989366612,
+          -0.048556508440797244,
+          -0.026747356896100385,
+          0.028770161756261882,
+          -0.057596972541022605,
+          -0.05208469784762668,
+          0.028156051739112935,
+          0.05815953449177755,
+          0.010354090717017862
+        ],
+        "intercept": -0.0031781368089238956,
+        "configuration": {
+          "id": "raw_probability-v2_plus_new-presence-1",
+          "family": "raw_probability-v2_plus_new-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en",
+            "followsci-bert-en",
+            "roberta-academic-en",
+            "llm-detectaive-en",
+            "cocodet-en"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6842093643287979,
+          "gradient_inf": 3.852480289882887e-07,
+          "iterations": 9,
+          "evaluations": 10,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6842093643287979,
+              "gradient_inf": 3.852480289882887e-07,
+              "iterations": 9,
+              "evaluations": 10,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.18755872990256617,
+      "cv_zero_false_feasible": false
+    },
+    "raw_probability-v2_refit-presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "transform": "raw_probability",
+        "clip_standardized": 5.0,
+        "center": [
+          0.04896024602442813,
+          0.025822141471029514,
+          0.00035293323839352794,
+          0.40447230686664704,
+          0.09428509270411266
+        ],
+        "scale": [
+          0.18313057839377767,
+          0.08346010932151796,
+          0.0010389419706155728,
+          0.4818745955819503,
+          0.12183093951637948
+        ],
+        "coefficients": [
+          -0.0242243849246627,
+          -0.04899099659825705,
+          -0.025876286074288296,
+          0.029896573036152053,
+          -0.05490258122594822
+        ],
+        "intercept": -0.002700626186052652,
+        "configuration": {
+          "id": "raw_probability-v2_refit-presence-1",
+          "family": "raw_probability-v2_refit-presence",
+          "signals": [
+            "openai-base-en",
+            "openai-large-en",
+            "piratexx-en",
+            "mage-en",
+            "radar-vicuna-en"
+          ],
+          "method": "presence",
+          "regularization": 1.0,
+          "transform": "raw_probability"
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6884217503583846,
+          "gradient_inf": 1.4972769898230487e-07,
+          "iterations": 9,
+          "evaluations": 10,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6884217503583846,
+              "gradient_inf": 1.4972769898230487e-07,
+              "iterations": 9,
+              "evaluations": 10,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.11022713210648029,
+      "cv_zero_false_feasible": true
+    }
+  },
+  "overall_family": "raw_probability-all_plus_classes-presence",
+  "contains_source_text": false
+}

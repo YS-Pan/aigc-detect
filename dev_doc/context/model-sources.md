@@ -2,6 +2,8 @@
 
 初次核对日期：2026-09-28。原有范围来自用户指定的前序 Codex 聊天 `01a0e75d-24c0-7a91-891e-ca25cac24938`。2026-09-29 用户进一步确认新增六个分类器，排除 LLM-Detector-Small-zh 和 EnsemJudge 完整大模型集成。
 
+2026-10-02的英文四模型来源见[英文扩展记录](english-expansion-validation.md)；2026-10-03补充的五个英文分类器和GPT-Neo/Falcon统计资源见[本轮来源与验证](english-additional-validation.md)。下面的“未纳入”保留2026-09中文范围的历史语境。
+
 ## 纳入
 
 | ID | 官方证据 | 标签依据 |
@@ -54,3 +56,5 @@ MPU 的 [官方推理代码](https://huggingface.co/spaces/yuchuantian/AIGC_text
 这些排除说明只定义本轮安装范围；不表示相关方法在其他任务中无用。
 
 2026-09-29 补充：用户明确排除 `QiYuan-tech/LLM-Detector-Small-zh`；确认本次只安装六个分类器，因此不安装 EnsemJudge 的 Qwen/GLM LoRA、混合特征模块或完整投票系统。
+
+2026-10-04新增FollowSci学术段落BERT、NTNU学术摘要RoBERTa、LLM-DetectAIve四分类与CoCoDet评审Human/Mix/AI三分类。精确来源、许可、类别语义及未下载候选见[专业英文接入记录](english-specialized-validation.md)；当前共22分类器/3统计LM资源。新四模型显式选择，不替换默认profile。

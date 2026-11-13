@@ -1,0 +1,585 @@
+{
+  "schema_version": "aigc-score-fusion/2.0",
+  "id": "thesis-cnki-20260929-v2",
+  "models": [
+    "mpu-zh-v3",
+    "mpu-zh-v3-short",
+    "mpu-zh-v2",
+    "hc3-zh",
+    "ensemjudge-bert",
+    "ensemjudge-roberta",
+    "anx-bert-zh",
+    "paperpass-v3",
+    "cmj-zh",
+    "bibbbu-xlm-roberta"
+  ],
+  "revisions": {
+    "mpu-zh-v3": "47695ff451b32c225dd938f4f478f7fdc6aa6bb0",
+    "mpu-zh-v3-short": "7bf6e1d6496353a88365f1dcdb3a6ace35f46b39",
+    "mpu-zh-v2": "547d42d7ed6423edce77296b4b06d375ae1a7e0f",
+    "hc3-zh": "2f0f5f2af59af169a3f236c14ffad0fa7d6f072b",
+    "ensemjudge-bert": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+    "ensemjudge-roberta": "1fa2938e03ea9d996360ed5b3050008a0e76aa8f",
+    "anx-bert-zh": "346d23cbb1418790dc3d389faf54de665736516c",
+    "paperpass-v3": "f042809a41e96208c25e69dbedf7a5c312a590c2",
+    "cmj-zh": "ade5833a8eae59444f6a3bb85b72417ca02da07f",
+    "bibbbu-xlm-roberta": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8"
+  },
+  "center": [
+    2.5709289041409433,
+    2.3399938455595612,
+    -6.876649255451037,
+    -8.849939654007361,
+    -7.507298103802164,
+    -8.411275242935876,
+    -0.9202024363224239,
+    -2.604505430131583,
+    -0.750713262987405,
+    7.555686031070284
+  ],
+  "scale": [
+    2.70468480905046,
+    3.3568471099858948,
+    1.410829479889655,
+    1.6188558775282382,
+    2.439281645741499,
+    2.5384753679592595,
+    2.80411165160946,
+    4.770445378459918,
+    2.52465959929968,
+    0.5
+  ],
+  "feature_terms": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      9
+    ]
+  ],
+  "heads": {
+    "strong": {
+      "intercept": -10.454061230615599,
+      "coefficients": [
+        -0.31654072695106694,
+        1.3067216744159191,
+        -1.2631876806069275,
+        -0.8720259851345568,
+        0.8413145254426506,
+        -0.9571572667847632,
+        1.1066659301528352,
+        -0.14426292296942764,
+        0.850917636243519,
+        1.8238204680662287,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review": {
+      "intercept": -25.696853458186727,
+      "coefficients": [
+        7.258452798408966,
+        0.16293519928594827,
+        -4.861274339529627,
+        -35.40806178113354,
+        -14.164114210572471,
+        12.222568344321804,
+        -0.619521300326436,
+        0.9248112884657638,
+        12.252383695645237,
+        -4.34964757584362,
+        3.3109181196386865,
+        -0.6234536287052109,
+        -5.038294544121102,
+        -8.90141233633223,
+        -7.163806831043852,
+        -6.0574300580049,
+        -0.017548653732704284,
+        -0.11828063153003138,
+        2.3631419273245142,
+        -2.3277644616771083,
+        0.6828029443145424,
+        -1.4687112051109414,
+        16.311252136430724,
+        6.273246427933351,
+        -15.288026943367724,
+        -1.2613380565688173,
+        0.9273084516866557,
+        -7.922941291747013,
+        -1.3419607136658838,
+        0.527082183312101,
+        -1.3310337411967474,
+        -1.5226227253619873,
+        5.639399122307135,
+        1.5226573539802664,
+        -0.09163739735551205,
+        -0.19482826860186,
+        2.9652848415296313,
+        2.2229376682418915,
+        -2.3651750633758293,
+        7.00289029967796,
+        -1.324084259996356,
+        1.6144397468735558,
+        0.12746728688696507,
+        -6.563728657036013,
+        -7.09404670978254,
+        5.277062866192031,
+        4.664911233396983,
+        -3.2073576236200676,
+        5.792169649847964,
+        -2.550735689081573,
+        -13.045489078196422,
+        -11.8661793707693,
+        7.22897686939354,
+        10.365391873890793,
+        15.502281287438066,
+        -4.172632464412605,
+        0.6008676367458559,
+        2.582347159485406,
+        -1.5677180479344397,
+        -0.551086739570844,
+        -1.0265646396408707,
+        0.42020003382418,
+        -0.5430664881136372,
+        -2.2864449512120437,
+        0.764289465521925
+      ]
+    }
+  },
+  "clip_probability": 1e-05,
+  "clip_standardized": 5.0,
+  "segment_chars": 400,
+  "min_segment_chars": 120,
+  "high_threshold": 0.1259614767965923,
+  "possible_threshold": 0.25290634708449156,
+  "decision_rule": "strong if strong_score >= high_threshold; otherwise possible if review_score >= possible_threshold; otherwise other",
+  "fit": {
+    "algorithm": "Two L2-regularized logistic heads on standardized clipped score logits and optional quadratic terms; exact-Hessian damped Newton optimization",
+    "features": "only the ten raw model scores; no text, author, document identity, or metadata at runtime",
+    "strong_target": "CNKI significant span fraction per passage",
+    "review_target": "Union of CNKI significant and possible span fractions per passage",
+    "character_weighted": true,
+    "standardizer_human_control_weight_multiplier": 4.0,
+    "strong_settings": {
+      "family": "linear",
+      "regularization": 0.1,
+      "human_weight": 4.0
+    },
+    "review_settings": {
+      "family": "quadratic",
+      "regularization": 0.0001,
+      "human_weight": 1,
+      "nonlinear_penalty": 10
+    },
+    "intercept_regularization": 1e-06,
+    "stability_selection": {
+      "minimum_selected_regularization": 0.0001,
+      "basis": "Comparing fixed-seed Gaussian clipped-logit perturbations showed the higher-coverage 1e-5 fit had larger control flag rates and output drift than 1e-4. The floor was set after examining these reference diagnostics, not before an independent test."
+    },
+    "weight_normalization": "Each head's character weights, including the control multiplier, are divided by their arithmetic mean.",
+    "nonlinear_penalty": "Degree-two coefficients receive review_settings.nonlinear_penalty times the linear L2 penalty.",
+    "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d",
+    "reference_documents": {
+      "thesis": {
+        "input_characters": 61655,
+        "input_sha256": "fd169d5fff48a1aaf50297d750a8a44eafffed13feb148b78223dbd424495775",
+        "raw_report_sha256": "90adc0a41c325bc0dba27bf02b75210113683a64bd971468ea654fa57e9dc43b",
+        "paragraph_map_sha256": "ad157da537e22eb0044fa897881699a747cc2b4ca6cbce9dc7d1c0e37ccb2501",
+        "source_git_commit": "80a294753415838e33dc3340a9c490e7bfdfd697",
+        "current_pdf_sha256": "ecd87f63994d94fd11c2602bf5085a3b08f848e73764e1bac184eed17876b149",
+        "source_file_hashes": {
+          "thesis/frontmatter/abstract-zh.tex": "bd17c17509335df8e11032e7d7ccccbe1844f783a677078eaa3b3b26ddbdb1fd",
+          "thesis/chapters/01-introduction.tex": "fca3ddb15fd10850b6a200058c9690dcfd8cacf0755eb252f14df0b8fbe99126",
+          "thesis/chapters/02-sspp.tex": "4d9effcd4a6295b7d3f134d3b86c9f3468a60a6f0ec86e7fb66e8fcf7736402d",
+          "thesis/chapters/03-gcpw.tex": "0265e14422ec20ce230bc906d836d2b950047c70e4e5f0d65a4eb2b9e5932847",
+          "thesis/chapters/04-cilwa.tex": "9963c101e0d20c46bdc554a30211eb44998b54cb49216d4f7aa57b2b56d0d57a",
+          "thesis/chapters/05-helix.tex": "8bd3a70ee24de47547b8052a5a9df6705ff142d829039dbebac00029f1a45e7c",
+          "thesis/chapters/06-conclusion.tex": "dc162c29be8f9fb498d9c669d5d713c777d09da6e0ba64208849c273724bcefa",
+          "thesis/main.tex": "7cbed1d941b00fa6c9620c9dc675ff5d603d2f94153dedf8d73bb23cca33bca1",
+          "thesis/build/main.aux": "5ba6d486dec0996bacba146c04f9fb9607c896d067e7b9e81ab9c44a46693b35"
+        },
+        "label_source": "CNKI significant and possible-only excerpts aligned to current continuous prose; unmarked is comparator-unmarked.",
+        "scope": "Chinese abstract and all continuous prose in chapters 1-6; headings, keywords, display math, figures/captions/notes, tables, English abstract, notation, covers, bibliography and publication list excluded."
+      },
+      "wang-zhan": {
+        "input_characters": 84183,
+        "input_sha256": "2b8b969d12a386ec2c8eb6cfbffdc487726a87eae556aec9df3868ecbab78a03",
+        "raw_report_sha256": "307758be99d5c0a025762f981110e9e7f3bad9c665b020681b2a7d41f3cc3b05",
+        "paragraph_map_sha256": "f945118680fbd44c8cae327ab778e00f628daef36c7be11da004c8381fdc2ea5",
+        "source_file_hashes": {
+          "references\\peer-theses\\wang-zhan\\frontmatter\\02-abstract-zh.tex": "a8b73e89022a9432ae4d3123aa20e5e04c38941891c803d3c23586c1fc52b293",
+          "references\\peer-theses\\wang-zhan\\chapters\\01.tex": "b5dc13af5a45106f1c82ca07e0460b5325a7a741bbe88e99a697e4785d5d498a",
+          "references\\peer-theses\\wang-zhan\\chapters\\02.tex": "be83831fecb11bff966ccf4f5f2670d2386ba47dbac766118d7d70a77db83c46",
+          "references\\peer-theses\\wang-zhan\\chapters\\03.tex": "804889d21a56843093ef7491631fd5f0ec33fe70b612f2d0f98bd97d96d6a632",
+          "references\\peer-theses\\wang-zhan\\chapters\\04.tex": "1dceccfc4f03f4d59ab9b76769904033f7fed4267ff71ceb128d756aae3e9caf",
+          "references\\peer-theses\\wang-zhan\\chapters\\05.tex": "53831239fdbde4f3badb3e414525c0fe84f0e5c245ce3fe3db00a617c015cf89",
+          "references\\peer-theses\\wang-zhan\\chapters\\06.tex": "66be928bc7c7d3a801aae6aea8535cefd45ae8228f0edda2d956145f238451cb"
+        },
+        "label_source": "User explicitly identifies this thesis as written without AIGC",
+        "scope": "Chinese abstract and continuous prose in all chapters; excludes headings, captions, display math, bibliography and front/back matter"
+      },
+      "zhu-yilong": {
+        "input_characters": 76203,
+        "input_sha256": "9756d486b7318465e7cedc8ce37d2b916e7b3ce63f539c2352d6862e017e4df6",
+        "raw_report_sha256": "31718556bac0d54facf51d0fbcc654dcdc0ce6a80dc98ca81146a1bcdf77f1a8",
+        "paragraph_map_sha256": "b03b50b4ec69b479d15c4f78617846cd7aaf7bec328159010c8cdf64fb9699de",
+        "source_file_hashes": {
+          "references\\peer-theses\\zhu-yilong\\frontmatter\\02-abstract-zh.tex": "c83fcfd61c91f8902eb4689fdea4871489db1b770144e00233827c1e6eec7e3f",
+          "references\\peer-theses\\zhu-yilong\\chapters\\01.tex": "1539e9b85f2f2f690f20004c1b310ad3cdab1ea22ffc65cd694d6992f6e1814b",
+          "references\\peer-theses\\zhu-yilong\\chapters\\02.tex": "e26044e5ad28183c46788a0a4bc272b826cb0ff61d636ec57c6cbd8e8c0e4138",
+          "references\\peer-theses\\zhu-yilong\\chapters\\03.tex": "83cabd16fb926c35c13ac840cb54614528b2c0cacb381d249b07e0e3d154f4b1",
+          "references\\peer-theses\\zhu-yilong\\chapters\\04.tex": "9567dab776586a02338d3df497deac4d0f6d61abfbced395cb7e8b57c672ea92",
+          "references\\peer-theses\\zhu-yilong\\chapters\\05.tex": "95fa7adf4c892c142bedef97873f45bdf47546abd3c4bfe98c46c67883b9868c",
+          "references\\peer-theses\\zhu-yilong\\chapters\\06.tex": "a216f57afbdfee8e069f2a0152ec89547084f4521de32194a66b14db017cd548",
+          "references\\peer-theses\\zhu-yilong\\chapters\\07.tex": "d6c98dd0b38cfbb123afeeeae2ce7f9b5ae12db55dd1507fbddaf255eb6bbd70"
+        },
+        "label_source": "User explicitly identifies this thesis as written without AIGC",
+        "scope": "Chinese abstract and continuous prose in all chapters; excludes headings, captions, display math, bibliography and front/back matter"
+      }
+    },
+    "fit_script_sha256": "84be31e716685b84640b7e0b19ee78cb8c1fcd51e99960fd6b67963add74fe5a",
+    "threshold_selection": {
+      "strong": {
+        "tier": "strong",
+        "baseline_percent": 1.8992782418295353,
+        "requested_extra_percentage_points": 0.4,
+        "target_percent": 2.299278241829535,
+        "achieved_percent": 2.4393804233233314,
+        "absolute_target_error_pp": 0.14010218149379616,
+        "human_control_limit_percent": 0,
+        "human_control_percentages": {
+          "wang-zhan": 0.0,
+          "zhu-yilong": 0.0
+        },
+        "selection": "Closest exclusive-tier character rate at or above the same-scope comparator baseline, with zero control flags; midpoint between adjacent training scores.",
+        "is_reference_fit_evidence": true,
+        "is_independent_validation": false
+      },
+      "possible_only": {
+        "tier": "possible",
+        "baseline_percent": 6.314167545211256,
+        "requested_extra_percentage_points": 0.4,
+        "target_percent": 6.714167545211256,
+        "achieved_percent": 6.747222447490066,
+        "absolute_target_error_pp": 0.033054902278809806,
+        "human_control_limit_percent": 0,
+        "human_control_percentages": {
+          "wang-zhan": 0.0,
+          "zhu-yilong": 0.0
+        },
+        "selection": "Closest exclusive-tier character rate at or above the same-scope comparator baseline, with zero control flags; midpoint between adjacent training scores.",
+        "is_reference_fit_evidence": true,
+        "is_independent_validation": false
+      }
+    },
+    "hyperparameter_selection": "Deterministic fixed grid. Require zero reference-control flags and rates at or above same-scope CNKI. Exclude regularization below the declared stability-selection floor, which was set after examining reference perturbations. Maximize reference possible-span coverage; tie-break by reference marked-span precision, smaller coefficient norm, failed grouped fits, held-out human flags, grouped possible recall, rate target error, fewer terms, stronger regularization. All selection evidence uses these references, not independent test documents.",
+    "probability_calibrated": false,
+    "independent_generalization_established": false
+  },
+  "scope": "Chinese thesis continuous prose, all ten pinned model revisions, 400/120 character segmentation; project reference adaptation.",
+  "limitations": [
+    "Three reference documents, only one with commercial comparator span labels.",
+    "Fitted rates and blocked-refit diagnostics do not establish independent accuracy or generalization.",
+    "Matching a document-wide flag rate does not imply matching marked locations.",
+    "The two screening heads are not calibrated probabilities and their thresholds are not interchangeable.",
+    "CNKI marks are a comparator, not authorship ground truth.",
+    "Preprocessing, model revision, subject, and document changes require new validation."
+  ]
+}

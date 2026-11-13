@@ -1,0 +1,790 @@
+{
+  "seed": 20260929,
+  "replicates": 100,
+  "noise": "Independent Gaussian additions to each clipped raw model logit, followed by the same score-only runtime transform; frozen parameters and thresholds",
+  "is_independent_validation": false,
+  "candidates": [
+    {
+      "settings": {
+        "family": "quadratic",
+        "regularization": 1e-05,
+        "human_weight": 1,
+        "nonlinear_penalty": 10
+      },
+      "status": "evaluated",
+      "reference": {
+        "thesis": {
+          "characters": 61655,
+          "segments": 163,
+          "strong_characters": 1504,
+          "possible_characters": 4164,
+          "strong_percent": 2.4393804233233314,
+          "possible_percent": 6.753710161381883,
+          "any_flag_percent": 9.193090584705214,
+          "cnki_strong_characters": 1171.0,
+          "cnki_strong_overlap_in_strong_characters": 986.0,
+          "cnki_strong_recall_in_strong": 0.8420153714773698,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": 0.0,
+          "cnki_strong_overlap_in_any_characters": 986.0,
+          "cnki_strong_recall_in_any": 0.8420153714773698,
+          "cnki_possible_characters": 3893.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": 0.0,
+          "cnki_possible_overlap_in_possible_characters": 2671.0,
+          "cnki_possible_recall_in_possible": 0.6861032622656049,
+          "cnki_possible_overlap_in_any_characters": 2671.0,
+          "cnki_possible_recall_in_any": 0.6861032622656049,
+          "cnki_any_characters": 5064.0,
+          "cnki_any_overlap_in_strong_characters": 986.0,
+          "cnki_any_recall_in_strong": 0.19470774091627172,
+          "cnki_any_overlap_in_possible_characters": 2671.0,
+          "cnki_any_recall_in_possible": 0.5274486571879937,
+          "cnki_any_overlap_in_any_characters": 3657.0,
+          "cnki_any_recall_in_any": 0.7221563981042654,
+          "cnki_any_precision_in_any": 0.6452011291460833
+        },
+        "wang-zhan": {
+          "characters": 84183,
+          "segments": 229,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        },
+        "zhu-yilong": {
+          "characters": 76203,
+          "segments": 208,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        }
+      },
+      "parameter_norm": 156.81874654833436,
+      "blocked": {
+        "failed_folds": 0,
+        "held_out_human_flag_percent": 4.184280423478358,
+        "held_out_possible_recall_in_any": 0.06352567496029646,
+        "held_out_possible_reference_characters_evaluated": 3778.0
+      },
+      "sensitivity": [
+        {
+          "logit_noise_sigma": 0.01,
+          "control_flag_percent": {
+            "mean": 0.01722718940555909,
+            "min": 0.0,
+            "max": 0.24877483072088588,
+            "p95": 0.24565735163917052
+          },
+          "thesis_possible_percent": {
+            "mean": 6.531457302732949,
+            "min": 4.826859135512124,
+            "max": 8.596220906658017,
+            "p95": 7.939339875111508
+          },
+          "possible_recall": {
+            "mean": 0.6217492936039044,
+            "min": 0.49627536604161315,
+            "max": 0.6927819162599538,
+            "p95": 0.6861032622656049
+          },
+          "category_change_count": {
+            "mean": 1.95,
+            "min": 0.0,
+            "max": 4.0,
+            "p95": 4.0
+          }
+        },
+        {
+          "logit_noise_sigma": 0.05,
+          "control_flag_percent": {
+            "mean": 0.6475378150212612,
+            "min": 0.0,
+            "max": 1.8679934657638446,
+            "p95": 1.1769107029291834
+          },
+          "thesis_possible_percent": {
+            "mean": 8.713372800259506,
+            "min": 5.436704241342957,
+            "max": 13.465250182466953,
+            "p95": 11.206228205336142
+          },
+          "possible_recall": {
+            "mean": 0.5161083996917543,
+            "min": 0.2918058052915489,
+            "max": 0.7182121756999743,
+            "p95": 0.6671461597739532
+          },
+          "category_change_count": {
+            "mean": 12.85,
+            "min": 6.0,
+            "max": 21.0,
+            "p95": 19.0
+          }
+        },
+        {
+          "logit_noise_sigma": 0.1,
+          "control_flag_percent": {
+            "mean": 1.986838003316998,
+            "min": 0.4576459291958151,
+            "max": 3.4660132430511394,
+            "p95": 3.0160051376055264
+          },
+          "thesis_possible_percent": {
+            "mean": 12.562160408725976,
+            "min": 8.09017922309626,
+            "max": 19.041440272483985,
+            "p95": 15.43191955234774
+          },
+          "possible_recall": {
+            "mean": 0.4628872334960185,
+            "min": 0.22476239404058568,
+            "max": 0.7539172874389931,
+            "p95": 0.6157718982789623
+          },
+          "category_change_count": {
+            "mean": 27.73,
+            "min": 17.0,
+            "max": 37.0,
+            "p95": 35.05
+          }
+        }
+      ],
+      "review_control_margin": 0.046255853912248984
+    },
+    {
+      "settings": {
+        "family": "quadratic",
+        "regularization": 1e-05,
+        "human_weight": 4,
+        "nonlinear_penalty": 10
+      },
+      "status": "evaluated",
+      "reference": {
+        "thesis": {
+          "characters": 61655,
+          "segments": 163,
+          "strong_characters": 1504,
+          "possible_characters": 4146,
+          "strong_percent": 2.4393804233233314,
+          "possible_percent": 6.724515448868705,
+          "any_flag_percent": 9.163895872192036,
+          "cnki_strong_characters": 1171.0,
+          "cnki_strong_overlap_in_strong_characters": 986.0,
+          "cnki_strong_recall_in_strong": 0.8420153714773698,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": 0.0,
+          "cnki_strong_overlap_in_any_characters": 986.0,
+          "cnki_strong_recall_in_any": 0.8420153714773698,
+          "cnki_possible_characters": 3893.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": 0.0,
+          "cnki_possible_overlap_in_possible_characters": 2454.0,
+          "cnki_possible_recall_in_possible": 0.6303621885435396,
+          "cnki_possible_overlap_in_any_characters": 2454.0,
+          "cnki_possible_recall_in_any": 0.6303621885435396,
+          "cnki_any_characters": 5064.0,
+          "cnki_any_overlap_in_strong_characters": 986.0,
+          "cnki_any_recall_in_strong": 0.19470774091627172,
+          "cnki_any_overlap_in_possible_characters": 2454.0,
+          "cnki_any_recall_in_possible": 0.48459715639810425,
+          "cnki_any_overlap_in_any_characters": 3440.0,
+          "cnki_any_recall_in_any": 0.6793048973143759,
+          "cnki_any_precision_in_any": 0.6088495575221239
+        },
+        "wang-zhan": {
+          "characters": 84183,
+          "segments": 229,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        },
+        "zhu-yilong": {
+          "characters": 76203,
+          "segments": 208,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        }
+      },
+      "parameter_norm": 106.79297387182982,
+      "blocked": {
+        "failed_folds": 0,
+        "held_out_human_flag_percent": 3.749703839487237,
+        "held_out_possible_recall_in_any": 0.06352567496029646,
+        "held_out_possible_reference_characters_evaluated": 3778.0
+      },
+      "sensitivity": [
+        {
+          "logit_noise_sigma": 0.01,
+          "control_flag_percent": {
+            "mean": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "p95": 0.0
+          },
+          "thesis_possible_percent": {
+            "mean": 7.039948098288864,
+            "min": 5.436704241342957,
+            "max": 9.799691833590138,
+            "p95": 8.53710161381883
+          },
+          "possible_recall": {
+            "mean": 0.5982584125353196,
+            "min": 0.48574364243514,
+            "max": 0.6861032622656049,
+            "p95": 0.6861032622656049
+          },
+          "category_change_count": {
+            "mean": 2.23,
+            "min": 0.0,
+            "max": 5.0,
+            "p95": 4.0
+          }
+        },
+        {
+          "logit_noise_sigma": 0.05,
+          "control_flag_percent": {
+            "mean": 0.19135086603568893,
+            "min": 0.0,
+            "max": 0.698938810120584,
+            "p95": 0.47635080368610727
+          },
+          "thesis_possible_percent": {
+            "mean": 8.441634903900738,
+            "min": 4.8155056362014435,
+            "max": 12.445057172978672,
+            "p95": 11.026113048414565
+          },
+          "possible_recall": {
+            "mean": 0.5277343950680708,
+            "min": 0.35987670177241204,
+            "max": 0.7117903930131004,
+            "p95": 0.671024916516825
+          },
+          "category_change_count": {
+            "mean": 9.54,
+            "min": 4.0,
+            "max": 15.0,
+            "p95": 13.049999999999997
+          }
+        },
+        {
+          "logit_noise_sigma": 0.1,
+          "control_flag_percent": {
+            "mean": 0.9807215093586723,
+            "min": 0.0,
+            "max": 2.343720773633609,
+            "p95": 1.8351975858241991
+          },
+          "thesis_possible_percent": {
+            "mean": 11.357716324710077,
+            "min": 6.57691995782986,
+            "max": 17.758494850377097,
+            "p95": 14.131619495580244
+          },
+          "possible_recall": {
+            "mean": 0.4819881839198562,
+            "min": 0.23503724633958387,
+            "max": 0.7117903930131004,
+            "p95": 0.6463395838684819
+          },
+          "category_change_count": {
+            "mean": 20.45,
+            "min": 12.0,
+            "max": 31.0,
+            "p95": 28.099999999999994
+          }
+        }
+      ],
+      "review_control_margin": 0.1800171906108372
+    },
+    {
+      "settings": {
+        "family": "quadratic",
+        "regularization": 0.0001,
+        "human_weight": 1,
+        "nonlinear_penalty": 10
+      },
+      "status": "evaluated",
+      "reference": {
+        "thesis": {
+          "characters": 61655,
+          "segments": 163,
+          "strong_characters": 1504,
+          "possible_characters": 4160,
+          "strong_percent": 2.4393804233233314,
+          "possible_percent": 6.747222447490066,
+          "any_flag_percent": 9.186602870813397,
+          "cnki_strong_characters": 1171.0,
+          "cnki_strong_overlap_in_strong_characters": 986.0,
+          "cnki_strong_recall_in_strong": 0.8420153714773698,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": 0.0,
+          "cnki_strong_overlap_in_any_characters": 986.0,
+          "cnki_strong_recall_in_any": 0.8420153714773698,
+          "cnki_possible_characters": 3893.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": 0.0,
+          "cnki_possible_overlap_in_possible_characters": 2278.0,
+          "cnki_possible_recall_in_possible": 0.5851528384279476,
+          "cnki_possible_overlap_in_any_characters": 2278.0,
+          "cnki_possible_recall_in_any": 0.5851528384279476,
+          "cnki_any_characters": 5064.0,
+          "cnki_any_overlap_in_strong_characters": 986.0,
+          "cnki_any_recall_in_strong": 0.19470774091627172,
+          "cnki_any_overlap_in_possible_characters": 2278.0,
+          "cnki_any_recall_in_possible": 0.4498420221169036,
+          "cnki_any_overlap_in_any_characters": 3264.0,
+          "cnki_any_recall_in_any": 0.6445497630331753,
+          "cnki_any_precision_in_any": 0.576271186440678
+        },
+        "wang-zhan": {
+          "characters": 84183,
+          "segments": 229,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        },
+        "zhu-yilong": {
+          "characters": 76203,
+          "segments": 208,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        }
+      },
+      "parameter_norm": 61.02737026403781,
+      "blocked": {
+        "failed_folds": 0,
+        "held_out_human_flag_percent": 3.7634207474467845,
+        "held_out_possible_recall_in_any": 0.06352567496029646,
+        "held_out_possible_reference_characters_evaluated": 3778.0
+      },
+      "sensitivity": [
+        {
+          "logit_noise_sigma": 0.01,
+          "control_flag_percent": {
+            "mean": 0.01473944109835023,
+            "min": 0.0,
+            "max": 0.24565735163917052,
+            "p95": 0.24565735163917052
+          },
+          "thesis_possible_percent": {
+            "mean": 6.646679101451626,
+            "min": 5.467520882329089,
+            "max": 7.955559159841051,
+            "p95": 7.386262265834078
+          },
+          "possible_recall": {
+            "mean": 0.5981094271769841,
+            "min": 0.5157975854097098,
+            "max": 0.6303621885435396,
+            "p95": 0.6303621885435396
+          },
+          "category_change_count": {
+            "mean": 1.16,
+            "min": 0.0,
+            "max": 4.0,
+            "p95": 2.049999999999997
+          }
+        },
+        {
+          "logit_noise_sigma": 0.05,
+          "control_flag_percent": {
+            "mean": 0.2566184080904817,
+            "min": 0.0,
+            "max": 0.9402316910453531,
+            "p95": 0.698938810120584
+          },
+          "thesis_possible_percent": {
+            "mean": 7.204995539696698,
+            "min": 3.6769118481874945,
+            "max": 11.10047846889952,
+            "p95": 9.27978266158462
+          },
+          "possible_recall": {
+            "mean": 0.5371461597739532,
+            "min": 0.3704084253788852,
+            "max": 0.7156434626252247,
+            "p95": 0.6685846390958129
+          },
+          "category_change_count": {
+            "mean": 6.91,
+            "min": 3.0,
+            "max": 12.0,
+            "p95": 10.049999999999997
+          }
+        },
+        {
+          "logit_noise_sigma": 0.1,
+          "control_flag_percent": {
+            "mean": 0.9288903021460725,
+            "min": 0.0,
+            "max": 1.8654994824984723,
+            "p95": 1.6670095893656547
+          },
+          "thesis_possible_percent": {
+            "mean": 9.505928148568648,
+            "min": 5.962209066580164,
+            "max": 13.622577244343525,
+            "p95": 12.817370853945341
+          },
+          "possible_recall": {
+            "mean": 0.4926432057539173,
+            "min": 0.2838427947598253,
+            "max": 0.6927819162599538,
+            "p95": 0.6373105574107372
+          },
+          "category_change_count": {
+            "mean": 16.33,
+            "min": 8.0,
+            "max": 26.0,
+            "p95": 22.049999999999997
+          }
+        }
+      ],
+      "review_control_margin": 0.031739272298873106
+    },
+    {
+      "settings": {
+        "family": "quadratic",
+        "regularization": 0.0001,
+        "human_weight": 4,
+        "nonlinear_penalty": 10
+      },
+      "status": "evaluated",
+      "reference": {
+        "thesis": {
+          "characters": 61655,
+          "segments": 163,
+          "strong_characters": 1504,
+          "possible_characters": 4113,
+          "strong_percent": 2.4393804233233314,
+          "possible_percent": 6.670991809261212,
+          "any_flag_percent": 9.110372232584544,
+          "cnki_strong_characters": 1171.0,
+          "cnki_strong_overlap_in_strong_characters": 986.0,
+          "cnki_strong_recall_in_strong": 0.8420153714773698,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": 0.0,
+          "cnki_strong_overlap_in_any_characters": 986.0,
+          "cnki_strong_recall_in_any": 0.8420153714773698,
+          "cnki_possible_characters": 3893.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": 0.0,
+          "cnki_possible_overlap_in_possible_characters": 2008.0,
+          "cnki_possible_recall_in_possible": 0.5157975854097098,
+          "cnki_possible_overlap_in_any_characters": 2008.0,
+          "cnki_possible_recall_in_any": 0.5157975854097098,
+          "cnki_any_characters": 5064.0,
+          "cnki_any_overlap_in_strong_characters": 986.0,
+          "cnki_any_recall_in_strong": 0.19470774091627172,
+          "cnki_any_overlap_in_possible_characters": 2008.0,
+          "cnki_any_recall_in_possible": 0.39652448657187994,
+          "cnki_any_overlap_in_any_characters": 2994.0,
+          "cnki_any_recall_in_any": 0.5912322274881516,
+          "cnki_any_precision_in_any": 0.5330247463058572
+        },
+        "wang-zhan": {
+          "characters": 84183,
+          "segments": 229,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        },
+        "zhu-yilong": {
+          "characters": 76203,
+          "segments": 208,
+          "strong_characters": 0,
+          "possible_characters": 0,
+          "strong_percent": 0.0,
+          "possible_percent": 0.0,
+          "any_flag_percent": 0.0,
+          "cnki_strong_characters": 0.0,
+          "cnki_strong_overlap_in_strong_characters": 0.0,
+          "cnki_strong_recall_in_strong": null,
+          "cnki_strong_overlap_in_possible_characters": 0.0,
+          "cnki_strong_recall_in_possible": null,
+          "cnki_strong_overlap_in_any_characters": 0.0,
+          "cnki_strong_recall_in_any": null,
+          "cnki_possible_characters": 0.0,
+          "cnki_possible_overlap_in_strong_characters": 0.0,
+          "cnki_possible_recall_in_strong": null,
+          "cnki_possible_overlap_in_possible_characters": 0.0,
+          "cnki_possible_recall_in_possible": null,
+          "cnki_possible_overlap_in_any_characters": 0.0,
+          "cnki_possible_recall_in_any": null,
+          "cnki_any_characters": 0.0,
+          "cnki_any_overlap_in_strong_characters": 0.0,
+          "cnki_any_recall_in_strong": null,
+          "cnki_any_overlap_in_possible_characters": 0.0,
+          "cnki_any_recall_in_possible": null,
+          "cnki_any_overlap_in_any_characters": 0.0,
+          "cnki_any_recall_in_any": null,
+          "cnki_any_precision_in_any": null
+        }
+      },
+      "parameter_norm": 48.9015503024438,
+      "blocked": {
+        "failed_folds": 0,
+        "held_out_human_flag_percent": 3.7627972516304418,
+        "held_out_possible_recall_in_any": 0.06352567496029646,
+        "held_out_possible_reference_characters_evaluated": 3778.0
+      },
+      "sensitivity": [
+        {
+          "logit_noise_sigma": 0.01,
+          "control_flag_percent": {
+            "mean": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "p95": 0.0
+          },
+          "thesis_possible_percent": {
+            "mean": 6.796220906658017,
+            "min": 5.459411239964317,
+            "max": 7.9279863758008275,
+            "p95": 7.358689481793852
+          },
+          "possible_recall": {
+            "mean": 0.548941690213203,
+            "min": 0.4405342923195479,
+            "max": 0.6146930387875674,
+            "p95": 0.5851528384279476
+          },
+          "category_change_count": {
+            "mean": 1.07,
+            "min": 0.0,
+            "max": 3.0,
+            "p95": 2.0
+          }
+        },
+        {
+          "logit_noise_sigma": 0.05,
+          "control_flag_percent": {
+            "mean": 0.04377564126544711,
+            "min": 0.0,
+            "max": 0.698938810120584,
+            "p95": 0.2338421059194693
+          },
+          "thesis_possible_percent": {
+            "mean": 7.669710485767577,
+            "min": 3.7612521287811207,
+            "max": 10.466304435974374,
+            "p95": 9.889303381720866
+          },
+          "possible_recall": {
+            "mean": 0.5015771898278961,
+            "min": 0.2979707166709479,
+            "max": 0.6599023889031596,
+            "p95": 0.6146930387875674
+          },
+          "category_change_count": {
+            "mean": 6.19,
+            "min": 2.0,
+            "max": 10.0,
+            "p95": 10.0
+          }
+        },
+        {
+          "logit_noise_sigma": 0.1,
+          "control_flag_percent": {
+            "mean": 0.43606050403401797,
+            "min": 0.0,
+            "max": 1.3561034005461823,
+            "p95": 0.9309104285910241
+          },
+          "thesis_possible_percent": {
+            "mean": 9.093569053604737,
+            "min": 5.548617305976807,
+            "max": 14.908766523396318,
+            "p95": 11.70789068202092
+          },
+          "possible_recall": {
+            "mean": 0.46288466478294377,
+            "min": 0.21397379912663755,
+            "max": 0.645517595684562,
+            "p95": 0.586501412792191
+          },
+          "category_change_count": {
+            "mean": 13.05,
+            "min": 6.0,
+            "max": 21.0,
+            "p95": 18.0
+          }
+        }
+      ],
+      "review_control_margin": 0.13979554783856268
+    }
+  ],
+  "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d",
+  "profile_sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9"
+}

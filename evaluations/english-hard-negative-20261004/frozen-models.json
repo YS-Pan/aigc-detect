@@ -1,0 +1,229 @@
+{
+  "models": {
+    "presence": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.7601062605128313,
+          -2.7791282656082
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805086,
+          7.598224485808801,
+          1.1883719980524017
+        ],
+        "coefficients": [
+          -0.0361653014244209,
+          -0.0912660576680507,
+          -0.025657868365588123,
+          0.02525062460997818,
+          -0.06294340799374429
+        ],
+        "intercept": -0.0008560946929995788,
+        "configuration": {
+          "id": "presence-l2-1",
+          "method": "presence",
+          "regularization": 1.0
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.6931471805599453,
+          "final_loss": 0.6829025188660411,
+          "gradient_inf": 1.6013075351817285e-08,
+          "iterations": 10,
+          "evaluations": 11,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.6931471805599453,
+              "final_loss": 0.6829025188660411,
+              "gradient_inf": 1.6013075351817285e-08,
+              "iterations": 10,
+              "evaluations": 11,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.31453550372328953,
+      "cv_zero_false_feasible": true
+    },
+    "mean_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.7601062605128313,
+          -2.7791282656082
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805086,
+          7.598224485808801,
+          1.1883719980524017
+        ],
+        "coefficients": [
+          -0.08319032828047819,
+          -0.19380691927729574,
+          -0.056348138369843224,
+          0.09102399835678535,
+          -0.13671403926654546
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "mean_human_bag_ranking-l2-1",
+          "method": "mean_human_bag_ranking",
+          "regularization": 1.0
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 0.7443966600735712,
+          "final_loss": 0.6899842212839858,
+          "gradient_inf": 8.563022108054597e-08,
+          "iterations": 8,
+          "evaluations": 8,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 0.7443966600735712,
+              "final_loss": 0.6899842212839858,
+              "gradient_inf": 8.563022108054597e-08,
+              "iterations": 8,
+              "evaluations": 8,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 0.7078414134699026,
+              "final_loss": 0.6899842212840094,
+              "gradient_inf": 1.859970568465763e-07,
+              "iterations": 7,
+              "evaluations": 7,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.7106845851491174,
+      "cv_zero_false_feasible": false
+    },
+    "hard_human_bag_ranking": {
+      "model": {
+        "signals": [
+          "openai-base-en",
+          "openai-large-en",
+          "piratexx-en",
+          "mage-en",
+          "radar-vicuna-en"
+        ],
+        "center": [
+          -7.192556709446359,
+          -5.40950854466598,
+          -8.360542557909836,
+          -1.7601062605128313,
+          -2.7791282656082
+        ],
+        "scale": [
+          2.835979962702102,
+          1.7688663535033977,
+          0.5914128815805086,
+          7.598224485808801,
+          1.1883719980524017
+        ],
+        "coefficients": [
+          -0.013184225100107085,
+          -0.040388405440706605,
+          -0.004621153238396707,
+          0.026680769242724618,
+          -0.025285271294582905
+        ],
+        "intercept": 0.0,
+        "configuration": {
+          "id": "hard_human_bag_ranking-l2-1",
+          "method": "hard_human_bag_ranking",
+          "regularization": 1.0
+        },
+        "fit_papers": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P06",
+          "P10"
+        ],
+        "fit_unique_windows": 254,
+        "fit_bags": 51,
+        "excluded_conflicting_window_ids": [],
+        "optimization": {
+          "initial_loss": 1.0510636536037823,
+          "final_loss": 1.041771242103805,
+          "gradient_inf": 1.2090737759977432e-06,
+          "iterations": 8,
+          "evaluations": 9,
+          "stationary_1e_5": true,
+          "starts": [
+            {
+              "initial_loss": 1.0510636536037823,
+              "final_loss": 1.041771242103805,
+              "gradient_inf": 1.2090737759977432e-06,
+              "iterations": 8,
+              "evaluations": 9,
+              "stationary_1e_5": true
+            },
+            {
+              "initial_loss": 1.0568979910006466,
+              "final_loss": 1.041771242103829,
+              "gradient_inf": 1.150823055013142e-06,
+              "iterations": 11,
+              "evaluations": 12,
+              "stationary_1e_5": true
+            }
+          ]
+        }
+      },
+      "threshold": 0.1523329808033568,
+      "cv_zero_false_feasible": false
+    }
+  },
+  "overall_method": "presence",
+  "contains_source_text": false
+}

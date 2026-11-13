@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-04T07:34:17.711105+00:00",
+  "hashes": {
+    "campaign.json": "2ff2557a68940549a33da9404530d5921c762463ab0a847e0a048e865426e02c",
+    "development-data.json": "5228c856d6c66537297867511e4bf5f9c8bf7b87adb70bc6e387129d7e2e9277",
+    "selection.json": "b982b83f6071a5fea1e60579adac8fe9d718d5934c1264fc6b36daad9f6ca1b2",
+    "frozen-models.json": "5a56c34506f1c55a66fe0050b5624a45498b0b1619b4a29c77e072929ac33fce"
+  }
+}

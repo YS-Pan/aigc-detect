@@ -35,7 +35,8 @@ def test_api_rejects_invalid_input_before_loading_models(tmp_path):
         from aigc_detector.catalog import CATALOG
         # Expanded lists must reach the loader, instead of the old four-ID cap.
         for route in ("/v1/detect", "/v1/annotate"):
-            assert client.post(route, json={"text": "测试新增模型列表", "models": list(CATALOG)}).status_code == 503
+            options = {"policy": "sensitive-any-model-v1"} if route.endswith("annotate") else {}
+            assert client.post(route, json={"text": "测试新增模型列表", "models": list(CATALOG), **options}).status_code == 503
 
 
 def test_python_contract_rejects_string_model_list(tmp_path):

@@ -1,0 +1,20 @@
+{
+  "passed_checks": [
+    "duplicate_record",
+    "wrong_segmentation",
+    "offset_gap",
+    "boolean_chars",
+    "missing_chapter_memberships",
+    "wrong_source_characters",
+    "nonfinite_score",
+    "overlapping_target_fractions",
+    "converged_monotone_objectives_both_heads",
+    "shared_65_terms_and_preserved_linear_strong_head",
+    "span_coverage_matches_character_metrics",
+    "fitting_script_hash_matches_profile"
+  ],
+  "count": 12,
+  "profile_sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9",
+  "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d",
+  "is_independent_validation": false
+}

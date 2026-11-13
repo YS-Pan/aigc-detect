@@ -1,0 +1,7 @@
+{
+  "profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "train_dataset_sha256": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a",
+  "campaign_sha256": "d43dfd0e5cd29a02a1c710a28b985d4c81f0bfe407664738995a4f4763733ef0",
+  "selection_sha256": "01f9e6a1411d777f2c3f2f8fef21173a816e9d900ced062ef352619f68ca2312",
+  "test_rule": "Post-freeze repeat evaluation only; preserve parameters after viewing results."
+}

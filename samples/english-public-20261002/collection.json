@@ -1,0 +1,79 @@
+{
+  "schema_version": "aigc-public-samples/1.0",
+  "id": "english-public-20261002",
+  "created_at": "2026-10-02T18:00:28.462084+08:00",
+  "samples": 20,
+  "selection_rule": "Four 3000-4000 character Gutenberg body excerpts at fixed unique anchors, then first eight wiki_csai rows with both first qualifying answers of 300-10000 characters, in file order; fixed before scoring",
+  "labels": {
+    "human": 12,
+    "ai": 8
+  },
+  "samples_sha256": "8409e25e3157abc2866400cba4de2c891fa0c40dabe62672d9275052a53cbd18",
+  "upstream_evidence": [
+    {
+      "path": "sources/gutenberg-1342.txt",
+      "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "bytes": 305668,
+      "sha256": "1f61a63c080622494b337b2eee501a00d2af569b00ee90d65609d9d8d9f1082c",
+      "complete_work_archived": false,
+      "snapshot_scope": "retrieved bytes; only the selected complete body excerpt is required"
+    },
+    {
+      "path": "sources/gutenberg-1228.txt",
+      "url": "https://www.gutenberg.org/cache/epub/1228/pg1228.txt",
+      "bytes": 618196,
+      "sha256": "aac16b6ff549c725ab9b5cd0d947ffdcc2e5bf09efc2b463aaccab107d6492fc",
+      "complete_work_archived": false,
+      "snapshot_scope": "retrieved bytes; only the selected complete body excerpt is required"
+    },
+    {
+      "path": "sources/gutenberg-84.txt",
+      "url": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+      "bytes": 423996,
+      "sha256": "cbcc5cb76c2d2e22dd2e31d75a699155081a04bee5c2109eab298e18a2765017",
+      "complete_work_archived": false,
+      "snapshot_scope": "retrieved bytes; only the selected complete body excerpt is required"
+    },
+    {
+      "path": "sources/gutenberg-205.txt",
+      "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt",
+      "bytes": 480096,
+      "sha256": "e425c750aadb7d315d06bbf5b03030b929d83e9cfa8e55be4bbea2854d8ff79f",
+      "complete_work_archived": false,
+      "snapshot_scope": "retrieved bytes; only the selected complete body excerpt is required"
+    },
+    {
+      "path": "sources/hc3-wiki_csai.jsonl",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/wiki_csai.jsonl",
+      "bytes": 2198039,
+      "sha256": "4f78105c72e7edd3b619b3b44abac1e6f8bdb42211f22e43191d4dae889e1968"
+    },
+    {
+      "path": "sources/hc3-data-README.md",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/README.md",
+      "bytes": 1487,
+      "sha256": "ce119f7fcd4511acb1d2ac37ddb082238b9a93b2f638c57f8d2c44f381248691"
+    },
+    {
+      "path": "sources/hc3-project-README.md",
+      "url": "https://raw.githubusercontent.com/Hello-SimpleAI/chatgpt-comparison-detection/main/README.md",
+      "bytes": 9844,
+      "sha256": "e1bc3324609bac1492810bfd370185a133b688f49800c06a4b06271e4c4c3dd8"
+    }
+  ],
+  "network_events": [
+    {
+      "host": "huggingface.co",
+      "route": "direct",
+      "result": "failed",
+      "reason": "URLError"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    }
+  ],
+  "label_metadata_used_as_model_inputs": false,
+  "limitations": "Selected source examples, including known HC3 training overlap; not an independent accuracy benchmark. No English fusion or threshold fitting."
+}

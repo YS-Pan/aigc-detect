@@ -1,0 +1,172 @@
+{
+  "schema": "frozen-local-controls/1.0",
+  "declared_at_utc": "2026-10-04T08:32:37.590768+00:00",
+  "seed": 20261004,
+  "models": [
+    "followsci-bert-en",
+    "roberta-academic-en",
+    "llm-detectaive-en",
+    "cocodet-en"
+  ],
+  "modes": [
+    "whole1600",
+    "paragraph",
+    "sentence3"
+  ],
+  "groups": {
+    "fit": [
+      "P01",
+      "P10",
+      "P06",
+      "P02",
+      "P04",
+      "P03"
+    ],
+    "calibration": [
+      "P09",
+      "P05"
+    ],
+    "test": [
+      "P07",
+      "P08"
+    ]
+  },
+  "author_groups": [
+    [
+      "P01",
+      "P02"
+    ],
+    [
+      "P03"
+    ],
+    [
+      "P04"
+    ],
+    [
+      "P05"
+    ],
+    [
+      "P06"
+    ],
+    [
+      "P07"
+    ],
+    [
+      "P08"
+    ],
+    [
+      "P09"
+    ],
+    [
+      "P10"
+    ]
+  ],
+  "training": "none; all base weights and classification heads frozen",
+  "candidates": [
+    {
+      "id": "whole1600::followsci-bert-en",
+      "mode": "whole1600",
+      "model": "followsci-bert-en"
+    },
+    {
+      "id": "whole1600::roberta-academic-en",
+      "mode": "whole1600",
+      "model": "roberta-academic-en"
+    },
+    {
+      "id": "whole1600::llm-detectaive-en",
+      "mode": "whole1600",
+      "model": "llm-detectaive-en"
+    },
+    {
+      "id": "whole1600::cocodet-en",
+      "mode": "whole1600",
+      "model": "cocodet-en"
+    },
+    {
+      "id": "paragraph::followsci-bert-en",
+      "mode": "paragraph",
+      "model": "followsci-bert-en"
+    },
+    {
+      "id": "paragraph::roberta-academic-en",
+      "mode": "paragraph",
+      "model": "roberta-academic-en"
+    },
+    {
+      "id": "paragraph::llm-detectaive-en",
+      "mode": "paragraph",
+      "model": "llm-detectaive-en"
+    },
+    {
+      "id": "paragraph::cocodet-en",
+      "mode": "paragraph",
+      "model": "cocodet-en"
+    },
+    {
+      "id": "sentence3::followsci-bert-en",
+      "mode": "sentence3",
+      "model": "followsci-bert-en"
+    },
+    {
+      "id": "sentence3::roberta-academic-en",
+      "mode": "sentence3",
+      "model": "roberta-academic-en"
+    },
+    {
+      "id": "sentence3::llm-detectaive-en",
+      "mode": "sentence3",
+      "model": "llm-detectaive-en"
+    },
+    {
+      "id": "sentence3::cocodet-en",
+      "mode": "sentence3",
+      "model": "cocodet-en"
+    }
+  ],
+  "primary_hypothesis": "followsci-bert-en paragraph versus whole1600; sentence3 is secondary",
+  "threshold": "max of all pure-human local-window logits in training/control sources plus 0.5",
+  "selection": "nested leave-author-connected-paper-group-out; minimize false windows then maximize mixed block hits then fewer scans then ID",
+  "margin": 0.5,
+  "context_fractions": [
+    1.0,
+    0.75,
+    0.5,
+    0.25
+  ],
+  "context_positions": [
+    "start",
+    "middle",
+    "end"
+  ],
+  "context_policy": "intact same AI paragraph; ratio changes total length; positions within each length are controlled; exact same-length human splice and contiguous controls",
+  "length_control": "additional fixed 1600 characters at AI fractions .125/.25/.5 when paragraph prefix is long enough; prefixes are explicitly not whole paragraphs",
+  "inference": {
+    "device": "cuda",
+    "batch_size": 8,
+    "dtype": "float32",
+    "overlap_tokens": 64,
+    "network_blocked": true
+  },
+  "revisions": {
+    "followsci-bert-en": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+    "roberta-academic-en": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+    "llm-detectaive-en": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+    "cocodet-en": "7f60a5dcdad3af02767cb57da842ead41424c89d"
+  },
+  "source_hashes": {
+    "scripts/english_frozen_local.py": "37583af49b8967632c434e60eaee545f6835d454a2169b3689b950f72ec3e022",
+    "aigc_detector/engine.py": "4e81777ca2c5582325d7fd2b983c76ea56e7bc6e35dab5d8b8930af08b7b6f11",
+    "aigc_detector/modeling.py": "394dd6484d7bcae24b96ccb309e7f0e102cb8ecffa3404628cb60ffbf415cb7e",
+    "aigc_detector/annotation.py": "fd02d908572989ba95d0d0f60746ecef421632acfdd14a3576773ae1f8214791",
+    "aigc_detector/catalog.py": "35f1775d3d6e0f3412799f39bd3422f9ffb610d9740b7d271e24f2e209d746c0",
+    "models/manifest.json": "3fac1bad9310bdbefd6b0b30f6b84f8777aa14b64e14952ca4651441d92c37fb",
+    "aigc_detector/profiles/english-academic-20261003-v2.json": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+    "samples/english-academic-20261003/samples.jsonl": "139db165059c4b0c3d12bcc724b5fdfeb0f2c08d05b466e9b865900044def961",
+    "samples/english-academic-20261003/protocol.json": "6bc46bb7b94a9347142c937d38e52a94cdcd897daebdb98151b8bae0ae63bcb1",
+    "samples/english-academic-20261003/sources/import-manifest.json": "cdf8962b22b5354eb52564aa416b13c887bc1f3dffbeebfcdb6d832137d1496f"
+  },
+  "expansion_gate": "no expansion or deployment unless complete selected cross-author process has zero false windows and at least 50% mixed-block recall",
+  "new_independent_validation": false,
+  "default_changes": false
+}

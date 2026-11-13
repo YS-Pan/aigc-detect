@@ -1,0 +1,194 @@
+{
+  "schema_version": "english-expanded-campaign/1.0",
+  "id": "english-academic-20261003-v2",
+  "sample_collection_sha256": "139db165059c4b0c3d12bcc724b5fdfeb0f2c08d05b466e9b865900044def961",
+  "groups": {
+    "fit": [
+      "P01",
+      "P10",
+      "P06",
+      "P02",
+      "P04",
+      "P03"
+    ],
+    "calibration": [
+      "P09",
+      "P05"
+    ],
+    "test": [
+      "P07",
+      "P08"
+    ]
+  },
+  "segmentations": [
+    [
+      400,
+      120
+    ],
+    [
+      800,
+      240
+    ],
+    [
+      1600,
+      400
+    ]
+  ],
+  "classifiers": [
+    "hc3-en",
+    "desklib-en",
+    "fakespot-en",
+    "bibbbu-xlm-roberta",
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en"
+  ],
+  "statistical_backends": [
+    "fast-detect-gpt-neo",
+    "fast-detect-gpt-falcon",
+    "binoculars-falcon"
+  ],
+  "revisions": {
+    "hc3-en": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+    "desklib-en": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+    "fakespot-en": "f9cdb14d1f8b105f597d80fa7b56f20c6ea0e9db",
+    "bibbbu-xlm-roberta": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+    "openai-base-en": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "openai-large-en": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+    "piratexx-en": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+    "mage-en": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+    "radar-vicuna-en": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b"
+  },
+  "asset_revisions": {
+    "gpt-neo-2.7b": "e24fa291132763e59f4a5422741b424fb5d59056",
+    "falcon-7b": "ec89142b67d748a1865ea4451372db8313ada0d8",
+    "falcon-7b-instruct": "8782b5c5d8c9290412416618f36a133653e85285"
+  },
+  "statistical_inference": {
+    "max_tokens": 512,
+    "overlap_tokens": 64,
+    "dtype": "bfloat16",
+    "aggregation": "inverse_coverage_token_statistics_then_formula"
+  },
+  "feature_rosters": [
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "bibbbu-xlm-roberta"
+    ],
+    [
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "bibbbu-xlm-roberta",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "bibbbu-xlm-roberta",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en",
+      "fast-detect-gpt-neo"
+    ],
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "bibbbu-xlm-roberta",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en",
+      "fast-detect-gpt-falcon",
+      "binoculars-falcon"
+    ],
+    [
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "bibbbu-xlm-roberta",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en",
+      "fast-detect-gpt-neo",
+      "fast-detect-gpt-falcon",
+      "binoculars-falcon"
+    ],
+    [
+      "fast-detect-gpt-neo",
+      "fast-detect-gpt-falcon",
+      "binoculars-falcon"
+    ]
+  ],
+  "families": [
+    "linear",
+    "squares",
+    "quadratic"
+  ],
+  "regularizations": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "target_modes": [
+    "ai_character_fraction",
+    "any_generated_character"
+  ],
+  "human_weights": [
+    1.0,
+    5.0,
+    20.0
+  ],
+  "threshold_logit_margins": {
+    "review": 0.01,
+    "strong": 0.1
+  },
+  "selection": "Fit-paper leave-one-paper-out: minimize human flagged characters, then maximize generated characters; ties prefer fewer signals/terms, stronger regularization, shorter context.",
+  "thresholds": "Maximum human logit in fit+calibration plus fixed margins; calibration AI does not choose thresholds or candidates.",
+  "repeat_evaluation": {
+    "papers": [
+      "P07",
+      "P08"
+    ],
+    "previous_test_metrics_known": true,
+    "used_for_v2_parameter_or_candidate_selection": false,
+    "is_new_independent_validation": false
+  },
+  "runtime_features": "Raw classifier scores and raw LM statistics only; no text/length/identity features.",
+  "sample_use": "All six fit originals, eighteen mixed documents and fifty-one generated paragraphs; calibration controls also include pure-human windows of its six mixed documents. Deduplicate identical passages within each paper; exclude conflicting labels. Test papers never enter fitting or thresholds.",
+  "contains_source_text": false,
+  "previous_profile_sha256": "f9d828663a3d81a3ac3fce65035e2b390753c91aba827d13f9c79149c066ee1b"
+}

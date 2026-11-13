@@ -1,0 +1,7 @@
+{
+  "profile_sha256": "f9d828663a3d81a3ac3fce65035e2b390753c91aba827d13f9c79149c066ee1b",
+  "train_dataset_sha256": "d0fdbfa2183bd8d4c787da48f5266f4fdbf47f845145fe9743732372b383097a",
+  "selection_sha256": "82cd5e96f3f9e6317968a5cfc510ea0c5e12cac7d38468fa7739cb26d6b4936f",
+  "test_metrics_inspected": false,
+  "test_rule": "Run new test-only inference at frozen segmentation; no parameter/threshold changes after evaluation."
+}

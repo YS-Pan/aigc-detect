@@ -5,7 +5,7 @@ import urllib.request
 
 
 class Client:
-    def __init__(self, base_url="http://127.0.0.1:8765", timeout=600):
+    def __init__(self, base_url="http://127.0.0.1:8766", timeout=600):
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         # Local text requests should never be routed through the environment proxy.

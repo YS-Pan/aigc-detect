@@ -1,0 +1,283 @@
+{
+  "schema_version": "aigc-installation/1.0",
+  "status": "complete",
+  "completed_at_utc": "2026-10-03T11:34:54.653316+00:00",
+  "package_version": "0.6.0",
+  "added_resources": {
+    "openai-base-en": {
+      "repo_id": "openai-community/roberta-base-openai-detector",
+      "revision": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+      "file_count": 7,
+      "total_bytes": 503696794
+    },
+    "openai-large-en": {
+      "repo_id": "openai-community/roberta-large-openai-detector",
+      "revision": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+      "file_count": 7,
+      "total_bytes": 1428414792
+    },
+    "piratexx-en": {
+      "repo_id": "PirateXX/AI-Content-Detector",
+      "revision": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+      "file_count": 7,
+      "total_bytes": 500119303
+    },
+    "mage-en": {
+      "repo_id": "yaful/MAGE",
+      "revision": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+      "file_count": 8,
+      "total_bytes": 598101351
+    },
+    "radar-vicuna-en": {
+      "repo_id": "TrustSafeAI/RADAR-Vicuna-7B",
+      "revision": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b",
+      "file_count": 6,
+      "total_bytes": 1424342139
+    },
+    "gpt-neo-2.7b": {
+      "repo_id": "EleutherAI/gpt-neo-2.7B",
+      "revision": "e24fa291132763e59f4a5422741b424fb5d59056",
+      "file_count": 7,
+      "total_bytes": 10673652249
+    },
+    "falcon-7b": {
+      "repo_id": "tiiuae/falcon-7b",
+      "revision": "ec89142b67d748a1865ea4451372db8313ada0d8",
+      "file_count": 8,
+      "total_bytes": 14437166789
+    },
+    "falcon-7b-instruct": {
+      "repo_id": "tiiuae/falcon-7b-instruct",
+      "revision": "8782b5c5d8c9290412416618f36a133653e85285",
+      "file_count": 8,
+      "total_bytes": 14437167138
+    }
+  },
+  "all_resource_sha256_checks_passed": 21,
+  "original_model_entries_unchanged": 13,
+  "unchanged_profile_sha256": {
+    "english-academic-20261003-v1.json": "f9d828663a3d81a3ac3fce65035e2b390753c91aba827d13f9c79149c066ee1b",
+    "thesis-cnki-20260929-v1.json": "1e406c36f335ff64f353600dea729947a87b4bb147e6ce5ea22f7a4132945f6e",
+    "thesis-cnki-20260929-v2.json": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9"
+  },
+  "classifier_checks": [
+    {
+      "model_id": "openai-base-en",
+      "parameters": 125237762,
+      "max_tokens": 512,
+      "cpu_cuda_difference": 3.371387720108032e-07,
+      "softmax_class_zero_difference": 0.0
+    },
+    {
+      "model_id": "openai-large-en",
+      "parameters": 356411394,
+      "max_tokens": 512,
+      "cpu_cuda_difference": 2.0489096641540527e-08,
+      "softmax_class_zero_difference": 0.0
+    },
+    {
+      "model_id": "piratexx-en",
+      "parameters": 124647170,
+      "max_tokens": 512,
+      "cpu_cuda_difference": 1.6298145055770874e-09,
+      "softmax_class_zero_difference": 0.0
+    },
+    {
+      "model_id": "mage-en",
+      "parameters": 148660994,
+      "max_tokens": 4096,
+      "cpu_cuda_difference": 1.1920928955078125e-07,
+      "softmax_class_zero_difference": 0.0
+    },
+    {
+      "model_id": "radar-vicuna-en",
+      "parameters": 355361794,
+      "max_tokens": 512,
+      "cpu_cuda_difference": 5.960464477539063e-08,
+      "softmax_class_zero_difference": 0.0
+    }
+  ],
+  "classifier_public_sample_model_runs": 100,
+  "all_classifier_cache_check": {
+    "status": "complete",
+    "model_count": 18,
+    "cuda_peak_allocated_bytes": 12147783168,
+    "loaded_after_run": [
+      "ensemjudge-bert",
+      "ensemjudge-roberta",
+      "anx-bert-zh",
+      "paperpass-v3",
+      "cmj-zh",
+      "bibbbu-xlm-roberta",
+      "hc3-en",
+      "desklib-en",
+      "fakespot-en",
+      "openai-base-en",
+      "openai-large-en",
+      "piratexx-en",
+      "mage-en",
+      "radar-vicuna-en"
+    ],
+    "eviction_observed": true
+  },
+  "statistical_checks": {
+    "status": "complete",
+    "methods": 3,
+    "public_inputs": 2,
+    "cpu_neo_passed": true,
+    "offline_socket_guard_passed": true,
+    "interpretation": "Raw statistics are installation checks only; no fitted/upstream decision thresholds or existing fusion changes."
+  },
+  "statistical_memory_observations": {
+    "gpt-neo-2.7b": {
+      "parameters": 2651307520,
+      "dtype": "bfloat16",
+      "device_maps": [
+        {
+          "": "0"
+        }
+      ],
+      "peak_cuda_allocated_bytes": 5827448832,
+      "peak_observed_process_rss_bytes": 1639858176
+    },
+    "falcon-7b": {
+      "parameters": 6921720704,
+      "dtype": "bfloat16",
+      "device_maps": [
+        {
+          "transformer.word_embeddings": "0",
+          "lm_head": "0",
+          "transformer.h.0": "0",
+          "transformer.h.1": "0",
+          "transformer.h.2": "0",
+          "transformer.h.3": "0",
+          "transformer.h.4": "0",
+          "transformer.h.5": "0",
+          "transformer.h.6": "0",
+          "transformer.h.7": "0",
+          "transformer.h.8": "0",
+          "transformer.h.9": "0",
+          "transformer.h.10": "0",
+          "transformer.h.11": "0",
+          "transformer.h.12": "0",
+          "transformer.h.13": "0",
+          "transformer.h.14": "0",
+          "transformer.h.15": "cpu",
+          "transformer.h.16": "cpu",
+          "transformer.h.17": "cpu",
+          "transformer.h.18": "cpu",
+          "transformer.h.19": "cpu",
+          "transformer.h.20": "cpu",
+          "transformer.h.21": "cpu",
+          "transformer.h.22": "cpu",
+          "transformer.h.23": "cpu",
+          "transformer.h.24": "cpu",
+          "transformer.h.25": "cpu",
+          "transformer.h.26": "cpu",
+          "transformer.h.27": "cpu",
+          "transformer.h.28": "cpu",
+          "transformer.h.29": "cpu",
+          "transformer.h.30": "cpu",
+          "transformer.h.31": "cpu",
+          "transformer.ln_f": "cpu",
+          "transformer.rotary_emb": "cpu"
+        }
+      ],
+      "peak_cuda_allocated_bytes": 7407572992,
+      "peak_observed_process_rss_bytes": 16133341184
+    },
+    "falcon-7b-instruct": {
+      "parameters": 6921720704,
+      "dtype": "bfloat16",
+      "device_maps": [
+        {
+          "transformer.word_embeddings": "0",
+          "lm_head": "0",
+          "transformer.h.0": "0",
+          "transformer.h.1": "0",
+          "transformer.h.2": "0",
+          "transformer.h.3": "0",
+          "transformer.h.4": "0",
+          "transformer.h.5": "0",
+          "transformer.h.6": "0",
+          "transformer.h.7": "0",
+          "transformer.h.8": "0",
+          "transformer.h.9": "0",
+          "transformer.h.10": "0",
+          "transformer.h.11": "0",
+          "transformer.h.12": "0",
+          "transformer.h.13": "0",
+          "transformer.h.14": "0",
+          "transformer.h.15": "cpu",
+          "transformer.h.16": "cpu",
+          "transformer.h.17": "cpu",
+          "transformer.h.18": "cpu",
+          "transformer.h.19": "cpu",
+          "transformer.h.20": "cpu",
+          "transformer.h.21": "cpu",
+          "transformer.h.22": "cpu",
+          "transformer.h.23": "cpu",
+          "transformer.h.24": "cpu",
+          "transformer.h.25": "cpu",
+          "transformer.h.26": "cpu",
+          "transformer.h.27": "cpu",
+          "transformer.h.28": "cpu",
+          "transformer.h.29": "cpu",
+          "transformer.h.30": "cpu",
+          "transformer.h.31": "cpu",
+          "transformer.ln_f": "cpu",
+          "transformer.rotary_emb": "cpu"
+        }
+      ],
+      "peak_cuda_allocated_bytes": 7407572992,
+      "peak_observed_process_rss_bytes": 16133345280
+    }
+  },
+  "statistical_public_inputs": 2,
+  "statistical_cpu_neo_device": "cpu",
+  "regression_tests_passed": 100,
+  "pip_check": "passed",
+  "real_localhost_api": "passed",
+  "cross_cwd_classifier_cli": "passed",
+  "cross_cwd_statistical_cli": "passed",
+  "http_cli_max_score_difference": 0.0,
+  "implementation_sha256": {
+    "aigc_detector/statistical.py": "8a9fc209622a80af0020cee0643c572adeab4b90da2dc42f180307e4097d636b",
+    "aigc_detector/engine.py": "1f4672b681a45027300326cbdd289c380903fe529c68429993d2dccd3c88b373",
+    "aigc_detector/modeling.py": "bd9daf28a2013a9d82b7a05d6e7c96ca79a0616a49cc0e4cdf9e7a07698aedfd",
+    "aigc_detector/catalog.py": "3a2e0e77730ce96e1abfa1b1e57b21a7f347e64d9b4d009ff3ddab81fa9b1739",
+    "aigc_detector/assets.py": "ea3954cf504cec8440615bc80d12346ca893550761c62b65da78166f950d9950",
+    "scripts/network.py": "3c3f3cf5d494a9c262b38eca5628f4e9d4a26fc391c81de30cdee8e402b8d3df"
+  },
+  "network_events_by_host_route": [
+    {
+      "host": "huggingface.co",
+      "route": "direct",
+      "result": "failed",
+      "count": 3
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok",
+      "count": 718
+    },
+    {
+      "host": "us.aws.cdn.hf.co",
+      "route": "direct",
+      "result": "ok",
+      "count": 612
+    }
+  ],
+  "not_installed": [
+    {
+      "repo_id": "meta-llama/Meta-Llama-3-8B",
+      "reason": "manual-gated repository, unauthenticated config returned HTTP 401"
+    },
+    {
+      "repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "reason": "manual-gated repository, unauthenticated config returned HTTP 401"
+    }
+  ],
+  "interpretation": "Installation/resource/interface evidence only. No independent accuracy benchmark, threshold fitting, or existing fusion/model-roster changes. No source text is saved in this summary."
+}

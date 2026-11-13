@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-04T08:41:34.052520+00:00",
+  "script_sha256": "6461d99e288a464e632451a9819476f75f42c5d034dd0603c395fa5b7e9f477b",
+  "base_freeze_sha256": "d144dd0c64eff11ce3f9df3b26f31b4b0aa959ddf862adfd792620294c8d3f23",
+  "inputs_sha256": "59a7f9c396528f543f4439ecb254ede946455996b6e3e95d07f250d772549096",
+  "passages_sha256": "eb5a583c6a7de2bf8668e7b4faf5819ec1feb5d8e7d20c13ec73d4d9601134fd",
+  "page_images": {
+    "P01-p006.png": "c30c1d7753a09d7887e34b20e290c4097a405038cc653de6767d194b74b10957",
+    "P01-p011.png": "39a7253dd77760754a58f0fbda75a0bc51ba5a9ad4c80af218518ac24882a03f",
+    "P02-p010.png": "32ac6d23b2f866e08809f1f2a022e01bcc5bf80830f1d7500e80a460124e87a5",
+    "P02-p011.png": "40f435db70fd0181f2119ca23c61eeda9c13ac99737f4e926737effb959e8b29",
+    "P03-p012.png": "89d3a5945a1ec666102e3eb7eaa7eadf7220efdc99f26d370c9ac427968105a1",
+    "P04-p003.png": "70b834a7439c30dec752955cb4af83fdd2cf9d15374af422d4c4df00c4ecf197",
+    "P04-p004.png": "8a6af87f69d2479f4a7bd03bca5e3059b3cad09a324d716b73cb96f10a90d6e8",
+    "P04-p005.png": "da4737be77e150d210c2f5fd1ba99e0f3d255e858e9209a6eb1e4a94ebfa8d41",
+    "P06-p004.png": "aadf0c66d7cdda8bab1d808227e77cd51a9673d891cf7d93bb91de384888254e",
+    "P07-p002.png": "8091f94f3403838e7565747be376e904ab879d8014a7bb4ef46bb68f07d24b09",
+    "P10-p003.png": "1e39debf6bb2a1a890b4fcdea90a3902fe02c6bc530fe7930ec5b4b5e08d4ddd",
+    "P10-p009.png": "51bad558aeed0e4f0a9bfd7f60a6d6e43a5729816ab68270f4305a227350e332"
+  },
+  "source_audit": "4 highest historical model windows and 6 seeded random windows; 12 original PDF pages visually inspected; incomplete bbox/reading order corrected in four reviewed blocks without changing corpus labels",
+  "new_source_policy": "N01/N02 human calibration; N03/N04 human test. Never change the base-selected candidate. Per-candidate cutoff=max(base cutoff, new calibration max+0.5). Score test only after calibration freeze.",
+  "boundary": "No new-source positives. New to this project, possible pretrained-corpus overlap unassessed. Four sources cannot validate a population zero-FPR claim.",
+  "author_audit": "Full displayed author names checked against old source metadata and each other; no shared authors found; common surnames alone do not define an identity",
+  "base_network_trained": false,
+  "head_trained": false
+}

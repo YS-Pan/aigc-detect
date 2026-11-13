@@ -64,21 +64,8 @@ def main():
         sample["sha256"] = hashlib.sha256(sample["text"].encode("utf-8")).hexdigest()
     (target / "smoke.jsonl").write_text("".join(json.dumps(sample, ensure_ascii=False) + "\n" for sample in samples), encoding="utf-8")
     (target / "demo-zh.txt").write_text(example + "\n", encoding="utf-8")
-    (target / "README.md").write_text(
-        "# Smoke test samples\n\n"
-        "These samples test installation, inference, offline operation and long-text coverage. "
-        "They do not establish thresholds or detection accuracy.\n\n"
-        "- `mpu-official-demo-zh`: Chinese text copied from the author's demo, no ground-truth label.\n"
-        "- Six HC3-Chinese answers: first three baike rows with both human and ChatGPT answers of at least 100 characters. "
-        "Labels preserve the source answer field; they are not judgments made by this wrapper.\n"
-        "- `long-window-coverage`: six answers concatenated and repeated three times to exercise multiple windows.\n\n"
-        f"HC3 source: {url}\n\nMPU demo source: {demo_url}\n\n"
-        "HC3 attribution: Biyang Guo et al., How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection (2023). "
-        "Dataset license: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. "
-        "The derived fixture and HC3 excerpts retain this license. "
-        "The released HC3 detector was trained on the entire HC3-Chinese dataset without a held-out split. "
-        "These samples therefore cannot serve as an independent accuracy benchmark. "
-        "Exact revisions, answer indices and content hashes are in smoke.jsonl.\n", encoding="utf-8")
+    # samples/README.md is the curated index for all collections. Regenerating
+    # the smoke fixtures must not overwrite links to separately collected data.
     print(f"Saved {len(samples)} attributed samples to {target}")
 
 

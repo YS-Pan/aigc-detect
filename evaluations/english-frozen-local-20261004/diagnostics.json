@@ -1,0 +1,347 @@
+{
+  "selected_by_generator": {
+    "gpt-6-astra": {
+      "blocks": 25,
+      "hits": 1
+    },
+    "gpt-6-luna": {
+      "blocks": 25,
+      "hits": 1
+    },
+    "gpt-6.1-sol": {
+      "blocks": 25,
+      "hits": 1
+    }
+  },
+  "selected_by_ai_length": {
+    "under400": {
+      "blocks": 3,
+      "hits": 0
+    },
+    "400to799": {
+      "blocks": 31,
+      "hits": 2
+    },
+    "800plus": {
+      "blocks": 41,
+      "hits": 1
+    }
+  },
+  "context_paired_deltas": [
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.75,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 38,
+      "median_delta_logit": -9.533507344272607e-05
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.75,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 34,
+      "median_delta_logit": 0.017574354074785248
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.75,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 36,
+      "median_delta_logit": 0.008582029463839902
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.5,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 34,
+      "median_delta_logit": 0.01690479207065465
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.5,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 35,
+      "median_delta_logit": 0.0141792922181736
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.5,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 37,
+      "median_delta_logit": 0.0055475827900561825
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.25,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 28,
+      "median_delta_logit": 0.048351271323854306
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.25,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 31,
+      "median_delta_logit": 0.04015166700525974
+    },
+    {
+      "model": "followsci-bert-en",
+      "fraction": 0.25,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 28,
+      "median_delta_logit": 0.04831480956534584
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.75,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 74,
+      "median_delta_logit": -2.1081532884475296
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.75,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 75,
+      "median_delta_logit": -2.278396694918892
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.75,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 73,
+      "median_delta_logit": -1.0943407211453025
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.5,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 75,
+      "median_delta_logit": -2.2209062889079982
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.5,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 75,
+      "median_delta_logit": -2.291007997217238
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.5,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 74,
+      "median_delta_logit": -1.4703236266080992
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.25,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 74,
+      "median_delta_logit": -2.1149230311303855
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.25,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 74,
+      "median_delta_logit": -2.2097525191815732
+    },
+    {
+      "model": "roberta-academic-en",
+      "fraction": 0.25,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 73,
+      "median_delta_logit": -1.7729072972044042
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.75,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 65,
+      "median_delta_logit": -1.3892783446780257
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.75,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 69,
+      "median_delta_logit": -3.159173458543126
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.75,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 61,
+      "median_delta_logit": -1.6610200609810146
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.5,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 62,
+      "median_delta_logit": -2.118175676733653
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.5,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 70,
+      "median_delta_logit": -4.314066041692037
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.5,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 67,
+      "median_delta_logit": -2.5474518722346677
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.25,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 66,
+      "median_delta_logit": -2.5773156305583567
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.25,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 70,
+      "median_delta_logit": -4.6416751975273725
+    },
+    {
+      "model": "llm-detectaive-en",
+      "fraction": 0.25,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 68,
+      "median_delta_logit": -3.2556876180663847
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.75,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 65,
+      "median_delta_logit": -1.5876466723065867
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.75,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 55,
+      "median_delta_logit": -1.307097985587868
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.75,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 49,
+      "median_delta_logit": -0.7706088769225534
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.5,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 60,
+      "median_delta_logit": -1.9832185194563294
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.5,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 55,
+      "median_delta_logit": -2.0020238371559067
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.5,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 48,
+      "median_delta_logit": -0.6663939782746091
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.25,
+      "position": "start",
+      "count": 75,
+      "score_decreased": 58,
+      "median_delta_logit": -2.8183054895146
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.25,
+      "position": "middle",
+      "count": 75,
+      "score_decreased": 58,
+      "median_delta_logit": -1.9908184380066967
+    },
+    {
+      "model": "cocodet-en",
+      "fraction": 0.25,
+      "position": "end",
+      "count": 75,
+      "score_decreased": 52,
+      "median_delta_logit": -1.3357499223951077
+    }
+  ],
+  "reviewed_source_summary": {
+    "followsci-bert-en": {
+      "reviewed_pairs": 29,
+      "median_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.0,
+      "max_abs_probability_difference": 0.03391701355576515
+    },
+    "roberta-academic-en": {
+      "reviewed_pairs": 29,
+      "median_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 1.2000685545524012,
+      "max_abs_probability_difference": 0.8781059216707945
+    },
+    "llm-detectaive-en": {
+      "reviewed_pairs": 29,
+      "median_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.018276511465979084,
+      "max_abs_probability_difference": 0.07014403285575099
+    },
+    "cocodet-en": {
+      "reviewed_pairs": 29,
+      "median_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.0,
+      "max_abs_probability_difference": 0.0002059009770905007
+    }
+  },
+  "contains_source_text": false
+}

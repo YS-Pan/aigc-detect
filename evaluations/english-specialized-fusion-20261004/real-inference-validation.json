@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "network_blocked": true,
+  "checks": [
+    {
+      "model_id": "followsci-bert-en",
+      "input_id": "P01-human:s0001",
+      "sha256": "7427e7ec24c30d322d8445ec655adf65108ad3f038c4d3e6be6f306539e0c9db",
+      "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+      "max_abs_difference": 2.0463630789890885e-12
+    },
+    {
+      "model_id": "followsci-bert-en",
+      "input_id": "P01-gpt-6-astra-mixed:s0001",
+      "sha256": "e833208c3462758b91245c5673b74a2ad711705bc30cb0def26270c3bd8f713a",
+      "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+      "max_abs_difference": 2.5011104298755527e-12
+    },
+    {
+      "model_id": "followsci-bert-en",
+      "input_id": "P07-human:s0001",
+      "sha256": "e0006dc5f0afd086497a88dc6a221542ee62adec38bbac9010816401faec5516",
+      "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "followsci-bert-en",
+      "input_id": "P07-gpt-6-astra-mixed:s0001",
+      "sha256": "9a40a8cf325f48af84dc1f41c6553d37c2f95622e9388827541dfdd16651e8a9",
+      "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "roberta-academic-en",
+      "input_id": "P01-human:s0001",
+      "sha256": "7427e7ec24c30d322d8445ec655adf65108ad3f038c4d3e6be6f306539e0c9db",
+      "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "roberta-academic-en",
+      "input_id": "P01-gpt-6-astra-mixed:s0001",
+      "sha256": "e833208c3462758b91245c5673b74a2ad711705bc30cb0def26270c3bd8f713a",
+      "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "roberta-academic-en",
+      "input_id": "P07-human:s0001",
+      "sha256": "e0006dc5f0afd086497a88dc6a221542ee62adec38bbac9010816401faec5516",
+      "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+      "max_abs_difference": 2.3283064365386963e-09
+    },
+    {
+      "model_id": "roberta-academic-en",
+      "input_id": "P07-gpt-6-astra-mixed:s0001",
+      "sha256": "9a40a8cf325f48af84dc1f41c6553d37c2f95622e9388827541dfdd16651e8a9",
+      "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+      "max_abs_difference": 5.238689482212067e-10
+    },
+    {
+      "model_id": "llm-detectaive-en",
+      "input_id": "P01-human:s0001",
+      "sha256": "7427e7ec24c30d322d8445ec655adf65108ad3f038c4d3e6be6f306539e0c9db",
+      "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+      "max_abs_difference": 2.6193447411060333e-10
+    },
+    {
+      "model_id": "llm-detectaive-en",
+      "input_id": "P01-gpt-6-astra-mixed:s0001",
+      "sha256": "e833208c3462758b91245c5673b74a2ad711705bc30cb0def26270c3bd8f713a",
+      "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+      "max_abs_difference": 7.246853783726692e-09
+    },
+    {
+      "model_id": "llm-detectaive-en",
+      "input_id": "P07-human:s0001",
+      "sha256": "e0006dc5f0afd086497a88dc6a221542ee62adec38bbac9010816401faec5516",
+      "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+      "max_abs_difference": 3.637978807091713e-11
+    },
+    {
+      "model_id": "llm-detectaive-en",
+      "input_id": "P07-gpt-6-astra-mixed:s0001",
+      "sha256": "9a40a8cf325f48af84dc1f41c6553d37c2f95622e9388827541dfdd16651e8a9",
+      "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+      "max_abs_difference": 4.3655745685100555e-11
+    },
+    {
+      "model_id": "cocodet-en",
+      "input_id": "P01-human:s0001",
+      "sha256": "7427e7ec24c30d322d8445ec655adf65108ad3f038c4d3e6be6f306539e0c9db",
+      "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "cocodet-en",
+      "input_id": "P01-gpt-6-astra-mixed:s0001",
+      "sha256": "e833208c3462758b91245c5673b74a2ad711705bc30cb0def26270c3bd8f713a",
+      "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "cocodet-en",
+      "input_id": "P07-human:s0001",
+      "sha256": "e0006dc5f0afd086497a88dc6a221542ee62adec38bbac9010816401faec5516",
+      "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+      "max_abs_difference": 0.0
+    },
+    {
+      "model_id": "cocodet-en",
+      "input_id": "P07-gpt-6-astra-mixed:s0001",
+      "sha256": "9a40a8cf325f48af84dc1f41c6553d37c2f95622e9388827541dfdd16651e8a9",
+      "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "max_abs_difference": 7.246853783726692e-09,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "seconds": 4.1950083000119776,
+  "contains_source_text": false
+}

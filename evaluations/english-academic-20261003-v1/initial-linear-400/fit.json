@@ -1,0 +1,3053 @@
+{
+  "profile_sha256": "31c849b2679911eed51a58dbbe8223a0972cfd1874fce2fa2208cc84dca03126",
+  "selected": {
+    "regularization": 100.0,
+    "human_weight": 20.0,
+    "folds": [
+      {
+        "paper": "P01",
+        "threshold_logit": -2.2845744667398336,
+        "metrics": {
+          "human_segments": 104,
+          "human_flagged_segments": 0,
+          "human_characters": 33841,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 26,
+          "ai_flagged_segments": 0,
+          "ai_characters": 7357,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 9,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 10,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 9,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 7,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      {
+        "paper": "P10",
+        "threshold_logit": -2.220945400923753,
+        "metrics": {
+          "human_segments": 100,
+          "human_flagged_segments": 0,
+          "human_characters": 33150,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 24,
+          "ai_flagged_segments": 0,
+          "ai_characters": 7231,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 9,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 7,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 9,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 8,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      {
+        "paper": "P06",
+        "threshold_logit": -2.1308050204086406,
+        "metrics": {
+          "human_segments": 68,
+          "human_flagged_segments": 0,
+          "human_characters": 19680,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 26,
+          "ai_flagged_segments": 0,
+          "ai_characters": 7512,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 6,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 10,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 10,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      {
+        "paper": "P02",
+        "threshold_logit": -2.2532043111230013,
+        "metrics": {
+          "human_segments": 118,
+          "human_flagged_segments": 0,
+          "human_characters": 37593,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 29,
+          "ai_flagged_segments": 0,
+          "ai_characters": 8898,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 9,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 13,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 10,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      {
+        "paper": "P04",
+        "threshold_logit": -2.2541705666631473,
+        "metrics": {
+          "human_segments": 36,
+          "human_flagged_segments": 0,
+          "human_characters": 11645,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 26,
+          "ai_flagged_segments": 0,
+          "ai_characters": 7173,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 9,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 8,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 9,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 9,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      },
+      {
+        "paper": "P03",
+        "threshold_logit": -2.2425737042038634,
+        "metrics": {
+          "human_segments": 112,
+          "human_flagged_segments": 0,
+          "human_characters": 36642,
+          "human_flagged_characters": 0,
+          "human_segment_fpr": 0.0,
+          "human_papers": 1,
+          "ai_segments": 22,
+          "ai_flagged_segments": 0,
+          "ai_characters": 5954,
+          "ai_flagged_characters": 0,
+          "ai_character_recall": 0.0,
+          "ai_paragraphs": 9,
+          "ai_paragraphs_with_any_flag": 0,
+          "by_generator": {
+            "gpt-6-astra": {
+              "segments": 10,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6-luna": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            },
+            "gpt-6.1-sol": {
+              "segments": 6,
+              "flagged": 0,
+              "character_recall": 0.0
+            }
+          }
+        }
+      }
+    ],
+    "human_flagged_characters": 0,
+    "ai_flagged_characters": 0
+  },
+  "candidates": [
+    {
+      "regularization": 0.1,
+      "human_weight": 1.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 1.8744803432005488,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 2.1320073341864667,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 2.0234135788218777,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": 1.5742809941498461,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 1.7152622142009808,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 1.7969029732384199,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 0.1,
+      "human_weight": 5.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 0.1954558531954555,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 0.44488123694935167,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 0.3826739980557474,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -0.017082345425500134,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 0.027654595449897124,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 0.16324586830925952,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 0.1,
+      "human_weight": 20.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -1.2213350873711375,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": -0.9675401427604042,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": -1.0084634347870032,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -1.3908293494355835,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -1.388427347872723,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -1.2188949510542357,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 1.0,
+      "human_weight": 1.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 1.8558494968133288,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 2.108301907487877,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 2.001002659975443,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": 1.5575823489878475,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 1.701300588000146,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 1.7807448905492669,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 1.0,
+      "human_weight": 5.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 0.1660765117029574,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 0.4058170156758102,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 0.3496047360385496,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -0.044216898354185075,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 0.005658307933138096,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 0.13252060483257544,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 1.0,
+      "human_weight": 20.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -1.300623310303757,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": -1.0710239284938954,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": -1.095389773277323,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -1.4662092682996708,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -1.4483534789802408,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -1.3027715243493516,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 10.0,
+      "human_weight": 1.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 1.6969193194918233,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 1.9102072315617846,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 1.812305389994474,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": 1.438836142315892,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 1.5794891962493254,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 1.6420905305743487,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 10.0,
+      "human_weight": 5.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -0.06308719049331712,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 0.12892433747878934,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 0.09745643545638999,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -0.2526859461232127,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -0.1710219452113947,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -0.10355875567624517,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 10.0,
+      "human_weight": 20.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -1.7473605130140246,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": -1.602467593161955,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": -1.4604169171498969,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -1.7822592049340638,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -1.7757191608398006,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -1.7421214881855147,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 100.0,
+      "human_weight": 1.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": 1.1015199322912608,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": 1.212915847429461,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": 1.2393951223910065,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": 1.0498282734786024,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": 1.1380221957751488,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": 1.0740024995274262,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 100.0,
+      "human_weight": 5.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -0.6710625768273315,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": -0.5660257488187805,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": -0.45643766233684846,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -0.6576686923513866,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -0.6321792565445017,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -0.6363148883195551,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    },
+    {
+      "regularization": 100.0,
+      "human_weight": 20.0,
+      "folds": [
+        {
+          "paper": "P01",
+          "threshold_logit": -2.2845744667398336,
+          "metrics": {
+            "human_segments": 104,
+            "human_flagged_segments": 0,
+            "human_characters": 33841,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7357,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P10",
+          "threshold_logit": -2.220945400923753,
+          "metrics": {
+            "human_segments": 100,
+            "human_flagged_segments": 0,
+            "human_characters": 33150,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 24,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7231,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 7,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P06",
+          "threshold_logit": -2.1308050204086406,
+          "metrics": {
+            "human_segments": 68,
+            "human_flagged_segments": 0,
+            "human_characters": 19680,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7512,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 6,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P02",
+          "threshold_logit": -2.2532043111230013,
+          "metrics": {
+            "human_segments": 118,
+            "human_flagged_segments": 0,
+            "human_characters": 37593,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 29,
+            "ai_flagged_segments": 0,
+            "ai_characters": 8898,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 13,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P04",
+          "threshold_logit": -2.2541705666631473,
+          "metrics": {
+            "human_segments": 36,
+            "human_flagged_segments": 0,
+            "human_characters": 11645,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 26,
+            "ai_flagged_segments": 0,
+            "ai_characters": 7173,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 8,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 9,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        },
+        {
+          "paper": "P03",
+          "threshold_logit": -2.2425737042038634,
+          "metrics": {
+            "human_segments": 112,
+            "human_flagged_segments": 0,
+            "human_characters": 36642,
+            "human_flagged_characters": 0,
+            "human_segment_fpr": 0.0,
+            "human_papers": 1,
+            "ai_segments": 22,
+            "ai_flagged_segments": 0,
+            "ai_characters": 5954,
+            "ai_flagged_characters": 0,
+            "ai_character_recall": 0.0,
+            "ai_paragraphs": 9,
+            "ai_paragraphs_with_any_flag": 0,
+            "by_generator": {
+              "gpt-6-astra": {
+                "segments": 10,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6-luna": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              },
+              "gpt-6.1-sol": {
+                "segments": 6,
+                "flagged": 0,
+                "character_recall": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 0
+    }
+  ],
+  "fit_and_calibration": {
+    "fit": {
+      "strong": {
+        "human_segments": 538,
+        "human_flagged_segments": 0,
+        "human_characters": 172551,
+        "human_flagged_characters": 0,
+        "human_segment_fpr": 0.0,
+        "human_papers": 6,
+        "ai_segments": 153,
+        "ai_flagged_segments": 0,
+        "ai_characters": 44125,
+        "ai_flagged_characters": 0,
+        "ai_character_recall": 0.0,
+        "ai_paragraphs": 51,
+        "ai_paragraphs_with_any_flag": 0,
+        "by_generator": {
+          "gpt-6-astra": {
+            "segments": 51,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6-luna": {
+            "segments": 56,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6.1-sol": {
+            "segments": 46,
+            "flagged": 0,
+            "character_recall": 0.0
+          }
+        }
+      },
+      "any_flag": {
+        "human_segments": 538,
+        "human_flagged_segments": 0,
+        "human_characters": 172551,
+        "human_flagged_characters": 0,
+        "human_segment_fpr": 0.0,
+        "human_papers": 6,
+        "ai_segments": 153,
+        "ai_flagged_segments": 0,
+        "ai_characters": 44125,
+        "ai_flagged_characters": 0,
+        "ai_character_recall": 0.0,
+        "ai_paragraphs": 51,
+        "ai_paragraphs_with_any_flag": 0,
+        "by_generator": {
+          "gpt-6-astra": {
+            "segments": 51,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6-luna": {
+            "segments": 56,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6.1-sol": {
+            "segments": 46,
+            "flagged": 0,
+            "character_recall": 0.0
+          }
+        }
+      }
+    },
+    "calibration": {
+      "strong": {
+        "human_segments": 69,
+        "human_flagged_segments": 0,
+        "human_characters": 22114,
+        "human_flagged_characters": 0,
+        "human_segment_fpr": 0.0,
+        "human_papers": 2,
+        "ai_segments": 42,
+        "ai_flagged_segments": 0,
+        "ai_characters": 12328,
+        "ai_flagged_characters": 0,
+        "ai_character_recall": 0.0,
+        "ai_paragraphs": 12,
+        "ai_paragraphs_with_any_flag": 0,
+        "by_generator": {
+          "gpt-6-astra": {
+            "segments": 20,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6-luna": {
+            "segments": 12,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6.1-sol": {
+            "segments": 10,
+            "flagged": 0,
+            "character_recall": 0.0
+          }
+        }
+      },
+      "any_flag": {
+        "human_segments": 69,
+        "human_flagged_segments": 0,
+        "human_characters": 22114,
+        "human_flagged_characters": 0,
+        "human_segment_fpr": 0.0,
+        "human_papers": 2,
+        "ai_segments": 42,
+        "ai_flagged_segments": 0,
+        "ai_characters": 12328,
+        "ai_flagged_characters": 0,
+        "ai_character_recall": 0.0,
+        "ai_paragraphs": 12,
+        "ai_paragraphs_with_any_flag": 0,
+        "by_generator": {
+          "gpt-6-astra": {
+            "segments": 20,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6-luna": {
+            "segments": 12,
+            "flagged": 0,
+            "character_recall": 0.0
+          },
+          "gpt-6.1-sol": {
+            "segments": 10,
+            "flagged": 0,
+            "character_recall": 0.0
+          }
+        }
+      }
+    }
+  },
+  "test_evaluated": false,
+  "selection_priority": "False-positive characters first, AI true-positive characters second; no test data used."
+}

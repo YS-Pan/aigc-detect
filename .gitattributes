@@ -8,3 +8,9 @@
 *.ps1 text eol=crlf
 *.png binary
 *.pdf binary
+# These files carry byte-level source/evidence hashes; preserve their bytes.
+samples/** -text -whitespace
+evaluations/** -text whitespace=cr-at-eol
+models/manifest.json -text whitespace=cr-at-eol
+aigc_detector/profiles/*.json -text whitespace=cr-at-eol
+aigc_detector/resource_manifest.json -text whitespace=cr-at-eol

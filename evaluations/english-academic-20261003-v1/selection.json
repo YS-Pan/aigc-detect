@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "segment_chars": 400,
+      "min_segment_chars": 120,
+      "family": "squares",
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 928,
+      "profile_sha256": "9116b466e4977788ee7e8dfb7142c788bcd1cf6f9a747ae229c44df5478d2f3e",
+      "diagnostics_sha256": "0179a9289c276e2c62bd1dbe9f420755afb3a8b70abe642304c55b3207c0c4ff",
+      "directory": "evaluations\\english-academic-20261003-v1\\context400"
+    },
+    {
+      "segment_chars": 800,
+      "min_segment_chars": 240,
+      "family": "squares",
+      "human_flagged_characters": 693,
+      "ai_flagged_characters": 693,
+      "profile_sha256": "cc378ae569a0c1c907c35a089b9f31f4de35a30545c885008cd101191d858cc7",
+      "diagnostics_sha256": "287a497bfa93cfd45d12ab6a0d8b525f520c95a4fe5ab53d1eeb4ce42df55779",
+      "directory": "evaluations\\english-academic-20261003-v1\\context800"
+    },
+    {
+      "segment_chars": 1200,
+      "min_segment_chars": 400,
+      "family": "quadratic",
+      "human_flagged_characters": 960,
+      "ai_flagged_characters": 3935,
+      "profile_sha256": "0e6fe301c359d5480cbb0a01b67042a42767e48e137bf6bd3d71735337318a96",
+      "diagnostics_sha256": "a120dc349ccf635327dc0deadc5f27028991c283d245afb52293decd8bfecb4c",
+      "directory": "evaluations\\english-academic-20261003-v1\\context1200"
+    },
+    {
+      "segment_chars": 1600,
+      "min_segment_chars": 400,
+      "family": "linear",
+      "human_flagged_characters": 0,
+      "ai_flagged_characters": 4316,
+      "profile_sha256": "18f293dc4ebaf430675d76a8b3d34e1a6fd1aa14727c42a6c42d689ea2d43e42",
+      "diagnostics_sha256": "1ad4dc4eecab28fcfa879e82cad6e4f5aa7b1b8fdd4438e5a85e3f15220dc776",
+      "directory": "evaluations\\english-academic-20261003-v1\\context1600"
+    }
+  ],
+  "selected": {
+    "segment_chars": 1600,
+    "min_segment_chars": 400,
+    "family": "linear",
+    "human_flagged_characters": 0,
+    "ai_flagged_characters": 4316,
+    "profile_sha256": "18f293dc4ebaf430675d76a8b3d34e1a6fd1aa14727c42a6c42d689ea2d43e42",
+    "diagnostics_sha256": "1ad4dc4eecab28fcfa879e82cad6e4f5aa7b1b8fdd4438e5a85e3f15220dc776",
+    "directory": "evaluations\\english-academic-20261003-v1\\context1600"
+  },
+  "test_used": false
+}

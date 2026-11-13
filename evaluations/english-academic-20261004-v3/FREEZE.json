@@ -1,0 +1,25 @@
+{
+  "profile_sha256": "0368f651fb829d5796817eefbb8c26901f747f71eddf8fd09ec7eb53a1e996c6",
+  "train_dataset_sha256": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a",
+  "campaign_sha256": "f3b324673e1c0c4739ccd83cf36e29d1a3b1dbb12ada752864385b6c8532491b",
+  "selection_sha256": "041746d28a775ba988531907450ac7665cb9bf6e6f98fcdf356c68a5a26247e9",
+  "fitter_code_sha256": {
+    "scripts/calibrate_english_nonlinear.py": "01d8b86e3f98f9d9601bb81d6815440a026159d7a6054f77744ed92b29df23e0",
+    "scripts/nonlinear_english_fit.py": "169c0a5d4ac1a3e892d14f2b02039172df4bd86999bac98fb01f946cce2e03ae"
+  },
+  "parent_score_sources": {
+    "400": {
+      "path": "evaluations\\english-academic-20261003-v2\\context400\\train-scores.json",
+      "sha256": "e07ec798bc09f6bd7f8f015d188e0180b73ab30dad248313e8b4a2e7dbe16c12"
+    },
+    "800": {
+      "path": "evaluations\\english-academic-20261003-v2\\context800\\train-scores.json",
+      "sha256": "b9a7899e89f50b2461753372f5140f5bfbef3735cc55c5b2a8b59e823fec825d"
+    },
+    "1600": {
+      "path": "evaluations\\english-academic-20261003-v2\\context1600\\train-scores.json",
+      "sha256": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a"
+    }
+  },
+  "test_rule": "Repeat only after freeze; no parameter changes afterward."
+}

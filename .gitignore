@@ -4,6 +4,9 @@ __pycache__/
 .pytest_cache/
 .pytest-tmp/
 *.egg-info/
+build/
+dist/
+*.whl
 models/*
 !models/manifest.json
 .cache/
@@ -18,6 +21,10 @@ corpus/
 datasets/private/
 tmp/
 temp/
+# Author-supplied forum archives and extracted personal samples stay local.
+samples/kechuang-human-20260930/
+# Imported academic PDFs, converted text and generation evidence stay local.
+samples/english-academic-20261003/
 output/
 .env
 .env.*

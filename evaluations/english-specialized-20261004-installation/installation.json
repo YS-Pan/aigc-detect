@@ -1,0 +1,176 @@
+{
+  "status": "complete",
+  "date": "2026-10-04",
+  "software_version": "0.9.0",
+  "regression_tests_passed": 137,
+  "new_files": 29,
+  "new_bytes": 2098756851,
+  "environment": {
+    "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  },
+  "runtime": {
+    "status": "complete",
+    "software_version": "0.9.0",
+    "device": "cuda",
+    "offline_socket_guard_passed": true,
+    "official_examples": 10,
+    "sample_model_runs": 40,
+    "models": [
+      {
+        "model_id": "followsci-bert-en",
+        "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+        "max_tokens": 512,
+        "parameters": 109483778,
+        "cpu_cuda_difference": 5.966285243630409e-10,
+        "formula_difference": 0.0,
+        "long_token_count": 1089,
+        "long_chunk_count": 3
+      },
+      {
+        "model_id": "roberta-academic-en",
+        "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+        "max_tokens": 512,
+        "parameters": 124647170,
+        "cpu_cuda_difference": 0.0,
+        "formula_difference": 0.0,
+        "long_token_count": 1090,
+        "long_chunk_count": 3
+      },
+      {
+        "model_id": "llm-detectaive-en",
+        "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+        "max_tokens": 512,
+        "parameters": 139195396,
+        "cpu_cuda_difference": 1.1596421245485544e-07,
+        "formula_difference": 0.0,
+        "long_token_count": 1090,
+        "long_chunk_count": 3
+      },
+      {
+        "model_id": "cocodet-en",
+        "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+        "max_tokens": 2048,
+        "parameters": 149032725,
+        "cpu_cuda_difference": 1.6653345369377348e-16,
+        "formula_difference": 0.0,
+        "long_token_count": 3202,
+        "long_chunk_count": 2
+      }
+    ],
+    "http_and_annotation_checks_passed": true,
+    "interpretation": "Installation checks on official examples, not an independent accuracy test. No thresholds fitted and no default profile changed."
+  },
+  "deployment": {
+    "status": "complete",
+    "software_version": "0.9.0",
+    "api_process_id": 3208,
+    "api_url": "http://127.0.0.1:8765",
+    "catalog_count": 22,
+    "input_sha256": "a30b26bd3ecdae4c4e80e9d0b9c616a23effc2503a0d833c1a164e08110f11c8",
+    "models": [
+      "followsci-bert-en",
+      "roberta-academic-en",
+      "llm-detectaive-en",
+      "cocodet-en"
+    ],
+    "cross_cwd": "D:\\project",
+    "http_cli_differences": {
+      "followsci-bert-en": 0.0,
+      "roberta-academic-en": 0.0,
+      "llm-detectaive-en": 0.0,
+      "cocodet-en": 0.0
+    },
+    "default_profiles": {
+      "zh": {
+        "policy": "thesis-cnki-20260929-v2",
+        "sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9"
+      },
+      "en": {
+        "policy": "english-academic-20261003-v2",
+        "sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e"
+      }
+    }
+  },
+  "sources": {
+    "followsci-bert-en": {
+      "repo_id": "followsci/bert-ai-text-detector",
+      "revision": "dc41bbaff401c56d325f8466d9f8544287669aa1",
+      "name": "FollowSci academic paragraph BERT",
+      "ai_label_index": 1,
+      "language": "en",
+      "license": "mit",
+      "label_source": "https://huggingface.co/followsci/bert-ai-text-detector/blob/dc41bbaff401c56d325f8466d9f8544287669aa1/README.md"
+    },
+    "roberta-academic-en": {
+      "repo_id": "andreas122001/roberta-academic-detector",
+      "revision": "f5aa02611897ad2cf981cad63d1f9fd462081414",
+      "name": "NTNU academic abstract RoBERTa",
+      "ai_label_index": 1,
+      "language": "en",
+      "license": "openrail (model card)",
+      "label_source": "https://huggingface.co/andreas122001/roberta-academic-detector/blob/f5aa02611897ad2cf981cad63d1f9fd462081414/config.json"
+    },
+    "llm-detectaive-en": {
+      "repo_id": "raj-tomar001/LLM-DetectAIve",
+      "repo_type": "space",
+      "revision": "75c5a84d0815092a455cf9b2b105c0fb4d6277d3",
+      "subfolder": "deberta-base",
+      "name": "LLM-DetectAIve four-class DeBERTa",
+      "num_labels": 4,
+      "ai_label_indices": [
+        1,
+        2,
+        3
+      ],
+      "language": "en",
+      "class_labels": [
+        "human",
+        "human_machine_polished",
+        "machine",
+        "machine_machine_humanized"
+      ],
+      "score_semantics": "sum_of_nonhuman_classes_including_machine_polishing",
+      "score_warning": "LLM-DetectAIve includes machine-polished human writing in ai_score; class_scores retain the distinction. Not a trained insertion-span locator.",
+      "license": "not specified in the published Space snapshot",
+      "label_source": "https://huggingface.co/spaces/raj-tomar001/LLM-DetectAIve/blob/75c5a84d0815092a455cf9b2b105c0fb4d6277d3/app.py"
+    },
+    "cocodet-en": {
+      "repo_id": "khaaaaaan/CoCoDet",
+      "revision": "7f60a5dcdad3af02767cb57da842ead41424c89d",
+      "name": "CoCoDet academic peer-review Human/Mix/AI ModernBERT",
+      "loader": "cocodet",
+      "weight_file": "CoCoDet.bin",
+      "tokenizer_repo_id": "answerdotai/ModernBERT-base",
+      "tokenizer_revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+      "config_from_tokenizer_repo": true,
+      "num_labels": 3,
+      "ai_label_indices": [
+        1,
+        2
+      ],
+      "language": "en",
+      "license": "mit (model card)",
+      "class_labels": [
+        "human",
+        "mix",
+        "ai"
+      ],
+      "max_tokens": 2048,
+      "inference_batch_size": 1,
+      "score_semantics": "sum_of_mix_and_ai_content_classes",
+      "score_warning": "CoCoDet targets substantive content in computer-science peer reviews; its human class can include AI language polishing. Transfer to paper bodies is unvalidated.",
+      "label_source": "https://github.com/Y1hanChen/COCONUTS/blob/25df60884f344245ce9ddd092055a781919c850b/script/infer.py"
+    }
+  },
+  "evidence_sha256": {
+    "reports/english-specialized-20261004/runtime/validation.json": "fcb6151db5bcd1c642687791c30b5c7841b228ba58150ee7865d5c5bfb016c55",
+    "reports/english-specialized-20261004/runtime/deployment.json": "77cd6ae4add840fc8b5e2a098629097d8929427520c5630b9965d7ebd20a8e79",
+    "reports/english-specialized-20261004/pytest-regression-final.log": "5000910ed3fcb6f0c44d95d13c5c3ae776e539828327110b9a4ddc0bfc4267ec",
+    "scripts/test_specialized_english.py": "5e94a1c44e3f46dbf769709876ce1aec291bd65aae318c5df3d51b53fdfe47ac",
+    "tests/test_specialized_english.py": "40171574ac69bbd8bebb8c84f06c51dc2cae2012447576964063dc806366f9b9"
+  },
+  "scope": "Installation and interface checks only; no target-domain accuracy test, fitting or default-profile replacement."
+}

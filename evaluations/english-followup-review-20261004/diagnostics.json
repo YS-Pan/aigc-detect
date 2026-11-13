@@ -1,0 +1,4291 @@
+{
+  "created_at_utc": "2026-10-04T08:05:28.808048+00:00",
+  "purpose": "Retrospective analysis of existing frozen functions. No new inference, fitting, policy registration, threshold change or deployment.",
+  "label_rule": "Any generated character makes a window positive. A mixed block is hit by any positive-length intersection with a flagged window.",
+  "limitations": [
+    "All ten papers are already seen development material.",
+    "Union membership and rethresholding use all known negative labels, including former test papers; they are deliberately optimistic descriptive diagnostics.",
+    "The bank covers 51 frozen family champions, not every historical candidate or every possible fusion.",
+    "These counts do not establish a general signal ceiling or future zero false positives.",
+    "Isolated paragraphs and document windows differ in context and length; their score difference is not a controlled causal test."
+  ],
+  "counts": {
+    "papers": 10,
+    "records": 678,
+    "mixed_blocks": 75,
+    "pure_human_windows": 493,
+    "unique_human_hashes": 238,
+    "mixed_positive_windows": 105,
+    "isolated_windows": 80,
+    "frozen_champions": 51,
+    "observed_zero_false_frozen_champions": 50
+  },
+  "baseline_v2": {
+    "pure_human_windows": 493,
+    "pure_human_false_windows": 0,
+    "unique_false_hashes": 0,
+    "mixed_blocks": 75,
+    "mixed_block_hits": 2,
+    "isolated_block_hits": 8,
+    "hit_block_ids": [
+      "P08-gpt-6-astra-mixed:P08-p001-b004",
+      "P08-gpt-6-luna-mixed:P08-p003-b002"
+    ],
+    "hits_by_paper": {
+      "P01": 0,
+      "P02": 0,
+      "P03": 0,
+      "P04": 0,
+      "P05": 0,
+      "P06": 0,
+      "P07": 0,
+      "P08": 2,
+      "P09": 0,
+      "P10": 0
+    }
+  },
+  "unions": {
+    "all_51_frozen_unfiltered": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 3,
+        "unique_false_hashes": 1,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 24,
+        "isolated_block_hits": 34,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 6,
+          "P05": 6,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 8
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 17,
+          "isolated_block_hits": 22,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P04-gpt-6-astra-mixed:P04-p001-b005",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p009-b008",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p002-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6-luna-mixed:P10-p006-b008",
+            "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 0,
+            "P03": 0,
+            "P04": 6,
+            "P06": 0,
+            "P10": 8
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 6,
+          "isolated_block_hits": 9,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-astra-mixed:P05-p004-b003",
+            "P05-gpt-6-astra-mixed:P05-p005-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002",
+            "P05-gpt-6.1-sol-mixed:P05-p002-b007"
+          ],
+          "hits_by_paper": {
+            "P05": 6,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 3,
+          "unique_false_hashes": 1,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 1,
+          "isolated_block_hits": 3,
+          "hit_block_ids": [
+            "P08-gpt-6-astra-mixed:P08-p001-b004"
+          ],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 1
+          }
+        }
+      }
+    },
+    "posthoc_50_observed_zero_false_frozen": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 24,
+        "isolated_block_hits": 28,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 6,
+          "P05": 6,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 8
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 17,
+          "isolated_block_hits": 18,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P04-gpt-6-astra-mixed:P04-p001-b005",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p009-b008",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p002-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6-luna-mixed:P10-p006-b008",
+            "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 0,
+            "P03": 0,
+            "P04": 6,
+            "P06": 0,
+            "P10": 8
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 6,
+          "isolated_block_hits": 9,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-astra-mixed:P05-p004-b003",
+            "P05-gpt-6-astra-mixed:P05-p005-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002",
+            "P05-gpt-6.1-sol-mixed:P05-p002-b007"
+          ],
+          "hits_by_paper": {
+            "P05": 6,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 1,
+          "isolated_block_hits": 1,
+          "hit_block_ids": [
+            "P08-gpt-6-astra-mixed:P08-p001-b004"
+          ],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 1
+          }
+        }
+      }
+    },
+    "posthoc_50_observed_zero_false_frozen_plus_v2": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 25,
+        "isolated_block_hits": 33,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005",
+          "P08-gpt-6-astra-mixed:P08-p001-b004",
+          "P08-gpt-6-luna-mixed:P08-p003-b002"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 6,
+          "P05": 6,
+          "P06": 0,
+          "P07": 0,
+          "P08": 2,
+          "P09": 0,
+          "P10": 8
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 17,
+          "isolated_block_hits": 20,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P04-gpt-6-astra-mixed:P04-p001-b005",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p009-b008",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p002-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6-luna-mixed:P10-p006-b008",
+            "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 0,
+            "P03": 0,
+            "P04": 6,
+            "P06": 0,
+            "P10": 8
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 6,
+          "isolated_block_hits": 9,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-astra-mixed:P05-p004-b003",
+            "P05-gpt-6-astra-mixed:P05-p005-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002",
+            "P05-gpt-6.1-sol-mixed:P05-p002-b007"
+          ],
+          "hits_by_paper": {
+            "P05": 6,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 2,
+          "isolated_block_hits": 4,
+          "hit_block_ids": [
+            "P08-gpt-6-astra-mixed:P08-p001-b004",
+            "P08-gpt-6-luna-mixed:P08-p003-b002"
+          ],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 2
+          }
+        }
+      }
+    },
+    "posthoc_51_rethresholded": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 26,
+        "isolated_block_hits": 34,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P06-gpt-6.1-sol-mixed:P06-p004-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 1,
+          "P03": 0,
+          "P04": 6,
+          "P05": 6,
+          "P06": 1,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 8
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 19,
+          "isolated_block_hits": 22,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+            "P04-gpt-6-astra-mixed:P04-p001-b005",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+            "P06-gpt-6.1-sol-mixed:P06-p004-b007",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p009-b008",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p002-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6-luna-mixed:P10-p006-b008",
+            "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 1,
+            "P03": 0,
+            "P04": 6,
+            "P06": 1,
+            "P10": 8
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 6,
+          "isolated_block_hits": 9,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-astra-mixed:P05-p004-b003",
+            "P05-gpt-6-astra-mixed:P05-p005-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002",
+            "P05-gpt-6.1-sol-mixed:P05-p002-b007"
+          ],
+          "hits_by_paper": {
+            "P05": 6,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 1,
+          "isolated_block_hits": 3,
+          "hit_block_ids": [
+            "P08-gpt-6-astra-mixed:P08-p001-b004"
+          ],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 1
+          }
+        }
+      }
+    },
+    "posthoc_51_rethresholded_plus_v2": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 27,
+        "isolated_block_hits": 38,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P06-gpt-6.1-sol-mixed:P06-p004-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005",
+          "P08-gpt-6-astra-mixed:P08-p001-b004",
+          "P08-gpt-6-luna-mixed:P08-p003-b002"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 1,
+          "P03": 0,
+          "P04": 6,
+          "P05": 6,
+          "P06": 1,
+          "P07": 0,
+          "P08": 2,
+          "P09": 0,
+          "P10": 8
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 19,
+          "isolated_block_hits": 24,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+            "P04-gpt-6-astra-mixed:P04-p001-b005",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+            "P06-gpt-6.1-sol-mixed:P06-p004-b007",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p009-b008",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p002-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6-luna-mixed:P10-p006-b008",
+            "P10-gpt-6.1-sol-mixed:P10-p006-b011",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 1,
+            "P03": 0,
+            "P04": 6,
+            "P06": 1,
+            "P10": 8
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 6,
+          "isolated_block_hits": 9,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-astra-mixed:P05-p004-b003",
+            "P05-gpt-6-astra-mixed:P05-p005-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002",
+            "P05-gpt-6.1-sol-mixed:P05-p002-b007"
+          ],
+          "hits_by_paper": {
+            "P05": 6,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 2,
+          "isolated_block_hits": 5,
+          "hit_block_ids": [
+            "P08-gpt-6-astra-mixed:P08-p001-b004",
+            "P08-gpt-6-luna-mixed:P08-p003-b002"
+          ],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 2
+          }
+        }
+      }
+    },
+    "posthoc_18_raw_signal_thresholds": {
+      "all": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 14,
+        "isolated_block_hits": 24,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 4,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      },
+      "by_split": {
+        "fit": {
+          "pure_human_windows": 390,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 51,
+          "mixed_block_hits": 11,
+          "isolated_block_hits": 18,
+          "hit_block_ids": [
+            "P01-gpt-6-astra-mixed:P01-p001-b006",
+            "P01-gpt-6-astra-mixed:P01-p001-b007",
+            "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+            "P04-gpt-6-astra-mixed:P04-p003-b003",
+            "P04-gpt-6-astra-mixed:P04-p004-b007",
+            "P04-gpt-6-luna-mixed:P04-p001-b006",
+            "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+            "P10-gpt-6-astra-mixed:P10-p007-b007",
+            "P10-gpt-6-astra-mixed:P10-p010-b006",
+            "P10-gpt-6-luna-mixed:P10-p004-b010",
+            "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+          ],
+          "hits_by_paper": {
+            "P01": 3,
+            "P02": 0,
+            "P03": 0,
+            "P04": 4,
+            "P06": 0,
+            "P10": 4
+          }
+        },
+        "calibration": {
+          "pure_human_windows": 45,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 3,
+          "isolated_block_hits": 5,
+          "hit_block_ids": [
+            "P05-gpt-6-astra-mixed:P05-p002-b003",
+            "P05-gpt-6-luna-mixed:P05-p004-b004",
+            "P05-gpt-6-luna-mixed:P05-p005-b002"
+          ],
+          "hits_by_paper": {
+            "P05": 3,
+            "P09": 0
+          }
+        },
+        "test": {
+          "pure_human_windows": 58,
+          "pure_human_false_windows": 0,
+          "unique_false_hashes": 0,
+          "mixed_blocks": 12,
+          "mixed_block_hits": 0,
+          "isolated_block_hits": 1,
+          "hit_block_ids": [],
+          "hits_by_paper": {
+            "P07": 0,
+            "P08": 0
+          }
+        }
+      }
+    }
+  },
+  "frozen_models": {
+    "english-specialized-fusion-20261004:all_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 13,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 13,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:all_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:new_aggregate-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 8,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 9,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:new_aggregate-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 9,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 6,
+        "isolated_block_hits": 9,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:new_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 9,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 12,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 1,
+          "P03": 0,
+          "P04": 2,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:new_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 7,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 2,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 10,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P02-gpt-6.1-sol-mixed:P02-p004-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 1,
+          "P03": 0,
+          "P04": 1,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-cocodet-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-cocodet-en::ai": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 1,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 1,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-cocodet-en::mix": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-followsci-bert-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 13,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 13,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-llm-detectaive-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-llm-detectaive-en::human_machine_polished": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-llm-detectaive-en::machine": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-llm-detectaive-en::machine_machine_humanized": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:single-roberta-academic-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:v2_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 10,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 10,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 4
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:v2_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:v2_plus_new-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 15,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 17,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:v2_plus_new-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-fusion-20261004:v2_refit-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-all_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 15,
+        "isolated_block_hits": 12,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 15,
+        "isolated_block_hits": 14,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-all_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 8,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 8,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-new_aggregate-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 8,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-new_aggregate-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p009-b008"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p009-b008"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-new_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-new_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 2,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 2,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-cocodet-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-cocodet-en::ai": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-cocodet-en::mix": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-followsci-bert-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 17,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 17,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-llm-detectaive-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-astra-mixed:P05-p002-b003"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-astra-mixed:P05-p002-b003"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-llm-detectaive-en::human_machine_polished": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-llm-detectaive-en::machine": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-llm-detectaive-en::machine_machine_humanized": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-single-roberta-academic-en": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-v2_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 14,
+        "isolated_block_hits": 12,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 15,
+        "isolated_block_hits": 13,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P04-gpt-6.1-sol-mixed:P04-p004-b005",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-v2_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 6,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 4,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 6,
+        "isolated_block_hits": 4,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 4,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-v2_plus_new-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 3,
+        "unique_false_hashes": 1,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 24,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 11,
+        "isolated_block_hits": 23,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-astra-mixed:P05-p005-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p002-b006"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 5,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-v2_plus_new-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 9,
+        "isolated_block_hits": 6,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 1
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 9,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p004-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P08-gpt-6-astra-mixed:P08-p001-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 1,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-precision-20261004:native_logit-v2_refit-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-all_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 9,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 9,
+        "isolated_block_hits": 7,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-all_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 7,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 7,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p002-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-new_aggregate-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-new_aggregate-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-new_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-new_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-v2_plus_classes-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 14,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 4,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 16,
+        "isolated_block_hits": 10,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P04-gpt-6-astra-mixed:P04-p003-b003",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-astra-mixed:P05-p002-b003",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P06-gpt-6.1-sol-mixed:P06-p004-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008",
+          "P10-gpt-6.1-sol-mixed:P10-p006-b011"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 3,
+          "P05": 4,
+          "P06": 1,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 5
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-v2_plus_classes-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 10,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 10,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p001-b005",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P05-gpt-6.1-sol-mixed:P05-p002-b007",
+          "P10-gpt-6-astra-mixed:P10-p009-b008",
+          "P10-gpt-6-luna-mixed:P10-p004-b010",
+          "P10-gpt-6-luna-mixed:P10-p006-b008"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 3,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 3
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-v2_plus_new-hard_human_bag_ranking": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 6,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 7,
+        "isolated_block_hits": 5,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 1
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-v2_plus_new-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004",
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "english-specialized-precision-20261004:raw_probability-v2_refit-presence": {
+      "frozen": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      },
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    }
+  },
+  "raw_signals": {
+    "hc3-en": {
+      "human_quantiles_min_median_max": [
+        0.00024431038764305413,
+        0.0002531696227379143,
+        0.3046974539756775
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.00024439633125439286,
+        0.00027025307645089924,
+        0.29242971539497375
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.0002446336729917675,
+        0.0003702246176544577,
+        0.9930832386016846
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "desklib-en": {
+      "human_quantiles_min_median_max": [
+        0.000616359175182879,
+        0.02066309005022049,
+        0.9300904870033264
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.001462289597839117,
+        0.022289033979177475,
+        0.9917668700218201
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.0025694621726870537,
+        0.13062922656536102,
+        0.9917668700218201
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 6,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "fakespot-en": {
+      "human_quantiles_min_median_max": [
+        0.0007561856764368713,
+        0.09568304568529129,
+        0.9981955885887146
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.0012593966675922275,
+        0.09022019058465958,
+        0.9989497065544128
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.0034942033234983683,
+        0.3123228847980499,
+        0.9991015195846558
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "bibbbu-xlm-roberta": {
+      "human_quantiles_min_median_max": [
+        0.0003477744176052511,
+        0.9993892908096313,
+        0.9997401833534241
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.00034743634751066566,
+        0.9995137453079224,
+        0.9997392296791077
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.00048465197323821485,
+        0.999617338180542,
+        0.9997393488883972
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "openai-base-en": {
+      "human_quantiles_min_median_max": [
+        0.0001674680388532579,
+        0.00023923139087855816,
+        0.9991264939308167
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.00016759584832470864,
+        0.00020471175957936794,
+        0.9813057780265808
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.0001688696793280542,
+        0.00027041640714742243,
+        0.9305163025856018
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "openai-large-en": {
+      "human_quantiles_min_median_max": [
+        0.0004688406188506633,
+        0.00422316137701273,
+        0.8508807420730591
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.0004543440882116556,
+        0.0015777625376358628,
+        0.36770546436309814
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.00045641642645932734,
+        0.0010227336315438151,
+        0.32857266068458557
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "piratexx-en": {
+      "human_quantiles_min_median_max": [
+        0.00014741277846042067,
+        0.0001824735663831234,
+        0.018581410869956017
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.00014664241462014616,
+        0.00018210819689556956,
+        0.0010395150166004896
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.00014807801926508546,
+        0.0001833589412854053,
+        0.011640369892120361
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "mage-en": {
+      "human_quantiles_min_median_max": [
+        2.304781628481578e-05,
+        0.003499580081552267,
+        0.9999867677688599
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        2.841402601916343e-05,
+        0.0018709930591285229,
+        0.9999868869781494
+      ],
+      "isolated_quantiles_min_median_max": [
+        2.23139431909658e-05,
+        0.00017155552632175386,
+        0.9999816417694092
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-astra-mixed:P04-p003-b003"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "radar-vicuna-en": {
+      "human_quantiles_min_median_max": [
+        0.0044229221530258656,
+        0.050932567566633224,
+        0.9966398477554321
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.006440869998186827,
+        0.031620971858501434,
+        0.7650467753410339
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.004317150916904211,
+        0.03867148607969284,
+        0.9946275353431702
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "followsci-bert-en": {
+      "human_quantiles_min_median_max": [
+        2.025093181146076e-06,
+        2.374797986703925e-06,
+        4.307673407311086e-06
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        2.002815563173499e-06,
+        2.2887181785335997e-06,
+        2.9310731406440027e-06
+      ],
+      "isolated_quantiles_min_median_max": [
+        2.008174760703696e-06,
+        2.2194624307303457e-06,
+        0.9697684049606323
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 17,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "roberta-academic-en": {
+      "human_quantiles_min_median_max": [
+        0.0001335060369456187,
+        0.0002243055496364832,
+        0.9952677488327026
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.00013350247172638774,
+        0.00026114698266610503,
+        0.9997997879981995
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.00014294861466623843,
+        0.001878507959190756,
+        0.9998445510864258
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 3,
+        "isolated_block_hits": 3,
+        "hit_block_ids": [
+          "P01-gpt-6-astra-mixed:P01-p001-b006",
+          "P01-gpt-6-astra-mixed:P01-p001-b007",
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 3,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "llm-detectaive-en": {
+      "human_quantiles_min_median_max": [
+        0.00010499706905875428,
+        0.9998544546542689,
+        0.9999934086808935
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.43918771762400866,
+        0.9999542422301602,
+        0.9999943801230984
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.9758918629377149,
+        0.9997576849418692,
+        0.9999929353070911
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-astra-mixed:P05-p002-b003"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 1,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "cocodet-en": {
+      "human_quantiles_min_median_max": [
+        1.217483229141135e-09,
+        2.9562510453495783e-08,
+        0.9999985568196621
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        1.7163337232299538e-09,
+        7.562150281924945e-08,
+        0.9999996372780018
+      ],
+      "isolated_quantiles_min_median_max": [
+        3.421000692254393e-09,
+        9.021182371656087e-07,
+        0.999995826858438
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 5,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-astra-mixed:P04-p004-b007",
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 1,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "llm-detectaive-en::human_machine_polished": {
+      "human_quantiles_min_median_max": [
+        9.7849071607925e-05,
+        0.9985383749008179,
+        0.9998660087585449
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        0.4381844997406006,
+        0.9993568062782288,
+        0.9998868703842163
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.017335543408989906,
+        0.9849547147750854,
+        0.9995617270469666
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P04-gpt-6-luna-mixed:P04-p001-b006",
+          "P04-gpt-6.1-sol-mixed:P04-p001-b007",
+          "P10-gpt-6-astra-mixed:P10-p007-b007",
+          "P10-gpt-6.1-sol-mixed:P10-p008-b005"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 2,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "llm-detectaive-en::machine": {
+      "human_quantiles_min_median_max": [
+        6.504531938844593e-06,
+        0.0005288022803142667,
+        0.9918442368507385
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        3.221229781047441e-05,
+        0.0002381178637733683,
+        0.014270165003836155
+      ],
+      "isolated_quantiles_min_median_max": [
+        0.00031037069857120514,
+        0.01285839406773448,
+        0.9810221791267395
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "llm-detectaive-en::machine_machine_humanized": {
+      "human_quantiles_min_median_max": [
+        6.434655119846866e-07,
+        0.00023685270571149886,
+        0.1954900175333023
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        1.6021336705307476e-05,
+        0.00020626724290195853,
+        0.11117555946111679
+      ],
+      "isolated_quantiles_min_median_max": [
+        4.4106258428655565e-05,
+        0.00019695147057063878,
+        0.04620630294084549
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    },
+    "cocodet-en::mix": {
+      "human_quantiles_min_median_max": [
+        1.216429845740663e-09,
+        2.9561022074631182e-08,
+        0.9999979734420776
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        1.7159809129196901e-09,
+        7.560991122090854e-08,
+        0.9999995231628418
+      ],
+      "isolated_quantiles_min_median_max": [
+        3.4195750675536374e-09,
+        9.021170512824028e-07,
+        0.9999957084655762
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 4,
+        "isolated_block_hits": 0,
+        "hit_block_ids": [
+          "P05-gpt-6-luna-mixed:P05-p004-b004",
+          "P05-gpt-6-luna-mixed:P05-p005-b002",
+          "P10-gpt-6-astra-mixed:P10-p010-b006",
+          "P10-gpt-6-luna-mixed:P10-p004-b010"
+        ],
+        "hits_by_paper": {
+          "P01": 0,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 2,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 2
+        }
+      }
+    },
+    "cocodet-en::ai": {
+      "human_quantiles_min_median_max": [
+        1.6108742486621586e-13,
+        1.9131441222897116e-12,
+        4.470759449759498e-06
+      ],
+      "mixed_positive_quantiles_min_median_max": [
+        2.769107913889318e-13,
+        2.999381125412537e-12,
+        0.010223010554909706
+      ],
+      "isolated_quantiles_min_median_max": [
+        2.8104303823398014e-13,
+        8.161022205244173e-12,
+        0.010223010554909706
+      ],
+      "posthoc_above_all_known_humans": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "unique_false_hashes": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 1,
+        "isolated_block_hits": 2,
+        "hit_block_ids": [
+          "P01-gpt-6.1-sol-mixed:P01-p011-b004"
+        ],
+        "hits_by_paper": {
+          "P01": 1,
+          "P02": 0,
+          "P03": 0,
+          "P04": 0,
+          "P05": 0,
+          "P06": 0,
+          "P07": 0,
+          "P08": 0,
+          "P09": 0,
+          "P10": 0
+        }
+      }
+    }
+  },
+  "verification": {
+    "original_freezes_verified": true,
+    "raw_cache_hashes_verified": true,
+    "frozen_metrics_reproduced_all_and_by_split": true,
+    "scalar_vector_max_absolute_error": 8.881784197001252e-16,
+    "profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e"
+  },
+  "source_sha256": {
+    "evaluations/english-specialized-fusion-20261004/campaign.json": "a6048c7aa2e07929f938fab789b7faf28c7538c7661077e81b30f41d004a9ef6",
+    "evaluations/english-specialized-fusion-20261004/development-data.json": "a79c4278c3fe40720adfa66ddb9324f8abef9376e8175144efb437c6631abd0b",
+    "evaluations/english-specialized-fusion-20261004/repeat-data.json": "3f590f366cdff6acf1673739332062aff4bdd26747cdba27993708c9aacb664c",
+    "evaluations/english-specialized-fusion-20261004/frozen-models.json": "cbfeae9185e8e5b413c565323df6def83ffb0d1eaff6dd600d5a985154d5cac5",
+    "evaluations/english-specialized-fusion-20261004/evaluation.json": "b1c81f083a6e2b2781c47c4b462682a8b53dd110e892e56e4a9fd2dcc8fb6179",
+    "evaluations/english-specialized-fusion-20261004/FREEZE.json": "364393ac8e81ed1e966efef1a58cd151a8284c22778ba958e1619dc2a071f7b7",
+    "evaluations/english-specialized-precision-20261004/campaign.json": "2ff2557a68940549a33da9404530d5921c762463ab0a847e0a048e865426e02c",
+    "evaluations/english-specialized-precision-20261004/development-data.json": "5228c856d6c66537297867511e4bf5f9c8bf7b87adb70bc6e387129d7e2e9277",
+    "evaluations/english-specialized-precision-20261004/repeat-data.json": "a10db5765cf8f45ed00f924d7678c7bda1fbbe68e9eddc8a6a53bb6415ee2241",
+    "evaluations/english-specialized-precision-20261004/frozen-models.json": "5a56c34506f1c55a66fe0050b5624a45498b0b1619b4a29c77e072929ac33fce",
+    "evaluations/english-specialized-precision-20261004/evaluation.json": "08a27ae6fd0b2b1297d6ff47cef98bf0025ca1e9bc933dd208debf8323f31dd2",
+    "evaluations/english-specialized-precision-20261004/FREEZE.json": "994494cc516ebf6ed96cc9ad4b772d24ddd0f2c46493e60a9cea730b304b3c31",
+    "reports/english-followup-review-20261004/analyze.py": "5061e4e71b141751e7f3b9318f9ef962ae74b06c8d661090c6ac914c9450a1bf"
+  },
+  "contains_source_text": false,
+  "new_independent_validation": false
+}

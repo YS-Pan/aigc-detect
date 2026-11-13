@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-04T06:09:44.746458+00:00",
+  "campaign_sha256": "6335b40748f966a9ab500bcbfcfd3ef748dc847896a19a93600f097510a9b2b5",
+  "selection_sha256": "30be4de2058ed502dc8a5957036a3061f6d02b71732ba298c7fda80f0a744d7b",
+  "models_sha256": "0c6a389731d6df688c90662795d4b72a5c8a4d902678151c60984f56af6af599",
+  "development_data_sha256": "8ff6d643006734b74015b73bee7b31e1ecf474e192ed0f1a2c2f557ed1a9f347",
+  "repeat_rule": "Freeze all three family champions and overall winner before loading P07/P08 cached scores. No retuning after repeat."
+}

@@ -1,0 +1,24 @@
+{
+  "targeted_tests": {
+    "passed": 8,
+    "log_path": "reports/english-hard-negative-20261004/pytest.log",
+    "log_sha256": "3f154986fe33d28aa8c6f23cbf1e6cf24e1125224db93c4f2afdc3c42197c936"
+  },
+  "utf8_documents_checked": 12,
+  "relative_links_checked": 179,
+  "broken_links": [],
+  "numeric_data_whitelist_verified": true,
+  "cached_revisions_and_segmentation_match_v2": true,
+  "frozen_model_and_threshold_reproduction_max_error": 0.0,
+  "default_v2_profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "audit_sha256": "dc00951e978c90e684f4168baa3b62456ad5f8c592025addc8dd2d56b70ed50e",
+  "freeze_sha256": "19e07af317385f9b845e9eafab17576370356a893dfb192479e6007238ae9501",
+  "code_hashes": {
+    "scripts/english_hard_negative.py": "ab678343b9727c5c1fea84ca0386ddeb56ac64466369e3cec386818e057ab8c9",
+    "scripts/report_english_hard_negative.py": "99dca9d6940e1462e2c9dad3dfc4e48550060d670cad942d2230347b544c12d5",
+    "tests/test_english_hard_negative.py": "1150ed522d51bb231c8c33b71ee1134cb47cd2f6343aaaf60985acc53a9115fd"
+  },
+  "evaluation_sha256": "3fed7b1b347fb0c08a227527edbbbd15c0f26ee05f177b784e665925cbbb3363",
+  "no_new_weight_inference_or_deployment": true,
+  "new_independent_validation": false
+}

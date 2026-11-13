@@ -1,0 +1,241 @@
+{
+  "code_sha256": "4c13d6451a1aad455652701dd594e740009bf9cc0c4869a39dbc76826cc68f6d",
+  "parent_declaration_sha256": "2156a7950cfe661856f4389aaed4bec6b3b0ccb2f9b18090c505273d5546e34e",
+  "reason": "Lexical anchor matcher dropped terminal punctuation. Restore actual adjacent source punctuation; retain earlier scores as extraction-confounded diagnostics.",
+  "rows": [
+    {
+      "id": "P01-p006-b005",
+      "converted_hash": "96de28158902f88028298f7fcff628dee00ff900bba036cf4b1ff14b3ee75c4c",
+      "mechanical_hash": "6b7a9069f2f0d239898b7a1aaaca6861770db6451c91822e3cca6a548212c862",
+      "no_terminal_punctuation_hash": "079e1309f2ba5e52b988cffb9f15a6db63b4915e31e29b9c9fc2beb44c7663b5",
+      "word_similarity": 0.973404255319149,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P01-p006-b006",
+      "converted_hash": "9249cb2e14c1251ef5ead47d96986c58c719f124d2fe7460b29a41553f1bda05",
+      "mechanical_hash": "8494802c10fab6b08a843887af3ac6681d5b493f6753cff1675fa7f097239aea",
+      "no_terminal_punctuation_hash": "2c03f76715b6dd2b80c5df5a4e27bdf3cce26917f0864fb5eb27a79328197e23",
+      "word_similarity": 0.961038961038961,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P01-p006-b008",
+      "converted_hash": "519d819c892d124d468f4772f8cc99ddab707c2b44ec189a34869d30e55d59b7",
+      "mechanical_hash": "0c7c14fa4f1ddd383650a6ab9835e7e81b34ee9b8489277c5fcf1443929faef0",
+      "no_terminal_punctuation_hash": "878c377e3f2b6dc94bb1695a77e051ba743555e49604155f7a099d2c95358c67",
+      "word_similarity": 0.9624724061810155,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P01-p011-b004",
+      "converted_hash": "78aa2526b348c628ae882e78e879c0ef3f862162bca7794b260800bdb4091a9f",
+      "mechanical_hash": "78aa2526b348c628ae882e78e879c0ef3f862162bca7794b260800bdb4091a9f",
+      "no_terminal_punctuation_hash": "3919ad9ec6ad386ce54021fd10a74a33868ae2e54df7f0ff4c182ed12770993c",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P02-p010-b003",
+      "converted_hash": "dc203c296707a747e67da86a829fe1f240a3aef7fff0335b93b13081e69bbd46",
+      "mechanical_hash": "a4085b9bcf155021707a19566d1cb2186964682a1058579dd735a71b60326643",
+      "no_terminal_punctuation_hash": "566d8762e84b26d017a2a96bd37b1e66360b86c06aaad1ce48e145ed88b4299b",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P02-p010-b006",
+      "converted_hash": "20f43a6ee4ca70137774928b4f626668a482bafeaac5ddfeacef90f07ffec089",
+      "mechanical_hash": "2093a18d565159eba80bfb1087465aa8d843841dadab4ca71d55dedc60f57c39",
+      "no_terminal_punctuation_hash": "a7a1379ac574f94d96a0beb3e2dbd6570ebf371ecb8fe2d5bf2daa421b487ef4",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P02-p010-b008",
+      "converted_hash": "721a514a2c4c2e72267165b2edeb1fce9f13e109ec8f84020fbc79a5ec8a6a29",
+      "mechanical_hash": "721a514a2c4c2e72267165b2edeb1fce9f13e109ec8f84020fbc79a5ec8a6a29",
+      "no_terminal_punctuation_hash": "c4d9e36f491e83004e639e9bbe18029829afb3380b55e66e45740e80a0110db1",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P02-p010-b009",
+      "converted_hash": "2c0c366d99151c8b131eae4daccdfc58c018a759c01d786363ff19364123b885",
+      "mechanical_hash": "2c0c366d99151c8b131eae4daccdfc58c018a759c01d786363ff19364123b885",
+      "no_terminal_punctuation_hash": "2c0c366d99151c8b131eae4daccdfc58c018a759c01d786363ff19364123b885",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P02-p011-b003",
+      "converted_hash": "77c21ac4e487e23732cf2c335ed41dd23f20b337d9d583f88ee1b62f5a3d6ca6",
+      "mechanical_hash": "77c21ac4e487e23732cf2c335ed41dd23f20b337d9d583f88ee1b62f5a3d6ca6",
+      "no_terminal_punctuation_hash": "0c3a14f131ad5c16456010b4cbf376a54c93cc23aebba3f621c9da3b1ccd6aad",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P03-p012-b002",
+      "converted_hash": "18065037c67f50c870c6e53d992508ba189c0386bb11d6152486be7fa7ce83df",
+      "mechanical_hash": "2222b671c2d4ee563152c7edb39b85cfd9e5b3913378ece5d87e3fb9b722dd3a",
+      "no_terminal_punctuation_hash": "ef048e765d1f8fc9005d941a9402a10377aecf914083ebcf11f0871c7bf4d469",
+      "word_similarity": 0.9731182795698925,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P03-p012-b003",
+      "converted_hash": "1656241417b8174659ced2f0141ebd23a3ba5bb519ca8088ee03a30a5ba4f5d2",
+      "mechanical_hash": "1656241417b8174659ced2f0141ebd23a3ba5bb519ca8088ee03a30a5ba4f5d2",
+      "no_terminal_punctuation_hash": "3f3a10d9566885b7cd43942b06f8ca16dd57b7305ad92dc36ebf136f83d8589f",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P03-p012-b005",
+      "converted_hash": "fabe412325a565101b7734a7fc78840b2ad4c70b6995d7596ad5b52e012233eb",
+      "mechanical_hash": "7d028299483d4d0d8beaccb189828b4c29e16c0d5b71e7307da7fd504e39b057",
+      "no_terminal_punctuation_hash": "fabe412325a565101b7734a7fc78840b2ad4c70b6995d7596ad5b52e012233eb",
+      "word_similarity": 0.9777777777777777,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P03-p012-b006",
+      "converted_hash": "300babdee34d31dacbd1aa7f37ee0f4ab88903d26984fb1d170fd0d6596f3d83",
+      "mechanical_hash": "8eac9e1e4cf3bf38ee0d2fdcca14cb495ac3169f5bf3efc78583b359e04a1eff",
+      "no_terminal_punctuation_hash": "51ef63dec9aacc56ece7313795b1876ea3bbbb1fcca0cc2201c8306e639cd424",
+      "word_similarity": 0.9166666666666666,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P04-p003-b006",
+      "converted_hash": "f31b17e770d03c2c7478325f95c102afa6b6898d95f3b0557d865b6c10c10b14",
+      "mechanical_hash": "2fb0de96036ae8a9a203710095839f9c13bf3892a831a73cf0375cbf7345a16c",
+      "no_terminal_punctuation_hash": "cea701e6bb567cdab4653a0289271bc03dad052b5d4f2894745af6cfc3d1817a",
+      "word_similarity": 0.9846153846153847,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P04-p003-b007",
+      "converted_hash": "a3bb5d35ea98ce65571cd9d201bf37bd55c547d1546d4ff8049d778803b48f83",
+      "mechanical_hash": "f7ebf92aba869ca9766cb8b7a343ad9c56b6a1ba39fad936071326b6a3d64c58",
+      "no_terminal_punctuation_hash": "02d60fa3eeea6dc34c8bf3287dc15701e5012aa518d0bdd935e55e8ebcb4ecc8",
+      "word_similarity": 0.979253112033195,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P04-p003-b008",
+      "converted_hash": "01f190e778272388bdf1d69c4c2aeb67aa05a14606a7085c4a0a10ac4d8e10d6",
+      "mechanical_hash": "f704c6857e3b518558af4ca9dd074439c9f087dfab816492a7847819349a463a",
+      "no_terminal_punctuation_hash": "01f190e778272388bdf1d69c4c2aeb67aa05a14606a7085c4a0a10ac4d8e10d6",
+      "word_similarity": 0.9491525423728814,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P04-p004-b007",
+      "converted_hash": "d2723b2d2f588ce28366f65a5c33beaecc913279ce6ddfa908a79b29d8edb991",
+      "mechanical_hash": "d2723b2d2f588ce28366f65a5c33beaecc913279ce6ddfa908a79b29d8edb991",
+      "no_terminal_punctuation_hash": "e6ec3502fe36233f2d56a9c5a3b1d72a35fba303e8ad1cd1009a3855942dd877",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P04-p005-b001",
+      "converted_hash": "a38f846f4382fa44dff9b9ec0645dcece6f1ea762268acb6971394db029100b8",
+      "mechanical_hash": "a38f846f4382fa44dff9b9ec0645dcece6f1ea762268acb6971394db029100b8",
+      "no_terminal_punctuation_hash": "8ac2bb546d6fbc837d5b9969592d0c316fbb2e5305d20340153af7628781fc3a",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P04-p005-b003",
+      "converted_hash": "879d7c0cd3cea97438173d794fbb4cbb0dd1877c0394718c5e9dda8754c8e8bb",
+      "mechanical_hash": "879d7c0cd3cea97438173d794fbb4cbb0dd1877c0394718c5e9dda8754c8e8bb",
+      "no_terminal_punctuation_hash": "671d303ab3ef46e686bba53276cc667d1081c435ad9c55a4e37fa2c097dc28a2",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P06-p004-b006",
+      "converted_hash": "50d77bebb5628936d0139b456450a0de8b6b96e766c016b92ab5104633eb747f",
+      "mechanical_hash": "031531d08f77f8f64f51931fbb4d2b493915e985e77a27c1634b6bbe91f1c32d",
+      "no_terminal_punctuation_hash": "d77cf13d0ca683e5b3180104058cafda5ca43438aa7f677d9f6c5d22792e0a08",
+      "word_similarity": 0.9844559585492227,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P06-p004-b007",
+      "converted_hash": "ea4d848aca79c4640d2146d6ca4862f74a28c28994d2265279df5ec82964b398",
+      "mechanical_hash": "d4b0ca29a394f85dcc195d394318f415e9fe0148bcf380588e508bc31b31f1a2",
+      "no_terminal_punctuation_hash": "ffac54d74a7bb9726a14dc7511e1787af14f5fed7f3be5841b469cc29433fb6c",
+      "word_similarity": 0.9542168674698795,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P07-p002-b008",
+      "converted_hash": "3c0219b178bfd2058773748c8b93e0b61aae482b4f7f76c0ebd5d046c3d0b6c9",
+      "mechanical_hash": "eaf951888b6c6d43267e7b406917107545c727ebf372963e87e91fc2992491be",
+      "no_terminal_punctuation_hash": "81325162cf81c218a64249a97bdb1384326eafc489d3d27ab4ff5124e441dddd",
+      "word_similarity": 0.9736842105263158,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P10-p003-b004",
+      "converted_hash": "fe13e12d42ae53db64e60d21253ab6a7b0b9ec5afff076b8a8e76ea8861ff2c2",
+      "mechanical_hash": "3cd80ae53170aa3270fdfd662d46b5b972d071b573e29b15b10e575b96cfa693",
+      "no_terminal_punctuation_hash": "1595517586d95d3feb5e8e6a3262e057c5b07e58432d234ae3d1c0ac301f3eed",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P10-p003-b006",
+      "converted_hash": "358433a863a6ef370f3410e999d15233d0fff2ca77b01cfdea784aaa33e4a8f4",
+      "mechanical_hash": "358433a863a6ef370f3410e999d15233d0fff2ca77b01cfdea784aaa33e4a8f4",
+      "no_terminal_punctuation_hash": "cbd28f029d2df7e423f5b99ab3a4752af77fd2b58a0f3ab627ebda4b419f6c83",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P10-p003-b008",
+      "converted_hash": "8138b76fc58dda1f0054f34d8f66e2addfc8159b06f46c44b02545fe442896a3",
+      "mechanical_hash": "24eb9fd2cba69763298cd83cc8cff4692b403514411eaff2b84bf62260d27cd3",
+      "no_terminal_punctuation_hash": "e3168f30950dbf5e7e18a1e29dda7d653f969653fbae4e465819cc6895f9c82a",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P10-p003-b009",
+      "converted_hash": "a1ff044ff67b06969e1221df38fbe8e6b368f5803d5b5b7517e3ff55f8a42075",
+      "mechanical_hash": "1effe65578cb797061c5898cb1cbcc5e54d3ac042c519052e6c5b91a5bef53b0",
+      "no_terminal_punctuation_hash": "0c875adf28a056b2599f91534d5b422aabcbe8818014644a3986174e67a72a45",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P10-p009-b003",
+      "converted_hash": "da74cd20149cc92135b54c0dfdf8ab2503ef9853723bb0fbf1dc0e9b5dff8a0e",
+      "mechanical_hash": "da74cd20149cc92135b54c0dfdf8ab2503ef9853723bb0fbf1dc0e9b5dff8a0e",
+      "no_terminal_punctuation_hash": "3c7eca129ed47fe21b82d5cc91787693bec06a231d45d9d96563ae628d258fcd",
+      "word_similarity": 1.0,
+      "text_identical_after_boundary_correction": true
+    },
+    {
+      "id": "P10-p009-b005",
+      "converted_hash": "8f40d9ec8f3c71543af8603ed597e29e3a5e51482d04a9040c2dfca8ff017cea",
+      "mechanical_hash": "19c8ac942d95fde61574a680ca8f69c7acd5fef0ae8cafb82f05060ca9b647ff",
+      "no_terminal_punctuation_hash": "be5c8c5c83161ff7379c3982e7f53ac534ead18957e884c72ea283ad5877c45a",
+      "word_similarity": 0.9640287769784173,
+      "text_identical_after_boundary_correction": false
+    },
+    {
+      "id": "P10-p009-b008",
+      "converted_hash": "77822a0cc59cfcbf823488847e124b34af3e1339f9bfe8f519996caa94d3c911",
+      "mechanical_hash": "ffcc63869d3500f05b53e1e4f8e375ad743e657cd42a004c3b717c6aad512a24",
+      "no_terminal_punctuation_hash": "edd510f187294dbd6ff057c0777e63db51d489f29c1ec6ff35b37fc794f7e441",
+      "word_similarity": 0.9704641350210971,
+      "text_identical_after_boundary_correction": false
+    }
+  ],
+  "passages_sha256": "c2d88a39f2405cb2696ad72d72901e92b1c8b80280370517a3b9641e3f3fcdf5",
+  "selection_and_thresholds_unchanged": true
+}

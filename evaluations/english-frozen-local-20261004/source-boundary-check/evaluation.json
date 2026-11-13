@@ -1,0 +1,969 @@
+{
+  "results": {
+    "followsci-bert-en": {
+      "rows": [
+        {
+          "id": "P01-p006-b005",
+          "converted_score": 2.1882863165956223e-06,
+          "mechanical_score": 2.186425490435795e-06,
+          "no_terminal_punctuation_score": 2.2317760794976493e-06,
+          "source_delta_logit": 0.000850721338654381,
+          "punctuation_delta_logit": -0.019679026495682095
+        },
+        {
+          "id": "P01-p006-b006",
+          "converted_score": 2.3234813397721155e-06,
+          "mechanical_score": 2.131420615114621e-06,
+          "no_terminal_punctuation_score": 2.0633672193071106e-06,
+          "source_delta_logit": 0.08627811762772275,
+          "punctuation_delta_logit": 0.11872767771846959
+        },
+        {
+          "id": "P01-p006-b008",
+          "converted_score": 2.421186309220502e-06,
+          "mechanical_score": 2.4418311568297213e-06,
+          "no_terminal_punctuation_score": 2.4252976800198667e-06,
+          "source_delta_logit": -0.008490622119252222,
+          "punctuation_delta_logit": -0.0016966451380451275
+        },
+        {
+          "id": "P01-p011-b004",
+          "converted_score": 2.428899051665212e-06,
+          "mechanical_score": 2.428899051665212e-06,
+          "no_terminal_punctuation_score": 2.0768388822034467e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.1565914720672854
+        },
+        {
+          "id": "P02-p010-b003",
+          "converted_score": 2.414614755252842e-06,
+          "mechanical_score": 2.4293717615364585e-06,
+          "no_terminal_punctuation_score": 2.429374035273213e-06,
+          "source_delta_logit": -0.006092951591423201,
+          "punctuation_delta_logit": -0.006093887529369013
+        },
+        {
+          "id": "P02-p010-b006",
+          "converted_score": 3.5195168948121136e-06,
+          "mechanical_score": 2.4080559342110064e-06,
+          "no_terminal_punctuation_score": 2.8127358291385463e-06,
+          "source_delta_logit": 0.37950509019344203,
+          "punctuation_delta_logit": 0.22416682680656486
+        },
+        {
+          "id": "P02-p010-b008",
+          "converted_score": 2.0889078768959735e-06,
+          "mechanical_score": 2.0889078768959735e-06,
+          "no_terminal_punctuation_score": 2.0867216790065868e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.0010471248104071407
+        },
+        {
+          "id": "P02-p010-b009",
+          "converted_score": 2.4854980438249186e-06,
+          "mechanical_score": 2.4854980438249186e-06,
+          "no_terminal_punctuation_score": 2.4854980438249186e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P02-p011-b003",
+          "converted_score": 2.0556128674797947e-06,
+          "mechanical_score": 2.0556128674797947e-06,
+          "no_terminal_punctuation_score": 2.0739219053211855e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.00886743743508056
+        },
+        {
+          "id": "P03-p012-b002",
+          "converted_score": 2.1867988380108727e-06,
+          "mechanical_score": 2.0048107671755133e-06,
+          "no_terminal_punctuation_score": 2.2653307496511843e-06,
+          "source_delta_logit": 0.08688926281862663,
+          "punctuation_delta_logit": -0.03528209646883873
+        },
+        {
+          "id": "P03-p012-b003",
+          "converted_score": 2.2504325443151174e-06,
+          "mechanical_score": 2.2504325443151174e-06,
+          "no_terminal_punctuation_score": 2.295188096468337e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.019692404497101634
+        },
+        {
+          "id": "P03-p012-b005",
+          "converted_score": 2.245816403956269e-06,
+          "mechanical_score": 2.53186271947925e-06,
+          "no_terminal_punctuation_score": 2.245816403956269e-06,
+          "source_delta_logit": -0.11988646123240443,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P03-p012-b006",
+          "converted_score": 1.9336190234753303e-05,
+          "mechanical_score": 1.1674617780954577e-05,
+          "no_terminal_punctuation_score": 2.090211182803614e-06,
+          "source_delta_logit": 0.5045690786445896,
+          "punctuation_delta_logit": 2.2247306226124817
+        },
+        {
+          "id": "P04-p003-b006",
+          "converted_score": 2.1279233806126285e-06,
+          "mechanical_score": 2.6721452286437852e-06,
+          "no_terminal_punctuation_score": 2.0271279481676174e-06,
+          "source_delta_logit": -0.22773558497789814,
+          "punctuation_delta_logit": 0.048526678860215
+        },
+        {
+          "id": "P04-p003-b007",
+          "converted_score": 2.284138872710173e-06,
+          "mechanical_score": 2.0892305201414274e-06,
+          "no_terminal_punctuation_score": 2.287544020873611e-06,
+          "source_delta_logit": 0.08919346126309335,
+          "punctuation_delta_logit": -0.0014896731274003372
+        },
+        {
+          "id": "P04-p003-b008",
+          "converted_score": 6.035296792106237e-06,
+          "mechanical_score": 0.013730362989008427,
+          "no_terminal_punctuation_score": 6.035296792106237e-06,
+          "source_delta_logit": -7.7435593651720565,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P04-p004-b007",
+          "converted_score": 2.0416593997651944e-06,
+          "mechanical_score": 2.0416593997651944e-06,
+          "no_terminal_punctuation_score": 2.0588108782249037e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.008365681245976475
+        },
+        {
+          "id": "P04-p005-b001",
+          "converted_score": 1.989209067687625e-06,
+          "mechanical_score": 1.989209067687625e-06,
+          "no_terminal_punctuation_score": 2.078979150610394e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.044139963721876896
+        },
+        {
+          "id": "P04-p005-b003",
+          "converted_score": 3.7903100746916607e-06,
+          "mechanical_score": 3.7903100746916607e-06,
+          "no_terminal_punctuation_score": 3.7438162507896777e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.012342397048330511
+        },
+        {
+          "id": "P06-p004-b006",
+          "converted_score": 2.552847263359581e-06,
+          "mechanical_score": 3.5426346585154533e-06,
+          "no_terminal_punctuation_score": 2.4847727218002547e-06,
+          "source_delta_logit": -0.3276623838026147,
+          "punctuation_delta_logit": 0.027028182880856733
+        },
+        {
+          "id": "P06-p004-b007",
+          "converted_score": 2.386540472798515e-06,
+          "mechanical_score": 2.1888372430112213e-06,
+          "no_terminal_punctuation_score": 2.3893323941592826e-06,
+          "source_delta_logit": 0.08647455051849029,
+          "punctuation_delta_logit": -0.001169180346098031
+        },
+        {
+          "id": "P07-p002-b008",
+          "converted_score": 2.4130054043780547e-06,
+          "mechanical_score": 2.393834620306734e-06,
+          "no_terminal_punctuation_score": 2.4446455881843576e-06,
+          "source_delta_logit": 0.007976521661950287,
+          "punctuation_delta_logit": -0.013027164019552728
+        },
+        {
+          "id": "P10-p003-b004",
+          "converted_score": 4.7779642045497894e-05,
+          "mechanical_score": 4.777936919708736e-05,
+          "no_terminal_punctuation_score": 4.038543465867406e-06,
+          "source_delta_logit": 5.7108470290501145e-06,
+          "punctuation_delta_logit": 2.470759293662505
+        },
+        {
+          "id": "P10-p003-b006",
+          "converted_score": 0.3260195553302765,
+          "mechanical_score": 0.3260195553302765,
+          "no_terminal_punctuation_score": 0.009329640306532383,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 3.9389416518158766
+        },
+        {
+          "id": "P10-p003-b008",
+          "converted_score": 0.00228290306404233,
+          "mechanical_score": 0.002838222775608301,
+          "no_terminal_punctuation_score": 0.00023944154963828623,
+          "source_delta_logit": -0.21828691161625002,
+          "punctuation_delta_logit": 2.256939892914473
+        },
+        {
+          "id": "P10-p003-b009",
+          "converted_score": 5.063468506705249e-06,
+          "mechanical_score": 3.0342030186147895e-06,
+          "no_terminal_punctuation_score": 3.0342087029566756e-06,
+          "source_delta_logit": 0.512104960180567,
+          "punctuation_delta_logit": 0.5121030867549017
+        },
+        {
+          "id": "P10-p009-b003",
+          "converted_score": 2.359210839131265e-06,
+          "mechanical_score": 2.359210839131265e-06,
+          "no_terminal_punctuation_score": 2.393485374341253e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.014423480614391693
+        },
+        {
+          "id": "P10-p009-b005",
+          "converted_score": 0.039755288511514664,
+          "mechanical_score": 0.005838274955749512,
+          "no_terminal_punctuation_score": 0.004390497226268053,
+          "source_delta_logit": 1.9530192425444368,
+          "punctuation_delta_logit": 2.2394673479451934
+        },
+        {
+          "id": "P10-p009-b008",
+          "converted_score": 2.1865944290766492e-06,
+          "mechanical_score": 1.0146099157282151e-05,
+          "no_terminal_punctuation_score": 2.0440577372937696e-06,
+          "source_delta_logit": -1.5347519934333924,
+          "punctuation_delta_logit": 0.06740850164514356
+        }
+      ],
+      "median_source_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.0,
+      "source_max_absolute_probability_difference": 0.03391701355576515,
+      "punctuation_max_absolute_probability_difference": 0.3166899150237441
+    },
+    "roberta-academic-en": {
+      "rows": [
+        {
+          "id": "P01-p006-b005",
+          "converted_score": 0.0003889353247359395,
+          "mechanical_score": 0.0004129016015212983,
+          "no_terminal_punctuation_score": 0.00021544305491261184,
+          "source_delta_logit": -0.059820218011636506,
+          "punctuation_delta_logit": 0.5908899859109438
+        },
+        {
+          "id": "P01-p006-b006",
+          "converted_score": 0.00028476407169364393,
+          "mechanical_score": 0.00023289170349016786,
+          "no_terminal_punctuation_score": 0.0002232417609775439,
+          "source_delta_logit": 0.20113935098773972,
+          "punctuation_delta_logit": 0.24346724260057329
+        },
+        {
+          "id": "P01-p006-b008",
+          "converted_score": 0.0002015077043324709,
+          "mechanical_score": 0.0001944012037711218,
+          "no_terminal_punctuation_score": 0.00017722677148412913,
+          "source_delta_logit": 0.03591063921855664,
+          "punctuation_delta_logit": 0.12842179371846996
+        },
+        {
+          "id": "P01-p011-b004",
+          "converted_score": 0.9952677488327026,
+          "mechanical_score": 0.9952677488327026,
+          "no_terminal_punctuation_score": 0.0010335196275264025,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 12.222361905719001
+        },
+        {
+          "id": "P02-p010-b003",
+          "converted_score": 0.00020207530178595334,
+          "mechanical_score": 0.0001718577550491318,
+          "no_terminal_punctuation_score": 0.0001673679507803172,
+          "source_delta_logit": 0.16200350312421108,
+          "punctuation_delta_logit": 0.18848043601686015
+        },
+        {
+          "id": "P02-p010-b006",
+          "converted_score": 0.8938339352607727,
+          "mechanical_score": 0.015728013589978218,
+          "no_terminal_punctuation_score": 0.00020962349663022906,
+          "source_delta_logit": 6.266974326839743,
+          "punctuation_delta_logit": 10.600503350581484
+        },
+        {
+          "id": "P02-p010-b008",
+          "converted_score": 0.0007701956201344728,
+          "mechanical_score": 0.0007701956201344728,
+          "no_terminal_punctuation_score": 0.00023208747734315693,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 1.2000685545524012
+        },
+        {
+          "id": "P02-p010-b009",
+          "converted_score": 0.00014300177281256765,
+          "mechanical_score": 0.00014300177281256765,
+          "no_terminal_punctuation_score": 0.00014300177281256765,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P02-p011-b003",
+          "converted_score": 0.003370497841387987,
+          "mechanical_score": 0.003370497841387987,
+          "no_terminal_punctuation_score": 0.00027070491341874003,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 2.5248918418097253
+        },
+        {
+          "id": "P03-p012-b002",
+          "converted_score": 0.000297233578749001,
+          "mechanical_score": 0.00027063937159255147,
+          "no_terminal_punctuation_score": 0.00021028731134720147,
+          "source_delta_logit": 0.09375768936085827,
+          "punctuation_delta_logit": 0.34613051354925695
+        },
+        {
+          "id": "P03-p012-b003",
+          "converted_score": 0.0016120340442284942,
+          "mechanical_score": 0.0016120340442284942,
+          "no_terminal_punctuation_score": 0.0003263990511186421,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 1.5984182085565761
+        },
+        {
+          "id": "P03-p012-b005",
+          "converted_score": 0.00045471303747035563,
+          "mechanical_score": 0.0004558164218906313,
+          "no_terminal_punctuation_score": 0.00045471303747035563,
+          "source_delta_logit": -0.0024247156636869605,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P03-p012-b006",
+          "converted_score": 0.0019210194004699588,
+          "mechanical_score": 0.001387969357892871,
+          "no_terminal_punctuation_score": 0.0018071066588163376,
+          "source_delta_logit": 0.3255481309371442,
+          "punctuation_delta_logit": 0.061243073142666304
+        },
+        {
+          "id": "P04-p003-b006",
+          "converted_score": 0.005668969359248877,
+          "mechanical_score": 0.008322572335600853,
+          "no_terminal_punctuation_score": 0.00019956428150180727,
+          "source_delta_logit": -0.3866363509880486,
+          "punctuation_delta_logit": 3.352111726628425
+        },
+        {
+          "id": "P04-p003-b007",
+          "converted_score": 0.00029767025262117386,
+          "mechanical_score": 0.00018929658108390868,
+          "no_terminal_punctuation_score": 0.00018125592032447457,
+          "source_delta_logit": 0.4527797418636901,
+          "punctuation_delta_logit": 0.4961928241710094
+        },
+        {
+          "id": "P04-p003-b008",
+          "converted_score": 0.0006355997174978256,
+          "mechanical_score": 0.00023314297141041607,
+          "no_terminal_punctuation_score": 0.0006355997174978256,
+          "source_delta_logit": 1.0033197452534637,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P04-p004-b007",
+          "converted_score": 0.011152761057019234,
+          "mechanical_score": 0.011152761057019234,
+          "no_terminal_punctuation_score": 0.0005940404371358454,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 2.943116184092646
+        },
+        {
+          "id": "P04-p005-b001",
+          "converted_score": 0.012394246645271778,
+          "mechanical_score": 0.012394246645271778,
+          "no_terminal_punctuation_score": 0.0014641492161899805,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 2.1469645245525086
+        },
+        {
+          "id": "P04-p005-b003",
+          "converted_score": 0.002010744996368885,
+          "mechanical_score": 0.002010744996368885,
+          "no_terminal_punctuation_score": 0.0009399958071298897,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.7614574939647261
+        },
+        {
+          "id": "P06-p004-b006",
+          "converted_score": 0.00022003518824931234,
+          "mechanical_score": 0.0002180818992201239,
+          "no_terminal_punctuation_score": 0.00020621178555302322,
+          "source_delta_logit": 0.008918757133741906,
+          "punctuation_delta_logit": 0.06489758061869999
+        },
+        {
+          "id": "P06-p004-b007",
+          "converted_score": 0.00025339011335745454,
+          "mechanical_score": 0.0002370989095652476,
+          "no_terminal_punctuation_score": 0.00024298227799590677,
+          "source_delta_logit": 0.0664691523619858,
+          "punctuation_delta_logit": 0.04195215096873817
+        },
+        {
+          "id": "P07-p002-b008",
+          "converted_score": 0.0018620846094563603,
+          "mechanical_score": 0.0014700867468491197,
+          "no_terminal_punctuation_score": 0.00016810752276796848,
+          "source_delta_logit": 0.23676785946531442,
+          "punctuation_delta_logit": 2.406543804533058
+        },
+        {
+          "id": "P10-p003-b004",
+          "converted_score": 0.9989616870880127,
+          "mechanical_score": 0.9988964796066284,
+          "no_terminal_punctuation_score": 0.0035296634305268526,
+          "source_delta_logit": 0.06097350860871131,
+          "punctuation_delta_logit": 12.512136081352807
+        },
+        {
+          "id": "P10-p003-b006",
+          "converted_score": 0.9977288842201233,
+          "mechanical_score": 0.9977288842201233,
+          "no_terminal_punctuation_score": 0.001301582669839263,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 12.72808222278108
+        },
+        {
+          "id": "P10-p003-b008",
+          "converted_score": 0.00146108353510499,
+          "mechanical_score": 0.0015960079617798328,
+          "no_terminal_punctuation_score": 0.00022995991457719356,
+          "source_delta_logit": -0.08846231078251776,
+          "punctuation_delta_logit": 1.8502607430915736
+        },
+        {
+          "id": "P10-p003-b009",
+          "converted_score": 0.000292144191917032,
+          "mechanical_score": 0.0001643787691136822,
+          "no_terminal_punctuation_score": 0.000261567096458748,
+          "source_delta_logit": 0.5752019502755576,
+          "punctuation_delta_logit": 0.11058724027412303
+        },
+        {
+          "id": "P10-p009-b003",
+          "converted_score": 0.0013260608538985252,
+          "mechanical_score": 0.0013260608538985252,
+          "no_terminal_punctuation_score": 0.00015964485646691173,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 2.1181836446927305
+        },
+        {
+          "id": "P10-p009-b005",
+          "converted_score": 0.9948893785476685,
+          "mechanical_score": 0.9855674505233765,
+          "no_terminal_punctuation_score": 0.0016725383466109633,
+          "source_delta_logit": 1.047579010769943,
+          "punctuation_delta_logit": 11.663049441784871
+        },
+        {
+          "id": "P10-p009-b008",
+          "converted_score": 0.0015682592056691647,
+          "mechanical_score": 0.0016370353987440467,
+          "no_terminal_punctuation_score": 0.0004068687267135829,
+          "source_delta_logit": -0.04298959090157339,
+          "punctuation_delta_logit": 1.3503934410487624
+        }
+      ],
+      "median_source_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 1.2000685545524012,
+      "source_max_absolute_probability_difference": 0.8781059216707945,
+      "punctuation_max_absolute_probability_difference": 0.996427301550284
+    },
+    "llm-detectaive-en": {
+      "rows": [
+        {
+          "id": "P01-p006-b005",
+          "converted_score": 0.9976213397458196,
+          "mechanical_score": 0.9970380741433473,
+          "no_terminal_punctuation_score": 0.9977181564754574,
+          "source_delta_logit": 0.2198871005229197,
+          "punctuation_delta_logit": -0.04165077398681838
+        },
+        {
+          "id": "P01-p006-b006",
+          "converted_score": 0.994458743953146,
+          "mechanical_score": 0.992772571160458,
+          "no_terminal_punctuation_score": 0.9921767798950896,
+          "source_delta_logit": 0.2673591582223942,
+          "punctuation_delta_logit": 0.3471723658771868
+        },
+        {
+          "id": "P01-p006-b008",
+          "converted_score": 0.9991337094688788,
+          "mechanical_score": 0.9992831288836896,
+          "no_terminal_punctuation_score": 0.999239626689814,
+          "source_delta_logit": -0.1894738060269665,
+          "punctuation_delta_logit": -0.13051683172420692
+        },
+        {
+          "id": "P01-p011-b004",
+          "converted_score": 0.9929947506607277,
+          "mechanical_score": 0.9929947506607277,
+          "no_terminal_punctuation_score": 0.9931091176913469,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.016575807611758364
+        },
+        {
+          "id": "P02-p010-b003",
+          "converted_score": 0.9998639282857766,
+          "mechanical_score": 0.9998394065842149,
+          "no_terminal_punctuation_score": 0.8193250078766141,
+          "source_delta_logit": 0.16571827118703908,
+          "punctuation_delta_logit": 7.390411373193309
+        },
+        {
+          "id": "P02-p010-b006",
+          "converted_score": 0.9650014956132509,
+          "mechanical_score": 0.9816362194251269,
+          "no_terminal_punctuation_score": 0.9804552838322707,
+          "source_delta_logit": -0.6620161909848226,
+          "punctuation_delta_logit": -0.5984877395444017
+        },
+        {
+          "id": "P02-p010-b008",
+          "converted_score": 0.9946997187216766,
+          "mechanical_score": 0.9946997187216766,
+          "no_terminal_punctuation_score": 0.9966527664801106,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.46158723038864125
+        },
+        {
+          "id": "P02-p010-b009",
+          "converted_score": 0.9965058443049202,
+          "mechanical_score": 0.9965058443049202,
+          "no_terminal_punctuation_score": 0.9965058443049202,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P02-p011-b003",
+          "converted_score": 0.9999330606224248,
+          "mechanical_score": 0.9999330606224248,
+          "no_terminal_punctuation_score": 0.9999326249817386,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.006487338449360891
+        },
+        {
+          "id": "P03-p012-b002",
+          "converted_score": 0.08876263930869754,
+          "mechanical_score": 0.01861860645294655,
+          "no_terminal_punctuation_score": 0.13602085715683643,
+          "source_delta_logit": 1.635962156778147,
+          "punctuation_delta_logit": -0.4800971871075266
+        },
+        {
+          "id": "P03-p012-b003",
+          "converted_score": 0.9975254081655294,
+          "mechanical_score": 0.9975254081655294,
+          "no_terminal_punctuation_score": 0.9971315857255831,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.14807876975855727
+        },
+        {
+          "id": "P03-p012-b005",
+          "converted_score": 0.9989434058079496,
+          "mechanical_score": 0.9990185813512653,
+          "no_terminal_punctuation_score": 0.9989434058079496,
+          "source_delta_logit": -0.07388211446147253,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P03-p012-b006",
+          "converted_score": 0.9961879178881645,
+          "mechanical_score": 0.9880794547498226,
+          "no_terminal_punctuation_score": 0.9860903527587652,
+          "source_delta_logit": 1.1482606752050515,
+          "punctuation_delta_logit": 1.3045950459187852
+        },
+        {
+          "id": "P04-p003-b006",
+          "converted_score": 0.9997653758036904,
+          "mechanical_score": 0.9994853434618562,
+          "no_terminal_punctuation_score": 0.999683092610212,
+          "source_delta_logit": 0.7857948297693307,
+          "punctuation_delta_logit": 0.30070682183020914
+        },
+        {
+          "id": "P04-p003-b007",
+          "converted_score": 0.9921135027398122,
+          "mechanical_score": 0.9868004509335151,
+          "no_terminal_punctuation_score": 0.0010077800036469853,
+          "source_delta_logit": 0.52040025504244,
+          "punctuation_delta_logit": 11.733682524632023
+        },
+        {
+          "id": "P04-p003-b008",
+          "converted_score": 0.9986134662758559,
+          "mechanical_score": 0.9997953172132839,
+          "no_terminal_punctuation_score": 0.9986134662758559,
+          "source_delta_logit": -1.9142835812599177,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P04-p004-b007",
+          "converted_score": 0.9999855461355764,
+          "mechanical_score": 0.9999855461355764,
+          "no_terminal_punctuation_score": 0.9999852795444895,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.018276511465979084
+        },
+        {
+          "id": "P04-p005-b001",
+          "converted_score": 0.47986111883074045,
+          "mechanical_score": 0.47986111883074045,
+          "no_terminal_punctuation_score": 0.38764399685896933,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.3766273044830318
+        },
+        {
+          "id": "P04-p005-b003",
+          "converted_score": 0.9998117417562753,
+          "mechanical_score": 0.9998117417562753,
+          "no_terminal_punctuation_score": 0.9998049211571924,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.03559596375680485
+        },
+        {
+          "id": "P06-p004-b006",
+          "converted_score": 0.9253341957228258,
+          "mechanical_score": 0.880506640591193,
+          "no_terminal_punctuation_score": 0.9459895589970984,
+          "source_delta_logit": 0.5198960819520013,
+          "punctuation_delta_logit": -0.34592140053591436
+        },
+        {
+          "id": "P06-p004-b007",
+          "converted_score": 0.9995983218541369,
+          "mechanical_score": 0.999636631924659,
+          "no_terminal_punctuation_score": 0.9995925290422747,
+          "source_delta_logit": -0.10027315830291084,
+          "punctuation_delta_logit": 0.014324320151225756
+        },
+        {
+          "id": "P07-p002-b008",
+          "converted_score": 0.9877267941192258,
+          "mechanical_score": 0.998762087430805,
+          "no_terminal_punctuation_score": 0.9924716988753062,
+          "source_delta_logit": -2.3051024176540746,
+          "punctuation_delta_logit": -0.4935414622962915
+        },
+        {
+          "id": "P10-p003-b004",
+          "converted_score": 0.9998694932437502,
+          "mechanical_score": 0.9998684341844637,
+          "no_terminal_punctuation_score": 0.9998418675968423,
+          "source_delta_logit": 0.008083286531450184,
+          "punctuation_delta_logit": 0.19203530895669552
+        },
+        {
+          "id": "P10-p003-b006",
+          "converted_score": 0.9998403834179044,
+          "mechanical_score": 0.9998403834179044,
+          "no_terminal_punctuation_score": 0.9997904002666473,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.2724750951929753
+        },
+        {
+          "id": "P10-p003-b008",
+          "converted_score": 0.9905167322285706,
+          "mechanical_score": 0.9899207141133957,
+          "no_terminal_punctuation_score": 0.9862032738456037,
+          "source_delta_logit": 0.061555362590037355,
+          "punctuation_delta_logit": 0.3792666355950711
+        },
+        {
+          "id": "P10-p003-b009",
+          "converted_score": 0.998686579259811,
+          "mechanical_score": 0.9990038673568051,
+          "no_terminal_punctuation_score": 0.003112706598585646,
+          "source_delta_logit": -0.27682749515693406,
+          "punctuation_delta_logit": 12.402951090270657
+        },
+        {
+          "id": "P10-p009-b003",
+          "converted_score": 0.9996330236754147,
+          "mechanical_score": 0.9996330236754147,
+          "no_terminal_punctuation_score": 0.9995764425548259,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.14344841693910393
+        },
+        {
+          "id": "P10-p009-b005",
+          "converted_score": 0.9994227141141891,
+          "mechanical_score": 0.999597605317831,
+          "no_terminal_punctuation_score": 0.9995412230491638,
+          "source_delta_logit": -0.3610791866490981,
+          "punctuation_delta_logit": -0.229892037444972
+        },
+        {
+          "id": "P10-p009-b008",
+          "converted_score": 0.999828462372534,
+          "mechanical_score": 0.9999008683371358,
+          "no_terminal_punctuation_score": 0.9998189554899,
+          "source_delta_logit": -0.5484261659547549,
+          "punctuation_delta_logit": 0.05394977707308435
+        }
+      ],
+      "median_source_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.018276511465979084,
+      "source_max_absolute_probability_difference": 0.07014403285575099,
+      "punctuation_max_absolute_probability_difference": 0.9955738726612253
+    },
+    "cocodet-en": {
+      "rows": [
+        {
+          "id": "P01-p006-b005",
+          "converted_score": 2.1029541688328407e-08,
+          "mechanical_score": 2.1289557669513723e-08,
+          "no_terminal_punctuation_score": 2.1874319355635538e-08,
+          "source_delta_logit": -0.012288506260865972,
+          "punctuation_delta_logit": -0.03938512118841331
+        },
+        {
+          "id": "P01-p006-b006",
+          "converted_score": 6.727457812507297e-09,
+          "mechanical_score": 1.0383862371950853e-08,
+          "no_terminal_punctuation_score": 6.160853385285027e-09,
+          "source_delta_logit": -0.4340555769761565,
+          "punctuation_delta_logit": 0.08798202874157113
+        },
+        {
+          "id": "P01-p006-b008",
+          "converted_score": 1.9477567012656394e-08,
+          "mechanical_score": 2.6221951594828426e-08,
+          "no_terminal_punctuation_score": 2.1077913032584855e-08,
+          "source_delta_logit": -0.29733352011104586,
+          "punctuation_delta_logit": -0.0789623243898987
+        },
+        {
+          "id": "P01-p011-b004",
+          "converted_score": 3.369599769456784e-09,
+          "mechanical_score": 3.369599769456784e-09,
+          "no_terminal_punctuation_score": 3.347123032025872e-09,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.006692794111540223
+        },
+        {
+          "id": "P02-p010-b003",
+          "converted_score": 1.0610307276038471e-08,
+          "mechanical_score": 1.1369672091641027e-08,
+          "no_terminal_punctuation_score": 1.0249062689304204e-08,
+          "source_delta_logit": -0.06912355513026114,
+          "punctuation_delta_logit": 0.034639657094462706
+        },
+        {
+          "id": "P02-p010-b006",
+          "converted_score": 7.68192680089064e-08,
+          "mechanical_score": 6.014542574173023e-08,
+          "no_terminal_punctuation_score": 7.661245109418392e-08,
+          "source_delta_logit": 0.24469011888369607,
+          "punctuation_delta_logit": 0.002695883967877677
+        },
+        {
+          "id": "P02-p010-b008",
+          "converted_score": 4.232937623571513e-08,
+          "mechanical_score": 4.232937623571513e-08,
+          "no_terminal_punctuation_score": 3.260660734374487e-08,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.26096638130535155
+        },
+        {
+          "id": "P02-p010-b009",
+          "converted_score": 1.4025785081050925e-08,
+          "mechanical_score": 1.4025785081050925e-08,
+          "no_terminal_punctuation_score": 1.4025785081050925e-08,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P02-p011-b003",
+          "converted_score": 1.3055634851964933e-06,
+          "mechanical_score": 1.3055634851964933e-06,
+          "no_terminal_punctuation_score": 1.2128205163083276e-06,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.07368617750208628
+        },
+        {
+          "id": "P03-p012-b002",
+          "converted_score": 6.7551529922343315e-09,
+          "mechanical_score": 4.4485369337862735e-09,
+          "no_terminal_punctuation_score": 6.953560072279217e-09,
+          "source_delta_logit": 0.41773035900757804,
+          "punctuation_delta_logit": -0.028948149345342955
+        },
+        {
+          "id": "P03-p012-b003",
+          "converted_score": 1.7456972964185677e-08,
+          "mechanical_score": 1.7456972964185677e-08,
+          "no_terminal_punctuation_score": 1.994824678770539e-08,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.1334020960175586
+        },
+        {
+          "id": "P03-p012-b005",
+          "converted_score": 1.0592970261049696e-08,
+          "mechanical_score": 1.0794027332730214e-08,
+          "no_terminal_punctuation_score": 1.0592970261049696e-08,
+          "source_delta_logit": -0.018802358414326648,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P03-p012-b006",
+          "converted_score": 3.2804027302012206e-07,
+          "mechanical_score": 4.084685167153601e-07,
+          "no_terminal_punctuation_score": 3.897771943886519e-07,
+          "source_delta_logit": -0.2192785368492256,
+          "punctuation_delta_logit": -0.17243895672450194
+        },
+        {
+          "id": "P04-p003-b006",
+          "converted_score": 2.4093622952867447e-08,
+          "mechanical_score": 2.99316689122346e-08,
+          "no_terminal_punctuation_score": 2.1950771215398148e-08,
+          "source_delta_logit": -0.2169698889468208,
+          "punctuation_delta_logit": 0.09314492585799172
+        },
+        {
+          "id": "P04-p003-b007",
+          "converted_score": 4.681095545910896e-08,
+          "mechanical_score": 4.9258897898141196e-08,
+          "no_terminal_punctuation_score": 4.4680846011339176e-08,
+          "source_delta_logit": -0.05097275519492683,
+          "punctuation_delta_logit": 0.046572359743390024
+        },
+        {
+          "id": "P04-p003-b008",
+          "converted_score": 1.9247240047202616e-08,
+          "mechanical_score": 1.2757765227545351e-08,
+          "no_terminal_punctuation_score": 1.9247240047202616e-08,
+          "source_delta_logit": 0.41122755910198094,
+          "punctuation_delta_logit": 0.0
+        },
+        {
+          "id": "P04-p004-b007",
+          "converted_score": 3.27802518709959e-08,
+          "mechanical_score": 3.27802518709959e-08,
+          "no_terminal_punctuation_score": 3.4289946220129874e-08,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.04502594263468396
+        },
+        {
+          "id": "P04-p005-b001",
+          "converted_score": 3.307713279145086e-07,
+          "mechanical_score": 3.307713279145086e-07,
+          "no_terminal_punctuation_score": 5.058063215421238e-07,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.424726722892375
+        },
+        {
+          "id": "P04-p005-b003",
+          "converted_score": 0.9999983420757417,
+          "mechanical_score": 0.9999983420757417,
+          "no_terminal_punctuation_score": 0.9999980953116392,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": 0.13875227871958984
+        },
+        {
+          "id": "P06-p004-b006",
+          "converted_score": 1.7656452211948668e-08,
+          "mechanical_score": 1.7820022595152517e-08,
+          "no_terminal_punctuation_score": 1.939015709979822e-08,
+          "source_delta_logit": -0.009221409178067574,
+          "punctuation_delta_logit": -0.09366429206625781
+        },
+        {
+          "id": "P06-p004-b007",
+          "converted_score": 5.295388485950653e-08,
+          "mechanical_score": 7.31408962505696e-08,
+          "no_terminal_punctuation_score": 5.306917075925677e-08,
+          "source_delta_logit": -0.3229662489300189,
+          "punctuation_delta_logit": -0.002174733611013835
+        },
+        {
+          "id": "P07-p002-b008",
+          "converted_score": 6.444171485060074e-09,
+          "mechanical_score": 6.012042772960639e-09,
+          "no_terminal_punctuation_score": 7.893009189654816e-09,
+          "source_delta_logit": 0.0694114905157619,
+          "punctuation_delta_logit": -0.20280137990688019
+        },
+        {
+          "id": "P10-p003-b004",
+          "converted_score": 4.0425498877799497e-07,
+          "mechanical_score": 4.109959148035922e-07,
+          "no_terminal_punctuation_score": 3.9587567116799484e-07,
+          "source_delta_logit": -0.016537442332333896,
+          "punctuation_delta_logit": 0.020945647322919925
+        },
+        {
+          "id": "P10-p003-b006",
+          "converted_score": 3.9606805910061965e-08,
+          "mechanical_score": 3.9606805910061965e-08,
+          "no_terminal_punctuation_score": 4.207418002975111e-08,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.06043328414491711
+        },
+        {
+          "id": "P10-p003-b008",
+          "converted_score": 1.4691759073963244e-08,
+          "mechanical_score": 2.139085492059139e-08,
+          "no_terminal_punctuation_score": 1.3998672857668763e-08,
+          "source_delta_logit": -0.3756767678594599,
+          "punctuation_delta_logit": 0.04832420082437494
+        },
+        {
+          "id": "P10-p003-b009",
+          "converted_score": 6.323892962767233e-08,
+          "mechanical_score": 7.317489734905581e-08,
+          "no_terminal_punctuation_score": 8.469576237259612e-08,
+          "source_delta_logit": -0.1459323530591199,
+          "punctuation_delta_logit": -0.2921455042037273
+        },
+        {
+          "id": "P10-p009-b003",
+          "converted_score": 1.5116776765907803e-07,
+          "mechanical_score": 1.5116776765907803e-07,
+          "no_terminal_punctuation_score": 1.5316127840910845e-07,
+          "source_delta_logit": 0.0,
+          "punctuation_delta_logit": -0.01310121129202102
+        },
+        {
+          "id": "P10-p009-b005",
+          "converted_score": 0.00023420467884704976,
+          "mechanical_score": 2.830370175654906e-05,
+          "no_terminal_punctuation_score": 0.0006641298827503306,
+          "source_delta_logit": 2.113408756755021,
+          "punctuation_delta_logit": -1.0427124263436047
+        },
+        {
+          "id": "P10-p009-b008",
+          "converted_score": 1.1460041477362373e-07,
+          "mechanical_score": 1.688950287265776e-07,
+          "no_terminal_punctuation_score": 1.1202876479135884e-07,
+          "source_delta_logit": -0.3878260208498485,
+          "punctuation_delta_logit": 0.022695759347250544
+        }
+      ],
+      "median_source_delta_logit": 0.0,
+      "median_punctuation_delta_logit": 0.0,
+      "source_max_absolute_probability_difference": 0.0002059009770905007,
+      "punctuation_max_absolute_probability_difference": 0.0004299252039032808
+    }
+  },
+  "declaration_sha256": "77a979b0824db24852134c72573629c1c6a0aa7fb029249f9835fe8967f71852",
+  "corrected_pairs": 29,
+  "identical_text_pairs": 10,
+  "no_training": true,
+  "contains_source_text": false
+}

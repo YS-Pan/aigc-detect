@@ -1,0 +1,182 @@
+{
+  "frozen_sources_verified": true,
+  "production_score_parity_max_errors": {
+    "presence": 5.551115123125783e-17,
+    "mean_human_bag_ranking": 2.220446049250313e-16,
+    "hard_human_bag_ranking": 5.551115123125783e-17
+  },
+  "nested_inner_fold_boundaries_checked": 270,
+  "outer_models_and_cutoffs_rechecked": 24,
+  "hard_nested_false_windows": [
+    {
+      "id": "P10-human:s0002",
+      "paper_id": "P10",
+      "sha256": "6aff77af2e764f144d1f0c1ebf9b17e13104b8dd3766e94e217935facfc76bac",
+      "kind": "human_document"
+    },
+    {
+      "id": "P10-gpt-6-astra-mixed:s0002",
+      "paper_id": "P10",
+      "sha256": "6aff77af2e764f144d1f0c1ebf9b17e13104b8dd3766e94e217935facfc76bac",
+      "kind": "mixed_document"
+    },
+    {
+      "id": "P10-gpt-6-luna-mixed:s0002",
+      "paper_id": "P10",
+      "sha256": "6aff77af2e764f144d1f0c1ebf9b17e13104b8dd3766e94e217935facfc76bac",
+      "kind": "mixed_document"
+    },
+    {
+      "id": "P10-gpt-6.1-sol-mixed:s0002",
+      "paper_id": "P10",
+      "sha256": "6aff77af2e764f144d1f0c1ebf9b17e13104b8dd3766e94e217935facfc76bac",
+      "kind": "mixed_document"
+    }
+  ],
+  "hard_nested_unique_false_hashes": 1,
+  "threshold_sensitivity_post_hoc_only": {
+    "presence": {
+      "without_extra_margin_fit_calibration_cutoff": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "oracle_all_known_human_max": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "fit_papers_only": {
+        "pure_human_windows": 390,
+        "pure_human_false_windows": 0,
+        "original_windows": 115,
+        "original_false_windows": 0,
+        "original_documents": 6,
+        "original_false_documents": 0,
+        "mixed_blocks": 51,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 44125,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 51,
+        "isolated_block_hits": 2
+      }
+    },
+    "mean_human_bag_ranking": {
+      "without_extra_margin_fit_calibration_cutoff": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "oracle_all_known_human_max": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "fit_papers_only": {
+        "pure_human_windows": 390,
+        "pure_human_false_windows": 0,
+        "original_windows": 115,
+        "original_false_windows": 0,
+        "original_documents": 6,
+        "original_false_documents": 0,
+        "mixed_blocks": 51,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 44125,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 51,
+        "isolated_block_hits": 0
+      }
+    },
+    "hard_human_bag_ranking": {
+      "without_extra_margin_fit_calibration_cutoff": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "oracle_all_known_human_max": {
+        "pure_human_windows": 493,
+        "pure_human_false_windows": 0,
+        "original_windows": 149,
+        "original_false_windows": 0,
+        "original_documents": 10,
+        "original_false_documents": 0,
+        "mixed_blocks": 75,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 67511,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 75,
+        "isolated_block_hits": 0
+      },
+      "fit_papers_only": {
+        "pure_human_windows": 390,
+        "pure_human_false_windows": 0,
+        "original_windows": 115,
+        "original_false_windows": 0,
+        "original_documents": 6,
+        "original_false_documents": 0,
+        "mixed_blocks": 51,
+        "mixed_block_hits": 0,
+        "mixed_ai_chars": 44125,
+        "mixed_ai_hit_chars": 0,
+        "mixed_non_ai_chars_in_positive_windows": 0,
+        "isolated_blocks": 51,
+        "isolated_block_hits": 0
+      }
+    }
+  },
+  "retuning_performed": false,
+  "contains_source_text": false
+}

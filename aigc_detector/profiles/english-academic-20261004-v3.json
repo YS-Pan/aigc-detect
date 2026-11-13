@@ -1,0 +1,276 @@
+{
+  "id": "english-academic-20261004-v3",
+  "schema_version": "aigc-score-fusion/4.0",
+  "language": "en",
+  "segmentation_id": "english-natural-boundaries-v1",
+  "models": [
+    "openai-base-en",
+    "openai-large-en",
+    "piratexx-en",
+    "mage-en",
+    "radar-vicuna-en"
+  ],
+  "revisions": {
+    "openai-base-en": "6cba99c003b711c7fe94f8a3aa2be35a792cb6fa",
+    "openai-large-en": "38f3e0ccf205e9c4e0b38ae9d75ec948141bf832",
+    "piratexx-en": "0d5450c5baf7c6ccab387a120bcc9c2a4d2d3d9c",
+    "mage-en": "0d82ca0fdf6ebef5babb813cc11bd8eb2552c846",
+    "radar-vicuna-en": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b"
+  },
+  "statistical_assets": {},
+  "statistical_inference": {
+    "max_tokens": 512,
+    "overlap_tokens": 64,
+    "dtype": "bfloat16",
+    "aggregation": "inverse_coverage_token_statistics_then_formula"
+  },
+  "score_transforms": {
+    "openai-base-en": "logit",
+    "openai-large-en": "logit",
+    "piratexx-en": "logit",
+    "mage-en": "logit",
+    "radar-vicuna-en": "logit"
+  },
+  "segment_chars": 1600,
+  "min_segment_chars": 400,
+  "center": [
+    -7.169700164793972,
+    -5.5006241401259395,
+    -8.371685951615385,
+    -2.414402441185508,
+    -2.780631593472041
+  ],
+  "scale": [
+    2.769375663385091,
+    1.7471514879811965,
+    0.5828231531703669,
+    7.503693360390808,
+    1.3254940216984386
+  ],
+  "clip_probability": 1e-05,
+  "clip_standardized": 5.0,
+  "heads": {
+    "strong": {
+      "kind": "tanh_mlp",
+      "intercept": -0.15799818214479822,
+      "input_weights": [
+        [
+          0.07952696549149717,
+          0.4471754553821488,
+          -0.0872252413623398,
+          0.2038001501037987,
+          -0.1352483114048895
+        ],
+        [
+          0.18084906016112676,
+          0.26366201833250585,
+          0.07963051884817639,
+          -0.20504371898566207,
+          -0.13301425424691057
+        ],
+        [
+          0.19373040079069517,
+          0.27976181713240983,
+          0.05074917389712429,
+          0.2274103145181722,
+          0.8095471995011956
+        ],
+        [
+          0.53282380042775,
+          -0.5917889191269861,
+          -0.08520471282135594,
+          0.49604300133278073,
+          -0.03313258766985734
+        ]
+      ],
+      "hidden_bias": [
+        0.5437340135961272,
+        -0.1815113712274869,
+        1.1378194290633092,
+        0.648219441895092
+      ],
+      "output_weights": [
+        -0.49197623235503296,
+        -0.41636630419075166,
+        -0.8949820212222234,
+        0.8404281946305969
+      ]
+    },
+    "review": {
+      "kind": "tanh_mlp",
+      "intercept": -0.15799818214479822,
+      "input_weights": [
+        [
+          0.07952696549149717,
+          0.4471754553821488,
+          -0.0872252413623398,
+          0.2038001501037987,
+          -0.1352483114048895
+        ],
+        [
+          0.18084906016112676,
+          0.26366201833250585,
+          0.07963051884817639,
+          -0.20504371898566207,
+          -0.13301425424691057
+        ],
+        [
+          0.19373040079069517,
+          0.27976181713240983,
+          0.05074917389712429,
+          0.2274103145181722,
+          0.8095471995011956
+        ],
+        [
+          0.53282380042775,
+          -0.5917889191269861,
+          -0.08520471282135594,
+          0.49604300133278073,
+          -0.03313258766985734
+        ]
+      ],
+      "hidden_bias": [
+        0.5437340135961272,
+        -0.1815113712274869,
+        1.1378194290633092,
+        0.648219441895092
+      ],
+      "output_weights": [
+        -0.49197623235503296,
+        -0.41636630419075166,
+        -0.8949820212222234,
+        0.8404281946305969
+      ]
+    }
+  },
+  "high_threshold": 0.8373542635780741,
+  "possible_threshold": 0.8247219596120852,
+  "fit": {
+    "configuration": {
+      "family": "tanh_mlp",
+      "segment_chars": 1600,
+      "min_segment_chars": 400,
+      "signals": [
+        "openai-base-en",
+        "openai-large-en",
+        "piratexx-en",
+        "mage-en",
+        "radar-vicuna-en"
+      ],
+      "hidden": 4,
+      "regularization": 10.0,
+      "human_weight": 1.0,
+      "target_mode": "ranking_presence"
+    },
+    "groups": {
+      "fit": [
+        "P01",
+        "P10",
+        "P06",
+        "P02",
+        "P04",
+        "P03"
+      ],
+      "calibration": [
+        "P09",
+        "P05"
+      ],
+      "test": [
+        "P07",
+        "P08"
+      ]
+    },
+    "optimizer": {
+      "seeds": [
+        20261004,
+        20261005
+      ],
+      "adam_steps": 160,
+      "adam_learning_rate": 0.03,
+      "lbfgs_steps": 60,
+      "ranking_margin": 0.1,
+      "ranking_weight": 1.0
+    },
+    "optimization": {
+      "method": "Adam initialization + L-BFGS with strong-Wolfe line search; float64 CPU",
+      "parameter_count": 29,
+      "chosen_seed": 20261004,
+      "final_gradient_inf_norm": 3.831265097322279e-07,
+      "stationary_to_1e-4": true,
+      "global_optimum_claimed": false,
+      "starts": [
+        {
+          "seed": 20261004,
+          "initial_objective": 1.5179730814994954,
+          "final_objective": 1.2781890136762197,
+          "final_gradient_inf_norm": 3.831265097322279e-07,
+          "lbfgs_closure_evaluations": 25,
+          "trace": [
+            {
+              "adam_step": 0,
+              "objective": 1.5179730814994954
+            },
+            {
+              "adam_step": 50,
+              "objective": 1.2845778727348942
+            },
+            {
+              "adam_step": 100,
+              "objective": 1.2783080917765859
+            },
+            {
+              "adam_step": 150,
+              "objective": 1.278194523662754
+            }
+          ]
+        },
+        {
+          "seed": 20261005,
+          "initial_objective": 1.456981039310756,
+          "final_objective": 1.278189013676949,
+          "final_gradient_inf_norm": 7.541908821004362e-07,
+          "lbfgs_closure_evaluations": 28,
+          "trace": [
+            {
+              "adam_step": 0,
+              "objective": 1.456981039310756
+            },
+            {
+              "adam_step": 50,
+              "objective": 1.2863228435604193
+            },
+            {
+              "adam_step": 100,
+              "objective": 1.2803868635251532
+            },
+            {
+              "adam_step": 150,
+              "objective": 1.2782513735344034
+            }
+          ]
+        }
+      ]
+    },
+    "training_passages_after_deduplication": 307,
+    "calibration_passages_after_deduplication": 58,
+    "dataset_sha256": "1a7affc727b0cc15b9c09f4829627085e142a054d72f293186058cd22898ff1a",
+    "campaign_sha256": "f3b324673e1c0c4739ccd83cf36e29d1a3b1dbb12ada752864385b6c8532491b",
+    "fitter_code_sha256": {
+      "scripts/calibrate_english_nonlinear.py": "01d8b86e3f98f9d9601bb81d6815440a026159d7a6054f77744ed92b29df23e0",
+      "scripts/nonlinear_english_fit.py": "169c0a5d4ac1a3e892d14f2b02039172df4bd86999bac98fb01f946cce2e03ae"
+    },
+    "threshold_logit_margins": {
+      "review": 0.01,
+      "strong": 0.1
+    },
+    "prior_test_outcomes_known": true,
+    "test_used_for_fitting_or_selection": false,
+    "new_independent_validation": false,
+    "head_relationship": "Same optimized nonlinear function, different control-derived thresholds."
+  },
+  "limitations": [
+    "Previously evaluated ten antenna papers; this is reference fitting and repeat evaluation.",
+    "No independent generalization or population zero-false-positive claim.",
+    "Nonlinear allocations are exact accounting, not causal importance; unflagged cannot exclude AIGC."
+  ]
+}

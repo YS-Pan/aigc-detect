@@ -1,0 +1,175 @@
+{
+  "schema_version": "aigc-engineering-validation/2.0",
+  "software_version": "0.4.0",
+  "status": "passed",
+  "pytest": {
+    "passed": 66,
+    "failed": 0,
+    "warnings": [
+      "Upstream Starlette/httpx deprecation"
+    ],
+    "command": ".venv/Scripts/python.exe -m pytest -q -o cache_dir=reports/fusion-20260929-v2/pytest-cache --basetemp=reports/fusion-20260929-v2/pytest-numerical"
+  },
+  "fitter_checks": {
+    "passed_checks": [
+      "duplicate_record",
+      "wrong_segmentation",
+      "offset_gap",
+      "boolean_chars",
+      "missing_chapter_memberships",
+      "wrong_source_characters",
+      "nonfinite_score",
+      "overlapping_target_fractions",
+      "converged_monotone_objectives_both_heads",
+      "shared_65_terms_and_preserved_linear_strong_head",
+      "span_coverage_matches_character_metrics",
+      "fitting_script_hash_matches_profile"
+    ],
+    "count": 12,
+    "profile_sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9",
+    "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d",
+    "is_independent_validation": false
+  },
+  "release": {
+    "status": "passed",
+    "policy": "thesis-cnki-20260929-v2",
+    "profile_sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9",
+    "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d",
+    "deterministic_reproductions": {
+      "profile.json": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9",
+      "evaluation.json": "fb7508117c5bd6db6d86f6c628d87a25ad72b0e4730c4c9b91c21c1aaa947549",
+      "optimization-search.json": "4cb385a6e2f3e62f0c1c64d1f11e027149ded62bf1010abf5c3d9f5d551bf983",
+      "candidate-stability.json": "d99e11b79a47bdadd64141a30b04baa6a9201f9c3c565b91ecdb94d5b47a0e9c"
+    },
+    "runtime_vs_fit_max_difference": {
+      "strong": 2.220446049250313e-16,
+      "review": 6.827871601444713e-15
+    },
+    "score_records_verified": 600,
+    "raw_scores_and_source_preserved": true,
+    "bundles": {
+      "thesis": {
+        "segments": 163,
+        "input_sha256": "fd169d5fff48a1aaf50297d750a8a44eafffed13feb148b78223dbd424495775",
+        "characters": 61655,
+        "summary": {
+          "strong_signal": {
+            "segments": 4,
+            "characters": 1504
+          },
+          "possible_signal": {
+            "segments": 11,
+            "characters": 4160
+          },
+          "other": {
+            "segments": 148,
+            "characters": 55991
+          }
+        },
+        "report_sha256": "0d715426de0ffcfd38edd6a3a3ef438cf7cca722457016a0b253f14f900014e5"
+      },
+      "wang-zhan": {
+        "segments": 229,
+        "input_sha256": "2b8b969d12a386ec2c8eb6cfbffdc487726a87eae556aec9df3868ecbab78a03",
+        "characters": 84183,
+        "summary": {
+          "strong_signal": {
+            "segments": 0,
+            "characters": 0
+          },
+          "possible_signal": {
+            "segments": 0,
+            "characters": 0
+          },
+          "other": {
+            "segments": 229,
+            "characters": 84183
+          }
+        },
+        "report_sha256": "fbb53c881855777f8f132a6c26369a1d68deba7ed2edfdcfd685c20a92863c8a"
+      },
+      "zhu-yilong": {
+        "segments": 208,
+        "input_sha256": "9756d486b7318465e7cedc8ce37d2b916e7b3ce63f539c2352d6862e017e4df6",
+        "characters": 76203,
+        "summary": {
+          "strong_signal": {
+            "segments": 0,
+            "characters": 0
+          },
+          "possible_signal": {
+            "segments": 0,
+            "characters": 0
+          },
+          "other": {
+            "segments": 208,
+            "characters": 76203
+          }
+        },
+        "report_sha256": "4962e5abcb141039efac23f879f00e6f9c904b0d53cf59127ae1bb2ce77ebb52"
+      }
+    }
+  },
+  "live_http": {
+    "status": "passed",
+    "software_version": "0.4.0",
+    "policy": "thesis-cnki-20260929-v2",
+    "profile_sha256": "4de3dd7f07e2098f4797213da33fb7f0ffdbc141a4c98fbc57748f5f4aadddf9",
+    "input_sha256": "fd169d5fff48a1aaf50297d750a8a44eafffed13feb148b78223dbd424495775",
+    "characters": 61655,
+    "segments": 163,
+    "model_count": 10,
+    "max_score_difference_vs_cached": {
+      "raw": 0.0,
+      "strong": 0.0,
+      "review": 0.0
+    },
+    "all_categories_equal": true,
+    "include_text_false": true,
+    "explicit_v1_and_legacy_succeeded": true,
+    "device": "cuda",
+    "elapsed_seconds": 23.189
+  },
+  "browser": {
+    "status": "passed",
+    "engine": "local Microsoft Edge headless via Playwright",
+    "segments": 163,
+    "strong_segments": 4,
+    "possible_segments": 11,
+    "dual_score_display": true,
+    "raw_model_switch": true,
+    "dual_contributions": true,
+    "feature_terms": 65,
+    "next_review_navigation": true,
+    "desktop_overflow": false,
+    "mobile_overflow": false,
+    "page_errors": []
+  },
+  "scope": "Engineering checks and reference adaptation only; no independent detection accuracy or generalization claim.",
+  "private_full_reports_git_ignored": true,
+  "new_inference_dependencies": false,
+  "model_weights_changed": false,
+  "final_review": {
+    "status": "passed",
+    "local_markdown_links_valid": true,
+    "private_payload_keys_absent_from_numeric_evidence": true,
+    "private_reports_git_ignored": true,
+    "hashed_files_utf8_lf": true,
+    "numeric_evidence_bytes": 2135078,
+    "largest_new_evidence": [
+      {
+        "path": "evaluations/thesis-cnki-20260929-v2/optimization-search.json",
+        "bytes": 1129657
+      },
+      {
+        "path": "evaluations/thesis-cnki-20260929-v2/evaluation.json",
+        "bytes": 474639
+      },
+      {
+        "path": "evaluations/thesis-cnki-20260929-v2/score-dataset.json",
+        "bytes": 465312
+      }
+    ],
+    "git_diff_check_passed": true
+  }
+}

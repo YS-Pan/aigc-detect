@@ -1,0 +1,22 @@
+{
+  "single_vs_batched": {
+    "followsci-bert-en": {
+      "inputs": 6,
+      "max_absolute_probability_error": 2.0463630789890885e-12
+    },
+    "roberta-academic-en": {
+      "inputs": 6,
+      "max_absolute_probability_error": 2.3283064365386963e-09
+    },
+    "llm-detectaive-en": {
+      "inputs": 6,
+      "max_absolute_probability_error": 2.614277183621283e-08
+    },
+    "cocodet-en": {
+      "inputs": 6,
+      "max_absolute_probability_error": 0.0
+    }
+  },
+  "network_blocked": true,
+  "no_gradients": true
+}

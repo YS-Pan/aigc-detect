@@ -1,0 +1,182 @@
+{
+  "schema_version": "aigc-score-fusion/2.0",
+  "id": "english-academic-20261003-v1",
+  "language": "en",
+  "segmentation_id": "english-natural-boundaries-v1",
+  "models": [
+    "hc3-en",
+    "desklib-en",
+    "fakespot-en",
+    "bibbbu-xlm-roberta"
+  ],
+  "revisions": {
+    "bibbbu-xlm-roberta": "b4aa2e06d8428b4d27f2ef625267044d74b2eeb8",
+    "hc3-en": "d2b342c61775d5dd0221808a79983ed3b86ffd86",
+    "desklib-en": "5fdea974cd4287c61674951ec78803aa274e2fb7",
+    "fakespot-en": "f9cdb14d1f8b105f597d80fa7b56f20c6ea0e9db"
+  },
+  "segment_chars": 800,
+  "min_segment_chars": 240,
+  "clip_probability": 1e-05,
+  "clip_standardized": 5.0,
+  "center": [
+    -6.4554290736082605,
+    -2.43014773611066,
+    -0.426487489516713,
+    4.887471384989073
+  ],
+  "scale": [
+    2.7477398340897516,
+    1.7296446316813856,
+    2.4661707122706553,
+    5.064607028047192
+  ],
+  "feature_terms": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "heads": {
+    "strong": {
+      "intercept": -3.2428729004771424,
+      "coefficients": [
+        0.04709340948443572,
+        0.5653748559911471,
+        0.009362061472777941,
+        0.4848949030046112,
+        -0.07704859452946049,
+        -0.026048806251650333,
+        0.06078297772979969,
+        0.087772610062345
+      ]
+    },
+    "review": {
+      "intercept": -3.2428729004771424,
+      "coefficients": [
+        0.04709340948443572,
+        0.5653748559911471,
+        0.009362061472777941,
+        0.4848949030046112,
+        -0.07704859452946049,
+        -0.026048806251650333,
+        0.06078297772979969,
+        0.087772610062345
+      ]
+    }
+  },
+  "high_threshold": 0.25719885509617585,
+  "possible_threshold": 0.24038337329243784,
+  "fit": {
+    "dataset_sha256": "99afbaf7439145a832f55f16add5c6a0dd41cc2288fce047e304657a020b08f7",
+    "protocol_sha256": "6bc46bb7b94a9347142c937d38e52a94cdcd897daebdb98151b8bae0ae63bcb1",
+    "groups": {
+      "fit": [
+        "P01",
+        "P10",
+        "P06",
+        "P02",
+        "P04",
+        "P03"
+      ],
+      "calibration": [
+        "P09",
+        "P05"
+      ],
+      "test": [
+        "P07",
+        "P08"
+      ]
+    },
+    "family": "squares",
+    "regularization": 1.0,
+    "human_weight": 20.0,
+    "optimization": {
+      "method": "damped Newton with exact Hessian and Armijo backtracking",
+      "converged": true,
+      "iterations": 6,
+      "final_objective": 58.27653292070454,
+      "final_gradient_inf_norm": 2.3212121114113415e-10,
+      "parameter_l2_norm": 0.7583474532453507,
+      "trace": [
+        {
+          "iteration": 0,
+          "objective": 59.43121997188383,
+          "gradient_inf_norm_before_step": 9.795604247311116,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 1,
+          "objective": 58.29710361128023,
+          "gradient_inf_norm_before_step": 18.21399616713106,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 2,
+          "objective": 58.2765591204241,
+          "gradient_inf_norm_before_step": 2.0940886639251954,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 3,
+          "objective": 58.27653292076028,
+          "gradient_inf_norm_before_step": 0.07270469810318103,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 4,
+          "objective": 58.27653292070454,
+          "gradient_inf_norm_before_step": 0.00010629597556033321,
+          "step_size": 1.0
+        },
+        {
+          "iteration": 5,
+          "objective": 58.27653292070454,
+          "gradient_inf_norm": 2.3212121114113415e-10,
+          "step_size": 0.0
+        }
+      ]
+    },
+    "fit_records": 324,
+    "calibration_records": 53,
+    "threshold_controls": "Human segments from fit and calibration only; no test score or AI calibration score influences thresholds.",
+    "threshold_logit_margins": {
+      "strong": 0.1,
+      "review": 0.01
+    },
+    "head_relationship": "Identical score polynomial in both heads; distinct conservative thresholds for strong and review tiers.",
+    "cv_zero_human_flags_feasible": false,
+    "test_used_for_fitting_or_selection": false
+  },
+  "limitations": [
+    "Single-subject academic corpus of ten source papers; three related generation models.",
+    "Source-derived human text includes PDF-to-LaTeX conversion uncertainty.",
+    "Zero observed control flags does not establish a zero population false-positive rate.",
+    "Sigmoid scores are screening scores, not authorship probabilities.",
+    "Different preprocessing, subjects, lengths or revisions require new verification."
+  ]
+}

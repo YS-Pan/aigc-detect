@@ -14,7 +14,7 @@ import sys
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from aigc_detector.fusion import REFERENCE_POLICY
+from aigc_detector.fusion import LINEAR_POLICY as REFERENCE_POLICY
 
 
 def sigmoid(values):

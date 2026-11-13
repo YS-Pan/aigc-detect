@@ -2,5 +2,7 @@
 
 这里的 `skill/` 表示项目内维护契约，参考 yadof 的组织方式；它不是安装进 Codex 的个人技能。
 
+供其它工作区 agent 直接使用的 Codex skill 单独维护在 [`.agents/skills/aigc-detect`](../../.agents/skills/aigc-detect/SKILL.md)，不与本目录的文档维护契约混用。它覆盖常规调用；少数异常或明确维护任务才查回用户/开发文档。
+
 - [workflow.md](workflow.md)：开始、实施、验证、收尾。
 - [documents.md](documents.md)：各文档层的唯一职责及更新触发。

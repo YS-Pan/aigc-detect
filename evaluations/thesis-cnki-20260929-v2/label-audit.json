@@ -1,0 +1,1024 @@
+{
+  "schema_version": "aigc-cnki-label-audit/1.0",
+  "provider": {
+    "total_characters": 97762,
+    "strong_characters": 1206,
+    "possible_only_characters": 4214,
+    "any_characters": 5420,
+    "strong_percent": 1.2336081504060883,
+    "possible_only_percent": 4.310468280108836,
+    "any_percent": 5.544076430514924,
+    "strong_displayed_percent": 1.2,
+    "possible_and_any_percent_are_derived": true,
+    "possible_counted_in_report_headline": false
+  },
+  "same_scope": {
+    "total_characters": 61655,
+    "strong_characters": 1171,
+    "possible_only_characters": 3893,
+    "any_characters": 5064,
+    "strong_percent": 1.8992782418295353,
+    "possible_only_percent": 6.314167545211256,
+    "any_percent": 8.213445787040792
+  },
+  "source_hashes": {
+    "v1_dataset": "648f0ee699f5118026f0f3fb83fb6971369415f3b38214c702a3f3ed6781d4f1",
+    "alignment": "c07803f8b83d1ae89607f008079d560e1dfd4a748179d89c423534af8e3ab2fc",
+    "cnki_report": "f3ee12ce916d3e8a2db015e729ce901331b42b3444cf990c20b747b6af88d577",
+    "builder": "40a7d7fefb68496bd637f21e825195f2fe2fbf39273ea3e9bc2c122c8d7f7d92",
+    "cnki_importer": "458d34684849a0e948f1fa9ee7a1fecf15076a18f9db2954b113149b8640354a"
+  },
+  "provider_evidence": {
+    "simple": {
+      "pdf_sha256": "23ace401974fb14bdcff0e2380b81963347277d3a2037ea61e500129aa035a54",
+      "pages": 11,
+      "page_records_sha256": "53f3da1606f27a93983d79dcdadec188b5527f08beb9806b4402fcd8b46a84c1"
+    },
+    "full": {
+      "pdf_sha256": "3f46cc275df1056a4a34f2cf4fa7c1f62c5caa87dbf16e286d82713ae0caa02d",
+      "pages": 144,
+      "page_records_sha256": "0462e3bde74a78d311b557f0f8fbc535a09ace8d9f389764d0c158e5698beac8"
+    },
+    "validation": {
+      "saved_pdf_hashes_match": true,
+      "reparsed_saved_page_records": true,
+      "simple_full_labels_and_text_agree": true,
+      "section_and_headline_totals_agree": true,
+      "raw_pdf_text_reextracted_in_this_audit": false
+    }
+  },
+  "documents": {
+    "thesis": {
+      "characters": 61655,
+      "segments": 163,
+      "complete_contiguous_coverage": true,
+      "unique_segment_ids": true,
+      "raw_scores_unchanged_from_v1": true,
+      "reference_fractions_unchanged_from_v1": true,
+      "cross_unit_segments": [
+        {
+          "id": "s000003",
+          "chars": 391,
+          "legacy_midpoint_unit": "01-introduction",
+          "unit_memberships": [
+            {
+              "unit": "01-introduction",
+              "characters": 231
+            },
+            {
+              "unit": "abstract-zh",
+              "characters": 154
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000036",
+          "chars": 374,
+          "legacy_midpoint_unit": "01-introduction",
+          "unit_memberships": [
+            {
+              "unit": "01-introduction",
+              "characters": 317
+            },
+            {
+              "unit": "02-sspp",
+              "characters": 51
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000072",
+          "chars": 396,
+          "legacy_midpoint_unit": "02-sspp",
+          "unit_memberships": [
+            {
+              "unit": "02-sspp",
+              "characters": 373
+            },
+            {
+              "unit": "03-gcpw",
+              "characters": 19
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000100",
+          "chars": 388,
+          "legacy_midpoint_unit": "03-gcpw",
+          "unit_memberships": [
+            {
+              "unit": "03-gcpw",
+              "characters": 297
+            },
+            {
+              "unit": "04-cilwa",
+              "characters": 85
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000125",
+          "chars": 377,
+          "legacy_midpoint_unit": "05-helix",
+          "unit_memberships": [
+            {
+              "unit": "04-cilwa",
+              "characters": 116
+            },
+            {
+              "unit": "05-helix",
+              "characters": 257
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 115
+        },
+        {
+          "id": "s000155",
+          "chars": 366,
+          "legacy_midpoint_unit": "06-conclusion",
+          "unit_memberships": [
+            {
+              "unit": "05-helix",
+              "characters": 110
+            },
+            {
+              "unit": "06-conclusion",
+              "characters": 252
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        }
+      ]
+    },
+    "wang-zhan": {
+      "characters": 84183,
+      "segments": 229,
+      "complete_contiguous_coverage": true,
+      "unique_segment_ids": true,
+      "raw_scores_unchanged_from_v1": true,
+      "reference_fractions_unchanged_from_v1": true,
+      "cross_unit_segments": [
+        {
+          "id": "s000006",
+          "chars": 369,
+          "legacy_midpoint_unit": "01",
+          "unit_memberships": [
+            {
+              "unit": "01",
+              "characters": 270
+            },
+            {
+              "unit": "02-abstract-zh",
+              "characters": 97
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000049",
+          "chars": 326,
+          "legacy_midpoint_unit": "02",
+          "unit_memberships": [
+            {
+              "unit": "01",
+              "characters": 127
+            },
+            {
+              "unit": "02",
+              "characters": 197
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000080",
+          "chars": 400,
+          "legacy_midpoint_unit": "03",
+          "unit_memberships": [
+            {
+              "unit": "02",
+              "characters": 72
+            },
+            {
+              "unit": "03",
+              "characters": 326
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000120",
+          "chars": 369,
+          "legacy_midpoint_unit": "04",
+          "unit_memberships": [
+            {
+              "unit": "03",
+              "characters": 77
+            },
+            {
+              "unit": "04",
+              "characters": 290
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000170",
+          "chars": 358,
+          "legacy_midpoint_unit": "05",
+          "unit_memberships": [
+            {
+              "unit": "04",
+              "characters": 108
+            },
+            {
+              "unit": "05",
+              "characters": 248
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000224",
+          "chars": 395,
+          "legacy_midpoint_unit": "06",
+          "unit_memberships": [
+            {
+              "unit": "05",
+              "characters": 107
+            },
+            {
+              "unit": "06",
+              "characters": 284
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        }
+      ]
+    },
+    "zhu-yilong": {
+      "characters": 76203,
+      "segments": 208,
+      "complete_contiguous_coverage": true,
+      "unique_segment_ids": true,
+      "raw_scores_unchanged_from_v1": true,
+      "reference_fractions_unchanged_from_v1": true,
+      "cross_unit_segments": [
+        {
+          "id": "s000007",
+          "chars": 352,
+          "legacy_midpoint_unit": "01",
+          "unit_memberships": [
+            {
+              "unit": "01",
+              "characters": 288
+            },
+            {
+              "unit": "02-abstract-zh",
+              "characters": 62
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000047",
+          "chars": 379,
+          "legacy_midpoint_unit": "01",
+          "unit_memberships": [
+            {
+              "unit": "01",
+              "characters": 210
+            },
+            {
+              "unit": "02",
+              "characters": 165
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000070",
+          "chars": 394,
+          "legacy_midpoint_unit": "02",
+          "unit_memberships": [
+            {
+              "unit": "02",
+              "characters": 272
+            },
+            {
+              "unit": "03",
+              "characters": 118
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000088",
+          "chars": 374,
+          "legacy_midpoint_unit": "03",
+          "unit_memberships": [
+            {
+              "unit": "03",
+              "characters": 192
+            },
+            {
+              "unit": "04",
+              "characters": 180
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000127",
+          "chars": 399,
+          "legacy_midpoint_unit": "04",
+          "unit_memberships": [
+            {
+              "unit": "04",
+              "characters": 232
+            },
+            {
+              "unit": "05",
+              "characters": 163
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000175",
+          "chars": 392,
+          "legacy_midpoint_unit": "05",
+          "unit_memberships": [
+            {
+              "unit": "05",
+              "characters": 208
+            },
+            {
+              "unit": "06",
+              "characters": 180
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        },
+        {
+          "id": "s000199",
+          "chars": 338,
+          "legacy_midpoint_unit": "06",
+          "unit_memberships": [
+            {
+              "unit": "06",
+              "characters": 222
+            },
+            {
+              "unit": "07",
+              "characters": 112
+            }
+          ],
+          "strong_characters": 0,
+          "possible_characters": 0
+        }
+      ]
+    }
+  },
+  "alignment_spans": [
+    {
+      "cnki_id": "cnki-0001",
+      "category": "strong_signal",
+      "provider_characters": 646,
+      "char_start": 1891,
+      "char_end": 2506,
+      "mapped_characters": 615,
+      "anchor_union_characters": 615,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 565,
+      "cnki_han_characters": 583,
+      "han_coverage": 0.9691252144082333,
+      "longest_anchor_han_characters": 565,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 565,
+          "han_end": 583,
+          "sha256": "fe0db57637b777c49cef8710b4c1d0065c352ff7c52490b102374055b84e3ae6"
+        }
+      ],
+      "simple_pdf_pages": [
+        3
+      ],
+      "full_pdf_pages": [
+        8,
+        9
+      ],
+      "excerpt_text_sha256": "81782ceaff55a0606921e1287b625068b4c172db2c2c494b7de3ed5b137d0120",
+      "mapped_text_sha256": "12c8d1fdfcdef609e485a7478c5cc42e4b054c7cdeb84822568c5a141d8b0148",
+      "matched_ranges": [
+        {
+          "char_start": 1891,
+          "char_end": 2506,
+          "han_characters": 565
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0002",
+      "category": "possible_signal",
+      "provider_characters": 477,
+      "char_start": 8441,
+      "char_end": 8916,
+      "mapped_characters": 475,
+      "anchor_union_characters": 475,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 397,
+      "cnki_han_characters": 397,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 397,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        3
+      ],
+      "full_pdf_pages": [
+        14,
+        15
+      ],
+      "excerpt_text_sha256": "c8dc6bd97eb255846d166ede32b9e69aba132e85e5a1fb61da3511f0139c7d52",
+      "mapped_text_sha256": "3aaabb5ff5008190f8417bc3bd7e2830fd97cac39d6fb3ec40ff427d11f1f361",
+      "matched_ranges": [
+        {
+          "char_start": 8441,
+          "char_end": 8916,
+          "han_characters": 397
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0003",
+      "category": "possible_signal",
+      "provider_characters": 349,
+      "char_start": 9385,
+      "char_end": 9712,
+      "mapped_characters": 327,
+      "anchor_union_characters": 327,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 303,
+      "cnki_han_characters": 316,
+      "han_coverage": 0.9588607594936709,
+      "longest_anchor_han_characters": 303,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 0,
+          "han_end": 13,
+          "sha256": "68285dd89f5341dfd04b9ee1bb56c5d6799101e40b9befc780a5d2f468bcad4e"
+        }
+      ],
+      "simple_pdf_pages": [
+        4
+      ],
+      "full_pdf_pages": [
+        16
+      ],
+      "excerpt_text_sha256": "c6201191552b7979f2180d42251f99a63492bf2ad83665c67fcbd6c1069b2558",
+      "mapped_text_sha256": "f49f875a2c3d71a02fb98c1371f8044d1971140ef67eb0d7482275ff4c43163f",
+      "matched_ranges": [
+        {
+          "char_start": 9385,
+          "char_end": 9712,
+          "han_characters": 303
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0004",
+      "category": "possible_signal",
+      "provider_characters": 305,
+      "char_start": 15057,
+      "char_end": 15327,
+      "mapped_characters": 270,
+      "anchor_union_characters": 263,
+      "between_anchor_characters": 7,
+      "matched_han_characters": 242,
+      "cnki_han_characters": 262,
+      "han_coverage": 0.9236641221374046,
+      "longest_anchor_han_characters": 160,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 0,
+          "han_end": 7,
+          "sha256": "3d47053846e5224904d0969e661246c3fda2ac7c0fbab0325ee55ed498d066b9"
+        },
+        {
+          "han_start": 167,
+          "han_end": 180,
+          "sha256": "39cb9674b4d109198480b036700a2f48b3fcf81ab6e03613056d74624de2aed5"
+        }
+      ],
+      "simple_pdf_pages": [
+        4,
+        5
+      ],
+      "full_pdf_pages": [
+        22
+      ],
+      "excerpt_text_sha256": "cc579cf2b65062e9ae2756d24b2c00c90711b703ec62b0e9acfe4b3003a64e56",
+      "mapped_text_sha256": "1549be8d07b3514c72b70dba81f0c9831afce8b71edb8367de498c2955d6e064",
+      "matched_ranges": [
+        {
+          "char_start": 15057,
+          "char_end": 15233,
+          "han_characters": 160
+        },
+        {
+          "char_start": 15240,
+          "char_end": 15327,
+          "han_characters": 82
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0005",
+      "category": "possible_signal",
+      "provider_characters": 222,
+      "char_start": 21184,
+      "char_end": 21404,
+      "mapped_characters": 220,
+      "anchor_union_characters": 220,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 198,
+      "cnki_han_characters": 198,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 198,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        5
+      ],
+      "full_pdf_pages": [
+        39
+      ],
+      "excerpt_text_sha256": "19a025686e05b5ef9d6af9f2c70ac5a345cd1aa312504d1eb55a80635cb01d99",
+      "mapped_text_sha256": "64e1fe67ae4b100a7c212e550d6b06c35bbf1b5f2b8ca8a54832ee86abe1ee63",
+      "matched_ranges": [
+        {
+          "char_start": 21184,
+          "char_end": 21404,
+          "han_characters": 198
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0006",
+      "category": "possible_signal",
+      "provider_characters": 468,
+      "char_start": 23812,
+      "char_end": 24261,
+      "mapped_characters": 449,
+      "anchor_union_characters": 446,
+      "between_anchor_characters": 3,
+      "matched_han_characters": 324,
+      "cnki_han_characters": 336,
+      "han_coverage": 0.9642857142857143,
+      "longest_anchor_han_characters": 231,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 231,
+          "han_end": 243,
+          "sha256": "7a3e9bd771155d876d36f577165754b37657451504fb15f9ebd29c4a5640e350"
+        }
+      ],
+      "simple_pdf_pages": [
+        6
+      ],
+      "full_pdf_pages": [
+        47
+      ],
+      "excerpt_text_sha256": "03771ebeaf8788564b829a4e15b05f71312e4dfc0161b8c7243502717acc20c2",
+      "mapped_text_sha256": "9d13d6bcdbf5a5a1baf4b0d1d1021998da35c68c97ec971bc9821a347523fa8a",
+      "matched_ranges": [
+        {
+          "char_start": 23812,
+          "char_end": 24106,
+          "han_characters": 231
+        },
+        {
+          "char_start": 24109,
+          "char_end": 24261,
+          "han_characters": 93
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0007",
+      "category": "possible_signal",
+      "provider_characters": 241,
+      "char_start": 25152,
+      "char_end": 25328,
+      "mapped_characters": 176,
+      "anchor_union_characters": 176,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 107,
+      "cnki_han_characters": 138,
+      "han_coverage": 0.7753623188405797,
+      "longest_anchor_han_characters": 107,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": true,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 0,
+          "han_end": 31,
+          "sha256": "7732f8543590844c42ca18a41021a5748f1828ca938672614cfb58074c21b2fd"
+        }
+      ],
+      "simple_pdf_pages": [
+        6
+      ],
+      "full_pdf_pages": [
+        51
+      ],
+      "excerpt_text_sha256": "8cefad94ee49888d234c8bb6111d984f803265422928929c201c86b28e59243c",
+      "mapped_text_sha256": "05718f9c55b25e2d5298e01d0df25ee7a57325d7c5fde051af6dc8089b4cb9ab",
+      "matched_ranges": [
+        {
+          "char_start": 25152,
+          "char_end": 25328,
+          "han_characters": 107
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0008",
+      "category": "possible_signal",
+      "provider_characters": 281,
+      "char_start": 25829,
+      "char_end": 26090,
+      "mapped_characters": 261,
+      "anchor_union_characters": 258,
+      "between_anchor_characters": 3,
+      "matched_han_characters": 205,
+      "cnki_han_characters": 216,
+      "han_coverage": 0.9490740740740741,
+      "longest_anchor_han_characters": 123,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 123,
+          "han_end": 134,
+          "sha256": "abc009ea3c83b117195fa56f1f07052f24a3e68f1017e1555d43ec24ef00a133"
+        }
+      ],
+      "simple_pdf_pages": [
+        6
+      ],
+      "full_pdf_pages": [
+        54,
+        55
+      ],
+      "excerpt_text_sha256": "10fea2c7aafcfa53d0a9a46e298733252e6804dc6d54309cbfd9d3aac60d6fd8",
+      "mapped_text_sha256": "cf229f981d2bf1ab28d92c29a7c89bb304018d5c53f55f38b4be1d8fe93a1ef2",
+      "matched_ranges": [
+        {
+          "char_start": 25829,
+          "char_end": 25969,
+          "han_characters": 123
+        },
+        {
+          "char_start": 25972,
+          "char_end": 26090,
+          "han_characters": 82
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0009",
+      "category": "possible_signal",
+      "provider_characters": 401,
+      "char_start": 26345,
+      "char_end": 26733,
+      "mapped_characters": 388,
+      "anchor_union_characters": 388,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 332,
+      "cnki_han_characters": 336,
+      "han_coverage": 0.9880952380952381,
+      "longest_anchor_han_characters": 212,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 212,
+          "han_end": 216,
+          "sha256": "416f2bb9f48a0466082ca412aad536a47a000c83208e166a0c60fad901966951"
+        }
+      ],
+      "simple_pdf_pages": [
+        6,
+        7
+      ],
+      "full_pdf_pages": [
+        56,
+        57
+      ],
+      "excerpt_text_sha256": "d1480246e877f9723c874bc7ab378a4946a33c803b0edd77960f5c534caa4c10",
+      "mapped_text_sha256": "6a3226770928e6dd76b6f1d5dbb89b754cc60247b451051467a10ff936ae0e66",
+      "matched_ranges": [
+        {
+          "char_start": 26345,
+          "char_end": 26595,
+          "han_characters": 212
+        },
+        {
+          "char_start": 26595,
+          "char_end": 26733,
+          "han_characters": 120
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0010",
+      "category": "possible_signal",
+      "provider_characters": 274,
+      "char_start": 31025,
+      "char_end": 31315,
+      "mapped_characters": 290,
+      "anchor_union_characters": 290,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 192,
+      "cnki_han_characters": 192,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 192,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        7
+      ],
+      "full_pdf_pages": [
+        63
+      ],
+      "excerpt_text_sha256": "8e2f98dc95ffbc245b10d4c13297816da84517f7fea975091d985466abc583b9",
+      "mapped_text_sha256": "11938c9766f2e948e4cb31143296c9521966b3aeec5ef4a3ef655a1efaf72255",
+      "matched_ranges": [
+        {
+          "char_start": 31025,
+          "char_end": 31315,
+          "han_characters": 192
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0011",
+      "category": "possible_signal",
+      "provider_characters": 261,
+      "char_start": 41111,
+      "char_end": 41351,
+      "mapped_characters": 240,
+      "anchor_union_characters": 240,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 173,
+      "cnki_han_characters": 173,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 173,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        8
+      ],
+      "full_pdf_pages": [
+        92
+      ],
+      "excerpt_text_sha256": "8fdcce84e59adaa3a2fbbfe218ab4d345598a23a3bbc81bd978e715ca55e8160",
+      "mapped_text_sha256": "a0f3737356da391ec28584e41718081e228f2a7aec3dd48f8fd60dd9d2b17c88",
+      "matched_ranges": [
+        {
+          "char_start": 41111,
+          "char_end": 41351,
+          "han_characters": 173
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0012",
+      "category": "possible_signal",
+      "provider_characters": 208,
+      "char_start": 43090,
+      "char_end": 43229,
+      "mapped_characters": 139,
+      "anchor_union_characters": 139,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 116,
+      "cnki_han_characters": 132,
+      "han_coverage": 0.8787878787878788,
+      "longest_anchor_han_characters": 116,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": true,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 0,
+          "han_end": 16,
+          "sha256": "c32d8852356986558af501201c003e54ca0d76cf9156a6beacb14b139f2b025d"
+        }
+      ],
+      "simple_pdf_pages": [
+        8,
+        9
+      ],
+      "full_pdf_pages": [
+        96
+      ],
+      "excerpt_text_sha256": "b748051b6ca732a9be8f74b365621be55029bea81cbebae92bbe2438ec19f367",
+      "mapped_text_sha256": "a0b18b4ee4ee298a53c2d22c8a7af69be0408462da3f3ae91b6284b31b7b7771",
+      "matched_ranges": [
+        {
+          "char_start": 43090,
+          "char_end": 43229,
+          "han_characters": 116
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0013",
+      "category": "possible_signal",
+      "provider_characters": 336,
+      "char_start": 46895,
+      "char_end": 47227,
+      "mapped_characters": 332,
+      "anchor_union_characters": 332,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 289,
+      "cnki_han_characters": 289,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 289,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        9
+      ],
+      "full_pdf_pages": [
+        105,
+        106
+      ],
+      "excerpt_text_sha256": "3e415a56bfd68c99d7da91d39d48f088783498391c2c53af1ac7c6c3b8fc8f87",
+      "mapped_text_sha256": "9139c269930755afd9e424932a8df68b49fabf9e2c0fa9349ac19c88376824ab",
+      "matched_ranges": [
+        {
+          "char_start": 46895,
+          "char_end": 47227,
+          "han_characters": 289
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0014",
+      "category": "possible_signal",
+      "provider_characters": 391,
+      "char_start": 56356,
+      "char_end": 56682,
+      "mapped_characters": 326,
+      "anchor_union_characters": 326,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 218,
+      "cnki_han_characters": 268,
+      "han_coverage": 0.8134328358208955,
+      "longest_anchor_han_characters": 218,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": true,
+      "unmatched_han_blocks": [
+        {
+          "han_start": 0,
+          "han_end": 50,
+          "sha256": "4a3c82fb46c2ecf01cb8fedcc7be1dd5d4e15cef8cdc7e9887871ca70028543b"
+        }
+      ],
+      "simple_pdf_pages": [
+        10
+      ],
+      "full_pdf_pages": [
+        135
+      ],
+      "excerpt_text_sha256": "20b264484ac0dd1d3e89ec797aa09e0c6c685f1efb467623de1370a75743b3c3",
+      "mapped_text_sha256": "df12cbec4240f8ae88fcc5241a7d5b194166ba71173d4dd7ca9af540f0b99e37",
+      "matched_ranges": [
+        {
+          "char_start": 56356,
+          "char_end": 56682,
+          "han_characters": 218
+        }
+      ]
+    },
+    {
+      "cnki_id": "cnki-0015",
+      "category": "strong_signal",
+      "provider_characters": 560,
+      "char_start": 60507,
+      "char_end": 61063,
+      "mapped_characters": 556,
+      "anchor_union_characters": 556,
+      "between_anchor_characters": 0,
+      "matched_han_characters": 498,
+      "cnki_han_characters": 498,
+      "han_coverage": 1.0,
+      "longest_anchor_han_characters": 498,
+      "longest_anchor_occurrences": 1,
+      "requires_extraction_scope_review": false,
+      "unmatched_han_blocks": [],
+      "simple_pdf_pages": [
+        10,
+        11
+      ],
+      "full_pdf_pages": [
+        140,
+        141
+      ],
+      "excerpt_text_sha256": "a3888c06b9114ce3b0a57a024fea93395f4a29c6cf69da4668bfd40f83b0b8ed",
+      "mapped_text_sha256": "50a69b4ce2a1acdd117a683b8e8f1cac94a3136682df5d74d0af88f280d54339",
+      "matched_ranges": [
+        {
+          "char_start": 60507,
+          "char_end": 61063,
+          "han_characters": 498
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "strong_spans": 2,
+    "possible_spans": 13,
+    "duplicate_span_ids": 0,
+    "overlapping_mapped_characters": 0,
+    "unmapped_cnki_segments": 0,
+    "records": 600
+  },
+  "anchor_union_sensitivity": {
+    "same_scope": {
+      "total_characters": 61655,
+      "strong_characters": 1171,
+      "possible_only_characters": 3880,
+      "any_characters": 5051,
+      "strong_percent": 1.8992782418295353,
+      "possible_only_percent": 6.29308247506285,
+      "any_percent": 8.192360716892384
+    },
+    "extra_continuous_interval_characters": 13,
+    "possible_only_percent_difference": 0.021085070148406437,
+    "label_policy": "Retain reviewed continuous v1 intervals. Anchor-only union is a sensitivity diagnostic, not a second fitted target."
+  },
+  "review": {
+    "low_han_coverage_span_ids": [
+      "cnki-0007",
+      "cnki-0012",
+      "cnki-0014"
+    ],
+    "retained_alignment": true,
+    "all_longest_anchors_unique": true,
+    "boundary_notes": [
+      "Spans 7, 12 and 14 contain omitted figure captions or headings; only present prose is mapped.",
+      "Span 4 includes a short unmatched leading prose fragment as well as a heading and a PDF artifact; it is not reconstructed.",
+      "Matched intervals end at Han anchors and may exclude adjacent punctuation; headings can align to repeated short words.",
+      "The submitted PDF identity is unconfirmed, so not every difference is attributable to extraction alone."
+    ],
+    "private_detail_path": "reports/fusion-20260929-v2/labels/alignment-details.json"
+  },
+  "evaluation_guidance": [
+    "Report possible-only and any-flag rates separately, using the same denominator.",
+    "Chapter holdouts must use all unit_memberships and purge intersecting cross-unit segments; midpoint-only grouping leaks boundary passages.",
+    "Measure CNKI possible-span overlap under both possible-only predictions and any flagged predictions; report promotions to strong separately.",
+    "Report character overlap recall, flagged-character overlap precision and excerpt hit counts, without calling these accuracy.",
+    "Rate matching alone does not establish position agreement or generalization; these references participate in fitting."
+  ],
+  "probability_calibrated": false,
+  "independent_validation": false,
+  "dataset_sha256": "b9695d4ee1b915410a904f6f5120d99ab29e68036c3a881551d30b0da126109d"
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": "public-aigc-collection/1.0",
+  "collected_at": "2026-09-30T21:40:36.507673+08:00",
+  "samples": 24,
+  "source_label_counts": {
+    "human": 12,
+    "ai": 12
+  },
+  "samples_sha256": "0b47640f578081d7c6b6f52ceca9bfc13dbc9894b12ca93982f5edd4b030d6c5",
+  "selection_fixed_before_detection": true,
+  "selection": {
+    "hc3": "first 4 complete pairs per open_qa/psychology; first answer per field of 160–1800 chars",
+    "belle": "first 4 outputs of 400–1800 chars, >=30% CJK, no fenced code",
+    "luxun": "4 named works; exact contiguous opening excerpt, sentence end at/after 800 chars"
+  },
+  "upstream_evidence": [
+    {
+      "url": "https://raw.githubusercontent.com/Hello-SimpleAI/chatgpt-comparison-detection/1f8c15c28f87e09a5abfd86ee6e15005dc7d2119/README.md",
+      "snapshot": "sources/hc3-project.md",
+      "sha256": "e1bc3324609bac1492810bfd370185a133b688f49800c06a4b06271e4c4c3dd8",
+      "bytes": 9844
+    },
+    {
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese/raw/09a687b8dc164b89e7df95abf15df3b216bc31c2/README.md",
+      "snapshot": "sources/hc3-card.md",
+      "sha256": "ce119f7fcd4511acb1d2ac37ddb082238b9a93b2f638c57f8d2c44f381248691",
+      "bytes": 1487
+    },
+    {
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese/resolve/09a687b8dc164b89e7df95abf15df3b216bc31c2/open_qa.jsonl",
+      "scanned_through_line": 35,
+      "scanned_prefix_sha256": "fece65f3fab79ebce82b98217492bfe1d47ef18f07dae8bf2067741a5cede283",
+      "scope": "prefix_not_full_upstream_file"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese/resolve/09a687b8dc164b89e7df95abf15df3b216bc31c2/psychology.jsonl",
+      "scanned_through_line": 5,
+      "scanned_prefix_sha256": "770d48192e11658ec441c6b4321f29a093f09b541787e72e182acc838ed8cbb9",
+      "scope": "prefix_not_full_upstream_file"
+    },
+    {
+      "url": "https://huggingface.co/datasets/BelleGroup/train_0.5M_CN/raw/29c35e9b56c7fc91f04a613ed33896f7a19bad54/README.md",
+      "snapshot": "sources/belle-card.md",
+      "sha256": "8647f9a3c32c7482c7422e94ca248397632e4fdbdf3e72ea4bf80bd3cc3982be",
+      "bytes": 940
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LianjiaTech/BELLE/645084d36454cdeb4e7f1ce9b2f3426bac39f1f9/data/1.5M/README.md",
+      "snapshot": "sources/belle-generation.md",
+      "sha256": "64f75a45ed225fe36052cfea2c1d913ea24dcc483ec72d3ca1e7c915eaa10bb7",
+      "bytes": 4376
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LianjiaTech/BELLE/645084d36454cdeb4e7f1ce9b2f3426bac39f1f9/DATA_LICENSE",
+      "snapshot": "sources/belle-data-license.txt",
+      "sha256": "d0661a893a508739e49514a80f7629633846f1f4ac889fcf638c94a15ff92e9c",
+      "bytes": 19790
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LianjiaTech/BELLE/645084d36454cdeb4e7f1ce9b2f3426bac39f1f9/DISCLAIMER",
+      "snapshot": "sources/belle-disclaimer.txt",
+      "sha256": "ef17c4298c66bf38a2bb4b8f7aa978d13e86b1a00257c1ce5f2ac191f7014069",
+      "bytes": 3528
+    },
+    {
+      "url": "https://huggingface.co/datasets/BelleGroup/train_0.5M_CN/resolve/29c35e9b56c7fc91f04a613ed33896f7a19bad54/Belle_open_source_0.5M.json",
+      "scanned_through_line": 127,
+      "scanned_prefix_sha256": "85c1472952a0e7ee8f1d7f77dd988aeb2d1f3279e6f266399457ce596e8d5006",
+      "scope": "prefix_not_full_upstream_file"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/27166.txt.utf-8",
+      "sha256": "ddf28d52eff750e9b62b53e065a16d666d27f7d468fd038a44bc887c4a429732",
+      "bytes": 281093,
+      "scope": "complete_download",
+      "release_date": "2008-11-05",
+      "last_update": "2021-01-04"
+    }
+  ],
+  "network_events": [
+    {
+      "host": "api.github.com",
+      "route": "direct",
+      "result": "ok"
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "route": "direct",
+      "result": "failed",
+      "reason": "URLError"
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "direct",
+      "result": "failed",
+      "reason": "URLError"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "raw.githubusercontent.com",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "huggingface.co",
+      "route": "environment_proxy_fallback",
+      "result": "ok"
+    },
+    {
+      "host": "www.gutenberg.org",
+      "route": "direct",
+      "result": "ok"
+    }
+  ],
+  "interpretation": "Source labels come from provenance, never from detector scores; no independent accuracy claim"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "old_v1_unchanged": true,
+  "declared_candidates": 1728,
+  "context_records": {
+    "400": 2616,
+    "800": 1195,
+    "1600": 590
+  },
+  "all_input_bundles": 115,
+  "all_segments": 678,
+  "original_documents": 10,
+  "mixed_documents": 30,
+  "isolated_generated_paragraphs": 75,
+  "regression_tests_passed": 114,
+  "cached_reports_match_frozen_scores": true,
+  "local_runtime_network_blocked": true,
+  "runtime_code_hashes_match": true,
+  "parameters_and_thresholds_reproduce_exactly": true,
+  "statistical_scratch_empty": true,
+  "documentation_utf8_and_local_links_valid": true,
+  "contains_source_text": false,
+  "source_and_complete_reports_remain_git_ignored": true,
+  "is_new_independent_effect_validation": false,
+  "code_sha256": {
+    "aigc_detector/fusion.py": "ec06f3e9458ff9c12ed312190fa91df48cc2018324645f4f77b0ad18854510cd",
+    "aigc_detector/statistical.py": "c0e0484f90c5b8a754252ce8b9fffb1553ce0077d3259252e0b2a035b2da1fa8",
+    "aigc_detector/annotation.py": "b7458353392ac7d56a2f0013bb258079049cab5a1e683b3abad08b45db9b6c19",
+    "aigc_detector/api.py": "9a3740ea4f0f6b62b6df7678263d60b8e4da91ef1590b245d69906d8df61544a",
+    "scripts/calibrate_english_v2.py": "037a8be34cc3a8f224bc3e6ca02e2a62ff8add13fb5cfa538b8c34d63851e8eb",
+    "scripts/test_english_recalibration.py": "a5e538e97d7cb948ba8ff240a9a394c228a1661a98eafa625a0e3e1b62ef7cd3",
+    "scripts/test_english_recalibration_deployment.py": "02cd816b3f9b1e3102e3650f5247e138156581ad006a04f18865b2d527638ce0",
+    "scripts/report_english_recalibration.py": "c056ef667f15017988bf906fd1e863e86679ec7975b75377aaa97a6ae5248c0a",
+    "scripts/build_english_recalibration_reports.py": "fa7d6ef09a5e56fc59ccaa74e88b72489984ef57b731568094eb9b07d103711c"
+  }
+}

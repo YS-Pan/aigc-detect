@@ -1,0 +1,75 @@
+{
+  "status": "complete",
+  "completed_at": "2026-10-04T15:52:48.903743+08:00",
+  "software_version_unchanged": "0.9.0",
+  "tests_passed": 29,
+  "tests_scope": "Specialized fusion, numerical precision, hard-negative baseline and specialized classifiers; not a rerun of the historical full suite.",
+  "weight_files_verified": 29,
+  "real_offline_comparisons": 16,
+  "batch_single_max_abs_error": 7.246853783726692e-09,
+  "default_profile_sha256": "b994798acb95d8c58e1b685345e1044f4df59ea8235ea59a49e8eb8166e7774e",
+  "new_independent_validation": false,
+  "contains_source_text": false,
+  "campaigns": {
+    "english-specialized-fusion-20261004": {
+      "freeze_verified": true,
+      "candidate_count": 42,
+      "nested_inner_folds_checked": 1260,
+      "outer_models_checked": 6,
+      "champions_reproduced": 20,
+      "max_reproduction_error": 0.0,
+      "scalar_formula_max_error": 8.881784197001252e-16,
+      "optimization": {
+        "nonstationary_fits": 0,
+        "max_gradient_inf": 2.440121120855787e-06
+      }
+    },
+    "english-specialized-precision-20261004": {
+      "freeze_verified": true,
+      "candidate_count": 75,
+      "nested_inner_folds_checked": 2250,
+      "outer_models_checked": 6,
+      "champions_reproduced": 31,
+      "max_reproduction_error": 0.0,
+      "scalar_formula_max_error": 8.881784197001252e-16,
+      "optimization": {
+        "nonstationary_fits": 0,
+        "max_gradient_inf": 3.599661106077506e-06
+      }
+    }
+  },
+  "evidence_sha256": {
+    "evaluations/english-specialized-fusion-20261004/audit.json": "edb5e16313f185b77ae6c78d67ca59807029ab7c87b04e45f4e7a567e546fda2",
+    "evaluations/english-specialized-fusion-20261004/campaign.json": "a6048c7aa2e07929f938fab789b7faf28c7538c7661077e81b30f41d004a9ef6",
+    "evaluations/english-specialized-fusion-20261004/development-data.json": "a79c4278c3fe40720adfa66ddb9324f8abef9376e8175144efb437c6631abd0b",
+    "evaluations/english-specialized-fusion-20261004/evaluation.json": "b1c81f083a6e2b2781c47c4b462682a8b53dd110e892e56e4a9fd2dcc8fb6179",
+    "evaluations/english-specialized-fusion-20261004/FREEZE.json": "364393ac8e81ed1e966efef1a58cd151a8284c22778ba958e1619dc2a071f7b7",
+    "evaluations/english-specialized-fusion-20261004/frozen-models.json": "cbfeae9185e8e5b413c565323df6def83ffb0d1eaff6dd600d5a985154d5cac5",
+    "evaluations/english-specialized-fusion-20261004/real-inference-validation.json": "1a917569fdb741a9595e45759e1b70753c6de85c768efdb88ec60fe94524cbd6",
+    "evaluations/english-specialized-fusion-20261004/repeat-data.json": "3f590f366cdff6acf1673739332062aff4bdd26747cdba27993708c9aacb664c",
+    "evaluations/english-specialized-fusion-20261004/selection.json": "e97537487157db58e71c74d15185c5be5412b049dc18d5458f295e229927a409",
+    "evaluations/english-specialized-precision-20261004/audit.json": "a08b1a15fc535cc1a9039024a57b47af4e5f3a398c27dcd9abedb98ed79efe9c",
+    "evaluations/english-specialized-precision-20261004/campaign.json": "2ff2557a68940549a33da9404530d5921c762463ab0a847e0a048e865426e02c",
+    "evaluations/english-specialized-precision-20261004/development-data.json": "5228c856d6c66537297867511e4bf5f9c8bf7b87adb70bc6e387129d7e2e9277",
+    "evaluations/english-specialized-precision-20261004/evaluation.json": "08a27ae6fd0b2b1297d6ff47cef98bf0025ca1e9bc933dd208debf8323f31dd2",
+    "evaluations/english-specialized-precision-20261004/FREEZE.json": "994494cc516ebf6ed96cc9ad4b772d24ddd0f2c46493e60a9cea730b304b3c31",
+    "evaluations/english-specialized-precision-20261004/frozen-models.json": "5a56c34506f1c55a66fe0050b5624a45498b0b1619b4a29c77e072929ac33fce",
+    "evaluations/english-specialized-precision-20261004/repeat-data.json": "a10db5765cf8f45ed00f924d7678c7bda1fbbe68e9eddc8a6a53bb6415ee2241",
+    "evaluations/english-specialized-precision-20261004/selection.json": "b982b83f6071a5fea1e60579adac8fe9d718d5934c1264fc6b36daad9f6ca1b2",
+    "scripts/english_specialized_fusion.py": "3243b9fb8b983805146335cbe8df388b495063be45e67f909289fb9c108d82d7",
+    "scripts/english_specialized_precision.py": "63613a77afe53db00941f81f201cfeff6fd775b2b6a699675aa371e8917bcd96",
+    "scripts/report_english_specialized_fusion.py": "72ca2e4b38a7fbea50456bd545d87d9d01a95fc6ac0198aa6feafd0eb9ee1747",
+    "scripts/validate_english_specialized_fusion.py": "bcaba9152a9c0925fa825dbe193900d23d4caa67156fd140be6d9a90060e67d0",
+    "tests/test_english_specialized_fusion.py": "2e1ac87672c59dfe26873f404d1a50609898b8c263f2be94229610704f9fc7fd",
+    "tests/test_english_specialized_precision.py": "43b84285a35594e6a6e956d2a62c5b86969c5485dbd5b5b1f0ee798096937310",
+    "reports/english-specialized-fusion-20261004/tests-final.log": "45ed16e0fa2524a394d1d6e1d5c3a43fcba08a58c8357f985ba0f8abe5037437",
+    "reports/english-specialized-fusion-20261004/model-hashes.log": "bb9a365e8b892c08dd1c49b185d0639a176b5136900b9d4d2b542b6a3ab9816a",
+    "reports/english-specialized-fusion-20261004/real-inference-validation.log": "ae9c44a386a520dc7aafdf3e1ca8a073b543da95f710215bae077d480e719a41"
+  },
+  "documentation": {
+    "utf8_files_checked": 16,
+    "missing_links": [],
+    "code_files_parsed": 6,
+    "change_record": "dev_doc/change_records/20261004_155248_english-specialized-fusion.md"
+  }
+}
